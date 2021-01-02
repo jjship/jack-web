@@ -1,9 +1,10 @@
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true });
+const { selectAll } = require('./model');
 
 // Declare a route
 fastify.get('/', async (request, reply) => {
-  return { hello: 'world' };
+  return await selectAll();
 });
 
 // Run the server!
