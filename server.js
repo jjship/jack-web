@@ -2,6 +2,12 @@
 const fastify = require('fastify')({ logger: true });
 const { selectAll } = require('./model');
 
+// Register point-of-view with handlebars
+fastify.register(require('point-of-view'), {
+  engine: {
+    handlebars: require('handlebars')
+})
+
 // Declare a route
 fastify.get('/', async (request, reply) => {
   return await selectAll();
