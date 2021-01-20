@@ -1,11 +1,13 @@
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true });
+const pov = require('point-of-view');
+const handlebars = require('handlebars');
 const { selectAll } = require('./model');
 
 // Register point-of-view with handlebars
-fastify.register(require('point-of-view'), {
+fastify.register(pov, {
   engine: {
-    handlebars: require('handlebars'),
+    handlebars,
   },
   layout: './views/layouts/main.hbs',
   options: {
