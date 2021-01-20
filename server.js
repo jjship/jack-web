@@ -5,12 +5,23 @@ const { selectAll } = require('./model');
 // Register point-of-view with handlebars
 fastify.register(require('point-of-view'), {
   engine: {
-    handlebars: require('handlebars')
-})
+    handlebars: require('handlebars'),
+  },
+  layout: './views/layouts/main.hbs',
+  options: {
+    partials: {
+      head: './views/partials/head.hbs',
+      nav: './views/partials/nav.hbs',
+      body: './views/partials/body.hbs',
+      footer: './views/partials/footer.hbs',
+    },
+  },
+});
 
 // Declare a route
-fastify.get('/', async (request, reply) => {
-  return await selectAll();
+fastify.get('/', (request, reply) => {
+  // return await selectAll();
+  reply.view('/views/layouts/main.hbs', {});
 });
 
 // Run the server!
