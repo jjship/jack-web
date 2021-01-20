@@ -2,7 +2,10 @@
 const fastify = require('fastify')({ logger: true });
 const pov = require('point-of-view');
 const handlebars = require('handlebars');
+const helmet = require('helmet');
 const { selectAll } = require('./model');
+
+fastify.register(helmet);
 
 // Register point-of-view with handlebars
 fastify.register(pov, {
