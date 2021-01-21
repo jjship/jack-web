@@ -1,3 +1,47 @@
 $golden: #baab8f;
 $grey: #959595;
 $darkGrey: #828282;
+
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file + '.eot');
+    src: url($font-file + '.eot?#iefix') format('embedded-opentype'),
+      url($font-file + '.woff') format('woff'),
+      url($font-file + '.ttf') format('truetype'),
+      url($font-file + '.svg#' + $font-family) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font(
+  'FranklinGothic-Book',
+  '/public/styles/fonts/FranklinGothic-Book'
+);
+@include font(
+  'FranklinGothic-BookItalic',
+  '/public/styles/fonts/FranklinGothic-BookItalic'
+);
+@include font(
+  'FranklinGothic-Demi',
+  '/public/styles/fonts/FranklinGothic-Demi'
+);
+@include font(
+  'FranklinGothic-DemiItalic',
+  '/public/styles/fonts/FranklinGothic-DemiItalic'
+);
+@include font(
+  'FranklinGothic-Heavy',
+  '/public/styles/fonts/FranklinGothic-Heavy'
+);
+@include font(
+  'FranklinGothic-HeavyItalic',
+  '/public/styles/fonts/FranklinGothic-HeavyItalic'
+);
+@include font(
+  'FranklinGothic-Medium',
+  '/public/styles/fonts/FranklinGothic-Medium'
+);
+@include font('JasperPlCaps', '/public/styles/fonts/JasperPlCaps');
+@include font('MotlowPl', '/public/styles/fonts/MotlowPl');

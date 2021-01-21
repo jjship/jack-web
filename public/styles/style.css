@@ -1,1 +1,72 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "FranklinGothic-Book";
+  src: url("/public/styles/fonts/FranklinGothic-Book.eot");
+  src: url("/public/styles/fonts/FranklinGothic-Book.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/FranklinGothic-Book.woff") format("woff"), url("/public/styles/fonts/FranklinGothic-Book.ttf") format("truetype"), url("/public/styles/fonts/FranklinGothic-Book.svg#FranklinGothic-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic-BookItalic";
+  src: url("/public/styles/fonts/FranklinGothic-BookItalic.eot");
+  src: url("/public/styles/fonts/FranklinGothic-BookItalic.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/FranklinGothic-BookItalic.woff") format("woff"), url("/public/styles/fonts/FranklinGothic-BookItalic.ttf") format("truetype"), url("/public/styles/fonts/FranklinGothic-BookItalic.svg#FranklinGothic-BookItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic-Demi";
+  src: url("/public/styles/fonts/FranklinGothic-Demi.eot");
+  src: url("/public/styles/fonts/FranklinGothic-Demi.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/FranklinGothic-Demi.woff") format("woff"), url("/public/styles/fonts/FranklinGothic-Demi.ttf") format("truetype"), url("/public/styles/fonts/FranklinGothic-Demi.svg#FranklinGothic-Demi") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic-DemiItalic";
+  src: url("/public/styles/fonts/FranklinGothic-DemiItalic.eot");
+  src: url("/public/styles/fonts/FranklinGothic-DemiItalic.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/FranklinGothic-DemiItalic.woff") format("woff"), url("/public/styles/fonts/FranklinGothic-DemiItalic.ttf") format("truetype"), url("/public/styles/fonts/FranklinGothic-DemiItalic.svg#FranklinGothic-DemiItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic-Heavy";
+  src: url("/public/styles/fonts/FranklinGothic-Heavy.eot");
+  src: url("/public/styles/fonts/FranklinGothic-Heavy.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/FranklinGothic-Heavy.woff") format("woff"), url("/public/styles/fonts/FranklinGothic-Heavy.ttf") format("truetype"), url("/public/styles/fonts/FranklinGothic-Heavy.svg#FranklinGothic-Heavy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic-HeavyItalic";
+  src: url("/public/styles/fonts/FranklinGothic-HeavyItalic.eot");
+  src: url("/public/styles/fonts/FranklinGothic-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/FranklinGothic-HeavyItalic.woff") format("woff"), url("/public/styles/fonts/FranklinGothic-HeavyItalic.ttf") format("truetype"), url("/public/styles/fonts/FranklinGothic-HeavyItalic.svg#FranklinGothic-HeavyItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FranklinGothic-Medium";
+  src: url("/public/styles/fonts/FranklinGothic-Medium.eot");
+  src: url("/public/styles/fonts/FranklinGothic-Medium.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/FranklinGothic-Medium.woff") format("woff"), url("/public/styles/fonts/FranklinGothic-Medium.ttf") format("truetype"), url("/public/styles/fonts/FranklinGothic-Medium.svg#FranklinGothic-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JasperPlCaps";
+  src: url("/public/styles/fonts/JasperPlCaps.eot");
+  src: url("/public/styles/fonts/JasperPlCaps.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/JasperPlCaps.woff") format("woff"), url("/public/styles/fonts/JasperPlCaps.ttf") format("truetype"), url("/public/styles/fonts/JasperPlCaps.svg#JasperPlCaps") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MotlowPl";
+  src: url("/public/styles/fonts/MotlowPl.eot");
+  src: url("/public/styles/fonts/MotlowPl.eot?#iefix") format("embedded-opentype"), url("/public/styles/fonts/MotlowPl.woff") format("woff"), url("/public/styles/fonts/MotlowPl.ttf") format("truetype"), url("/public/styles/fonts/MotlowPl.svg#MotlowPl") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=style.css.map */
