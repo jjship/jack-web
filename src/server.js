@@ -2,10 +2,16 @@
 const fastify = require('fastify')({ logger: true });
 const pov = require('point-of-view');
 const handlebars = require('handlebars');
-const helmet = require('helmet');
+const helmet = require('fastify-helmet');
+const autoload = require('fastify-autoload');
+const path = require('path');
 const { selectAll } = require('./model');
 
-// fastify.register(helmet);
+fastify.register(helmet);
+
+fastify.register(autoload, {
+  dir: path.join(__dirname, 'routes'),
+});
 
 // Register point-of-view with handlebars
 fastify.register(pov, {
