@@ -1,6 +1,8 @@
 CREATE TABLE posts(
   id SERIAL PRIMARY KEY,
   post VARCHAR ( 255 ),
+  mail VARCHAR ( 100 ),
+  accepted BOOLEAN,
   created_on TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
