@@ -61,7 +61,7 @@
   font-style: normal;
 }
 
-header, body {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,19 +79,19 @@ header, body {
   background: black;
 }
 
-header button, body button {
+header button {
   background: #baab8f;
 }
 
-header button:hover, body button:hover {
+header button:hover {
   background: #828282;
 }
 
-header button::after, body button::after {
+header button::after {
   content: 'WTF!!!!';
 }
 
-header .hero, body .hero {
+header .hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,5 +107,9 @@ header .hero, body .hero {
           flex-direction: row;
   background: #baab8f;
   background: #959595;
+}
+
+body {
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

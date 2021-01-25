@@ -16,6 +16,7 @@
     "fastify": "^3.9.2",
     "fastify-autoload": "^3.4.0",
     "fastify-helmet": "^5.1.0",
+    "fastify-static": "^3.4.0",
     "handlebars": "^4.7.6",
     "path": "^0.12.7",
     "pg": "^8.5.1",

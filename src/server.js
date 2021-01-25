@@ -4,6 +4,7 @@ const pov = require('point-of-view');
 const handlebars = require('handlebars');
 const helmet = require('fastify-helmet');
 const autoload = require('fastify-autoload');
+const static = require('fastify-static');
 const path = require('path');
 const { selectAll } = require('./model');
 
@@ -11,6 +12,10 @@ const { selectAll } = require('./model');
 
 fastify.register(autoload, {
   dir: path.join(__dirname, 'routes'),
+});
+
+fastify.register(static, {
+  root: path.join(__dirname, 'public'),
 });
 
 // Register point-of-view with handlebars
