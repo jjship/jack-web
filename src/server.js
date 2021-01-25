@@ -7,7 +7,7 @@ const autoload = require('fastify-autoload');
 const path = require('path');
 const { selectAll } = require('./model');
 
-fastify.register(helmet);
+// fastify.register(helmet);
 
 fastify.register(autoload, {
   dir: path.join(__dirname, 'routes'),
@@ -28,12 +28,6 @@ fastify.register(pov, {
       footer: 'partials/footer.hbs',
     },
   },
-});
-
-// Declare a route
-fastify.get('/', (request, reply) => {
-  // return await selectAll();
-  reply.view('index.hbs', {});
 });
 
 // Run the server!
