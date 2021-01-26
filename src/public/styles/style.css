@@ -61,6 +61,11 @@
   font-style: normal;
 }
 
+.container {
+  margin: auto;
+  width: 50%;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;

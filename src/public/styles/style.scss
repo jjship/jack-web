@@ -2,36 +2,40 @@ $golden: #baab8f;
 $grey: #959595;
 $darkGrey: #828282;
 
-@mixin flexCenter($direction, $background) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: $direction;
-  background: $background;
-}
+// @mixin flexCenter($direction, $background) {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
 
 @import './fonts';
 // TODO move variables to _variables
 
-// nesting:
-header {
-  @include flexCenter(column, black);
-
-  background: black;
-  button {
-    background: $golden;
-    &:hover {
-      background: $darkGrey;
-    }
-    &::after {
-      content: 'WTF!!!!';
-    }
-  }
-  .hero {
-    @include flexCenter(row, $golden);
-    background: $grey;
-  }
+.container {
+  margin: 70px, 50px, 50px, 50px;
 }
+
+// nesting:
+// header {
+//   @include flexCenter(column, black);
+
+//   background: black;
+//   button {
+//     background: $golden;
+//     &:hover {
+//       background: $darkGrey;
+//     }
+//     &::after {
+//       content: 'WTF!!!!';
+//     }
+//   }
+//   .hero {
+//     @include flexCenter(row, $golden);
+//     background: $grey;
+//   }
+// }
 
 body {
   background-color: black;
