@@ -8,33 +8,66 @@
   }
 }
 
-@include font(
-  'FranklinGothic-Book',
-  '/public/styles/fonts/FranklinGothic-Book'
-);
+@include font('FranklinGothic-Book', '/styles/fonts/FranklinGothic-Book');
+
+.fgBook {
+  font-family: 'FranklinGothic-Book', 'Arial', Arial, sans-serif;
+}
+
 @include font(
   'FranklinGothic-BookItalic',
-  '/public/styles/fonts/FranklinGothic-BookItalic'
+  '/styles/fonts/FranklinGothic-BookItalic'
 );
-@include font(
-  'FranklinGothic-Demi',
-  '/public/styles/fonts/FranklinGothic-Demi'
-);
+
+.fgBookI {
+  font-family: 'FranklinGothic-BookItalic', 'Arial Italic', Arial, sans-serif;
+}
+
+@include font('FranklinGothic-Demi', '/styles/fonts/FranklinGothic-Demi');
+
+.fgDemi {
+  font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
+}
+
 @include font(
   'FranklinGothic-DemiItalic',
-  '/public/styles/fonts/FranklinGothic-DemiItalic'
+  '/styles/fonts/FranklinGothic-DemiItalic'
 );
-@include font(
-  'FranklinGothic-Heavy',
-  '/public/styles/fonts/FranklinGothic-Heavy'
-);
+
+.fgDemiI {
+  font-family: 'FranklinGothic-DemiItalic', 'Arial italic', Arial, sans-serif;
+}
+
+@include font('FranklinGothic-Heavy', '/styles/fonts/FranklinGothic-Heavy');
+
+.fgHeavy {
+  font-family: 'FranklinGothic-Heavy', 'Arial Black', Arial, sans-serif;
+}
+
 @include font(
   'FranklinGothic-HeavyItalic',
-  '/public/styles/fonts/FranklinGothic-HeavyItalic'
+  '/styles/fonts/FranklinGothic-HeavyItalic'
 );
-@include font(
-  'FranklinGothic-Medium',
-  '/public/styles/fonts/FranklinGothic-Medium'
-);
-@include font('JasperPlCaps', '/public/styles/fonts/JasperPlCaps');
-@include font('MotlowPl', '/public/styles/fonts/MotlowPl');
+
+.fgHeavyI {
+  font-family: 'FranklinGothic-HeavyItalic', 'Arial Black Italic', Arial,
+    sans-serif;
+}
+
+@include font('FranklinGothic-Medium', '/styles/fonts/FranklinGothic-Medium');
+
+.fgMedium {
+  font-family: 'FranklinGothic-Medium', 'Arial Black', Arial, sans-serif;
+}
+
+@include font('JasperPlCaps', '/styles/fonts/JasperPlCaps');
+
+.jasper {
+  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
+}
+
+@include font('MotlowPl', '/styles/fonts/MotlowPl');
+
+.motlow {
+  font-family: 'MotlowPl', 'Arial Black', Arial, sans-serif;
+}
