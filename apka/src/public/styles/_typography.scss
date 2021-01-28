@@ -1,0 +1,44 @@
+.hero {
+  .text {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .main {
+    .dzis {
+      font-size: clamp(1rem, -2.8em + 19vw, 5.75em);
+    }
+
+    .zdarza_sie {
+      font-size: 2em;
+    }
+
+    .tylko_raz {
+      font-size: 4.625em;
+      left: 1.375rem;
+    }
+  }
+
+  .slogan {
+    .make_it {
+      font-size: 2.3em;
+      font-weight: 400;
+      text-align: right;
+    }
+
+    .count {
+      font-size: 3em;
+      letter-spacing: -2px;
+      text-align: center;
+    }
+  }
+
+  .info {
+    font-family: myriad-pro-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
