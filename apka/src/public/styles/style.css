@@ -198,7 +198,6 @@ body {
 
 .hero {
   position: relative;
-  border: 2px solid yellow;
 }
 
 .hero .bottle {
@@ -354,5 +353,36 @@ button {
   border: 2px solid #959595;
   background-color: #000000;
   opacity: 0.82;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  background: none;
+  color: #baab8f;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  padding: 2.2rem 0 2.2rem 0;
+  font-family: myriad-pro-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-top: 3px solid #baab8f;
+  border-bottom: 3px solid #baab8f;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  color: white;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  display: block;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
