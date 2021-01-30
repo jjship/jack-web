@@ -2,6 +2,14 @@ $golden: #baab8f;
 $grey: #959595;
 $darkGrey: #828282;
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .golden {
   color: $golden;
 }

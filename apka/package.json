@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6",
-    "pino-pretty": "^4.3.0"
+    "pino-pretty": "^4.3.0",
+    "sass": "^1.32.5"
   }
 }
