@@ -12,6 +12,7 @@ body {
 
 .hero {
   position: relative;
+  border: 2px solid yellow;
   .bottle {
     position: relative;
     z-index: 0;
@@ -21,7 +22,8 @@ body {
 
   .live {
     position: absolute;
-    right: 0px;
+    right: 3.125rem;
+    top: 4.375rem;
   }
 
   .text {
@@ -94,5 +96,33 @@ body {
     display: block;
     left: 50%;
     margin-left: -112px;
+  }
+
+  .scroll {
+    position: absolute;
+    top: 54rem;
+    width: 100%;
+    .odkryj {
+      position: relative;
+      top: 5rem;
+      left: 4rem;
+      width: 207px;
+      height: 68px;
+    }
+  }
+
+  .main_input {
+    position: absolute;
+    bottom: 22rem;
+    width: 100%;
+    .outline {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .napisz {
+      position: relative;
+      top: 1.5rem;
+      left: 1.5rem;
+    }
   }
 }
