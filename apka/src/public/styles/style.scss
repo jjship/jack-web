@@ -4,6 +4,12 @@
 @import './layout';
 @import './components';
 
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 // TODO move variables to _variables
 
 // @mixin flexCenter($direction, $background) {

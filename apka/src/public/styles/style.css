@@ -255,4 +255,10 @@ button {
   border: none;
   text-align: center;
 }
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
