@@ -110,6 +110,12 @@ body {
   color: #baab8f;
 }
 
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 .hero .text {
   color: white;
   text-transform: uppercase;
@@ -254,11 +260,5 @@ button {
   width: 100%;
   border: none;
   text-align: center;
-}
-
-@media screen and (min-width: 720px) {
-  html {
-    font-size: 16px;
-  }
 }
 /*# sourceMappingURL=style.css.map */
