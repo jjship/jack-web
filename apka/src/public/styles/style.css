@@ -351,6 +351,10 @@ body {
   padding: 4.7rem 0 4.7rem 0;
 }
 
+.content {
+  border-bottom: 3px solid #baab8f;
+}
+
 button {
   cursor: pointer;
   width: 100%;
@@ -445,7 +449,6 @@ button {
   font-family: myriad-pro-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
-  border-top: 3px solid #baab8f;
   border-bottom: 3px solid #baab8f;
 }
 
@@ -470,8 +473,8 @@ button {
   display: block;
   max-height: 0;
   opacity: 0;
-  -webkit-transition: max-height 1s ease-out 0.5s, opacity 1s ease-out, visibility 0s ease 1s;
-  transition: max-height 1s ease-out 0.5s, opacity 1s ease-out, visibility 0s ease 1s;
+  -webkit-transition: max-height 1s ease 0.5s, opacity 1s ease, visibility 0s ease 1s;
+  transition: max-height 1s ease 0.5s, opacity 1s ease, visibility 0s ease 1s;
   visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */

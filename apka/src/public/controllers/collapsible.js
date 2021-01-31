@@ -15,7 +15,7 @@ for (i = 0; i < coll.length; i++) {
     }
 
     var content = this.previousElementSibling;
-    content.classList.toggle('collapsed');
     content.classList.toggle('expanded');
+    content.classList.toggle('collapsed');
   });
 }

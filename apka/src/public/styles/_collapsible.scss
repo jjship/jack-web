@@ -13,7 +13,6 @@ $duration: 1s;
   font-family: myriad-pro-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
-  border-top: 3px solid $golden;
   border-bottom: 3px solid $golden;
 }
 
@@ -36,7 +35,7 @@ $duration: 1s;
   display: block;
   max-height: 0;
   opacity: 0;
-  transition: max-height $duration ease-out $duration / 2,
-    opacity $duration ease-out, visibility 0s ease $duration;
+  transition: max-height $duration ease $duration / 2, opacity $duration ease,
+    visibility 0s ease $duration;
   visibility: hidden;
 }
