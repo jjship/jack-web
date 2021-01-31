@@ -189,6 +189,10 @@ body {
   opacity: 1;
 }
 
+.about {
+  font-size: 2.875rem;
+}
+
 body {
   background-color: black;
 }
@@ -335,8 +339,8 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  position: relative;
-  top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
 }
 
 button {
@@ -393,7 +397,6 @@ button {
 
 .input_outline {
   width: 39rem;
-  height: 8.125rem;
   border-radius: 1rem;
   border: 2px solid #959595;
   margin-right: auto;
@@ -413,8 +416,11 @@ button {
   text-align: left;
   text-transform: uppercase;
   position: relative;
-  bottom: 1.5rem;
   left: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  max-width: 30rem;
 }
 
 /* Style the button that is used to open and close the collapsible content */
