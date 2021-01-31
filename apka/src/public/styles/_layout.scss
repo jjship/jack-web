@@ -12,11 +12,12 @@ body {
 
 .hero {
   position: relative;
+  // needed for collapsible
+  max-height: 102rem;
   .bottle {
     position: relative;
     z-index: 0;
     width: 100%;
-    // object-fit: contain;
   }
 
   .live {

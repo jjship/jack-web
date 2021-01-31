@@ -198,6 +198,7 @@ body {
 
 .hero {
   position: relative;
+  max-height: 102rem;
 }
 
 .hero .bottle {
@@ -363,7 +364,6 @@ button {
   text-align: center;
   outline: none;
   background: none;
-  color: #baab8f;
   text-transform: uppercase;
   font-size: 2.2rem;
   padding: 2.2rem 0 2.2rem 0;
@@ -375,14 +375,28 @@ button {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.collapsible:hover {
+.active {
   color: white;
 }
 
 /* Style the collapsible content. Note: hidden by default */
-.content {
+.expanded {
   display: block;
   overflow: hidden;
+  opacity: 1;
+  -webkit-transition: visibility 0s ease, max-height 1s ease, opacity 1s ease;
+  transition: visibility 0s ease, max-height 1s ease, opacity 1s ease;
+  visibility: visible;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.collapsed {
+  display: block;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: max-height 1s ease-out 0.5s, opacity 1s ease-out, visibility 0s ease 1s;
+  transition: max-height 1s ease-out 0.5s, opacity 1s ease-out, visibility 0s ease 1s;
+  visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */
