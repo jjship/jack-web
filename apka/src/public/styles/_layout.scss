@@ -126,3 +126,19 @@ body {
     }
   }
 }
+
+.contact {
+  max-height: 123.05rem;
+  height: 123.05rem;
+  .info {
+    padding-top: 3rem;
+  }
+}
+
+.logo_bottom {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 5rem;
+}

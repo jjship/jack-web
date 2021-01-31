@@ -97,6 +97,10 @@
   font-family: 'MotlowPl', 'Arial Black', Arial, sans-serif;
 }
 
+.myriad {
+  font-family: myriad-pro-condensed, sans-serif;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -116,46 +120,47 @@ body {
   }
 }
 
-.hero .text {
+.text {
   color: white;
   text-transform: uppercase;
 }
 
-.hero .main .dzis {
+.main .dzis {
   font-size: 5.75em;
 }
 
-.hero .main .zdarza_sie {
+.main .zdarza_sie {
   font-size: 2em;
 }
 
-.hero .main .tylko_raz {
+.main .tylko_raz {
   font-size: 4.625em;
   left: 1.375rem;
 }
 
-.hero .slogan .make_it {
+.slogan .make_it {
   font-size: 2.3em;
   font-weight: 400;
   text-align: right;
 }
 
-.hero .slogan .count {
+.slogan .count {
   font-size: 3em;
   letter-spacing: -2px;
   text-align: center;
 }
 
-.hero .info {
+.info {
   font-family: myriad-pro-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1.8rem;
   text-align: center;
   text-transform: uppercase;
+  color: #828282;
 }
 
-.hero .odkryj {
+.odkryj {
   font-family: myriad-pro-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -164,7 +169,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero .napisz {
+.napisz {
   overflow-wrap: break-word;
   width: 427px;
   height: 105px;
@@ -179,7 +184,7 @@ body {
   background: none;
 }
 
-.hero .napisz :placeholder-shown {
+.napisz :placeholder-shown {
   color: white;
   opacity: 1;
 }
@@ -317,6 +322,23 @@ body {
   left: 1.5rem;
 }
 
+.contact {
+  max-height: 123.05rem;
+  height: 123.05rem;
+}
+
+.contact .info {
+  padding-top: 3rem;
+}
+
+.logo_bottom {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 5rem;
+}
+
 button {
   cursor: pointer;
   width: 100%;
@@ -354,6 +376,45 @@ button {
   border: 2px solid #959595;
   background-color: #000000;
   opacity: 0.82;
+}
+
+.title {
+  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
+  font-size: 75px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14rem 0 14rem 0;
+  margin: 0;
+}
+
+.input_outline {
+  width: 39rem;
+  height: 8.125rem;
+  border-radius: 1rem;
+  border: 2px solid #959595;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3.5rem;
+}
+
+.multiline {
+  height: 25rem;
+}
+
+.placeholder {
+  font-family: myriad-pro-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.125rem;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 1.5rem;
+  left: 3rem;
 }
 
 /* Style the button that is used to open and close the collapsible content */
