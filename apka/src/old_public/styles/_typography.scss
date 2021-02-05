@@ -3,34 +3,32 @@
   text-transform: uppercase;
 }
 
-.copy {
-  .today {
-    .dzis {
-      font-size: 5.75em;
-    }
-
-    .zdarza_sie {
-      font-size: 2em;
-    }
-
-    .tylko_raz {
-      font-size: 4.625em;
-      left: 1.375rem;
-    }
+.main {
+  .dzis {
+    font-size: 5.75em;
   }
 
-  .makeItCount {
-    .make_it {
-      font-size: 2.3em;
-      font-weight: 400;
-      text-align: right;
-    }
+  .zdarza_sie {
+    font-size: 2em;
+  }
 
-    .count {
-      font-size: 3em;
-      letter-spacing: -2px;
-      text-align: center;
-    }
+  .tylko_raz {
+    font-size: 4.625em;
+    left: 1.375rem;
+  }
+}
+
+.slogan {
+  .make_it {
+    font-size: 2.3em;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .count {
+    font-size: 3em;
+    letter-spacing: -2px;
+    text-align: center;
   }
 }
 
@@ -42,6 +40,15 @@
   text-align: center;
   text-transform: uppercase;
   color: $darkGrey;
+}
+
+.odkryj {
+  font-family: myriad-pro-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.2rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .napisz {

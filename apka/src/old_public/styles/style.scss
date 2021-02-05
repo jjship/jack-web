@@ -1,0 +1,36 @@
+@import './fonts';
+@import './global';
+@import './typography';
+@import './layout';
+@import './components';
+@import './collapsible';
+
+// TODO move variables to _variables
+
+// @mixin flexCenter($direction, $background) {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
+
+// nesting:
+// header {
+//   @include flexCenter(column, black);
+
+//   background: black;
+//   button {
+//     background: $golden;
+//     &:hover {
+//       background: $darkGrey;
+//     }
+//     &::after {
+//       content: 'WTF!!!!';
+//     }
+//   }
+//   .hero {
+//     @include flexCenter(row, $golden);
+//     background: $grey;
+//   }
+// }
