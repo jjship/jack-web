@@ -283,20 +283,6 @@ body {
   min-width: 6.75rem;
 }
 
-.hero .info {
-  position: absolute;
-  top: 83.5rem;
-  width: 100%;
-}
-
-.hero .logo {
-  position: absolute;
-  top: 93.875rem;
-  display: block;
-  left: 50%;
-  margin-left: -112px;
-}
-
 .hero .main_input {
   position: absolute;
   bottom: 22rem;
@@ -312,6 +298,12 @@ body {
   position: relative;
   top: 1.5rem;
   left: 1.5rem;
+}
+
+.hero .info {
+  position: absolute;
+  top: 83.5rem;
+  width: 100%;
 }
 
 .contact {

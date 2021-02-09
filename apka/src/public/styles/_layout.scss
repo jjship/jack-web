@@ -94,20 +94,6 @@
     }
   }
 
-  .info {
-    position: absolute;
-    top: 83.5rem;
-    width: 100%;
-  }
-
-  .logo {
-    position: absolute;
-    top: 93.875rem;
-    display: block;
-    left: 50%;
-    margin-left: -112px;
-  }
-
   .main_input {
     position: absolute;
     bottom: 22rem;
@@ -121,6 +107,12 @@
       top: 1.5rem;
       left: 1.5rem;
     }
+  }
+
+  .info {
+    position: absolute;
+    top: 83.5rem;
+    width: 100%;
   }
 }
 
