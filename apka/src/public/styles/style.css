@@ -222,11 +222,6 @@ body {
   right: 0;
 }
 
-.hero .text {
-  position: relative;
-  color: white;
-}
-
 .hero .copy {
   position: relative;
   top: 0.625rem;
