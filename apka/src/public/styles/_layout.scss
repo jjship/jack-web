@@ -90,17 +90,36 @@
   }
 
   .main_input {
-    position: absolute;
-    bottom: 22rem;
+    position: relative;
+    top: 27.5rem;
     width: 100%;
-    .outline {
-      margin-left: auto;
-      margin-right: auto;
+    textarea {
+      margin-top: 0.5rem;
+      padding: 0.7rem 1rem 2rem 1rem;
+      width: 100%;
+      background: black;
+      border-radius: 0.5rem;
+      border: 3px solid $darkGrey;
     }
-    .napisz {
+    textarea[required]:invalid + .placeholder {
+      display: inline-block;
+    }
+    textarea[required]:valid + .placeholder {
+      display: none;
+    }
+    label {
       position: relative;
-      top: 1.5rem;
-      left: 1.5rem;
+      left: 1.2rem;
+    }
+    .placeholder {
+      position: absolute;
+      bottom: 6.8rem;
+    }
+    button {
+      position: relative;
+      top: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 

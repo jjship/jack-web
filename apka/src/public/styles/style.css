@@ -114,6 +114,10 @@ body {
   color: #baab8f;
 }
 
+.orangePale {
+  color: #d67c1c;
+}
+
 @media screen and (min-width: 720px) {
   html {
     font-size: 16px;
@@ -150,6 +154,15 @@ body {
   text-align: center;
 }
 
+.main_input {
+  font-size: 2.3125rem;
+}
+
+.main_input textarea {
+  font-size: 2.3125rem;
+  font-family: myriad-pro-condensed, sans-serif;
+}
+
 .info {
   font-family: myriad-pro-condensed, sans-serif;
   font-weight: 700;
@@ -158,26 +171,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #828282;
-}
-
-.napisz {
-  overflow-wrap: break-word;
-  width: 427px;
-  height: 105px;
-  font-family: myriad-pro-condensed, sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: left;
-  text-transform: uppercase;
-  background: none;
-}
-
-.napisz :placeholder-shown {
-  color: white;
-  opacity: 1;
 }
 
 .about {
@@ -279,20 +272,44 @@ body {
 }
 
 .hero .main_input {
-  position: absolute;
-  bottom: 22rem;
+  position: relative;
+  top: 27.5rem;
   width: 100%;
 }
 
-.hero .main_input .outline {
-  margin-left: auto;
-  margin-right: auto;
+.hero .main_input textarea {
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem 2rem 1rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 3px solid #828282;
 }
 
-.hero .main_input .napisz {
+.hero .main_input textarea[required]:invalid + .placeholder {
+  display: inline-block;
+}
+
+.hero .main_input textarea[required]:valid + .placeholder {
+  display: none;
+}
+
+.hero .main_input label {
   position: relative;
-  top: 1.5rem;
-  left: 1.5rem;
+  left: 1.2rem;
+}
+
+.hero .main_input .placeholder {
+  position: absolute;
+  bottom: 6.8rem;
+}
+
+.hero .main_input button {
+  position: relative;
+  top: 2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .hero .info {
@@ -332,18 +349,17 @@ body {
 
 button {
   cursor: pointer;
-  width: 100%;
-  border: none;
   text-align: center;
+  text-transform: uppercase;
+  font-size: 2.3125rem;
 }
 
-.main_input .outline {
-  width: 585px;
-  height: 159px;
-  border-radius: 30px 30px 0 0;
-  border: 2px solid #959595;
-  background-color: #000000;
-  opacity: 0.82;
+.cta {
+  border: none;
+  background-color: #ee731d;
+  color: black;
+  padding: 0.5rem;
+  width: 28.56rem;
 }
 
 .title {
@@ -357,34 +373,6 @@ button {
   text-transform: uppercase;
   padding: 14rem 0 14rem 0;
   margin: 0;
-}
-
-.input_outline {
-  width: 39rem;
-  border-radius: 1rem;
-  border: 2px solid #959595;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 3.5rem;
-}
-
-.multiline {
-  height: 25rem;
-}
-
-.placeholder {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 3.125rem;
-  text-align: left;
-  text-transform: uppercase;
-  position: relative;
-  left: 3rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin: 0;
-  max-width: 30rem;
 }
 
 /* Style the button that is used to open and close the collapsible content */
