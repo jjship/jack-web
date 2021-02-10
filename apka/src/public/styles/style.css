@@ -200,7 +200,7 @@ body {
   height: 104rem;
 }
 
-.hero .bottle {
+.hero .bottle_w_shadow {
   position: absolute;
   top: 6.5625rem;
   right: 0.275rem;
