@@ -19,7 +19,7 @@
 
 .hero {
   position: relative;
-  top: 3.125rem;
+  top: 4.375rem;
   // needed for collapsible
   height: 104rem;
   .bottle_w_shadow {
@@ -36,13 +36,13 @@
   }
 
   .copy {
-    @include top(0.625rem);
+    @include today(0.625rem);
   }
 
   .makeItCount {
     position: relative;
     top: 2rem;
-    left: 5.15rem;
+    left: 3.3rem;
     max-width: 6.75rem;
 
     .small_logo {
