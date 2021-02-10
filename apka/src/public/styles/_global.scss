@@ -5,6 +5,45 @@ $orange: #ee731d;
 $orangePale: #d67c1c;
 $green: #4f822c;
 
+// @mixin flexCenter($direction, $background) {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
+
+// header {
+//   @include flexCenter(column, black);
+// }
+
+@mixin today($top) {
+  position: relative;
+  top: $top;
+  .today {
+    z-index: 1;
+
+    .dzis {
+      position: relative;
+      left: 0.875rem;
+      margin: 0;
+    }
+
+    .zdarza_sie {
+      position: relative;
+      top: -1.35rem;
+      margin: 0;
+    }
+
+    .tylko_raz {
+      position: relative;
+      top: -0.5rem;
+      left: 1.2rem;
+      margin: 0;
+    }
+  }
+}
+
 * {
   box-sizing: border-box;
 }

@@ -36,57 +36,34 @@
   }
 
   .copy {
+    @include top(0.625rem);
+  }
+
+  .makeItCount {
     position: relative;
-    top: 0.625rem;
-    .today {
-      z-index: 1;
+    top: 2rem;
+    left: 5.15rem;
+    max-width: 6.75rem;
 
-      .dzis {
-        position: relative;
-        left: 0.875rem;
-        margin: 0;
-      }
-
-      .zdarza_sie {
-        position: relative;
-        top: -1.35rem;
-        margin: 0;
-      }
-
-      .tylko_raz {
-        position: relative;
-        top: -0.5rem;
-        left: 1.2rem;
-        margin: 0;
-      }
+    .small_logo {
+      position: relative;
+      display: block;
+      left: 50%;
+      margin-left: -30.5px;
     }
 
-    .makeItCount {
+    .make_it {
       position: relative;
-      top: 2rem;
-      left: 5.15rem;
-      max-width: 6.75rem;
+      top: 0.7rem;
+      margin: 0;
+      min-width: 6.75rem;
+    }
 
-      .small_logo {
-        position: relative;
-        display: block;
-        left: 50%;
-        margin-left: -30.5px;
-      }
-
-      .make_it {
-        position: relative;
-        top: 0.7rem;
-        margin: 0;
-        min-width: 6.75rem;
-      }
-
-      .count {
-        position: relative;
-        top: 1rem;
-        margin: 0;
-        min-width: 6.75rem;
-      }
+    .count {
+      position: relative;
+      top: 1rem;
+      margin: 0;
+      min-width: 6.75rem;
     }
   }
 
