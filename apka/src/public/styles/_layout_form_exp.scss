@@ -11,7 +11,7 @@
     top: 2.5rem;
     width: 100%;
     textarea {
-      margin-top: 0.5rem;
+      margin-top: 1.5rem;
       padding: 1rem 1rem 2.5rem 1rem;
       width: 100%;
       background: black;
@@ -28,9 +28,14 @@
       position: relative;
       left: 1.2rem;
     }
+    .masz {
+      position: relative;
+      top: 1.8rem;
+      left: 7.2rem;
+    }
     .placeholder {
       position: absolute;
-      bottom: 7.4rem;
+      bottom: 16.4rem;
     }
     button {
       position: relative;

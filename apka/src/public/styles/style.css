@@ -99,6 +99,7 @@
 
 .myriad {
   font-family: myriad-pro-condensed, sans-serif;
+  font-weight: 700;
 }
 
 * {
@@ -160,6 +161,11 @@ body {
 
 .main_input textarea {
   font-size: 2.3125rem;
+}
+
+.main_input .masz {
+  font-size: 1.231rem;
+  font-weight: 300;
 }
 
 .info {
@@ -377,6 +383,53 @@ body {
   top: -0.6rem;
   left: 1.3rem;
   margin: 0;
+}
+
+.form_exp .main_input {
+  position: relative;
+  top: 2.5rem;
+  width: 100%;
+}
+
+.form_exp .main_input textarea {
+  margin-top: 1.5rem;
+  padding: 1rem 1rem 2.5rem 1rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 3px solid #828282;
+}
+
+.form_exp .main_input textarea[required]:invalid + .placeholder {
+  display: inline-block;
+}
+
+.form_exp .main_input textarea[required]:valid + .placeholder {
+  display: none;
+}
+
+.form_exp .main_input label {
+  position: relative;
+  left: 1.2rem;
+}
+
+.form_exp .main_input .masz {
+  position: relative;
+  top: 1.8rem;
+  left: 7.2rem;
+}
+
+.form_exp .main_input .placeholder {
+  position: absolute;
+  bottom: 16.4rem;
+}
+
+.form_exp .main_input button {
+  position: relative;
+  top: 2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 button {
