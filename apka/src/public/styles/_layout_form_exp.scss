@@ -2,4 +2,8 @@
   position: relative;
   top: 3.125rem;
   height: 120rem;
+  .copy {
+    @include today(1rem);
+    left: 13rem;
+  }
 }
