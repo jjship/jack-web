@@ -6,13 +6,13 @@
     @include today(1rem);
     left: 13rem;
   }
-  .main_input {
+  .statement_input_exp {
     position: relative;
     top: 2.5rem;
     width: 100%;
     textarea {
       margin-top: 1.5rem;
-      padding: 1rem 1rem 2.5rem 1rem;
+      padding: 1rem 2rem 2.5rem 2rem;
       width: 100%;
       background: black;
       border-radius: 0.5rem;
@@ -26,16 +26,29 @@
     }
     label {
       position: relative;
-      left: 1.2rem;
+      left: 2.2rem;
     }
     .masz {
       position: relative;
       top: 1.7rem;
-      left: 2.9rem;
+      left: 3.9rem;
     }
     .placeholder {
       position: absolute;
-      bottom: 16.4rem;
+      bottom: 24.6rem;
+    }
+    input {
+      padding: 1rem 2rem 1rem 2rem;
+      width: 100%;
+      background: black;
+      border-radius: 0.5rem;
+      border: 2px solid $darkGrey;
+    }
+    .imie {
+      margin-top: 4.5rem;
+    }
+    .email {
+      margin-top: 3.5rem;
     }
     button {
       position: relative;
