@@ -160,15 +160,52 @@ body {
   text-align: center;
 }
 
-.main_input {
+.statement_input,
+.statement_input_exp {
   font-size: 2.3125rem;
 }
 
-.main_input textarea {
-  font-size: 2.3125rem;
+.statement_input textarea,
+.statement_input input,
+.statement_input_exp textarea,
+.statement_input_exp input {
+  font-size: 2.0625rem;
 }
 
-.main_input .masz {
+.statement_input input,
+.statement_input input::-webkit-input-placeholder,
+.statement_input_exp input,
+.statement_input_exp input::-webkit-input-placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+.statement_input input,
+.statement_input input:-ms-input-placeholder,
+.statement_input_exp input,
+.statement_input_exp input:-ms-input-placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+.statement_input input,
+.statement_input input::-ms-input-placeholder,
+.statement_input_exp input,
+.statement_input_exp input::-ms-input-placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+.statement_input input,
+.statement_input input::placeholder,
+.statement_input_exp input,
+.statement_input_exp input::placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+.statement_input .masz,
+.statement_input_exp .masz {
   font-size: 1.3125rem;
 }
 
@@ -278,13 +315,13 @@ body {
   min-width: 6.75rem;
 }
 
-.hero .main_input {
+.hero .statement_input {
   position: relative;
   top: 29.5rem;
   width: 100%;
 }
 
-.hero .main_input textarea {
+.hero .statement_input textarea {
   margin-top: 0.5rem;
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
@@ -293,25 +330,25 @@ body {
   border: 3px solid #828282;
 }
 
-.hero .main_input textarea[required]:invalid + .placeholder {
+.hero .statement_input textarea[required]:invalid + .placeholder {
   display: inline-block;
 }
 
-.hero .main_input textarea[required]:valid + .placeholder {
+.hero .statement_input textarea[required]:valid + .placeholder {
   display: none;
 }
 
-.hero .main_input label {
+.hero .statement_input label {
   position: relative;
   left: 1.2rem;
 }
 
-.hero .main_input .placeholder {
+.hero .statement_input .placeholder {
   position: absolute;
   bottom: 7.4rem;
 }
 
-.hero .main_input button {
+.hero .statement_input button {
   position: relative;
   top: 2rem;
   left: 50%;
@@ -389,46 +426,62 @@ body {
   margin: 0;
 }
 
-.form_exp .main_input {
+.form_exp .statement_input_exp {
   position: relative;
   top: 2.5rem;
   width: 100%;
 }
 
-.form_exp .main_input textarea {
+.form_exp .statement_input_exp textarea {
   margin-top: 1.5rem;
-  padding: 1rem 1rem 2.5rem 1rem;
+  padding: 1rem 2rem 2.5rem 2rem;
   width: 100%;
   background: black;
   border-radius: 0.5rem;
   border: 3px solid #828282;
 }
 
-.form_exp .main_input textarea[required]:invalid + .placeholder {
+.form_exp .statement_input_exp textarea[required]:invalid + .placeholder {
   display: inline-block;
 }
 
-.form_exp .main_input textarea[required]:valid + .placeholder {
+.form_exp .statement_input_exp textarea[required]:valid + .placeholder {
   display: none;
 }
 
-.form_exp .main_input label {
+.form_exp .statement_input_exp label {
   position: relative;
-  left: 1.2rem;
+  left: 2.2rem;
 }
 
-.form_exp .main_input .masz {
+.form_exp .statement_input_exp .masz {
   position: relative;
   top: 1.7rem;
-  left: 2.9rem;
+  left: 3.9rem;
 }
 
-.form_exp .main_input .placeholder {
+.form_exp .statement_input_exp .placeholder {
   position: absolute;
-  bottom: 16.4rem;
+  bottom: 24.6rem;
 }
 
-.form_exp .main_input button {
+.form_exp .statement_input_exp input {
+  padding: 1rem 2rem 1rem 2rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #828282;
+}
+
+.form_exp .statement_input_exp .imie {
+  margin-top: 4.5rem;
+}
+
+.form_exp .statement_input_exp .email {
+  margin-top: 3.5rem;
+}
+
+.form_exp .statement_input_exp button {
   position: relative;
   top: 2rem;
   left: 50%;
