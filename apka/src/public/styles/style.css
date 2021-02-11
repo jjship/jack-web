@@ -102,6 +102,11 @@
   font-weight: 700;
 }
 
+.myriadPro {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -164,8 +169,7 @@ body {
 }
 
 .main_input .masz {
-  font-size: 1.231rem;
-  font-weight: 300;
+  font-size: 1.3125rem;
 }
 
 .info {
