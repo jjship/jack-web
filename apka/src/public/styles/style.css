@@ -481,12 +481,31 @@ body {
   margin-top: 3.5rem;
 }
 
-.form_exp .statement_input_exp button {
+.form_exp .statement_input_exp .cta {
+  width: 28.5rem;
+}
+
+.form_exp .statement_input_exp .buttons {
+  margin-left: 2.1rem;
+  height: 4rem;
+  margin-top: 4rem;
+}
+
+.form_exp .statement_input_exp .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form_exp .info {
   position: relative;
-  top: 2rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  top: 10rem;
 }
 
 button {
@@ -515,6 +534,10 @@ button {
   text-transform: uppercase;
   padding: 14rem 0 14rem 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Style the button that is used to open and close the collapsible content */
