@@ -411,6 +411,14 @@ body {
   height: 120rem;
 }
 
+.form_exp .close {
+  position: relative;
+  margin-left: 37.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .form_exp .copy {
   position: relative;
   top: 1rem;
@@ -455,6 +463,12 @@ body {
   border: 3px solid #828282;
 }
 
+.form_exp .statement_input_exp .placeholder {
+  position: absolute;
+  left: 2.2rem;
+  top: 8.5rem;
+}
+
 .form_exp .statement_input_exp textarea[required]:invalid + .placeholder {
   display: inline-block;
 }
@@ -463,7 +477,7 @@ body {
   display: none;
 }
 
-.form_exp .statement_input_exp .text_inputs label {
+.form_exp .statement_input_exp .napisz {
   position: relative;
   left: 2.2rem;
 }
@@ -472,11 +486,6 @@ body {
   position: relative;
   top: 1.7rem;
   left: 3.9rem;
-}
-
-.form_exp .statement_input_exp .placeholder {
-  position: absolute;
-  bottom: 24.6rem;
 }
 
 .form_exp .statement_input_exp input {
@@ -518,7 +527,7 @@ body {
 }
 
 .form_exp .statement_input_exp .checkboxes {
-  margin-top: 10rem;
+  margin-top: 9rem;
 }
 
 .form_exp .statement_input_exp .checkboxes .group {
@@ -561,7 +570,7 @@ body {
 
 .form_exp .info {
   position: relative;
-  top: 10rem;
+  top: 14rem;
 }
 
 button {
