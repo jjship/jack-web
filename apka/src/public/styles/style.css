@@ -164,62 +164,52 @@ body {
   text-align: center;
 }
 
-.statement_input,
-.statement_input_exp {
+form {
   font-size: 2.3125rem;
 }
 
-.statement_input textarea,
-.statement_input input,
-.statement_input_exp textarea,
-.statement_input_exp input {
+form textarea,
+form input {
   font-size: 2.0625rem;
 }
 
-.statement_input input,
-.statement_input input::-webkit-input-placeholder,
-.statement_input_exp input,
-.statement_input_exp input::-webkit-input-placeholder {
+form input,
+form input::-webkit-input-placeholder,
+form textarea::-webkit-input-placeholder {
   text-transform: uppercase;
   color: #b7ac92;
 }
 
-.statement_input input,
-.statement_input input:-ms-input-placeholder,
-.statement_input_exp input,
-.statement_input_exp input:-ms-input-placeholder {
+form input,
+form input:-ms-input-placeholder,
+form textarea:-ms-input-placeholder {
   text-transform: uppercase;
   color: #b7ac92;
 }
 
-.statement_input input,
-.statement_input input::-ms-input-placeholder,
-.statement_input_exp input,
-.statement_input_exp input::-ms-input-placeholder {
+form input,
+form input::-ms-input-placeholder,
+form textarea::-ms-input-placeholder {
   text-transform: uppercase;
   color: #b7ac92;
 }
 
-.statement_input input,
-.statement_input input::placeholder,
-.statement_input_exp input,
-.statement_input_exp input::placeholder {
+form input,
+form input::placeholder,
+form textarea::placeholder {
   text-transform: uppercase;
   color: #b7ac92;
 }
 
-.statement_input .masz,
-.statement_input_exp .masz {
+form .masz {
   font-size: 1.3125rem;
 }
 
-.statement_input .buttons a,
-.statement_input_exp .buttons a {
+form .buttons a {
   text-decoration: none;
 }
 
-.statement_input .checkboxes,
-.statement_input_exp .checkboxes {
+form .checkboxes {
   font-size: 1.8125rem;
 }
 
@@ -587,76 +577,13 @@ body {
   text-decoration: none;
 }
 
-.contact .copy {
-  position: relative;
-  top: 1rem;
-  left: 13rem;
-}
-
-.contact .copy .today {
-  z-index: 1;
-}
-
-.contact .copy .today .dzis {
-  position: relative;
-  left: 0.6rem;
-  margin: 0;
-}
-
-.contact .copy .today .zdarza_sie {
-  position: relative;
-  top: -1.16rem;
-  margin: 0;
-}
-
-.contact .copy .today .tylko_raz {
-  position: relative;
-  top: -0.6rem;
-  left: 1.3rem;
-  margin: 0;
-}
-
-.contact .statement_input_exp {
+.contact .contact_form {
   position: relative;
   top: 2.5rem;
   width: 100%;
 }
 
-.contact .statement_input_exp textarea {
-  margin-top: 1.5rem;
-  padding: 1rem 2rem 2.5rem 2rem;
-  width: 100%;
-  background: black;
-  border-radius: 0.5rem;
-  border: 3px solid #828282;
-}
-
-.contact .statement_input_exp .placeholder {
-  position: absolute;
-  left: 2.2rem;
-  top: 8.5rem;
-}
-
-.contact .statement_input_exp textarea[required]:invalid + .placeholder {
-  display: inline-block;
-}
-
-.contact .statement_input_exp textarea[required]:valid + .placeholder {
-  display: none;
-}
-
-.contact .statement_input_exp .napisz {
-  position: relative;
-  left: 2.2rem;
-}
-
-.contact .statement_input_exp .masz {
-  position: relative;
-  top: 1.7rem;
-  left: 3.9rem;
-}
-
-.contact .statement_input_exp input {
+.contact .contact_form input {
   padding: 1rem 2rem 1rem 2rem;
   width: 100%;
   background: black;
@@ -664,25 +591,34 @@ body {
   border: 2px solid #828282;
 }
 
-.contact .statement_input_exp .imie {
-  margin-top: 4.5rem;
+.contact .contact_form textarea {
+  margin-top: 4rem;
+  padding: 1rem 2rem 2.5rem 2rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 3px solid #828282;
 }
 
-.contact .statement_input_exp .email {
-  margin-top: 3.5rem;
+.contact .contact_form .imie {
+  margin-top: 4rem;
 }
 
-.contact .statement_input_exp .cta {
+.contact .contact_form .email {
+  margin-top: 4rem;
+}
+
+.contact .contact_form .cta {
   width: 28.5rem;
 }
 
-.contact .statement_input_exp .buttons {
+.contact .contact_form .buttons {
   margin-left: 2.1rem;
   height: 4rem;
   margin-top: 4rem;
 }
 
-.contact .statement_input_exp .flex {
+.contact .contact_form .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -694,11 +630,11 @@ body {
           align-items: center;
 }
 
-.contact .statement_input_exp .checkboxes {
+.contact .contact_form .checkboxes {
   margin-top: 9rem;
 }
 
-.contact .statement_input_exp .checkboxes .group {
+.contact .contact_form .checkboxes .group {
   display: block;
   position: relative;
   width: 28rem;
@@ -710,7 +646,7 @@ body {
   /* When the checkbox is checked, add an orange background */
 }
 
-.contact .statement_input_exp .checkboxes .group input {
+.contact .contact_form .checkboxes .group input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -718,7 +654,7 @@ body {
   width: 0;
 }
 
-.contact .statement_input_exp .checkboxes .group .checkmark {
+.contact .contact_form .checkboxes .group .checkmark {
   position: absolute;
   top: 0.6rem;
   left: 0;
@@ -727,11 +663,11 @@ body {
   border: 2px solid #baab8f;
 }
 
-.contact .statement_input_exp .checkboxes .group input:checked ~ .checkmark {
+.contact .contact_form .checkboxes .group input:checked ~ .checkmark {
   background-color: #d67c1c;
 }
 
-.contact .statement_input_exp .checkboxes .bottle {
+.contact .contact_form .checkboxes .bottle {
   right: 0;
   bottom: -4rem;
 }

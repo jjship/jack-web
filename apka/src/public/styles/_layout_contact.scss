@@ -9,42 +9,10 @@
     color: #ffffff;
     text-decoration: none;
   }
-  .copy {
-    @include today(1rem);
-    left: 13rem;
-  }
-  .statement_input_exp {
+  .contact_form {
     position: relative;
     top: 2.5rem;
     width: 100%;
-    textarea {
-      margin-top: 1.5rem;
-      padding: 1rem 2rem 2.5rem 2rem;
-      width: 100%;
-      background: black;
-      border-radius: 0.5rem;
-      border: 3px solid $darkGrey;
-    }
-    .placeholder {
-      position: absolute;
-      left: 2.2rem;
-      top: 8.5rem;
-    }
-    textarea[required]:invalid + .placeholder {
-      display: inline-block;
-    }
-    textarea[required]:valid + .placeholder {
-      display: none;
-    }
-    .napisz {
-      position: relative;
-      left: 2.2rem;
-    }
-    .masz {
-      position: relative;
-      top: 1.7rem;
-      left: 3.9rem;
-    }
     input {
       padding: 1rem 2rem 1rem 2rem;
       width: 100%;
@@ -52,11 +20,19 @@
       border-radius: 0.5rem;
       border: 2px solid $darkGrey;
     }
+    textarea {
+      margin-top: 4rem;
+      padding: 1rem 2rem 2.5rem 2rem;
+      width: 100%;
+      background: black;
+      border-radius: 0.5rem;
+      border: 3px solid $darkGrey;
+    }
     .imie {
-      margin-top: 4.5rem;
+      margin-top: 4rem;
     }
     .email {
-      margin-top: 3.5rem;
+      margin-top: 4rem;
     }
     .cta {
       width: 28.5rem;

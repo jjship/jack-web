@@ -34,15 +34,15 @@
   }
 }
 
-.statement_input,
-.statement_input_exp {
+form {
   font-size: 2.3125rem;
   textarea,
   input {
     font-size: 2.0625rem;
   }
   input,
-  input::placeholder {
+  input::placeholder,
+  textarea::placeholder {
     text-transform: uppercase;
     color: $goldenDark;
   }
