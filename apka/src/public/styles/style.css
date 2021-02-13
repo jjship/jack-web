@@ -608,10 +608,6 @@ form .checkboxes {
   margin-top: 4rem;
 }
 
-.contact .contact_form .cta {
-  width: 28.5rem;
-}
-
 .contact .contact_form .buttons {
   margin-left: 2.1rem;
   height: 4rem;
@@ -622,9 +618,9 @@ form .checkboxes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -690,6 +686,12 @@ button {
   color: black;
   padding: 0.5rem;
   width: 28.56rem;
+}
+
+.btn {
+  background: none;
+  border: 2px solid white;
+  padding: 0.5rem 3rem;
 }
 
 .title {
