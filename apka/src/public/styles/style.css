@@ -550,6 +550,11 @@ body {
   background-color: #d67c1c;
 }
 
+.form_exp .statement_input_exp .checkboxes .bottle {
+  right: 0;
+  bottom: -4rem;
+}
+
 .form_exp .info {
   position: relative;
   top: 10rem;
