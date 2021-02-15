@@ -75,3 +75,42 @@ form {
   color: $darkGrey;
   text-align: center;
 }
+
+.prizes_list {
+  text-align: center;
+  .money {
+    .qty {
+      font-size: 7.3125rem;
+      .x {
+        font-size: 3.625rem;
+      }
+    }
+    .value {
+      font-size: 4rem;
+    }
+    .zl {
+      font-size: 1.8125rem;
+    }
+    .for {
+      font-size: 1.5rem;
+    }
+  }
+  .gift {
+    .qty {
+      font-size: 4.5625rem;
+      .x {
+        font-size: 2.25rem;
+      }
+    }
+    .jack {
+      font-size: 4rem;
+    }
+    .plus {
+      font-size: 1.8125rem;
+    }
+    .instax,
+    .bluzy {
+      font-size: 3rem;
+    }
+  }
+}

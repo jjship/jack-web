@@ -230,12 +230,49 @@ form .checkboxes {
   text-align: center;
 }
 
-.prizes_list .times {
+.prizes_list {
+  text-align: center;
+}
+
+.prizes_list .money .qty {
   font-size: 7.3125rem;
 }
 
-.prizes_list .times .x {
+.prizes_list .money .qty .x {
   font-size: 3.625rem;
+}
+
+.prizes_list .money .value {
+  font-size: 4rem;
+}
+
+.prizes_list .money .zl {
+  font-size: 1.8125rem;
+}
+
+.prizes_list .money .for {
+  font-size: 1.5rem;
+}
+
+.prizes_list .gift .qty {
+  font-size: 4.5625rem;
+}
+
+.prizes_list .gift .qty .x {
+  font-size: 2.25rem;
+}
+
+.prizes_list .gift .jack {
+  font-size: 4rem;
+}
+
+.prizes_list .gift .plus {
+  font-size: 1.8125rem;
+}
+
+.prizes_list .gift .instax,
+.prizes_list .gift .bluzy {
+  font-size: 3rem;
 }
 
 .background {
@@ -660,6 +697,63 @@ form .checkboxes {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.prizes .prizes_list .prize {
+  width: 17.5rem;
+}
+
+.prizes .prizes_list p {
+  margin: 0;
+}
+
+.prizes .prizes_list img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.prizes .prizes_list .zl {
+  position: relative;
+  left: 3.4rem;
+  bottom: 0.5rem;
+}
+
+.prizes .prizes_list .gift p {
+  position: relative;
+}
+
+.prizes .prizes_list .gift.instax .qty {
+  right: 2.5rem;
+}
+
+.prizes .prizes_list .gift.instax .jack {
+  right: 0.3rem;
+}
+
+.prizes .prizes_list .gift.instax .plus {
+  left: 2.4rem;
+  bottom: 0.4rem;
+}
+
+.prizes .prizes_list .gift.instax .instax {
+  bottom: 0.7rem;
+  left: 0.7rem;
+}
+
+.prizes .prizes_list .gift.bluzy .qty {
+  right: 1.5rem;
+}
+
+.prizes .prizes_list .gift.bluzy .bluzy {
+  right: 1rem;
+}
+
+.prizes .prizes_list .gift.bluzy .jack {
+  left: 2.2rem;
+  bottom: 0.3rem;
 }
 
 .prizes img {

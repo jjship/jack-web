@@ -16,6 +16,57 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    .prize {
+      width: 17.5rem;
+    }
+    p {
+      margin: 0;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    .zl {
+      position: relative;
+      left: 3.4rem;
+      bottom: 0.5rem;
+    }
+    .gift {
+      p {
+        position: relative;
+      }
+      &.instax {
+        .qty {
+          right: 2.5rem;
+        }
+        .jack {
+          right: 0.3rem;
+        }
+        .plus {
+          left: 2.4rem;
+          bottom: 0.4rem;
+        }
+        .instax {
+          bottom: 0.7rem;
+          left: 0.7rem;
+        }
+      }
+      &.bluzy {
+        .qty {
+          right: 1.5rem;
+        }
+        .bluzy {
+          right: 1rem;
+        }
+        .jack {
+          left: 2.2rem;
+          bottom: 0.3rem;
+        }
+      }
+    }
   }
   img {
     position: relative;
