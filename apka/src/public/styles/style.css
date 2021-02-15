@@ -230,6 +230,14 @@ form .checkboxes {
   text-align: center;
 }
 
+.prizes_list .times {
+  font-size: 7.3125rem;
+}
+
+.prizes_list .times .x {
+  font-size: 3.625rem;
+}
+
 .background {
   background: black;
   width: 720px;
@@ -624,6 +632,38 @@ form .checkboxes {
 
 .contact .disclaimer {
   margin-top: 8rem;
+}
+
+.prizes {
+  position: relative;
+  top: 3.125rem;
+  height: 120rem;
+}
+
+.prizes .close {
+  position: relative;
+  margin-left: 37.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.prizes .prizes_list {
+  position: relative;
+  top: 2.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prizes img {
+  position: relative;
 }
 
 button {

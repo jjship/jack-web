@@ -1,0 +1,23 @@
+.prizes {
+  position: relative;
+  top: 3.125rem;
+  height: 120rem;
+  .close {
+    position: relative;
+    margin-left: 37.2rem;
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .prizes_list {
+    position: relative;
+    top: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  img {
+    position: relative;
+  }
+}
