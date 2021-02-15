@@ -671,6 +671,10 @@ form .checkboxes {
   margin-top: 8rem;
 }
 
+.bg_lights_centered {
+  top: 6rem;
+}
+
 .prizes {
   position: relative;
   top: 3.125rem;
@@ -703,22 +707,38 @@ form .checkboxes {
   width: 17.5rem;
 }
 
+.prizes .prizes_list .prize .visualisation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  z-index: 1;
+}
+
 .prizes .prizes_list p {
   margin: 0;
 }
 
-.prizes .prizes_list img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.prizes .prizes_list .zl {
+.prizes .prizes_list .money .zl {
   position: relative;
   left: 3.4rem;
   bottom: 0.5rem;
+}
+
+.prizes .prizes_list .money .shadow {
+  position: absolute;
+  z-index: 0;
+}
+
+.prizes .prizes_list .money.seven .shadow {
+  top: 32.3rem;
+  left: 6.5rem;
+}
+
+.prizes .prizes_list .money.three .shadow {
+  top: 31rem;
+  right: -0.6rem;
 }
 
 .prizes .prizes_list .gift p {
@@ -743,6 +763,10 @@ form .checkboxes {
   left: 0.7rem;
 }
 
+.prizes .prizes_list .gift.instax .visualisation {
+  margin-top: 3rem;
+}
+
 .prizes .prizes_list .gift.bluzy .qty {
   right: 1.5rem;
 }
@@ -754,6 +778,10 @@ form .checkboxes {
 .prizes .prizes_list .gift.bluzy .jack {
   left: 2.2rem;
   bottom: 0.3rem;
+}
+
+.prizes .prizes_list .gift.bluzy .visualisation {
+  margin-top: 4rem;
 }
 
 .prizes img {

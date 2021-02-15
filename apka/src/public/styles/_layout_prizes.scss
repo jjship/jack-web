@@ -1,3 +1,7 @@
+.bg_lights_centered {
+  top: 6rem;
+}
+
 .prizes {
   position: relative;
   top: 3.125rem;
@@ -18,22 +22,42 @@
     justify-content: space-between;
     .prize {
       width: 17.5rem;
+      .visualisation {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        z-index: 1;
+      }
     }
     p {
       margin: 0;
     }
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
+    .money {
+      .zl {
+        position: relative;
+        left: 3.4rem;
+        bottom: 0.5rem;
+      }
+      .shadow {
+        position: absolute;
+        z-index: 0;
+      }
+      &.seven {
+        .shadow {
+          top: 32.3rem;
+          left: 6.5rem;
+        }
+      }
+      &.three {
+        .shadow {
+          top: 31rem;
+          right: -0.6rem;
+        }
+      }
     }
-    .zl {
-      position: relative;
-      left: 3.4rem;
-      bottom: 0.5rem;
-    }
+
     .gift {
       p {
         position: relative;
@@ -53,6 +77,9 @@
           bottom: 0.7rem;
           left: 0.7rem;
         }
+        .visualisation {
+          margin-top: 3rem;
+        }
       }
       &.bluzy {
         .qty {
@@ -64,6 +91,9 @@
         .jack {
           left: 2.2rem;
           bottom: 0.3rem;
+        }
+        .visualisation {
+          margin-top: 4rem;
         }
       }
     }
