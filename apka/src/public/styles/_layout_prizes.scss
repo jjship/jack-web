@@ -6,6 +6,9 @@
   position: relative;
   top: 3.125rem;
   height: 120rem;
+  img {
+    position: relative;
+  }
   .close {
     position: relative;
     margin-left: 37.2rem;
@@ -98,7 +101,17 @@
       }
     }
   }
-  img {
-    position: relative;
+  .close_container {
+    width: 100%;
+    text-align: center;
+    .btn {
+      position: relative;
+      top: 6.5rem;
+      font-size: 2.3125rem;
+      text-decoration: none;
+    }
+  }
+  .info {
+    top: 7rem;
   }
 }

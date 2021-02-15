@@ -681,6 +681,10 @@ form .checkboxes {
   height: 120rem;
 }
 
+.prizes img {
+  position: relative;
+}
+
 .prizes .close {
   position: relative;
   margin-left: 37.2rem;
@@ -784,8 +788,20 @@ form .checkboxes {
   margin-top: 4rem;
 }
 
-.prizes img {
+.prizes .close_container {
+  width: 100%;
+  text-align: center;
+}
+
+.prizes .close_container .btn {
   position: relative;
+  top: 6.5rem;
+  font-size: 2.3125rem;
+  text-decoration: none;
+}
+
+.prizes .info {
+  top: 7rem;
 }
 
 button {
