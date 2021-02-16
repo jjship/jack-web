@@ -896,11 +896,6 @@ nav .btn {
   border-bottom: 3px solid #baab8f;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active {
-  color: white;
-}
-
 .navi {
   overflow: hidden;
   -webkit-transition: max-height 0.3s ease-out;
