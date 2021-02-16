@@ -21,21 +21,12 @@ $duration: 1s;
   color: white;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.expanded {
-  display: block;
+.navi {
   overflow: hidden;
-  opacity: 1;
-  transition: visibility 0s ease, max-height $duration ease,
-    opacity $duration ease;
-  visibility: visible;
-  transition-delay: 0s;
+  transition: max-height 0.3s ease-out;
+  height: auto;
+  max-height: 44.4rem;
 }
-.collapsed {
-  display: block;
+.closed {
   max-height: 0;
-  opacity: 0;
-  transition: max-height $duration ease $duration / 2, opacity $duration ease,
-    visibility 0s ease $duration;
-  visibility: hidden;
 }

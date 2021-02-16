@@ -21,6 +21,7 @@ button {
 }
 
 nav {
+  position: relative;
   .arrow {
     display: inline-block;
     color: white;
@@ -30,10 +31,11 @@ nav {
     transform: rotate(135deg);
     font-size: 4rem;
     font-weight: 700;
-    .down {
-      transform: rotate(315deg);
-      top: 0.2rem;
-    }
+  }
+  .down {
+    transform: rotate(315deg);
+    top: 0.5rem;
+    right: 16.5rem;
   }
 
   .btn {
