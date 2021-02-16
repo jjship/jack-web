@@ -849,7 +849,7 @@ nav .down {
   right: 16.5rem;
 }
 
-nav .btn {
+nav .navBtn {
   display: block;
   cursor: pointer;
   width: 100%;
@@ -909,6 +909,10 @@ nav .btn {
 }
 
 @media screen and (min-width: 1000px) {
+  .background {
+    width: 100vw;
+    border: none;
+  }
   nav .toggle,
   nav .arrow {
     display: none;
@@ -917,9 +921,19 @@ nav .btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  nav .btn {
+  nav .navi .navBtn {
     text-decoration: underline;
+    border: none;
+    font-size: 1rem;
+    padding: 0;
+    width: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
