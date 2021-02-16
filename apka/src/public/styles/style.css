@@ -907,4 +907,19 @@ nav .btn {
 .closed {
   max-height: 0;
 }
+
+@media screen and (min-width: 1000px) {
+  nav .toggle,
+  nav .arrow {
+    display: none;
+  }
+  nav .navi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .btn {
+    text-decoration: underline;
+  }
+}
 /*# sourceMappingURL=style.css.map */

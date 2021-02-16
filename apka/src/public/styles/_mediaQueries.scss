@@ -1,0 +1,14 @@
+@media screen and (min-width: 1000px) {
+  nav {
+    .toggle,
+    .arrow {
+      display: none;
+    }
+    .navi {
+      display: flex;
+    }
+    .btn {
+      text-decoration: underline;
+    }
+  }
+}
