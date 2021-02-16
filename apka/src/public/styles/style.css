@@ -805,6 +805,7 @@ form .checkboxes {
 }
 
 button {
+  position: relative;
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
@@ -823,6 +824,39 @@ button {
   background: none;
   border: 2px solid white;
   padding: 0.5rem 3rem;
+}
+
+nav .arrow {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  right: 16rem;
+  top: 2rem;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+nav .arrow .down {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+  top: 0.2rem;
+}
+
+nav .btn {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2.2rem;
+  padding: 2.2rem 0 2.2rem 0;
+  border-bottom: 3px solid #baab8f;
 }
 
 .title {
