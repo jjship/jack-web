@@ -1,12 +1,25 @@
-function myFunction(x) {
-  if (x.matches) {
+const changeClass = (mediaQuery) => {
+  if (mediaQuery.matches) {
     // If media query matches
     nav.classList.remove('closed');
   } else {
     nav.classList.add('closed');
   }
-}
+};
 
-var x = window.matchMedia('(min-width: 1000px)');
-myFunction(x); // Call listener function at run time
-x.addListener(myFunction); // Attach listener function on state changes
+const lights = document.querySelector('.bg_lights');
+
+const changePicture = (mediaQuery) => {
+  mediaQuery.matches
+    ? (lights.src = '/images/BG_lights_desktop_main.png')
+    : (lights.src = '/images/BG_lights.png');
+};
+
+var mediaQuery = window.matchMedia('(min-width: 1000px)');
+
+// Call listener function at run time
+changeClass(mediaQuery);
+changePicture(mediaQuery);
+
+// Attach listener function on state changes
+mediaQuery.addListener(changePicture);
