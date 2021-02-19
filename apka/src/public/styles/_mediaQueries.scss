@@ -1,7 +1,48 @@
 @media screen and (min-width: 1000px) {
   .background {
     width: 100vw;
+    height: 95vh;
     border: none;
+    padding: 0 12.5rem 0 12.5rem;
+    border: none;
+    .bg_lights {
+      display: inline-block;
+      position: absolute;
+      right: 50%;
+      margin-right: -871.5px;
+    }
+  }
+  .hero {
+    min-width: 800px;
+    max-width: 1400px;
+    height: 80vh;
+
+    .bottle_w_shadow {
+      left: 50%;
+      margin-left: -15.3rem;
+    }
+    .desk_flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15rem;
+    }
+    .statement_input_container {
+      width: 25rem;
+    }
+    .statement_input {
+      font-size: 1.5rem;
+      top: 0;
+      label {
+        left: 2.2rem;
+      }
+    }
+    button {
+      font-size: 1.5rem;
+    }
+    .cta {
+      width: 18rem;
+    }
   }
   nav {
     .toggle,
@@ -10,17 +51,20 @@
     }
     .navi {
       display: flex;
+      justify-content: space-between;
       max-width: 40rem;
       margin-left: auto;
       margin-right: auto;
-      justify-content: space-between;
       .navBtn {
+        font-size: 1rem;
         text-decoration: underline;
         border: none;
-        font-size: 1rem;
-        padding: 0;
         width: auto;
+        padding: 0;
       }
     }
+  }
+  .info {
+    font-size: 1rem;
   }
 }
