@@ -99,6 +99,12 @@
 
 .myriad {
   font-family: myriad-pro-condensed, sans-serif;
+  font-weight: 700;
+}
+
+.myriadPro {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
 }
 
 * {
@@ -114,6 +120,14 @@ body {
   color: #baab8f;
 }
 
+.goldenDark {
+  color: #b7ac92;
+}
+
+.orangePale {
+  color: #d67c1c;
+}
+
 @media screen and (min-width: 720px) {
   html {
     font-size: 16px;
@@ -125,214 +139,281 @@ body {
   text-transform: uppercase;
 }
 
-.main .dzis {
-  font-size: 5.75em;
+.copy .today .dzis {
+  font-size: 4.562em;
 }
 
-.main .zdarza_sie {
-  font-size: 2em;
+.copy .today .zdarza_sie {
+  font-size: 1.625em;
 }
 
-.main .tylko_raz {
-  font-size: 4.625em;
+.copy .today .tylko_raz {
+  font-size: 3.625em;
   left: 1.375rem;
 }
 
-.slogan .make_it {
+.copy .makeItCount .make_it {
   font-size: 2.3em;
   font-weight: 400;
   text-align: right;
 }
 
-.slogan .count {
+.copy .makeItCount .count {
   font-size: 3em;
   letter-spacing: -2px;
   text-align: center;
 }
 
+form {
+  font-size: 2.3125rem;
+}
+
+form textarea,
+form input {
+  font-size: 2.0625rem;
+}
+
+form input,
+form input::-webkit-input-placeholder,
+form textarea::-webkit-input-placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+form input,
+form input:-ms-input-placeholder,
+form textarea:-ms-input-placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+form input,
+form input::-ms-input-placeholder,
+form textarea::-ms-input-placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+form input,
+form input::placeholder,
+form textarea::placeholder {
+  text-transform: uppercase;
+  color: #b7ac92;
+}
+
+form .masz {
+  font-size: 1.3125rem;
+}
+
+form .buttons a {
+  text-decoration: none;
+}
+
+form .checkboxes {
+  font-size: 1.8125rem;
+}
+
 .info {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
   font-size: 1.8rem;
   text-align: center;
   text-transform: uppercase;
   color: #828282;
 }
 
-.odkryj {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.2rem;
-  text-align: right;
-  text-transform: uppercase;
-}
-
-.napisz {
-  overflow-wrap: break-word;
-  width: 427px;
-  height: 105px;
-  font-family: myriad-pro-condensed, sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: left;
-  text-transform: uppercase;
-  background: none;
-}
-
-.napisz :placeholder-shown {
-  color: white;
-  opacity: 1;
-}
-
 .about {
   font-size: 2.875rem;
 }
 
-body {
-  background-color: black;
+.disclaimer {
+  font-size: 1.8125rem;
+  color: #828282;
+  text-align: center;
+}
+
+.prizes_list {
+  text-align: center;
+}
+
+.prizes_list .money .qty {
+  font-size: 7.3125rem;
+}
+
+.prizes_list .money .qty .x {
+  font-size: 3.625rem;
+}
+
+.prizes_list .money .value {
+  font-size: 4rem;
+}
+
+.prizes_list .money .zl {
+  font-size: 1.8125rem;
+}
+
+.prizes_list .money .for {
+  font-size: 1.5rem;
+}
+
+.prizes_list .gift .qty {
+  font-size: 4.5625rem;
+}
+
+.prizes_list .gift .qty .x {
+  font-size: 2.25rem;
+}
+
+.prizes_list .gift .jack {
+  font-size: 4rem;
+}
+
+.prizes_list .gift .plus {
+  font-size: 1.8125rem;
+}
+
+.prizes_list .gift .instax,
+.prizes_list .gift .bluzy {
+  font-size: 3rem;
+}
+
+.background {
+  background: black;
+  width: 720px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 2px solid #baab8f;
+}
+
+.background img {
+  position: absolute;
 }
 
 .container {
-  position: relative;
   width: auto;
-  max-width: 720px;
+  max-width: 38.75rem;
   margin-right: auto;
   margin-left: auto;
 }
 
 .hero {
   position: relative;
-  max-height: 102rem;
+  top: 4.375rem;
+  height: 104rem;
 }
 
-.hero .bottle {
-  position: relative;
+.hero .bottle_w_shadow {
+  position: absolute;
+  top: 6.5625rem;
+  right: 0.275rem;
   z-index: 0;
-  width: 100%;
+  width: 24.625rem;
 }
 
 .hero .live {
   position: absolute;
-  right: 3.125rem;
-  top: 4.375rem;
+  right: 0;
 }
 
-.hero .text {
+.hero .copy {
   position: relative;
-  color: white;
+  top: 0.625rem;
 }
 
-.hero .main {
+.hero .copy .today {
   z-index: 1;
-  position: absolute;
-  top: 10rem;
-  left: 3.125rem;
 }
 
-.hero .main .dzis {
+.hero .copy .today .dzis {
   position: relative;
-  left: 0.875rem;
+  left: 0.6rem;
   margin: 0;
 }
 
-.hero .main .zdarza_sie {
+.hero .copy .today .zdarza_sie {
   position: relative;
-  top: -1.35rem;
+  top: -1.16rem;
   margin: 0;
 }
 
-.hero .main .tylko_raz {
+.hero .copy .today .tylko_raz {
   position: relative;
-  top: -0.5rem;
-  left: 1.2rem;
+  top: -0.6rem;
+  left: 1.3rem;
   margin: 0;
 }
 
-.hero .slogan {
-  position: absolute;
-  top: 24rem;
-  left: 7rem;
+.hero .makeItCount {
+  position: relative;
+  top: 2rem;
+  left: 3.3rem;
   max-width: 6.75rem;
 }
 
-.hero .slogan .small_logo {
+.hero .makeItCount .small_logo {
   position: relative;
   display: block;
   left: 50%;
   margin-left: -30.5px;
 }
 
-.hero .slogan .make_it {
+.hero .makeItCount .make_it {
   position: relative;
   top: 0.7rem;
   margin: 0;
   min-width: 6.75rem;
 }
 
-.hero .slogan .count {
+.hero .makeItCount .count {
   position: relative;
   top: 1rem;
   margin: 0;
   min-width: 6.75rem;
 }
 
-.hero .info {
-  position: absolute;
-  top: 83.5rem;
+.hero .statement_input {
+  position: relative;
+  top: 29.5rem;
   width: 100%;
 }
 
-.hero .logo {
+.hero .statement_input textarea {
+  margin-top: 0.5rem;
+  padding: 1rem 1rem 2.5rem 1rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 3px solid #828282;
+}
+
+.hero .statement_input textarea[required]:invalid + .placeholder {
+  display: inline-block;
+}
+
+.hero .statement_input textarea[required]:valid + .placeholder {
+  display: none;
+}
+
+.hero .statement_input label {
+  position: relative;
+  left: 1.2rem;
+}
+
+.hero .statement_input .placeholder {
   position: absolute;
-  top: 93.875rem;
-  display: block;
+  bottom: 7.4rem;
+}
+
+.hero .statement_input button {
+  position: relative;
+  top: 2rem;
   left: 50%;
-  margin-left: -112px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
-.hero .scroll {
-  position: absolute;
-  top: 54rem;
-  width: 100%;
-}
-
-.hero .scroll .odkryj {
+.hero .info {
   position: relative;
-  top: 5rem;
-  left: 4rem;
-  width: 207px;
-  height: 68px;
-}
-
-.hero .main_input {
-  position: absolute;
-  bottom: 22rem;
-  width: 100%;
-}
-
-.hero .main_input .outline {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero .main_input .napisz {
-  position: relative;
-  top: 1.5rem;
-  left: 1.5rem;
-}
-
-.contact {
-  max-height: 123.05rem;
-  height: 123.05rem;
-}
-
-.contact .info {
-  padding-top: 3rem;
+  top: 44rem;
 }
 
 .logo_bottom {
@@ -355,61 +436,447 @@ body {
   border-bottom: 3px solid #baab8f;
 }
 
+.form_exp {
+  position: relative;
+  top: 3.125rem;
+  height: 120rem;
+}
+
+.form_exp .close {
+  position: relative;
+  margin-left: 37.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.form_exp .copy {
+  position: relative;
+  top: 1rem;
+  left: 13rem;
+}
+
+.form_exp .copy .today {
+  z-index: 1;
+}
+
+.form_exp .copy .today .dzis {
+  position: relative;
+  left: 0.6rem;
+  margin: 0;
+}
+
+.form_exp .copy .today .zdarza_sie {
+  position: relative;
+  top: -1.16rem;
+  margin: 0;
+}
+
+.form_exp .copy .today .tylko_raz {
+  position: relative;
+  top: -0.6rem;
+  left: 1.3rem;
+  margin: 0;
+}
+
+.form_exp .statement_input_exp {
+  position: relative;
+  top: 2.5rem;
+  width: 100%;
+}
+
+.form_exp .statement_input_exp textarea {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem 2.5rem 2rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 3px solid #828282;
+}
+
+.form_exp .statement_input_exp .placeholder {
+  position: absolute;
+  left: 2.2rem;
+  top: 8.5rem;
+}
+
+.form_exp .statement_input_exp textarea[required]:invalid + .placeholder {
+  display: inline-block;
+}
+
+.form_exp .statement_input_exp textarea[required]:valid + .placeholder {
+  display: none;
+}
+
+.form_exp .statement_input_exp .napisz {
+  position: relative;
+  left: 2.2rem;
+}
+
+.form_exp .statement_input_exp .masz {
+  position: relative;
+  top: 1.7rem;
+  left: 3.9rem;
+}
+
+.form_exp .statement_input_exp input {
+  padding: 1rem 2rem 1rem 2rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #828282;
+}
+
+.form_exp .statement_input_exp .imie {
+  margin-top: 4.5rem;
+}
+
+.form_exp .statement_input_exp .email {
+  margin-top: 3.5rem;
+}
+
+.form_exp .statement_input_exp .cta {
+  width: 28.5rem;
+}
+
+.form_exp .statement_input_exp .buttons {
+  margin-left: 2.1rem;
+  height: 4rem;
+  margin-top: 4rem;
+}
+
+.form_exp .statement_input_exp .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form_exp .statement_input_exp .checkboxes {
+  margin-top: 9rem;
+}
+
+.form_exp .statement_input_exp .checkboxes .group {
+  display: block;
+  position: relative;
+  width: 28rem;
+  height: 6.375rem;
+  padding-left: 2.5rem;
+  cursor: pointer;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* When the checkbox is checked, add an orange background */
+}
+
+.form_exp .statement_input_exp .checkboxes .group input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.form_exp .statement_input_exp .checkboxes .group .checkmark {
+  position: absolute;
+  top: 0.6rem;
+  left: 0;
+  height: 1.25rem;
+  width: 1.25rem;
+  border: 2px solid #baab8f;
+}
+
+.form_exp .statement_input_exp .checkboxes .group input:checked ~ .checkmark {
+  background-color: #d67c1c;
+}
+
+.form_exp .statement_input_exp .checkboxes .bottle {
+  right: 0;
+  bottom: -4rem;
+}
+
+.form_exp .info {
+  position: relative;
+  top: 9rem;
+}
+
+.contact {
+  position: relative;
+  top: 3.125rem;
+  height: 120rem;
+}
+
+.contact .close {
+  position: relative;
+  margin-left: 37.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact .contact_form {
+  position: relative;
+  top: 2.5rem;
+  width: 100%;
+}
+
+.contact .contact_form input {
+  padding: 1rem 2rem 1rem 2rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #828282;
+}
+
+.contact .contact_form textarea {
+  margin-top: 4rem;
+  padding: 1rem 2rem 2.5rem 2rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 3px solid #828282;
+}
+
+.contact .contact_form .imie {
+  margin-top: 4rem;
+}
+
+.contact .contact_form .email {
+  margin-top: 4rem;
+}
+
+.contact .contact_form .buttons {
+  margin-left: 2.1rem;
+  height: 4rem;
+  margin-top: 5rem;
+}
+
+.contact .contact_form .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .disclaimer {
+  margin-top: 8rem;
+}
+
+.bg_lights_centered {
+  top: 6rem;
+}
+
+.prizes {
+  position: relative;
+  top: 3.125rem;
+  height: 120rem;
+}
+
+.prizes img {
+  position: relative;
+}
+
+.prizes .close {
+  position: relative;
+  margin-left: 37.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.prizes .prizes_list {
+  position: relative;
+  top: 2.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prizes .prizes_list .prize {
+  width: 17.5rem;
+}
+
+.prizes .prizes_list .prize .visualisation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  z-index: 1;
+}
+
+.prizes .prizes_list p {
+  margin: 0;
+}
+
+.prizes .prizes_list .money .zl {
+  position: relative;
+  left: 3.4rem;
+  bottom: 0.5rem;
+}
+
+.prizes .prizes_list .money .shadow {
+  position: absolute;
+  z-index: 0;
+}
+
+.prizes .prizes_list .money.seven .shadow {
+  top: 32.3rem;
+  left: 6.5rem;
+}
+
+.prizes .prizes_list .money.three .shadow {
+  top: 31rem;
+  right: -0.6rem;
+}
+
+.prizes .prizes_list .gift p {
+  position: relative;
+}
+
+.prizes .prizes_list .gift.instax .qty {
+  right: 2.5rem;
+}
+
+.prizes .prizes_list .gift.instax .jack {
+  right: 0.3rem;
+}
+
+.prizes .prizes_list .gift.instax .plus {
+  left: 2.4rem;
+  bottom: 0.4rem;
+}
+
+.prizes .prizes_list .gift.instax .instax {
+  bottom: 0.7rem;
+  left: 0.7rem;
+}
+
+.prizes .prizes_list .gift.instax .visualisation {
+  margin-top: 3rem;
+}
+
+.prizes .prizes_list .gift.bluzy .qty {
+  right: 1.5rem;
+}
+
+.prizes .prizes_list .gift.bluzy .bluzy {
+  right: 1rem;
+}
+
+.prizes .prizes_list .gift.bluzy .jack {
+  left: 2.2rem;
+  bottom: 0.3rem;
+}
+
+.prizes .prizes_list .gift.bluzy .visualisation {
+  margin-top: 4rem;
+}
+
+.prizes .close_container {
+  width: 100%;
+  text-align: center;
+}
+
+.prizes .close_container .btn {
+  position: relative;
+  top: 6.5rem;
+  font-size: 2.3125rem;
+  text-decoration: none;
+}
+
+.prizes .info {
+  top: 7rem;
+}
+
 button {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.3125rem;
+}
+
+.cta {
+  border: none;
+  background-color: #ee731d;
+  color: black;
+  padding: 0.5rem;
+  width: 28.56rem;
+}
+
+.btn {
+  background: none;
+  border: 2px solid white;
+  padding: 0.5rem 3rem;
+}
+
+nav {
+  position: relative;
+}
+
+nav .arrow {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  right: 16rem;
+  top: 2rem;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+nav .down {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+  top: 0.5rem;
+  right: 16.5rem;
+}
+
+nav .navBtn {
+  display: block;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: center;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2.2rem;
+  padding: 2.2rem 0 2.2rem 0;
+  border-bottom: 3px solid #baab8f;
 }
 
 .title {
   font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
-  font-size: 75px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
+  font-size: 4.6875rem;
   text-align: center;
-  text-transform: uppercase;
-  padding: 14rem 0 14rem 0;
+  padding-bottom: 2rem;
   margin: 0;
 }
 
-.main_input .outline {
-  width: 585px;
-  height: 159px;
-  border-radius: 30px 30px 0 0;
-  border: 2px solid #959595;
-  background-color: #000000;
-  opacity: 0.82;
-}
-
-.input_outline {
-  width: 39rem;
-  border-radius: 1rem;
-  border: 2px solid #959595;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 3.5rem;
-}
-
-.multiline {
-  height: 25rem;
-}
-
-.placeholder {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 3.125rem;
-  text-align: left;
-  text-transform: uppercase;
+.info {
   position: relative;
-  left: 3rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin: 0;
-  max-width: 30rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  width: 100%;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -429,29 +896,93 @@ button {
   border-bottom: 3px solid #baab8f;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active {
-  color: white;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.expanded {
-  display: block;
+.navi {
   overflow: hidden;
-  opacity: 1;
-  -webkit-transition: visibility 0s ease, max-height 1s ease, opacity 1s ease;
-  transition: visibility 0s ease, max-height 1s ease, opacity 1s ease;
-  visibility: visible;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+  height: auto;
+  max-height: 44.4rem;
 }
 
-.collapsed {
-  display: block;
+.closed {
   max-height: 0;
-  opacity: 0;
-  -webkit-transition: max-height 1s ease 0.5s, opacity 1s ease, visibility 0s ease 1s;
-  transition: max-height 1s ease 0.5s, opacity 1s ease, visibility 0s ease 1s;
-  visibility: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+  .background {
+    width: 100vw;
+    height: 95vh;
+    border: none;
+    padding: 0 12.5rem 0 12.5rem;
+    border: none;
+  }
+  .background .bg_lights {
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    margin-right: -871.5px;
+  }
+  .hero {
+    min-width: 800px;
+    max-width: 1400px;
+    height: 80vh;
+  }
+  .hero .bottle_w_shadow {
+    left: 50%;
+    margin-left: -15.3rem;
+  }
+  .hero .desk_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15rem;
+  }
+  .hero .statement_input_container {
+    width: 25rem;
+  }
+  .hero .statement_input {
+    font-size: 1.5rem;
+    top: 0;
+  }
+  .hero .statement_input label {
+    left: 2.2rem;
+  }
+  .hero button {
+    font-size: 1.5rem;
+  }
+  .hero .cta {
+    width: 18rem;
+  }
+  nav .toggle,
+  nav .arrow {
+    display: none;
+  }
+  nav .navi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav .navi .navBtn {
+    font-size: 1rem;
+    text-decoration: underline;
+    border: none;
+    width: auto;
+    padding: 0;
+  }
+  .info {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

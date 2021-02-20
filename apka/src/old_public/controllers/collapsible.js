@@ -1,21 +1,16 @@
-var coll = document.getElementsByClassName('collapsible');
-var i;
+const togg = document.getElementById('toggle');
+const nav = document.getElementById('navi');
+const arr = document.getElementById('arrow');
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener('click', function () {
-    if ('mniej' == this.innerHTML) {
-      this.innerHTML = this.getAttribute('data-text');
-      this.classList.remove('active');
-      this.classList.add('golden');
-    } else {
-      this.setAttribute('data-text', this.innerHTML);
-      this.innerHTML = 'mniej';
-      this.classList.remove('golden');
-      this.classList.add('active');
-    }
+togg.addEventListener('click', () => {
+  if ('mniej' == togg.innerHTML) {
+    togg.innerHTML = togg.getAttribute('data-text');
+    arr.classList.toggle('down');
+  } else {
+    togg.setAttribute('data-text', togg.innerHTML);
+    togg.innerHTML = 'mniej';
+    arr.classList.toggle('down');
+  }
 
-    var content = this.previousElementSibling;
-    content.classList.toggle('expanded');
-    content.classList.toggle('collapsed');
-  });
-}
+  nav.classList.toggle('closed');
+});

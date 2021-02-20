@@ -1,0 +1,117 @@
+.bg_lights_centered {
+  top: 6rem;
+}
+
+.prizes {
+  position: relative;
+  top: 3.125rem;
+  height: 120rem;
+  img {
+    position: relative;
+  }
+  .close {
+    position: relative;
+    margin-left: 37.2rem;
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .prizes_list {
+    position: relative;
+    top: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .prize {
+      width: 17.5rem;
+      .visualisation {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        z-index: 1;
+      }
+    }
+    p {
+      margin: 0;
+    }
+    .money {
+      .zl {
+        position: relative;
+        left: 3.4rem;
+        bottom: 0.5rem;
+      }
+      .shadow {
+        position: absolute;
+        z-index: 0;
+      }
+      &.seven {
+        .shadow {
+          top: 32.3rem;
+          left: 6.5rem;
+        }
+      }
+      &.three {
+        .shadow {
+          top: 31rem;
+          right: -0.6rem;
+        }
+      }
+    }
+
+    .gift {
+      p {
+        position: relative;
+      }
+      &.instax {
+        .qty {
+          right: 2.5rem;
+        }
+        .jack {
+          right: 0.3rem;
+        }
+        .plus {
+          left: 2.4rem;
+          bottom: 0.4rem;
+        }
+        .instax {
+          bottom: 0.7rem;
+          left: 0.7rem;
+        }
+        .visualisation {
+          margin-top: 3rem;
+        }
+      }
+      &.bluzy {
+        .qty {
+          right: 1.5rem;
+        }
+        .bluzy {
+          right: 1rem;
+        }
+        .jack {
+          left: 2.2rem;
+          bottom: 0.3rem;
+        }
+        .visualisation {
+          margin-top: 4rem;
+        }
+      }
+    }
+  }
+  .close_container {
+    width: 100%;
+    text-align: center;
+    .btn {
+      position: relative;
+      top: 6.5rem;
+      font-size: 2.3125rem;
+      text-decoration: none;
+    }
+  }
+  .info {
+    top: 7rem;
+  }
+}

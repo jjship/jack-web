@@ -3,73 +3,114 @@
   text-transform: uppercase;
 }
 
-.main {
-  .dzis {
-    font-size: 5.75em;
+.copy {
+  .today {
+    .dzis {
+      font-size: 4.562em;
+    }
+
+    .zdarza_sie {
+      font-size: 1.625em;
+    }
+
+    .tylko_raz {
+      font-size: 3.625em;
+      left: 1.375rem;
+    }
   }
 
-  .zdarza_sie {
-    font-size: 2em;
-  }
+  .makeItCount {
+    .make_it {
+      font-size: 2.3em;
+      font-weight: 400;
+      text-align: right;
+    }
 
-  .tylko_raz {
-    font-size: 4.625em;
-    left: 1.375rem;
+    .count {
+      font-size: 3em;
+      letter-spacing: -2px;
+      text-align: center;
+    }
   }
 }
 
-.slogan {
-  .make_it {
-    font-size: 2.3em;
-    font-weight: 400;
-    text-align: right;
+form {
+  font-size: 2.3125rem;
+  textarea,
+  input {
+    font-size: 2.0625rem;
   }
-
-  .count {
-    font-size: 3em;
-    letter-spacing: -2px;
-    text-align: center;
+  input,
+  input::placeholder,
+  textarea::placeholder {
+    text-transform: uppercase;
+    color: $goldenDark;
+  }
+  .masz {
+    font-size: 1.3125rem;
+  }
+  .buttons {
+    a {
+      text-decoration: none;
+    }
+  }
+  .checkboxes {
+    font-size: 1.8125rem;
   }
 }
 
 .info {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
   font-size: 1.8rem;
   text-align: center;
   text-transform: uppercase;
   color: $darkGrey;
 }
 
-.odkryj {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.2rem;
-  text-align: right;
-  text-transform: uppercase;
-}
-
-.napisz {
-  overflow-wrap: break-word;
-  width: 427px;
-  height: 105px;
-  font-family: myriad-pro-condensed, sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: left;
-  text-transform: uppercase;
-  background: none;
-  :placeholder-shown {
-    color: white;
-    opacity: 1;
-  }
-}
-
 .about {
   font-size: 2.875rem;
+}
+
+.disclaimer {
+  font-size: 1.8125rem;
+  color: $darkGrey;
+  text-align: center;
+}
+
+.prizes_list {
+  text-align: center;
+  .money {
+    .qty {
+      font-size: 7.3125rem;
+      .x {
+        font-size: 3.625rem;
+      }
+    }
+    .value {
+      font-size: 4rem;
+    }
+    .zl {
+      font-size: 1.8125rem;
+    }
+    .for {
+      font-size: 1.5rem;
+    }
+  }
+  .gift {
+    .qty {
+      font-size: 4.5625rem;
+      .x {
+        font-size: 2.25rem;
+      }
+    }
+    .jack {
+      font-size: 4rem;
+    }
+    .plus {
+      font-size: 1.8125rem;
+    }
+    .instax,
+    .bluzy {
+      font-size: 3rem;
+    }
+  }
 }

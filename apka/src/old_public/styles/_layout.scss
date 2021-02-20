@@ -1,65 +1,48 @@
-body {
-  background-color: black;
+.background {
+  background: black;
+  width: 720px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 2px solid $golden;
+  img {
+    position: absolute;
+  }
 }
 
 .container {
-  position: relative;
   width: auto;
-  max-width: 720px;
+  max-width: 38.75rem; //620px at 16px base
   margin-right: auto;
   margin-left: auto;
 }
 
 .hero {
   position: relative;
+  top: 4.375rem;
   // needed for collapsible
-  max-height: 102rem;
-  .bottle {
-    position: relative;
+  height: 104rem;
+  .bottle_w_shadow {
+    position: absolute;
+    top: 6.5625rem;
+    right: 0.275rem;
     z-index: 0;
-    width: 100%;
+    width: 24.625rem;
   }
 
   .live {
     position: absolute;
-    right: 3.125rem;
-    top: 4.375rem;
+    right: 0;
   }
 
-  .text {
+  .copy {
+    @include today(0.625rem);
+  }
+
+  .makeItCount {
     position: relative;
-    color: white;
-  }
-
-  .main {
-    z-index: 1;
-    position: absolute;
-    top: 10rem;
-    left: 3.125rem;
-    .dzis {
-      position: relative;
-      left: 0.875rem;
-      margin: 0;
-    }
-
-    .zdarza_sie {
-      position: relative;
-      top: -1.35rem;
-      margin: 0;
-    }
-
-    .tylko_raz {
-      position: relative;
-      top: -0.5rem;
-      left: 1.2rem;
-      margin: 0;
-    }
-  }
-
-  .slogan {
-    position: absolute;
-    top: 24rem;
-    left: 7rem;
+    top: 2rem;
+    left: 3.3rem;
     max-width: 6.75rem;
 
     .small_logo {
@@ -84,54 +67,42 @@ body {
     }
   }
 
-  .info {
-    position: absolute;
-    top: 83.5rem;
+  .statement_input {
+    position: relative;
+    top: 29.5rem;
     width: 100%;
-  }
-
-  .logo {
-    position: absolute;
-    top: 93.875rem;
-    display: block;
-    left: 50%;
-    margin-left: -112px;
-  }
-
-  .scroll {
-    position: absolute;
-    top: 54rem;
-    width: 100%;
-    .odkryj {
+    textarea {
+      margin-top: 0.5rem;
+      padding: 1rem 1rem 2.5rem 1rem;
+      width: 100%;
+      background: black;
+      border-radius: 0.5rem;
+      border: 3px solid $darkGrey;
+    }
+    textarea[required]:invalid + .placeholder {
+      display: inline-block;
+    }
+    textarea[required]:valid + .placeholder {
+      display: none;
+    }
+    label {
       position: relative;
-      top: 5rem;
-      left: 4rem;
-      width: 207px;
-      height: 68px;
+      left: 1.2rem;
     }
-  }
-
-  .main_input {
-    position: absolute;
-    bottom: 22rem;
-    width: 100%;
-    .outline {
-      margin-left: auto;
-      margin-right: auto;
+    .placeholder {
+      position: absolute;
+      bottom: 7.4rem;
     }
-    .napisz {
+    button {
       position: relative;
-      top: 1.5rem;
-      left: 1.5rem;
+      top: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
-}
-
-.contact {
-  max-height: 123.05rem;
-  height: 123.05rem;
   .info {
-    padding-top: 3rem;
+    position: relative;
+    top: 44rem;
   }
 }
 
