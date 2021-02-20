@@ -1,988 +1,112 @@
-@font-face {
-  font-family: "FranklinGothic-Book";
-  src: url("/styles/fonts/FranklinGothic-Book.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgBook {
-  font-family: 'FranklinGothic-Book', 'Arial', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-BookItalic";
-  src: url("/styles/fonts/FranklinGothic-BookItalic.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-BookItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgBookI {
-  font-family: 'FranklinGothic-BookItalic', 'Arial Italic', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-Demi";
-  src: url("/styles/fonts/FranklinGothic-Demi.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Demi.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgDemi {
-  font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-DemiItalic";
-  src: url("/styles/fonts/FranklinGothic-DemiItalic.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-DemiItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgDemiI {
-  font-family: 'FranklinGothic-DemiItalic', 'Arial italic', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-Heavy";
-  src: url("/styles/fonts/FranklinGothic-Heavy.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Heavy.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgHeavy {
-  font-family: 'FranklinGothic-Heavy', 'Arial Black', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-HeavyItalic";
-  src: url("/styles/fonts/FranklinGothic-HeavyItalic.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-HeavyItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgHeavyI {
-  font-family: 'FranklinGothic-HeavyItalic', 'Arial Black Italic', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-Medium";
-  src: url("/styles/fonts/FranklinGothic-Medium.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Medium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgMedium {
-  font-family: 'FranklinGothic-Medium', 'Arial Black', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "JasperPlCaps";
-  src: url("/styles/fonts/JasperPlCaps.woff2") format("woff2"), url("/styles/fonts/JasperPlCaps.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.jasper {
-  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "MotlowPl";
-  src: url("/styles/fonts/MotlowPl.woff2") format("woff2"), url("/styles/fonts/MotlowPl.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.motlow {
-  font-family: 'MotlowPl', 'Arial Black', Arial, sans-serif;
-}
-
-.myriad {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-}
-
-.myriadPro {
-  font-family: myriad-pro, sans-serif;
-  font-weight: 300;
-}
-
-* {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
 body {
-  margin: 0;
+  line-height: 1;
 }
 
-.golden {
-  color: #baab8f;
+ol,
+ul {
+  list-style: none;
 }
 
-.goldenDark {
-  color: #b7ac92;
+blockquote,
+q {
+  quotes: none;
 }
 
-.orangePale {
-  color: #d67c1c;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 
-@media screen and (min-width: 720px) {
-  html {
-    font-size: 16px;
-  }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.text {
-  color: white;
-  text-transform: uppercase;
-}
-
-.copy .today .dzis {
-  font-size: 4.562em;
-}
-
-.copy .today .zdarza_sie {
-  font-size: 1.625em;
-}
-
-.copy .today .tylko_raz {
-  font-size: 3.625em;
-  left: 1.375rem;
-}
-
-.copy .makeItCount .make_it {
-  font-size: 2.3em;
-  font-weight: 400;
-  text-align: right;
-}
-
-.copy .makeItCount .count {
-  font-size: 3em;
-  letter-spacing: -2px;
-  text-align: center;
-}
-
-form {
-  font-size: 2.3125rem;
-}
-
-form textarea,
-form input {
-  font-size: 2.0625rem;
-}
-
-form input,
-form input::-webkit-input-placeholder,
-form textarea::-webkit-input-placeholder {
-  text-transform: uppercase;
-  color: #b7ac92;
-}
-
-form input,
-form input:-ms-input-placeholder,
-form textarea:-ms-input-placeholder {
-  text-transform: uppercase;
-  color: #b7ac92;
-}
-
-form input,
-form input::-ms-input-placeholder,
-form textarea::-ms-input-placeholder {
-  text-transform: uppercase;
-  color: #b7ac92;
-}
-
-form input,
-form input::placeholder,
-form textarea::placeholder {
-  text-transform: uppercase;
-  color: #b7ac92;
-}
-
-form .masz {
-  font-size: 1.3125rem;
-}
-
-form .buttons a {
-  text-decoration: none;
-}
-
-form .checkboxes {
-  font-size: 1.8125rem;
-}
-
-.info {
-  font-size: 1.8rem;
-  text-align: center;
-  text-transform: uppercase;
-  color: #828282;
-}
-
-.about {
-  font-size: 2.875rem;
-}
-
-.disclaimer {
-  font-size: 1.8125rem;
-  color: #828282;
-  text-align: center;
-}
-
-.prizes_list {
-  text-align: center;
-}
-
-.prizes_list .money .qty {
-  font-size: 7.3125rem;
-}
-
-.prizes_list .money .qty .x {
-  font-size: 3.625rem;
-}
-
-.prizes_list .money .value {
-  font-size: 4rem;
-}
-
-.prizes_list .money .zl {
-  font-size: 1.8125rem;
-}
-
-.prizes_list .money .for {
-  font-size: 1.5rem;
-}
-
-.prizes_list .gift .qty {
-  font-size: 4.5625rem;
-}
-
-.prizes_list .gift .qty .x {
-  font-size: 2.25rem;
-}
-
-.prizes_list .gift .jack {
-  font-size: 4rem;
-}
-
-.prizes_list .gift .plus {
-  font-size: 1.8125rem;
-}
-
-.prizes_list .gift .instax,
-.prizes_list .gift .bluzy {
-  font-size: 3rem;
-}
-
-.background {
-  background: black;
-  width: 720px;
-  margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
-  border-bottom: 2px solid #baab8f;
-}
-
-.background img {
-  position: absolute;
-}
-
-.container {
-  width: auto;
-  max-width: 38.75rem;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.hero {
-  position: relative;
-  top: 4.375rem;
-  height: 104rem;
-}
-
-.hero .bottle_w_shadow {
-  position: absolute;
-  top: 6.5625rem;
-  right: 0.275rem;
-  z-index: 0;
-  width: 24.625rem;
-}
-
-.hero .live {
-  position: absolute;
-  right: 0;
-}
-
-.hero .copy {
-  position: relative;
-  top: 0.625rem;
-}
-
-.hero .copy .today {
-  z-index: 1;
-}
-
-.hero .copy .today .dzis {
-  position: relative;
-  left: 0.6rem;
-  margin: 0;
-}
-
-.hero .copy .today .zdarza_sie {
-  position: relative;
-  top: -1.16rem;
-  margin: 0;
-}
-
-.hero .copy .today .tylko_raz {
-  position: relative;
-  top: -0.6rem;
-  left: 1.3rem;
-  margin: 0;
-}
-
-.hero .makeItCount {
-  position: relative;
-  top: 2rem;
-  left: 3.3rem;
-  max-width: 6.75rem;
-}
-
-.hero .makeItCount .small_logo {
-  position: relative;
-  display: block;
-  left: 50%;
-  margin-left: -30.5px;
-}
-
-.hero .makeItCount .make_it {
-  position: relative;
-  top: 0.7rem;
-  margin: 0;
-  min-width: 6.75rem;
-}
-
-.hero .makeItCount .count {
-  position: relative;
-  top: 1rem;
-  margin: 0;
-  min-width: 6.75rem;
-}
-
-.hero .statement_input {
-  position: relative;
-  top: 29.5rem;
-  width: 100%;
-}
-
-.hero .statement_input textarea {
-  margin-top: 0.5rem;
-  padding: 1rem 1rem 2.5rem 1rem;
-  width: 100%;
-  background: black;
-  border-radius: 0.5rem;
-  border: 3px solid #828282;
-}
-
-.hero .statement_input textarea[required]:invalid + .placeholder {
-  display: inline-block;
-}
-
-.hero .statement_input textarea[required]:valid + .placeholder {
-  display: none;
-}
-
-.hero .statement_input label {
-  position: relative;
-  left: 1.2rem;
-}
-
-.hero .statement_input .placeholder {
-  position: absolute;
-  bottom: 7.4rem;
-}
-
-.hero .statement_input button {
-  position: relative;
-  top: 2rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
-.hero .info {
-  position: relative;
-  top: 44rem;
-}
-
-.logo_bottom {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-}
-
-.socials {
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 4.7rem 0 4.7rem 0;
-}
-
-.content {
-  border-bottom: 3px solid #baab8f;
-}
-
-.form_exp {
-  position: relative;
-  top: 3.125rem;
-  height: 120rem;
-}
-
-.form_exp .close {
-  position: relative;
-  margin-left: 37.2rem;
-  font-size: 2rem;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.form_exp .copy {
-  position: relative;
-  top: 1rem;
-  left: 13rem;
-}
-
-.form_exp .copy .today {
-  z-index: 1;
-}
-
-.form_exp .copy .today .dzis {
-  position: relative;
-  left: 0.6rem;
-  margin: 0;
-}
-
-.form_exp .copy .today .zdarza_sie {
-  position: relative;
-  top: -1.16rem;
-  margin: 0;
-}
-
-.form_exp .copy .today .tylko_raz {
-  position: relative;
-  top: -0.6rem;
-  left: 1.3rem;
-  margin: 0;
-}
-
-.form_exp .statement_input_exp {
-  position: relative;
-  top: 2.5rem;
-  width: 100%;
-}
-
-.form_exp .statement_input_exp textarea {
-  margin-top: 1.5rem;
-  padding: 1rem 2rem 2.5rem 2rem;
-  width: 100%;
-  background: black;
-  border-radius: 0.5rem;
-  border: 3px solid #828282;
-}
-
-.form_exp .statement_input_exp .placeholder {
-  position: absolute;
-  left: 2.2rem;
-  top: 8.5rem;
-}
-
-.form_exp .statement_input_exp textarea[required]:invalid + .placeholder {
-  display: inline-block;
-}
-
-.form_exp .statement_input_exp textarea[required]:valid + .placeholder {
-  display: none;
-}
-
-.form_exp .statement_input_exp .napisz {
-  position: relative;
-  left: 2.2rem;
-}
-
-.form_exp .statement_input_exp .masz {
-  position: relative;
-  top: 1.7rem;
-  left: 3.9rem;
-}
-
-.form_exp .statement_input_exp input {
-  padding: 1rem 2rem 1rem 2rem;
-  width: 100%;
-  background: black;
-  border-radius: 0.5rem;
-  border: 2px solid #828282;
-}
-
-.form_exp .statement_input_exp .imie {
-  margin-top: 4.5rem;
-}
-
-.form_exp .statement_input_exp .email {
-  margin-top: 3.5rem;
-}
-
-.form_exp .statement_input_exp .cta {
-  width: 28.5rem;
-}
-
-.form_exp .statement_input_exp .buttons {
-  margin-left: 2.1rem;
-  height: 4rem;
-  margin-top: 4rem;
-}
-
-.form_exp .statement_input_exp .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.form_exp .statement_input_exp .checkboxes {
-  margin-top: 9rem;
-}
-
-.form_exp .statement_input_exp .checkboxes .group {
-  display: block;
-  position: relative;
-  width: 28rem;
-  height: 6.375rem;
-  padding-left: 2.5rem;
-  cursor: pointer;
-  /* Hide the browser's default checkbox */
-  /* Create a custom checkbox */
-  /* When the checkbox is checked, add an orange background */
-}
-
-.form_exp .statement_input_exp .checkboxes .group input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.form_exp .statement_input_exp .checkboxes .group .checkmark {
-  position: absolute;
-  top: 0.6rem;
-  left: 0;
-  height: 1.25rem;
-  width: 1.25rem;
-  border: 2px solid #baab8f;
-}
-
-.form_exp .statement_input_exp .checkboxes .group input:checked ~ .checkmark {
-  background-color: #d67c1c;
-}
-
-.form_exp .statement_input_exp .checkboxes .bottle {
-  right: 0;
-  bottom: -4rem;
-}
-
-.form_exp .info {
-  position: relative;
-  top: 9rem;
-}
-
-.contact {
-  position: relative;
-  top: 3.125rem;
-  height: 120rem;
-}
-
-.contact .close {
-  position: relative;
-  margin-left: 37.2rem;
-  font-size: 2rem;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.contact .contact_form {
-  position: relative;
-  top: 2.5rem;
-  width: 100%;
-}
-
-.contact .contact_form input {
-  padding: 1rem 2rem 1rem 2rem;
-  width: 100%;
-  background: black;
-  border-radius: 0.5rem;
-  border: 2px solid #828282;
-}
-
-.contact .contact_form textarea {
-  margin-top: 4rem;
-  padding: 1rem 2rem 2.5rem 2rem;
-  width: 100%;
-  background: black;
-  border-radius: 0.5rem;
-  border: 3px solid #828282;
-}
-
-.contact .contact_form .imie {
-  margin-top: 4rem;
-}
-
-.contact .contact_form .email {
-  margin-top: 4rem;
-}
-
-.contact .contact_form .buttons {
-  margin-left: 2.1rem;
-  height: 4rem;
-  margin-top: 5rem;
-}
-
-.contact .contact_form .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contact .disclaimer {
-  margin-top: 8rem;
-}
-
-.bg_lights_centered {
-  top: 6rem;
-}
-
-.prizes {
-  position: relative;
-  top: 3.125rem;
-  height: 120rem;
-}
-
-.prizes img {
-  position: relative;
-}
-
-.prizes .close {
-  position: relative;
-  margin-left: 37.2rem;
-  font-size: 2rem;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.prizes .prizes_list {
-  position: relative;
-  top: 2.5rem;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.prizes .prizes_list .prize {
-  width: 17.5rem;
-}
-
-.prizes .prizes_list .prize .visualisation {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  z-index: 1;
-}
-
-.prizes .prizes_list p {
-  margin: 0;
-}
-
-.prizes .prizes_list .money .zl {
-  position: relative;
-  left: 3.4rem;
-  bottom: 0.5rem;
-}
-
-.prizes .prizes_list .money .shadow {
-  position: absolute;
-  z-index: 0;
-}
-
-.prizes .prizes_list .money.seven .shadow {
-  top: 32.3rem;
-  left: 6.5rem;
-}
-
-.prizes .prizes_list .money.three .shadow {
-  top: 31rem;
-  right: -0.6rem;
-}
-
-.prizes .prizes_list .gift p {
-  position: relative;
-}
-
-.prizes .prizes_list .gift.instax .qty {
-  right: 2.5rem;
-}
-
-.prizes .prizes_list .gift.instax .jack {
-  right: 0.3rem;
-}
-
-.prizes .prizes_list .gift.instax .plus {
-  left: 2.4rem;
-  bottom: 0.4rem;
-}
-
-.prizes .prizes_list .gift.instax .instax {
-  bottom: 0.7rem;
-  left: 0.7rem;
-}
-
-.prizes .prizes_list .gift.instax .visualisation {
-  margin-top: 3rem;
-}
-
-.prizes .prizes_list .gift.bluzy .qty {
-  right: 1.5rem;
-}
-
-.prizes .prizes_list .gift.bluzy .bluzy {
-  right: 1rem;
-}
-
-.prizes .prizes_list .gift.bluzy .jack {
-  left: 2.2rem;
-  bottom: 0.3rem;
-}
-
-.prizes .prizes_list .gift.bluzy .visualisation {
-  margin-top: 4rem;
-}
-
-.prizes .close_container {
-  width: 100%;
-  text-align: center;
-}
-
-.prizes .close_container .btn {
-  position: relative;
-  top: 6.5rem;
-  font-size: 2.3125rem;
-  text-decoration: none;
-}
-
-.prizes .info {
-  top: 7rem;
-}
-
-button {
-  position: relative;
-  cursor: pointer;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 2.3125rem;
-}
-
-.cta {
-  border: none;
-  background-color: #ee731d;
-  color: black;
-  padding: 0.5rem;
-  width: 28.56rem;
-}
-
-.btn {
-  background: none;
-  border: 2px solid white;
-  padding: 0.5rem 3rem;
-}
-
-nav {
-  position: relative;
-}
-
-nav .arrow {
-  display: inline-block;
-  color: white;
-  position: absolute;
-  right: 16rem;
-  top: 2rem;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-nav .down {
-  -webkit-transform: rotate(315deg);
-          transform: rotate(315deg);
-  top: 0.5rem;
-  right: 16.5rem;
-}
-
-nav .navBtn {
-  display: block;
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  background: none;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 2.2rem;
-  padding: 2.2rem 0 2.2rem 0;
-  border-bottom: 3px solid #baab8f;
-}
-
-.title {
-  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
-  font-size: 4.6875rem;
-  text-align: center;
-  padding-bottom: 2rem;
-  margin: 0;
-}
-
-.info {
-  position: relative;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  width: 100%;
-}
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  background: none;
-  text-transform: uppercase;
-  font-size: 2.2rem;
-  padding: 2.2rem 0 2.2rem 0;
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  border-bottom: 3px solid #baab8f;
-}
-
-.navi {
-  overflow: hidden;
-  -webkit-transition: max-height 0.3s ease-out;
-  transition: max-height 0.3s ease-out;
-  height: auto;
-  max-height: 44.4rem;
-}
-
-.closed {
-  max-height: 0;
-}
-
-@media screen and (min-width: 1000px) {
-  .background {
-    width: 100vw;
-    height: 95vh;
-    border: none;
-    padding: 0 12.5rem 0 12.5rem;
-    border: none;
-  }
-  .background .bg_lights {
-    display: inline-block;
-    position: absolute;
-    right: 50%;
-    margin-right: -871.5px;
-  }
-  .hero {
-    min-width: 800px;
-    max-width: 1400px;
-    height: 80vh;
-  }
-  .hero .bottle_w_shadow {
-    left: 50%;
-    margin-left: -15.3rem;
-  }
-  .hero .desk_flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 15rem;
-  }
-  .hero .statement_input_container {
-    width: 25rem;
-  }
-  .hero .statement_input {
-    font-size: 1.5rem;
-    top: 0;
-  }
-  .hero .statement_input label {
-    left: 2.2rem;
-  }
-  .hero button {
-    font-size: 1.5rem;
-  }
-  .hero .cta {
-    width: 18rem;
-  }
-  nav .toggle,
-  nav .arrow {
-    display: none;
-  }
-  nav .navi {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  nav .navi .navBtn {
-    font-size: 1rem;
-    text-decoration: underline;
-    border: none;
-    width: auto;
-    padding: 0;
-  }
-  .info {
-    font-size: 1rem;
-  }
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 /*# sourceMappingURL=style.css.map */
