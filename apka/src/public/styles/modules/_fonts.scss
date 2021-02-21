@@ -8,6 +8,34 @@
   }
 }
 
+@include font('FranklinGothic-Demi', '/styles/fonts/FranklinGothic-Demi');
+
+.-f-FG-demi {
+  font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
+}
+
+@include font('JasperPlCaps', '/styles/fonts/JasperPlCaps');
+
+.-f-jasper-caps {
+  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
+}
+
+@include font('MotlowPl', '/styles/fonts/MotlowPl');
+
+.-f-motlow {
+  font-family: 'MotlowPl', 'Arial Black', Arial, sans-serif;
+}
+
+.-f-myriad-cond {
+  font-family: myriad-pro-condensed, sans-serif;
+  font-weight: 700;
+}
+
+.-f-myriad-light {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
+}
+
 // @include font('FranklinGothic-Book', '/styles/fonts/FranklinGothic-Book');
 
 // .-f-FGB {
@@ -23,16 +51,10 @@
 //   font-family: 'FranklinGothic-BookItalic', 'Arial Italic', Arial, sans-serif;
 // }
 
-@include font('FranklinGothic-Demi', '/styles/fonts/FranklinGothic-Demi');
-
-.-f-FGB-demi {
-  font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
-}
-
-@include font(
-  'FranklinGothic-DemiItalic',
-  '/styles/fonts/FranklinGothic-DemiItalic'
-);
+// @include font(
+//   'FranklinGothic-DemiItalic',
+//   '/styles/fonts/FranklinGothic-DemiItalic'
+// );
 
 // .fgDemiI {
 //   font-family: 'FranklinGothic-DemiItalic', 'Arial italic', Arial, sans-serif;
@@ -59,25 +81,3 @@
 // .fgMedium {
 //   font-family: 'FranklinGothic-Medium', 'Arial Black', Arial, sans-serif;
 // }
-
-// @include font('JasperPlCaps', '/styles/fonts/JasperPlCaps');
-
-.-f-jasper-caps {
-  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
-}
-
-@include font('MotlowPl', '/styles/fonts/MotlowPl');
-
-.-f-motlow {
-  font-family: 'MotlowPl', 'Arial Black', Arial, sans-serif;
-}
-
-.-f-myriad-cond {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-}
-
-.-f-myriad-light {
-  font-family: myriad-pro, sans-serif;
-  font-weight: 300;
-}
