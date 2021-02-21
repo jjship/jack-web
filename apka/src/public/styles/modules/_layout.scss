@@ -1,0 +1,132 @@
+// .background {
+//   background: black;
+//   width: 720px;
+//   margin-top: 0;
+//   margin-right: auto;
+//   margin-left: auto;
+//   border-bottom: 2px solid $golden;
+//   img {
+//     position: absolute;
+//   }
+// }
+.l-wrapper {
+  background: $black-00;
+  width: rem(720);
+  margin: 0 auto 0 auto;
+}
+
+// .container {
+//   width: auto;
+//   max-width: 38.75rem; //620px at 16px base
+//   margin-right: auto;
+//   margin-left: auto;
+// }
+
+// .hero {
+//   position: relative;
+//   top: 4.375rem;
+//   // needed for collapsible
+//   height: 104rem;
+//   .bottle_w_shadow {
+//     position: absolute;
+//     top: 6.5625rem;
+//     right: 0.275rem;
+//     z-index: 0;
+//     width: 24.625rem;
+//   }
+
+//   .live {
+//     position: absolute;
+//     right: 0;
+//   }
+
+//   .copy {
+//     @include today(0.625rem);
+//   }
+
+//   .makeItCount {
+//     position: relative;
+//     top: 2rem;
+//     left: 3.3rem;
+//     max-width: 6.75rem;
+
+//     .small_logo {
+//       position: relative;
+//       display: block;
+//       left: 50%;
+//       margin-left: -30.5px;
+//     }
+
+//     .make_it {
+//       position: relative;
+//       top: 0.7rem;
+//       margin: 0;
+//       min-width: 6.75rem;
+//     }
+
+//     .count {
+//       position: relative;
+//       top: 1rem;
+//       margin: 0;
+//       min-width: 6.75rem;
+//     }
+//   }
+
+//   .statement_input {
+//     position: relative;
+//     top: 29.5rem;
+//     width: 100%;
+//     textarea {
+//       margin-top: 0.5rem;
+//       padding: 1rem 1rem 2.5rem 1rem;
+//       width: 100%;
+//       background: black;
+//       border-radius: 0.5rem;
+//       border: 3px solid $darkGrey;
+//     }
+//     textarea[required]:invalid + .placeholder {
+//       display: inline-block;
+//     }
+//     textarea[required]:valid + .placeholder {
+//       display: none;
+//     }
+//     label {
+//       position: relative;
+//       left: 1.2rem;
+//     }
+//     .placeholder {
+//       position: absolute;
+//       bottom: 7.4rem;
+//     }
+//     button {
+//       position: relative;
+//       top: 2rem;
+//       left: 50%;
+//       transform: translateX(-50%);
+//     }
+//   }
+//   .info {
+//     position: relative;
+//     top: 44rem;
+//   }
+// }
+
+// .logo_bottom {
+//   display: block;
+//   margin-right: auto;
+//   margin-left: auto;
+//   padding-top: 5rem;
+//   padding-bottom: 3rem;
+// }
+
+// .socials {
+//   display: block;
+//   position: relative;
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding: 4.7rem 0 4.7rem 0;
+// }
+
+// .content {
+//   border-bottom: 3px solid $golden;
+// }
