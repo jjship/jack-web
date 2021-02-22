@@ -114,6 +114,10 @@ input {
   text-transform: uppercase;
 }
 
+.u-text-transform-none {
+  text-transform: none;
+}
+
 .u-align__center {
   text-align: center;
 }
@@ -257,7 +261,7 @@ input {
 
 .l-h-copy .l-h-copy__mamy {
   position: relative;
-  left: 3.3125rem;
+  left: 3.625rem;
   font-size: 2.625rem;
 }
 
@@ -269,7 +273,7 @@ input {
 
 .l-h-copy .l-h-copy__napelnijmy {
   position: relative;
-  left: 2.3125rem;
+  left: 2.625rem;
   bottom: 0.8125rem;
   font-size: 2rem;
 }
@@ -277,14 +281,78 @@ input {
 .l-h-copy .l-h-copy__butelke {
   position: relative;
   bottom: 0.5625rem;
-  left: -0.5rem;
+  left: -0.1875rem;
   font-size: 3.5rem;
 }
 
 .l-h-copy .l-h-copy__jacka {
   position: relative;
   bottom: 5.375rem;
-  left: 16.875rem;
+  left: 17.1875rem;
   font-size: 5.25rem;
+}
+
+.l-h-form {
+  position: relative;
+  bottom: 5.9375rem;
+  width: 100%;
+}
+
+.l-h-form textarea {
+  margin-top: 0.5rem;
+  padding: 1rem 1rem 2.5rem 1rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #828282;
+  font-size: 2.3125rem;
+  color: #ffffff;
+}
+
+.l-h-form textarea:focus {
+  outline: none;
+  border: 2px solid #d67c1c;
+}
+
+.l-h-form textarea::-webkit-input-placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.l-h-form textarea:-ms-input-placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.l-h-form textarea::-ms-input-placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.l-h-form textarea::placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.l-h-form label {
+  position: relative;
+  left: 29.25rem;
+  top: 0.25rem;
+  font-size: 1.3125rem;
+  color: #b7ac92;
+}
+
+.l-h-form button {
+  position: relative;
+  top: 3.5625rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: none;
+  background-color: #ee731d;
+  color: black;
+  padding: 0.5rem;
+  width: 28.56rem;
+  font-size: 2.3125rem;
 }
 /*# sourceMappingURL=style.css.map */
