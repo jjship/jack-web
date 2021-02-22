@@ -355,4 +355,14 @@ input {
   width: 28.56rem;
   font-size: 2.3125rem;
 }
+
+.l-h-akcja {
+  position: relative;
+  margin-top: 9.375rem;
+  margin-bottom: 50px;
+  width: 100%;
+  color: #b7ac92;
+  text-align: center;
+  font-size: 1.8125rem;
+}
 /*# sourceMappingURL=style.css.map */
