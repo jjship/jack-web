@@ -126,6 +126,14 @@ input {
   border-bottom: 3px solid #baab8f;
 }
 
+.u-golden {
+  color: #baab8f;
+}
+
+.u-white {
+  color: #ffffff;
+}
+
 @font-face {
   font-family: "FranklinGothic-Demi";
   src: url("/styles/fonts/FranklinGothic-Demi.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Demi.woff") format("woff");
@@ -222,6 +230,34 @@ input {
   color: #b7ac92;
   text-align: center;
   font-size: 1.8125rem;
+}
+
+.c-nav {
+  position: relative;
+  color: white;
+}
+
+.c-nav .c-nav__arrow {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.c-nav .c-nav__btn {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2.2rem;
+  padding: 2.2rem 0 2.2rem 0;
+  border-bottom: 3px solid #b7ac92;
 }
 
 .l-wrapper {
@@ -380,5 +416,31 @@ input {
   margin-top: 9.375rem;
   margin-bottom: 50px;
   width: 100%;
+}
+
+.h-nav {
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+  height: auto;
+  max-height: 44.4rem;
+}
+
+.h-is__closed {
+  max-height: 0;
+}
+
+.h-is__up {
+  right: 16rem;
+  top: 2.4375rem;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.h-is__down {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+  top: 0.875rem;
+  right: 16.5rem;
 }
 /*# sourceMappingURL=style.css.map */

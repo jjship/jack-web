@@ -37,3 +37,29 @@
   text-align: center;
   font-size: rem(29);
 }
+
+.c-nav {
+  position: relative;
+  color: white;
+  .c-nav__arrow {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .c-nav__btn {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 2.2rem 0 2.2rem 0;
+    border-bottom: 3px solid $gold-92;
+  }
+}

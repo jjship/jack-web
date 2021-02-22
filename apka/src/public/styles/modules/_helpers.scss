@@ -1,0 +1,21 @@
+.h-nav {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  height: auto;
+  max-height: 44.4rem;
+}
+.h-is__closed {
+  max-height: 0;
+}
+
+.h-is__up {
+  right: 16rem;
+  top: rem(39);
+  transform: rotate(135deg);
+}
+
+.h-is__down {
+  transform: rotate(315deg);
+  top: rem(14);
+  right: 16.5rem;
+}
