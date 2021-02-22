@@ -316,7 +316,6 @@ form .checkboxes {
 
 .hero .copy {
   position: relative;
-  top: 0.625rem;
 }
 
 .hero .copy .today {
@@ -325,20 +324,23 @@ form .checkboxes {
 
 .hero .copy .today .dzis {
   position: relative;
-  left: 0.6rem;
+  left: rem(0.125rem);
+  font-size: rem(0.78569rem);
   margin: 0;
 }
 
 .hero .copy .today .zdarza_sie {
   position: relative;
-  top: -1.16rem;
+  top: rem(-0.25rem);
+  font-size: rem(0.28569rem);
   margin: 0;
 }
 
 .hero .copy .today .tylko_raz {
   position: relative;
-  top: -0.6rem;
-  left: 1.3rem;
+  top: rem(-0.125rem);
+  left: rem(0.25rem);
+  font-size: 0.625rem;
   margin: 0;
 }
 
@@ -452,7 +454,6 @@ form .checkboxes {
 
 .form_exp .copy {
   position: relative;
-  top: 1rem;
   left: 13rem;
 }
 
@@ -462,20 +463,23 @@ form .checkboxes {
 
 .form_exp .copy .today .dzis {
   position: relative;
-  left: 0.6rem;
+  left: rem(0.2rem);
+  font-size: rem(1.2571rem);
   margin: 0;
 }
 
 .form_exp .copy .today .zdarza_sie {
   position: relative;
-  top: -1.16rem;
+  top: rem(-0.4rem);
+  font-size: rem(0.4571rem);
   margin: 0;
 }
 
 .form_exp .copy .today .tylko_raz {
   position: relative;
-  top: -0.6rem;
-  left: 1.3rem;
+  top: rem(-0.2rem);
+  left: rem(0.4rem);
+  font-size: 1rem;
   margin: 0;
 }
 

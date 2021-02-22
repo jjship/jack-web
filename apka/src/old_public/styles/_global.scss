@@ -18,28 +18,30 @@ $green: #4f822c;
 //   @include flexCenter(column, black);
 // }
 
-@mixin today($top) {
+@mixin today($tylko_fontsize_px) {
   position: relative;
-  top: $top;
   .today {
     z-index: 1;
 
     .dzis {
       position: relative;
-      left: 0.6rem;
+      left: rem($tylko_fontsize_px / 5);
+      font-size: rem($tylko_fontsize_px * 1.2571);
       margin: 0;
     }
 
     .zdarza_sie {
       position: relative;
-      top: -1.16rem;
+      top: rem(-$tylko_fontsize_px / 2.5);
+      font-size: rem($tylko_fontsize_px * 0.4571);
       margin: 0;
     }
 
     .tylko_raz {
       position: relative;
-      top: -0.6rem;
-      left: 1.3rem;
+      top: rem(-$tylko_fontsize_px / 5);
+      left: rem($tylko_fontsize_px / 2.5);
+      font-size: ($tylko_fontsize_px);
       margin: 0;
     }
   }
