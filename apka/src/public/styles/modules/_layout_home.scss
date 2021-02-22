@@ -115,22 +115,22 @@
     font-size: rem(37);
     color: $white;
   }
-  textarea:focus {
+  .l-h-form__input:focus {
     outline: none;
     border: 2px solid $orange-1c;
   }
-  textarea::placeholder {
+  .l-h-form__input::placeholder {
     color: $white;
     caret-color: $grey-82;
   }
-  label {
+  .l-form__label {
     position: relative;
     left: rem(468);
     top: rem(4);
     font-size: rem(21);
     color: $gold-92;
   }
-  button {
+  .l-h-form__btn {
     position: relative;
     top: rem(57);
     left: 50%;

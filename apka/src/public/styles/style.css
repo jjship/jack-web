@@ -309,32 +309,32 @@ input {
   color: #ffffff;
 }
 
-.l-h-form textarea:focus {
+.l-h-form .l-h-form__input:focus {
   outline: none;
   border: 2px solid #d67c1c;
 }
 
-.l-h-form textarea::-webkit-input-placeholder {
+.l-h-form .l-h-form__input::-webkit-input-placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.l-h-form textarea:-ms-input-placeholder {
+.l-h-form .l-h-form__input:-ms-input-placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.l-h-form textarea::-ms-input-placeholder {
+.l-h-form .l-h-form__input::-ms-input-placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.l-h-form textarea::placeholder {
+.l-h-form .l-h-form__input::placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.l-h-form label {
+.l-h-form .l-form__label {
   position: relative;
   left: 29.25rem;
   top: 0.25rem;
@@ -342,7 +342,7 @@ input {
   color: #b7ac92;
 }
 
-.l-h-form button {
+.l-h-form .l-h-form__btn {
   position: relative;
   top: 3.5625rem;
   left: 50%;
