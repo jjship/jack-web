@@ -13,3 +13,7 @@ $white: #ffffff;
 @function rem($px) {
   @return ($px / 16) * 1rem;
 }
+
+body {
+  background-color: $black-00;
+}
