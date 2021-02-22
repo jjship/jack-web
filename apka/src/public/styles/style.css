@@ -248,4 +248,43 @@ input {
 .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
   font-size: 1.8125rem;
 }
+
+.l-h-copy {
+  position: relative;
+  width: 100%;
+  margin-top: 57.5625rem;
+}
+
+.l-h-copy .l-h-copy__mamy {
+  position: relative;
+  left: 3.3125rem;
+  font-size: 2.625rem;
+}
+
+.l-h-copy .l-h-copy__wielkie {
+  position: relative;
+  bottom: 0.3125rem;
+  font-size: 3.5rem;
+}
+
+.l-h-copy .l-h-copy__napelnijmy {
+  position: relative;
+  left: 2.3125rem;
+  bottom: 0.8125rem;
+  font-size: 2rem;
+}
+
+.l-h-copy .l-h-copy__butelke {
+  position: relative;
+  bottom: 0.5625rem;
+  left: -0.5rem;
+  font-size: 3.5rem;
+}
+
+.l-h-copy .l-h-copy__jacka {
+  position: relative;
+  bottom: 5.375rem;
+  left: 16.875rem;
+  font-size: 5.25rem;
+}
 /*# sourceMappingURL=style.css.map */
