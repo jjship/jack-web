@@ -192,7 +192,7 @@ input {
   max-width: 4.5rem;
 }
 
-.l-h-copy {
+.l-h-slogan {
   width: 9.125rem;
   height: 10.6875rem;
   top: 0.625rem;
@@ -209,14 +209,14 @@ input {
           justify-content: space-between;
 }
 
-.l-h-copy .l-h-copy__today .l-h-copy__dzis {
+.l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
   position: relative;
   left: 0.4375rem;
   font-size: 2.75rem;
   margin: 0;
 }
 
-.l-h-copy .l-h-copy__today .l-h-copy__zdarza {
+.l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
   position: relative;
   top: -0.75rem;
   font-size: 0.625rem;
@@ -224,7 +224,7 @@ input {
   margin: 0;
 }
 
-.l-h-copy .l-h-copy__today .l-h-copy__tylko {
+.l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
   position: relative;
   top: -0.5625rem;
   left: 0.8125rem;
@@ -232,7 +232,7 @@ input {
   margin: 0;
 }
 
-.l-h-copy .l-h-copy__m_i_c .l-h-copy__logo {
+.l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
   display: block;
   position: relative;
   left: 50%;
@@ -241,11 +241,11 @@ input {
   width: 2.3125rem;
 }
 
-.l-h-copy .l-h-copy__m_i_c .l-h-copy__make {
+.l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
   font-size: 1.375rem;
 }
 
-.l-h-copy .l-h-copy__m_i_c .l-h-copy__count {
+.l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
   font-size: 1.8125rem;
 }
 /*# sourceMappingURL=style.css.map */

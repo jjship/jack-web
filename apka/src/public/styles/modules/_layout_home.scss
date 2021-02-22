@@ -19,7 +19,7 @@
   max-width: rem(72);
 }
 
-.l-h-copy {
+.l-h-slogan {
   width: rem(146);
   height: rem(171);
   top: rem(10);
@@ -27,21 +27,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  .l-h-copy__today {
-    .l-h-copy__dzis {
+  .l-h-slogan__today {
+    .l-h-slogan__dzis {
       position: relative;
       left: rem(7);
       font-size: rem(44);
       margin: 0;
     }
-    .l-h-copy__zdarza {
+    .l-h-slogan__zdarza {
       position: relative;
       top: rem(-12);
       font-size: rem(10);
       font-size: rem(16);
       margin: 0;
     }
-    .l-h-copy__tylko {
+    .l-h-slogan__tylko {
       position: relative;
       top: rem(-9);
       left: rem(13);
@@ -49,8 +49,8 @@
       margin: 0;
     }
   }
-  .l-h-copy__m_i_c {
-    .l-h-copy__logo {
+  .l-h-slogan__m_i_c {
+    .l-h-slogan__logo {
       display: block;
       position: relative;
       left: 50%;
@@ -58,10 +58,10 @@
       margin-left: rem(-18.5);
       width: rem(37);
     }
-    .l-h-copy__make {
+    .l-h-slogan__make {
       font-size: rem(22);
     }
-    .l-h-copy__count {
+    .l-h-slogan__count {
       font-size: rem(29);
     }
   }
