@@ -6,6 +6,10 @@
   text-transform: none;
 }
 
+.u-text-center {
+  text-align: center;
+}
+
 .u-align__center {
   text-align: center;
 }
@@ -20,4 +24,8 @@
 
 .u-white {
   color: $white;
+}
+
+.u-absolute {
+  position: absolute;
 }

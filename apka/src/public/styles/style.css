@@ -118,6 +118,10 @@ input {
   text-transform: none;
 }
 
+.u-text-center {
+  text-align: center;
+}
+
 .u-align__center {
   text-align: center;
 }
@@ -260,6 +264,18 @@ input {
   border-bottom: 3px solid #b7ac92;
 }
 
+.c-footer {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  color: #959595;
+  font-size: 1.8125rem;
+  letter-spacing: 0.01312rem;
+  width: 39.625rem;
+  height: 65.3125rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .l-wrapper {
   background: #000000;
   width: 45rem;
@@ -268,6 +284,19 @@ input {
 
 .l-wrapper img {
   position: absolute;
+}
+
+.l-footer {
+  width: 39.625rem;
+  height: 65.3125rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15rem;
+}
+
+.l-footer__socials {
+  position: relative;
+  bottom: 2.875rem;
 }
 
 .l-h-container {
