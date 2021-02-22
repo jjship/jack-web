@@ -1,0 +1,125 @@
+@media screen and (min-width: 1400px) {
+  .l-h-container {
+    width: rem(780);
+    height: rem(900);
+    top: rem(90);
+  }
+  .l-h-bottle_w_shadow {
+    max-height: rem(760);
+    top: rem(-40);
+    left: rem(180);
+  }
+  .l-h-live_icon {
+    right: 0;
+    width: auto;
+    max-width: rem(53);
+  }
+  .l-h-slogan {
+    position: relative;
+    top: rem(480);
+    left: rem(-20);
+  }
+
+  .l-h-desk_container {
+    max-width: rem(400);
+    position: relative;
+    left: 710px;
+    .l-h-copy {
+      margin-top: rem(0);
+      font-size: 10px;
+      .l-h-copy__mamy {
+        position: relative;
+        left: em(58);
+        font-size: em(42);
+      }
+      .l-h-copy__wielkie {
+        position: relative;
+        bottom: em(5);
+        font-size: em(56);
+      }
+      .l-h-copy__napelnijmy {
+        position: relative;
+        left: em(42);
+        bottom: em(13);
+        font-size: em(32);
+      }
+      .l-h-copy__butelke {
+        position: relative;
+        bottom: em(9);
+        left: em(-3);
+        font-size: em(56);
+      }
+      .l-h-copy__jacka {
+        position: relative;
+        left: 170px;
+        bottom: 66px;
+        text-align: start;
+        font-size: em(84);
+      }
+    }
+  }
+
+  .l-h-form {
+    max-width: rem(400);
+    .l-h-form__btn {
+      top: 50px;
+    }
+  }
+  .c-h-form__input {
+    font-size: rem(18);
+    border: 1px solid $grey-82;
+  }
+
+  .c-h-form__btn {
+    font-size: rem(24);
+    width: rem(290);
+  }
+}
+
+.l-h-akcja {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  top: rem(200);
+}
+
+.c-h-akcja {
+  font-size: 1rem;
+}
+
+.u-golden-bottom {
+  border: none;
+}
+
+.c-nav {
+  .js-toggle,
+  .c-nav__arrow {
+    display: none;
+  }
+  .l-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    .c-nav__btn {
+      font-size: 1rem;
+      text-decoration: underline;
+      border: none;
+      width: auto;
+      padding: 0;
+    }
+  }
+}
+
+.c-footer {
+  font-size: 1rem;
+  .c-footer__socials {
+    height: 21px;
+  }
+}
+
+.l-footer {
+  height: rem(200);
+  padding-top: rem(100);
+}

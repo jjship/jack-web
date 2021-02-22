@@ -1,9 +1,9 @@
 const changeClass = (mediaQuery) => {
   if (mediaQuery.matches) {
     // If media query matches
-    nav.classList.remove('closed');
+    nav.classList.remove('h-is__closed');
   } else {
-    nav.classList.add('closed');
+    nav.classList.add('h-is__closed');
   }
 };
 
@@ -15,7 +15,7 @@ const changePicture = (mediaQuery) => {
     : (lights.src = '/images/BG_lights.png');
 };
 
-var mediaQuery = window.matchMedia('(min-width: 1000px)');
+var mediaQuery = window.matchMedia('(min-width: 1450px)');
 
 // Call listener function at run time
 changeClass(mediaQuery);

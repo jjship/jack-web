@@ -14,6 +14,10 @@ $white: #ffffff;
   @return ($px / 16) * 1rem;
 }
 
+@function em($px) {
+  @return ($px / 16) * 1em;
+}
+
 body {
   background-color: $black-00;
 }

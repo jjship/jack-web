@@ -470,4 +470,132 @@ input {
   top: 0.875rem;
   right: 16.5rem;
 }
+
+@media screen and (min-width: 1400px) {
+  .l-h-container {
+    width: 48.75rem;
+    height: 56.25rem;
+    top: 5.625rem;
+  }
+  .l-h-bottle_w_shadow {
+    max-height: 47.5rem;
+    top: -2.5rem;
+    left: 11.25rem;
+  }
+  .l-h-live_icon {
+    right: 0;
+    width: auto;
+    max-width: 3.3125rem;
+  }
+  .l-h-slogan {
+    position: relative;
+    top: 30rem;
+    left: -1.25rem;
+  }
+  .l-h-desk_container {
+    max-width: 25rem;
+    position: relative;
+    left: 710px;
+  }
+  .l-h-desk_container .l-h-copy {
+    margin-top: 0rem;
+    font-size: 10px;
+  }
+  .l-h-desk_container .l-h-copy .l-h-copy__mamy {
+    position: relative;
+    left: 3.625em;
+    font-size: 2.625em;
+  }
+  .l-h-desk_container .l-h-copy .l-h-copy__wielkie {
+    position: relative;
+    bottom: 0.3125em;
+    font-size: 3.5em;
+  }
+  .l-h-desk_container .l-h-copy .l-h-copy__napelnijmy {
+    position: relative;
+    left: 2.625em;
+    bottom: 0.8125em;
+    font-size: 2em;
+  }
+  .l-h-desk_container .l-h-copy .l-h-copy__butelke {
+    position: relative;
+    bottom: 0.5625em;
+    left: -0.1875em;
+    font-size: 3.5em;
+  }
+  .l-h-desk_container .l-h-copy .l-h-copy__jacka {
+    position: relative;
+    left: 170px;
+    bottom: 66px;
+    text-align: start;
+    font-size: 5.25em;
+  }
+  .l-h-form {
+    max-width: 25rem;
+  }
+  .l-h-form .l-h-form__btn {
+    top: 50px;
+  }
+  .c-h-form__input {
+    font-size: 1.125rem;
+    border: 1px solid #828282;
+  }
+  .c-h-form__btn {
+    font-size: 1.5rem;
+    width: 18.125rem;
+  }
+}
+
+.l-h-akcja {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  top: 12.5rem;
+}
+
+.c-h-akcja {
+  font-size: 1rem;
+}
+
+.u-golden-bottom {
+  border: none;
+}
+
+.c-nav .js-toggle,
+.c-nav .c-nav__arrow {
+  display: none;
+}
+
+.c-nav .l-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-nav .l-nav .c-nav__btn {
+  font-size: 1rem;
+  text-decoration: underline;
+  border: none;
+  width: auto;
+  padding: 0;
+}
+
+.c-footer {
+  font-size: 1rem;
+}
+
+.c-footer .c-footer__socials {
+  height: 21px;
+}
+
+.l-footer {
+  height: 12.5rem;
+  padding-top: 6.25rem;
+}
 /*# sourceMappingURL=style.css.map */
