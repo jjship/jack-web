@@ -122,6 +122,10 @@ input {
   text-align: center;
 }
 
+.u-golden-bottom {
+  border-bottom: 3px solid #baab8f;
+}
+
 @font-face {
   font-family: "FranklinGothic-Demi";
   src: url("/styles/fonts/FranklinGothic-Demi.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Demi.woff") format("woff");
