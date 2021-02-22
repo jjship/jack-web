@@ -298,7 +298,7 @@ input {
   width: 100%;
 }
 
-.l-h-form textarea {
+.l-h-form .l-h-form__input {
   margin-top: 0.5rem;
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
