@@ -169,6 +169,61 @@ input {
   font-weight: 300;
 }
 
+.c-h-form__input {
+  padding: 1rem 1rem 2.5rem 1rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #828282;
+  font-size: 2.3125rem;
+  color: #ffffff;
+}
+
+.c-h-form__input:focus {
+  outline: none;
+  border: 2px solid #d67c1c;
+}
+
+.c-h-form__input::-webkit-input-placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.c-h-form__input:-ms-input-placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.c-h-form__input::-ms-input-placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.c-h-form__input::placeholder {
+  color: #ffffff;
+  caret-color: #828282;
+}
+
+.c-h-form__label {
+  font-size: 1.3125rem;
+  color: #b7ac92;
+}
+
+.c-h-form__btn {
+  border: none;
+  background-color: #ee731d;
+  color: black;
+  padding: 0.5rem;
+  width: 28.56rem;
+  font-size: 2.3125rem;
+}
+
+.c-h-akcja {
+  color: #b7ac92;
+  text-align: center;
+  font-size: 1.8125rem;
+}
+
 .l-wrapper {
   background: #000000;
   width: 45rem;
@@ -304,46 +359,12 @@ input {
 
 .l-h-form .l-h-form__input {
   margin-top: 0.5rem;
-  padding: 1rem 1rem 2.5rem 1rem;
-  width: 100%;
-  background: black;
-  border-radius: 0.5rem;
-  border: 2px solid #828282;
-  font-size: 2.3125rem;
-  color: #ffffff;
 }
 
-.l-h-form .l-h-form__input:focus {
-  outline: none;
-  border: 2px solid #d67c1c;
-}
-
-.l-h-form .l-h-form__input::-webkit-input-placeholder {
-  color: #ffffff;
-  caret-color: #828282;
-}
-
-.l-h-form .l-h-form__input:-ms-input-placeholder {
-  color: #ffffff;
-  caret-color: #828282;
-}
-
-.l-h-form .l-h-form__input::-ms-input-placeholder {
-  color: #ffffff;
-  caret-color: #828282;
-}
-
-.l-h-form .l-h-form__input::placeholder {
-  color: #ffffff;
-  caret-color: #828282;
-}
-
-.l-h-form .l-form__label {
+.l-h-form .l-h-form__label {
   position: relative;
   left: 29.25rem;
   top: 0.25rem;
-  font-size: 1.3125rem;
-  color: #b7ac92;
 }
 
 .l-h-form .l-h-form__btn {
@@ -352,12 +373,6 @@ input {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  border: none;
-  background-color: #ee731d;
-  color: black;
-  padding: 0.5rem;
-  width: 28.56rem;
-  font-size: 2.3125rem;
 }
 
 .l-h-akcja {
@@ -365,8 +380,5 @@ input {
   margin-top: 9.375rem;
   margin-bottom: 50px;
   width: 100%;
-  color: #b7ac92;
-  text-align: center;
-  font-size: 1.8125rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+.c-h-form__input {
+  padding: 1rem 1rem 2.5rem 1rem;
+  width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid $grey-82;
+  font-size: rem(37);
+  color: $white;
+}
+
+.c-h-form__input:focus {
+  outline: none;
+  border: 2px solid $orange-1c;
+}
+
+.c-h-form__input::placeholder {
+  color: $white;
+  caret-color: $grey-82;
+}
+
+.c-h-form__label {
+  font-size: rem(21);
+  color: $gold-92;
+}
+
+.c-h-form__btn {
+  border: none;
+  background-color: #ee731d;
+  color: black;
+  padding: 0.5rem;
+  width: 28.56rem;
+  font-size: rem(37);
+}
+
+.c-h-akcja {
+  color: $gold-92;
+  text-align: center;
+  font-size: rem(29);
+}
