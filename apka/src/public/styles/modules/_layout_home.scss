@@ -72,23 +72,14 @@
 }
 
 .l-h-form {
-  position: relative;
   bottom: rem(95);
-  width: 100%;
-  .l-h-form__input {
-    margin-top: 0.5rem;
-  }
-  .l-h-form__label {
-    position: relative;
-    left: rem(468);
-    top: rem(4);
-  }
-  .l-h-form__btn {
-    position: relative;
-    top: rem(57);
-    left: 50%;
-    transform: translateX(-50%);
-  }
+}
+
+.l-h-form__btn {
+  position: relative;
+  top: rem(57);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .l-h-akcja {

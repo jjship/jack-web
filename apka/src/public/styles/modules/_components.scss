@@ -1,4 +1,4 @@
-.c-h-form__input {
+.c-form-input {
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
   background: black;
@@ -8,17 +8,17 @@
   color: $white;
 }
 
-.c-h-form__input:focus {
+.c-form-input:focus {
   outline: none;
   border: 2px solid $orange-1c;
 }
 
-.c-h-form__input::placeholder {
+.c-form-input::placeholder {
   color: $white;
   caret-color: $grey-82;
 }
 
-.c-h-form__label {
+.c-form-label {
   font-size: rem(21);
   color: $gold-92;
 }
