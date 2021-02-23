@@ -4,9 +4,9 @@ let fontJasper;
 let fontMotlow;
 let fontFranklin;
 
-let szerokoscButelki = 220; 
-let wysokoscButelki = 774;
-let startTekstX = 20;
+let szerokoscButelki = 706; 
+let wysokoscButelki = 810;
+let startTekstX = 480;
 let maska;
 let t=0;
 let zi=0;
@@ -16,17 +16,17 @@ function preload() {
   fontMotlow = loadFont("font/Motlow.otf");  
   fontFranklin = loadFont("font/Franklin.ttf");  
 
-  maska = loadImage('cien_maska.png');
+  maska = loadImage('cien_maska_duza.png');
 }
 
 function setup() {
-  createCanvas(252, 774);
+  createCanvas(1128, 1087);
   textFont(fontJasper);  
   shuffle(zdania, true);//do usunięcia, gdy będzie podłączona baza
 }
 
 function draw() {
-  t++;
+  
   background(255);
 
   if (t%220==0) {
@@ -54,6 +54,7 @@ function draw() {
   //dodać interakcję z kursorem
   
   image(maska, 0, 0);
+  t++;
 }
 
 
@@ -94,7 +95,7 @@ class Zdanie {
     this.x += this.sx;
     this.y -= this.sy;
 
-    if (this.y<-200) {
+    if (this.y<-100) {
       this.martwy = true;
     }
   }
