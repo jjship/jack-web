@@ -16,3 +16,36 @@
   position: relative;
   bottom: rem(46);
 }
+
+.l-copy {
+  position: relative;
+  width: rem(622);
+  .l-copy-mamy {
+    position: relative;
+    left: rem(58);
+    font-size: rem(42);
+  }
+  .l-copy-wielkie {
+    position: relative;
+    bottom: rem(5);
+    font-size: rem(56);
+  }
+  .l-copy-napelnijmy {
+    position: relative;
+    left: rem(42);
+    bottom: rem(13);
+    font-size: rem(32);
+  }
+  .l-copy-butelke {
+    position: relative;
+    bottom: rem(9);
+    left: rem(-3);
+    font-size: rem(56);
+  }
+  .l-copy-jacka {
+    position: relative;
+    bottom: rem(86);
+    text-align: end;
+    font-size: rem(84);
+  }
+}

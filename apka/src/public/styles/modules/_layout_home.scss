@@ -67,38 +67,8 @@
   }
 }
 
-.l-h-copy {
-  position: relative;
-  width: 100%;
+.l-h-copyform-container {
   margin-top: rem(921);
-  .l-h-copy__mamy {
-    position: relative;
-    left: rem(58);
-    font-size: rem(42);
-  }
-  .l-h-copy__wielkie {
-    position: relative;
-    bottom: rem(5);
-    font-size: rem(56);
-  }
-  .l-h-copy__napelnijmy {
-    position: relative;
-    left: rem(42);
-    bottom: rem(13);
-    font-size: rem(32);
-  }
-  .l-h-copy__butelke {
-    position: relative;
-    bottom: rem(9);
-    left: rem(-3);
-    font-size: rem(56);
-  }
-  .l-h-copy__jacka {
-    position: relative;
-    bottom: rem(86);
-    text-align: end;
-    font-size: rem(84);
-  }
 }
 
 .l-h-form {
