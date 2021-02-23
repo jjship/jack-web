@@ -13,6 +13,7 @@
 .c-form-label__masz {
   font-size: rem(21);
   color: $gold-92;
+  text-transform: none;
 }
 
 .c-form-textarea,
@@ -62,7 +63,7 @@
   text-decoration: none;
 }
 
-.c-h-form__btn,
+.c-h-form-btn,
 .c-f-form-btn {
   border: none;
   background-color: #ee731d;

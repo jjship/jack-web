@@ -20,36 +20,40 @@
     left: rem(-20);
   }
 
-  .l-h-desk_container {
+  .l-copy {
+    height: rem(100);
+  }
+
+  .l-h-dsk-container {
     max-width: rem(400);
     position: relative;
     left: 710px;
     .l-h-copy {
       margin-top: rem(0);
       font-size: 10px;
-      .l-h-copy__mamy {
+      .l-h-copy-mamy {
         position: relative;
         left: em(58);
         font-size: em(42);
       }
-      .l-h-copy__wielkie {
+      .l-h-copy-wielkie {
         position: relative;
         bottom: em(5);
         font-size: em(56);
       }
-      .l-h-copy__napelnijmy {
+      .l-h-copy-napelnijmy {
         position: relative;
         left: em(42);
         bottom: em(13);
         font-size: em(32);
       }
-      .l-h-copy__butelke {
+      .l-h-copy-butelke {
         position: relative;
         bottom: em(9);
         left: em(-3);
         font-size: em(56);
       }
-      .l-h-copy__jacka {
+      .l-h-copy-jacka {
         position: relative;
         left: 170px;
         bottom: 66px;
@@ -59,29 +63,37 @@
     }
   }
 
-  .l-h-form {
+  .l-h-form__dsk {
     max-width: rem(400);
-    .l-h-form__btn {
+    .l-h-form-btn__dsk {
       top: 50px;
     }
   }
-  .c-h-form__input {
+
+  .c-form-label__masz {
+    font-size: rem(16);
+  }
+
+  .l-form-label__masz {
+    left: rem(280);
+  }
+  .c-h-form-input__dsk {
     font-size: rem(18);
     border: 1px solid $grey-82;
   }
 
-  .c-h-form__btn {
+  .c-h-form-btn {
     font-size: rem(24);
     width: rem(290);
   }
-  .l-h-akcja {
+  .l-h-akcja__dsk {
     position: relative;
     margin: 0;
     width: 100%;
     top: rem(200);
   }
 
-  .c-h-akcja {
+  .c-h-akcja__dsk {
     font-size: 1rem;
   }
 
