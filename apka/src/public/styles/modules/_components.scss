@@ -2,6 +2,11 @@
   text-transform: uppercase;
 }
 
+.c-form-label__masz {
+  font-size: rem(21);
+  color: $gold-92;
+}
+
 .c-form-textarea,
 .c-form-input {
   padding: 1rem 1rem 2.5rem 1rem;
@@ -24,7 +29,10 @@
 }
 
 .c-form-textarea:focus,
-.c-form-input:focus {
+.c-form-input:focus,
+.c-h-form__btn:focus,
+.c-f-form-btn:focus,
+.c-f-form-zamknij:focus {
   outline: none;
   border: 2px solid $orange-1c;
 }
@@ -37,18 +45,31 @@
   color: $gold-92;
 }
 
-.c-form-label__masz {
-  font-size: rem(21);
-  color: $gold-92;
+.c-f-form-zamknij {
+  border: none;
+  padding: 0.5rem;
+  font-size: rem(37);
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.c-h-form__btn {
+.c-h-form__btn,
+.c-f-form-btn {
   border: none;
   background-color: #ee731d;
   color: black;
   padding: 0.5rem;
-  width: 28.56rem;
   font-size: rem(37);
+  text-transform: uppercase;
+}
+
+.c-h-form__btn {
+  width: 28.56rem;
+}
+
+.c-f-form-btn {
+  width: rem(456);
 }
 
 .c-h-akcja {

@@ -193,6 +193,11 @@ input {
   text-transform: uppercase;
 }
 
+.c-form-label__masz {
+  font-size: 1.3125rem;
+  color: #b7ac92;
+}
+
 .c-form-textarea,
 .c-form-input {
   padding: 1rem 1rem 2.5rem 1rem;
@@ -215,7 +220,10 @@ input {
 }
 
 .c-form-textarea:focus,
-.c-form-input:focus {
+.c-form-input:focus,
+.c-h-form__btn:focus,
+.c-f-form-btn:focus,
+.c-f-form-zamknij:focus {
   outline: none;
   border: 2px solid #d67c1c;
 }
@@ -252,18 +260,31 @@ input {
   color: #b7ac92;
 }
 
-.c-form-label__masz {
-  font-size: 1.3125rem;
-  color: #b7ac92;
+.c-f-form-zamknij {
+  border: none;
+  padding: 0.5rem;
+  font-size: 2.3125rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.c-h-form__btn {
+.c-h-form__btn,
+.c-f-form-btn {
   border: none;
   background-color: #ee731d;
   color: black;
   padding: 0.5rem;
-  width: 28.56rem;
   font-size: 2.3125rem;
+  text-transform: uppercase;
+}
+
+.c-h-form__btn {
+  width: 28.56rem;
+}
+
+.c-f-form-btn {
+  width: 28.5rem;
 }
 
 .c-h-akcja {
@@ -478,6 +499,19 @@ input {
   margin-top: 9.375rem;
   margin-bottom: 50px;
   width: 100%;
+}
+
+.l-f-form-buttons-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .h-nav {
