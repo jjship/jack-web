@@ -295,7 +295,7 @@ input {
   width: 28.5rem;
 }
 
-.c-h-akcja {
+.c-akcja {
   color: #b7ac92;
   text-align: center;
   font-size: 1.8125rem;
@@ -560,6 +560,13 @@ input {
   position: absolute;
   right: 0;
   bottom: -4rem;
+}
+
+.l-f-akcja {
+  position: relative;
+  margin-top: 9.375rem;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .h-nav {
