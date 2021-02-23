@@ -2,8 +2,12 @@
   text-transform: uppercase !important;
 }
 
-.u-text-transform-none {
+.u-no-text-transform {
   text-transform: none !important;
+}
+
+.u-no-text-decoration {
+  text-decoration: none !important;
 }
 
 .u-text-center {
@@ -20,6 +24,10 @@
 
 .u-golden {
   color: $gold-8f !important;
+}
+
+.u-golden-92 {
+  color: $gold-92 !important;
 }
 
 .u-white {
