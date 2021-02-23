@@ -509,6 +509,16 @@ input {
   width: 100%;
 }
 
+.l-f-container {
+  width: 38.75rem;
+  height: 119.625rem;
+  margin-right: auto;
+  margin-left: auto;
+  top: 4.375rem;
+  position: relative;
+  color: #ffffff;
+}
+
 .l-f-form-buttons-container {
   width: 100%;
   display: -webkit-box;
