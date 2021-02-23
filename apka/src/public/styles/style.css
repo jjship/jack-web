@@ -115,35 +115,35 @@ input {
 }
 
 .u-uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 
 .u-text-transform-none {
-  text-transform: none;
+  text-transform: none !important;
 }
 
 .u-text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .u-align__center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .u-golden-bottom {
-  border-bottom: 3px solid #baab8f;
+  border-bottom: 3px solid #baab8f !important;
 }
 
 .u-golden {
-  color: #baab8f;
+  color: #baab8f !important;
 }
 
 .u-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .u-absolute {
-  position: absolute;
+  position: absolute !important;
 }
 
 @font-face {
@@ -193,7 +193,7 @@ input {
   text-transform: uppercase;
 }
 
-.c-form-input {
+.c-form-textarea {
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
   background: black;
@@ -203,7 +203,7 @@ input {
   color: #ffffff;
 }
 
-.c-form-input:focus {
+.c-form-textarea:focus {
   outline: none;
   border: 2px solid #d67c1c;
 }
@@ -345,7 +345,7 @@ input {
   width: 100%;
 }
 
-.l-form .l-form-input {
+.l-form .l-form-textarea {
   margin-top: 0.5rem;
 }
 

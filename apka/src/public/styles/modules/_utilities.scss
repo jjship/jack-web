@@ -1,31 +1,31 @@
 .u-uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 
 .u-text-transform-none {
-  text-transform: none;
+  text-transform: none !important;
 }
 
 .u-text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .u-align__center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .u-golden-bottom {
-  border-bottom: 3px solid $gold-8f;
+  border-bottom: 3px solid $gold-8f !important;
 }
 
 .u-golden {
-  color: $gold-8f;
+  color: $gold-8f !important;
 }
 
 .u-white {
-  color: $white;
+  color: $white !important;
 }
 
 .u-absolute {
-  position: absolute;
+  position: absolute !important;
 }
