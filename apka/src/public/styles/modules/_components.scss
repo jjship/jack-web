@@ -2,24 +2,39 @@
   text-transform: uppercase;
 }
 
-.c-form-textarea {
+.c-form-textarea,
+.c-form-input {
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
   background: black;
   border-radius: 0.5rem;
   border: 2px solid $grey-82;
   font-size: rem(37);
+  caret-color: $grey-82;
+}
+
+.c-form-textarea {
+  padding: 1rem 1rem 2.5rem 1rem;
   color: $white;
 }
 
-.c-form-textarea:focus {
+.c-form-input {
+  padding: 1rem 1rem 1rem 1rem;
+  color: $gold-92;
+}
+
+.c-form-textarea:focus,
+.c-form-input:focus {
   outline: none;
   border: 2px solid $orange-1c;
 }
 
-.c-form-input::placeholder {
+.c-form-textarea::placeholder {
   color: $white;
-  caret-color: $grey-82;
+}
+
+.c-form-input::placeholder {
+  color: $gold-92;
 }
 
 .c-form-label__masz {
