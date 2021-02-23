@@ -189,7 +189,7 @@ input {
   font-weight: 300;
 }
 
-.c-h-form__input {
+.c-form-input {
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
   background: black;
@@ -199,32 +199,32 @@ input {
   color: #ffffff;
 }
 
-.c-h-form__input:focus {
+.c-form-input:focus {
   outline: none;
   border: 2px solid #d67c1c;
 }
 
-.c-h-form__input::-webkit-input-placeholder {
+.c-form-input::-webkit-input-placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.c-h-form__input:-ms-input-placeholder {
+.c-form-input:-ms-input-placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.c-h-form__input::-ms-input-placeholder {
+.c-form-input::-ms-input-placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.c-h-form__input::placeholder {
+.c-form-input::placeholder {
   color: #ffffff;
   caret-color: #828282;
 }
 
-.c-h-form__label {
+.c-form-label__masz {
   font-size: 1.3125rem;
   color: #b7ac92;
 }
@@ -335,6 +335,21 @@ input {
   font-size: 5.25rem;
 }
 
+.l-form {
+  position: relative;
+  width: 100%;
+}
+
+.l-form .l-form-input {
+  margin-top: 0.5rem;
+}
+
+.l-form .l-form-label {
+  position: relative;
+  left: 29.25rem;
+  top: 0.25rem;
+}
+
 .l-h-container {
   width: 38.75rem;
   height: 137.5rem;
@@ -418,22 +433,10 @@ input {
 }
 
 .l-h-form {
-  position: relative;
   bottom: 5.9375rem;
-  width: 100%;
 }
 
-.l-h-form .l-h-form__input {
-  margin-top: 0.5rem;
-}
-
-.l-h-form .l-h-form__label {
-  position: relative;
-  left: 29.25rem;
-  top: 0.25rem;
-}
-
-.l-h-form .l-h-form__btn {
+.l-h-form__btn {
   position: relative;
   top: 3.5625rem;
   left: 50%;
