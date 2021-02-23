@@ -189,6 +189,10 @@ input {
   font-weight: 300;
 }
 
+.c-copy-napelnijmy {
+  text-transform: uppercase;
+}
+
 .c-form-input {
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
@@ -282,6 +286,7 @@ input {
   background: #000000;
   width: 45rem;
   margin: 0 auto 0 auto;
+  color: #ffffff;
 }
 
 .l-footer {
