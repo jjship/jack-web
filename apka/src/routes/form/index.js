@@ -1,5 +1,5 @@
 module.exports = async (fastify, opts) => {
   fastify.get('/', async (request, reply) => {
-    return reply.view('form_exp.hbs', {});
+    return reply.view('form.hbs', {});
   });
 };

@@ -297,6 +297,44 @@ input {
   bottom: 2.875rem;
 }
 
+.l-copy {
+  position: relative;
+  width: 38.875rem;
+}
+
+.l-copy .l-copy-mamy {
+  position: relative;
+  left: 3.625rem;
+  font-size: 2.625rem;
+}
+
+.l-copy .l-copy-wielkie {
+  position: relative;
+  bottom: 0.3125rem;
+  font-size: 3.5rem;
+}
+
+.l-copy .l-copy-napelnijmy {
+  position: relative;
+  left: 2.625rem;
+  bottom: 0.8125rem;
+  font-size: 2rem;
+}
+
+.l-copy .l-copy-butelke {
+  position: relative;
+  bottom: 0.5625rem;
+  left: -0.1875rem;
+  font-size: 3.5rem;
+}
+
+.l-copy .l-copy-jacka {
+  position: relative;
+  bottom: 5.375rem;
+  text-align: end;
+  font-size: 5.25rem;
+}
+
 .l-h-container {
   width: 38.75rem;
   height: 137.5rem;
@@ -375,43 +413,8 @@ input {
   font-size: 1.8125rem;
 }
 
-.l-h-copy {
-  position: relative;
-  width: 100%;
+.l-h-copyform-container {
   margin-top: 57.5625rem;
-}
-
-.l-h-copy .l-h-copy__mamy {
-  position: relative;
-  left: 3.625rem;
-  font-size: 2.625rem;
-}
-
-.l-h-copy .l-h-copy__wielkie {
-  position: relative;
-  bottom: 0.3125rem;
-  font-size: 3.5rem;
-}
-
-.l-h-copy .l-h-copy__napelnijmy {
-  position: relative;
-  left: 2.625rem;
-  bottom: 0.8125rem;
-  font-size: 2rem;
-}
-
-.l-h-copy .l-h-copy__butelke {
-  position: relative;
-  bottom: 0.5625rem;
-  left: -0.1875rem;
-  font-size: 3.5rem;
-}
-
-.l-h-copy .l-h-copy__jacka {
-  position: relative;
-  bottom: 5.375rem;
-  text-align: end;
-  font-size: 5.25rem;
 }
 
 .l-h-form {
