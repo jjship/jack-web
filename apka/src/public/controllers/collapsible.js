@@ -1,21 +1,19 @@
-var coll = document.getElementsByClassName('collapsible');
-var i;
+const togg = document.querySelector('.js-toggle');
+const nav = document.querySelector('.js-nav');
+const arr = document.querySelector('.js-arrow');
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener('click', function () {
-    if ('mniej' == this.innerHTML) {
-      this.innerHTML = this.getAttribute('data-text');
-      this.classList.remove('active');
-      this.classList.add('golden');
-    } else {
-      this.setAttribute('data-text', this.innerHTML);
-      this.innerHTML = 'mniej';
-      this.classList.remove('golden');
-      this.classList.add('active');
-    }
+const setArrow = () => {
+  if (nav.classList.contains('h-is__closed')) {
+    togg.innerHTML - 'mniej';
+    arr.classList.remove('h-is__down');
+    nav.classList.toggle('h-is__closed');
+  } else {
+    togg.innerHTML - 'menu';
+    arr.classList.add('h-is__down');
+    nav.classList.toggle('h-is__closed');
+  }
+};
 
-    var content = this.previousElementSibling;
-    content.classList.toggle('expanded');
-    content.classList.toggle('collapsed');
-  });
-}
+togg.addEventListener('click', () => {
+  setArrow();
+});

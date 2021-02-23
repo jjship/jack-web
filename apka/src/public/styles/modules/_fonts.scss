@@ -1,0 +1,83 @@
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file + '.woff2') format('woff2'),
+      url($font-file + '.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font('FranklinGothic-Demi', '/styles/fonts/FranklinGothic-Demi');
+
+.-f-franklin-demi {
+  font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
+}
+
+@include font('JasperPlCaps', '/styles/fonts/JasperPlCaps');
+
+.-f-jasper-caps {
+  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
+}
+
+@include font('MotlowPl', '/styles/fonts/MotlowPl');
+
+.-f-motlow {
+  font-family: 'MotlowPl', 'Arial Black', Arial, sans-serif;
+}
+
+.-f-myriad-cond {
+  font-family: myriad-pro-condensed, sans-serif;
+  font-weight: 700;
+}
+
+.-f-myriad-light {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
+}
+
+// @include font('FranklinGothic-Book', '/styles/fonts/FranklinGothic-Book');
+
+// .-f-FGB {
+//   font-family: 'FranklinGothic-Book', 'Arial', Arial, sans-serif;
+// }
+
+// @include font(
+//   'FranklinGothic-BookItalic',
+//   '/styles/fonts/FranklinGothic-BookItalic'
+// );
+
+// .-f-FGB-italic {
+//   font-family: 'FranklinGothic-BookItalic', 'Arial Italic', Arial, sans-serif;
+// }
+
+// @include font(
+//   'FranklinGothic-DemiItalic',
+//   '/styles/fonts/FranklinGothic-DemiItalic'
+// );
+
+// .fgDemiI {
+//   font-family: 'FranklinGothic-DemiItalic', 'Arial italic', Arial, sans-serif;
+// }
+
+// @include font('FranklinGothic-Heavy', '/styles/fonts/FranklinGothic-Heavy');
+
+// .fgHeavy {
+//   font-family: 'FranklinGothic-Heavy', 'Arial Black', Arial, sans-serif;
+// }
+
+// @include font(
+//   'FranklinGothic-HeavyItalic',
+//   '/styles/fonts/FranklinGothic-HeavyItalic'
+// );
+
+// .fgHeavyI {
+//   font-family: 'FranklinGothic-HeavyItalic', 'Arial Black Italic', Arial,
+//     sans-serif;
+// }
+
+// @include font('FranklinGothic-Medium', '/styles/fonts/FranklinGothic-Medium');
+
+// .fgMedium {
+//   font-family: 'FranklinGothic-Medium', 'Arial Black', Arial, sans-serif;
+// }

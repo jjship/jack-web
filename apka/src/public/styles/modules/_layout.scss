@@ -1,0 +1,79 @@
+.l-wrapper {
+  background: $black-00;
+  width: rem(720);
+  margin: 0 auto 0 auto;
+  color: $white;
+}
+
+.l-footer {
+  width: rem(634);
+  height: rem(1045);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: rem(310);
+}
+
+.l-footer__socials {
+  position: relative;
+  bottom: rem(46);
+}
+
+.l-copy {
+  position: relative;
+  width: rem(622);
+  height: rem(174);
+  .l-copy-mamy {
+    position: relative;
+    left: rem(58);
+    font-size: rem(42);
+  }
+  .l-copy-wielkie {
+    position: relative;
+    bottom: rem(5);
+    font-size: rem(56);
+  }
+  .l-copy-napelnijmy {
+    position: relative;
+    left: rem(42);
+    bottom: rem(13);
+    font-size: rem(32);
+  }
+  .l-copy-butelke {
+    position: relative;
+    bottom: rem(9);
+    left: rem(-3);
+    font-size: rem(56);
+  }
+  .l-copy-jacka {
+    position: relative;
+    bottom: rem(86);
+    text-align: end;
+    font-size: rem(84);
+  }
+}
+
+.l-form {
+  position: relative;
+  width: 100%;
+}
+
+.l-form-textarea {
+  margin-top: 0.5rem;
+}
+.l-form-label__masz {
+  position: relative;
+  left: rem(468);
+  top: rem(4);
+}
+.l-form-input {
+  margin-top: rem(60);
+}
+.l-form-input__1 {
+  margin-top: rem(90);
+}
+.l-f-form-buttons-container {
+  margin-top: rem(60);
+}
+.l-f-form-checkbox-container {
+  margin-top: rem(140);
+}

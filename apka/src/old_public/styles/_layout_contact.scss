@@ -1,0 +1,51 @@
+.contact {
+  position: relative;
+  top: 3.125rem;
+  height: 120rem;
+  .close {
+    position: relative;
+    margin-left: 37.2rem;
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .contact_form {
+    position: relative;
+    top: 2.5rem;
+    width: 100%;
+    input {
+      padding: 1rem 2rem 1rem 2rem;
+      width: 100%;
+      background: black;
+      border-radius: 0.5rem;
+      border: 2px solid $darkGrey;
+    }
+    textarea {
+      margin-top: 4rem;
+      padding: 1rem 2rem 2.5rem 2rem;
+      width: 100%;
+      background: black;
+      border-radius: 0.5rem;
+      border: 3px solid $darkGrey;
+    }
+    .imie {
+      margin-top: 4rem;
+    }
+    .email {
+      margin-top: 4rem;
+    }
+    .buttons {
+      margin-left: 2.1rem;
+      height: 4rem;
+      margin-top: 5rem;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  }
+  .disclaimer {
+    margin-top: 8rem;
+  }
+}

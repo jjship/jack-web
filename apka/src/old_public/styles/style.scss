@@ -1,13 +1,14 @@
-@import './base';
-@import './modules/reset';
-@import './modules/utilities';
-@import './modules/fonts';
-@import './modules/components';
-@import './modules/layout';
-@import './modules/layout_home';
-@import './modules/layout_form';
-@import './modules/helpers';
-@import './modules/media_queries';
+@import './fonts';
+@import './global';
+@import './typography';
+@import './layout';
+@import './layout_form_exp';
+@import './layout_contact';
+@import './layout_prizes';
+@import './components';
+@import './collapsible';
+@import './mediaQueries';
+@import './layout_desktop';
 
 // TODO move variables to _variables
 

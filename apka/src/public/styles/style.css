@@ -1,23 +1,157 @@
-@font-face {
-  font-family: "FranklinGothic-Book";
-  src: url("/styles/fonts/FranklinGothic-Book.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+body {
+  background-color: #000000;
 }
 
-.fgBook {
-  font-family: 'FranklinGothic-Book', 'Arial', Arial, sans-serif;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "FranklinGothic-BookItalic";
-  src: url("/styles/fonts/FranklinGothic-BookItalic.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-BookItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
 }
 
-.fgBookI {
-  font-family: 'FranklinGothic-BookItalic', 'Arial Italic', Arial, sans-serif;
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-no-text-transform {
+  text-transform: none;
+}
+
+.u-no-text-decoration {
+  text-decoration: none;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-align__center {
+  text-align: center;
+}
+
+.u-golden-bottom {
+  border-bottom: 3px solid #baab8f;
+}
+
+.u-golden {
+  color: #baab8f;
+}
+
+.u-golden-92 {
+  color: #b7ac92;
+}
+
+.u-white {
+  color: #ffffff;
+}
+
+.u-absolute {
+  position: absolute;
 }
 
 @font-face {
@@ -27,52 +161,8 @@
   font-style: normal;
 }
 
-.fgDemi {
+.-f-franklin-demi {
   font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-DemiItalic";
-  src: url("/styles/fonts/FranklinGothic-DemiItalic.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-DemiItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgDemiI {
-  font-family: 'FranklinGothic-DemiItalic', 'Arial italic', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-Heavy";
-  src: url("/styles/fonts/FranklinGothic-Heavy.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Heavy.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgHeavy {
-  font-family: 'FranklinGothic-Heavy', 'Arial Black', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-HeavyItalic";
-  src: url("/styles/fonts/FranklinGothic-HeavyItalic.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-HeavyItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgHeavyI {
-  font-family: 'FranklinGothic-HeavyItalic', 'Arial Black Italic', Arial, sans-serif;
-}
-
-@font-face {
-  font-family: "FranklinGothic-Medium";
-  src: url("/styles/fonts/FranklinGothic-Medium.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Medium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.fgMedium {
-  font-family: 'FranklinGothic-Medium', 'Arial Black', Arial, sans-serif;
 }
 
 @font-face {
@@ -82,7 +172,7 @@
   font-style: normal;
 }
 
-.jasper {
+.-f-jasper-caps {
   font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
 }
 
@@ -93,350 +183,148 @@
   font-style: normal;
 }
 
-.motlow {
+.-f-motlow {
   font-family: 'MotlowPl', 'Arial Black', Arial, sans-serif;
 }
 
-.myriad {
-  font-family: myriad-pro-condensed, sans-serif;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-.golden {
-  color: #baab8f;
-}
-
-@media screen and (min-width: 720px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.text {
-  color: white;
-  text-transform: uppercase;
-}
-
-.main .dzis {
-  font-size: 5.75em;
-}
-
-.main .zdarza_sie {
-  font-size: 2em;
-}
-
-.main .tylko_raz {
-  font-size: 4.625em;
-  left: 1.375rem;
-}
-
-.slogan .make_it {
-  font-size: 2.3em;
-  font-weight: 400;
-  text-align: right;
-}
-
-.slogan .count {
-  font-size: 3em;
-  letter-spacing: -2px;
-  text-align: center;
-}
-
-.info {
+.-f-myriad-cond {
   font-family: myriad-pro-condensed, sans-serif;
   font-weight: 700;
-  font-style: normal;
-  font-size: 1.8rem;
-  text-align: center;
+}
+
+.-f-myriad-light {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
+}
+
+.c-close {
+  position: relative;
+  margin-left: 37.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-copy-napelnijmy {
   text-transform: uppercase;
-  color: #828282;
 }
 
-.odkryj {
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.2rem;
-  text-align: right;
-  text-transform: uppercase;
+.c-form-label__masz {
+  font-size: 1.3125rem;
+  color: #b7ac92;
+  text-transform: none;
 }
 
-.napisz {
-  overflow-wrap: break-word;
-  width: 427px;
-  height: 105px;
-  font-family: myriad-pro-condensed, sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: left;
-  text-transform: uppercase;
-  background: none;
-}
-
-.napisz :placeholder-shown {
-  color: white;
-  opacity: 1;
-}
-
-.about {
-  font-size: 2.875rem;
-}
-
-body {
-  background-color: black;
-}
-
-.container {
-  position: relative;
-  width: auto;
-  max-width: 720px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.hero {
-  position: relative;
-  max-height: 102rem;
-}
-
-.hero .bottle {
-  position: relative;
-  z-index: 0;
+.c-form-textarea,
+.c-form-input {
+  padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #828282;
+  font-size: 2.3125rem;
+  caret-color: #828282;
 }
 
-.hero .live {
-  position: absolute;
-  right: 3.125rem;
-  top: 4.375rem;
+.c-form-textarea {
+  padding: 1rem 1rem 2.5rem 1rem;
+  color: #ffffff;
 }
 
-.hero .text {
-  position: relative;
-  color: white;
+.c-form-input {
+  padding: 1rem 1rem 1rem 1rem;
+  color: #b7ac92;
 }
 
-.hero .main {
-  z-index: 1;
-  position: absolute;
-  top: 10rem;
-  left: 3.125rem;
+.c-form-textarea:focus,
+.c-form-input:focus,
+.c-h-form__btn:focus,
+.c-f-form-btn:focus,
+.c-f-form-zamknij:focus {
+  outline: none;
+  border: 2px solid #d67c1c;
 }
 
-.hero .main .dzis {
-  position: relative;
-  left: 0.875rem;
-  margin: 0;
+.c-form-textarea::-webkit-input-placeholder {
+  color: #ffffff;
 }
 
-.hero .main .zdarza_sie {
-  position: relative;
-  top: -1.35rem;
-  margin: 0;
+.c-form-textarea:-ms-input-placeholder {
+  color: #ffffff;
 }
 
-.hero .main .tylko_raz {
-  position: relative;
-  top: -0.5rem;
-  left: 1.2rem;
-  margin: 0;
+.c-form-textarea::-ms-input-placeholder {
+  color: #ffffff;
 }
 
-.hero .slogan {
-  position: absolute;
-  top: 24rem;
-  left: 7rem;
-  max-width: 6.75rem;
+.c-form-textarea::placeholder {
+  color: #ffffff;
 }
 
-.hero .slogan .small_logo {
-  position: relative;
-  display: block;
-  left: 50%;
-  margin-left: -30.5px;
+.c-form-input::-webkit-input-placeholder {
+  color: #b7ac92;
 }
 
-.hero .slogan .make_it {
-  position: relative;
-  top: 0.7rem;
-  margin: 0;
-  min-width: 6.75rem;
+.c-form-input:-ms-input-placeholder {
+  color: #b7ac92;
 }
 
-.hero .slogan .count {
-  position: relative;
-  top: 1rem;
-  margin: 0;
-  min-width: 6.75rem;
+.c-form-input::-ms-input-placeholder {
+  color: #b7ac92;
 }
 
-.hero .info {
-  position: absolute;
-  top: 83.5rem;
-  width: 100%;
+.c-form-input::placeholder {
+  color: #b7ac92;
 }
 
-.hero .logo {
-  position: absolute;
-  top: 93.875rem;
-  display: block;
-  left: 50%;
-  margin-left: -112px;
-}
-
-.hero .scroll {
-  position: absolute;
-  top: 54rem;
-  width: 100%;
-}
-
-.hero .scroll .odkryj {
-  position: relative;
-  top: 5rem;
-  left: 4rem;
-  width: 207px;
-  height: 68px;
-}
-
-.hero .main_input {
-  position: absolute;
-  bottom: 22rem;
-  width: 100%;
-}
-
-.hero .main_input .outline {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero .main_input .napisz {
-  position: relative;
-  top: 1.5rem;
-  left: 1.5rem;
-}
-
-.contact {
-  max-height: 123.05rem;
-  height: 123.05rem;
-}
-
-.contact .info {
-  padding-top: 3rem;
-}
-
-.logo_bottom {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-}
-
-.socials {
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 4.7rem 0 4.7rem 0;
-}
-
-.content {
-  border-bottom: 3px solid #baab8f;
-}
-
-button {
-  cursor: pointer;
-  width: 100%;
+.c-f-form-zamknij {
   border: none;
-  text-align: center;
-}
-
-.outer {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 82px;
-  height: 128px;
-  border-radius: 41px;
-  border: 2px solid #828282;
-}
-
-.inner {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 82px;
-  position: relative;
-  top: 29px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: 2px solid #828282;
-}
-
-.main_input .outline {
-  width: 585px;
-  height: 159px;
-  border-radius: 30px 30px 0 0;
-  border: 2px solid #959595;
-  background-color: #000000;
-  opacity: 0.82;
-}
-
-.title {
-  font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
-  font-size: 75px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: center;
+  padding: 0.5rem;
+  font-size: 2.3125rem;
+  color: #ffffff;
   text-transform: uppercase;
-  padding: 14rem 0 14rem 0;
-  margin: 0;
+  text-decoration: none;
 }
 
-.input_outline {
-  width: 39rem;
-  border-radius: 1rem;
-  border: 2px solid #959595;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 3.5rem;
+.c-h-form-btn,
+.c-f-form-btn {
+  border: none;
+  background-color: #ee731d;
+  color: black;
+  padding: 0.5rem;
+  font-size: 2.3125rem;
+  text-transform: uppercase;
 }
 
-.multiline {
-  height: 25rem;
+.c-h-form__btn {
+  width: 28.56rem;
 }
 
-.placeholder {
-  font-family: myriad-pro-condensed, sans-serif;
+.c-f-form-btn {
+  width: 28.5rem;
+}
+
+.c-akcja {
+  color: #b7ac92;
+  text-align: center;
+  font-size: 1.8125rem;
+}
+
+.c-nav {
+  position: relative;
+  color: white;
+}
+
+.c-nav .c-nav__arrow {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  font-size: 4rem;
   font-weight: 700;
-  font-style: normal;
-  font-size: 3.125rem;
-  text-align: left;
-  text-transform: uppercase;
-  position: relative;
-  left: 3rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin: 0;
-  max-width: 30rem;
 }
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
+.c-nav .c-nav__btn {
+  display: block;
   cursor: pointer;
   width: 100%;
   border: none;
@@ -444,37 +332,430 @@ button {
   outline: none;
   background: none;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: 2.2rem;
   padding: 2.2rem 0 2.2rem 0;
-  font-family: myriad-pro-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  border-bottom: 3px solid #baab8f;
+  border-bottom: 3px solid #b7ac92;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active {
-  color: white;
+.c-footer {
+  color: #959595;
+  font-size: 1.8125rem;
+  letter-spacing: 0.01312rem;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.expanded {
+.l-wrapper {
+  background: #000000;
+  width: 45rem;
+  margin: 0 auto 0 auto;
+  color: #ffffff;
+}
+
+.l-footer {
+  width: 39.625rem;
+  height: 65.3125rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 19.375rem;
+}
+
+.l-footer__socials {
+  position: relative;
+  bottom: 2.875rem;
+}
+
+.l-copy {
+  position: relative;
+  width: 38.875rem;
+  height: 10.875rem;
+}
+
+.l-copy .l-copy-mamy {
+  position: relative;
+  left: 3.625rem;
+  font-size: 2.625rem;
+}
+
+.l-copy .l-copy-wielkie {
+  position: relative;
+  bottom: 0.3125rem;
+  font-size: 3.5rem;
+}
+
+.l-copy .l-copy-napelnijmy {
+  position: relative;
+  left: 2.625rem;
+  bottom: 0.8125rem;
+  font-size: 2rem;
+}
+
+.l-copy .l-copy-butelke {
+  position: relative;
+  bottom: 0.5625rem;
+  left: -0.1875rem;
+  font-size: 3.5rem;
+}
+
+.l-copy .l-copy-jacka {
+  position: relative;
+  bottom: 5.375rem;
+  text-align: end;
+  font-size: 5.25rem;
+}
+
+.l-form {
+  position: relative;
+  width: 100%;
+}
+
+.l-form-textarea {
+  margin-top: 0.5rem;
+}
+
+.l-form-label__masz {
+  position: relative;
+  left: 29.25rem;
+  top: 0.25rem;
+}
+
+.l-form-input {
+  margin-top: 3.75rem;
+}
+
+.l-form-input__1 {
+  margin-top: 5.625rem;
+}
+
+.l-f-form-buttons-container {
+  margin-top: 3.75rem;
+}
+
+.l-f-form-checkbox-container {
+  margin-top: 8.75rem;
+}
+
+.l-h-container {
+  width: 38.75rem;
+  height: 137.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  top: 4.375rem;
+  position: relative;
+  color: #ffffff;
+}
+
+.l-h-bottle_w_shadow {
+  top: -0.3125rem;
+  right: 1.625rem;
+}
+
+.l-h-live_icon {
+  right: 0;
+  width: auto;
+  max-width: 4.5rem;
+}
+
+.l-h-slogan {
+  width: 9.125rem;
+  height: 10.6875rem;
+  top: 0.625rem;
+  left: 0.1875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
+  position: relative;
+  left: 0.4375rem;
+  font-size: 2.75rem;
+  margin: 0;
+}
+
+.l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
+  position: relative;
+  top: -0.75rem;
+  font-size: 0.625rem;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
+  position: relative;
+  top: -0.5625rem;
+  left: 0.8125rem;
+  font-size: 2.1875rem;
+  margin: 0;
+}
+
+.l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
   display: block;
-  overflow: hidden;
-  opacity: 1;
-  -webkit-transition: visibility 0s ease, max-height 1s ease, opacity 1s ease;
-  transition: visibility 0s ease, max-height 1s ease, opacity 1s ease;
-  visibility: visible;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+  position: relative;
+  left: 50%;
+  bottom: 0.3125rem;
+  margin-left: -1.15625rem;
+  width: 2.3125rem;
 }
 
-.collapsed {
+.l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
+  font-size: 1.375rem;
+}
+
+.l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
+  font-size: 1.8125rem;
+}
+
+.l-h-copyform-container {
+  margin-top: 57.5625rem;
+}
+
+.l-h-form {
+  bottom: 5.9375rem;
+}
+
+.l-h-form__btn {
+  position: relative;
+  top: 3.5625rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.l-h-akcja {
+  position: relative;
+  margin-top: 9.375rem;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.l-f-container {
+  width: 38.75rem;
+  height: 119.625rem;
+  margin-right: auto;
+  margin-left: auto;
+  top: 4.375rem;
+  position: relative;
+  color: #ffffff;
+}
+
+.l-f-form-buttons-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-f-form-checkbox-container .l-f-form-group {
   display: block;
-  max-height: 0;
+  position: relative;
+  width: 28rem;
+  height: 6.375rem;
+  padding-left: 2.5rem;
+  cursor: pointer;
+  font-size: 1.8125rem;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* When the checkbox is checked, add an orange background */
+}
+
+.l-f-form-checkbox-container .l-f-form-group input {
+  position: absolute;
   opacity: 0;
-  -webkit-transition: max-height 1s ease 0.5s, opacity 1s ease, visibility 0s ease 1s;
-  transition: max-height 1s ease 0.5s, opacity 1s ease, visibility 0s ease 1s;
-  visibility: hidden;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.l-f-form-checkbox-container .l-f-form-group .c-checkmark {
+  position: absolute;
+  top: 0.6rem;
+  left: 0;
+  height: 1.25rem;
+  width: 1.25rem;
+  border: 2px solid #baab8f;
+}
+
+.l-f-form-checkbox-container .l-f-form-group input:checked ~ .c-checkmark {
+  background-color: #d67c1c;
+}
+
+.l-f-form-checkbox-container .l-f-bottle {
+  position: absolute;
+  right: 0;
+  bottom: -4rem;
+}
+
+.l-f-akcja {
+  position: relative;
+  margin-top: 13rem;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.h-nav {
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+  height: auto;
+  max-height: 44.4rem;
+}
+
+.h-is__closed {
+  max-height: 0;
+}
+
+.h-is__up {
+  right: 16rem;
+  top: 2.4375rem;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.h-is__down {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+  top: 0.875rem;
+  right: 16.5rem;
+}
+
+@media screen and (min-width: 1450px) {
+  .l-h-container {
+    width: 48.75rem;
+    height: 56.25rem;
+    top: 5.625rem;
+  }
+  .l-h-bottle_w_shadow {
+    max-height: 47.5rem;
+    top: -2.5rem;
+    left: 11.25rem;
+  }
+  .l-h-live_icon {
+    right: 0;
+    width: auto;
+    max-width: 3.3125rem;
+  }
+  .l-h-slogan {
+    position: relative;
+    top: 30rem;
+    left: -1.25rem;
+  }
+  .l-copy {
+    height: 6.25rem;
+  }
+  .l-h-dsk-container {
+    max-width: 25rem;
+    position: relative;
+    left: 710px;
+  }
+  .l-h-dsk-container .l-h-copy {
+    margin-top: 0rem;
+    font-size: 10px;
+  }
+  .l-h-dsk-container .l-h-copy .l-h-copy-mamy {
+    position: relative;
+    left: 3.625em;
+    font-size: 2.625em;
+  }
+  .l-h-dsk-container .l-h-copy .l-h-copy-wielkie {
+    position: relative;
+    bottom: 0.3125em;
+    font-size: 3.5em;
+  }
+  .l-h-dsk-container .l-h-copy .l-h-copy-napelnijmy {
+    position: relative;
+    left: 2.625em;
+    bottom: 0.8125em;
+    font-size: 2em;
+  }
+  .l-h-dsk-container .l-h-copy .l-h-copy-butelke {
+    position: relative;
+    bottom: 0.5625em;
+    left: -0.1875em;
+    font-size: 3.5em;
+  }
+  .l-h-dsk-container .l-h-copy .l-h-copy-jacka {
+    position: relative;
+    left: 170px;
+    bottom: 66px;
+    text-align: start;
+    font-size: 5.25em;
+  }
+  .l-h-form__dsk {
+    max-width: 25rem;
+  }
+  .l-h-form__dsk .l-h-form-btn__dsk {
+    top: 50px;
+  }
+  .c-form-label__masz {
+    font-size: 1rem;
+  }
+  .l-form-label__masz {
+    left: 17.5rem;
+  }
+  .c-h-form-input__dsk {
+    font-size: 1.125rem;
+    border: 1px solid #828282;
+  }
+  .c-h-form-btn {
+    font-size: 1.5rem;
+    width: 18.125rem;
+  }
+  .l-h-akcja__dsk {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    top: 12.5rem;
+  }
+  .c-h-akcja__dsk {
+    font-size: 1rem;
+  }
+  .u-golden-bottom {
+    border: none;
+  }
+  .c-nav .js-toggle,
+  .c-nav .c-nav__arrow {
+    display: none;
+  }
+  .c-nav .l-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .c-nav .l-nav .c-nav__btn {
+    font-size: 1rem;
+    text-decoration: underline;
+    border: none;
+    width: auto;
+    padding: 0;
+  }
+  .c-footer {
+    font-size: 1rem;
+  }
+  .c-footer .c-footer__socials {
+    height: 21px;
+  }
+  .l-footer {
+    height: 12.5rem;
+    padding-top: 6.25rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
