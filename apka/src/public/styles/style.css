@@ -417,6 +417,22 @@ input {
   top: 0.25rem;
 }
 
+.l-form .l-form-input {
+  margin-top: 3.75rem;
+}
+
+.l-form .l-form-input__1 {
+  margin-top: 5.625rem;
+}
+
+.l-form .l-f-form-buttons-container {
+  margin-top: 3.75rem;
+}
+
+.l-form .l-f-form-checkbox-container {
+  margin-top: 8.75rem;
+}
+
 .l-h-container {
   width: 38.75rem;
   height: 137.5rem;
@@ -583,7 +599,7 @@ input {
 
 .l-f-akcja {
   position: relative;
-  margin-top: 9.375rem;
+  margin-top: 13rem;
   margin-bottom: 50px;
   width: 100%;
 }
