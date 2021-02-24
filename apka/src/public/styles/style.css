@@ -655,38 +655,39 @@ input {
   .l-copy {
     height: 6.25rem;
   }
-  .l-h-dsk-container {
+  .l-h-copyform-container {
+    margin-top: 0;
     max-width: 25rem;
     position: relative;
     left: 710px;
   }
-  .l-h-dsk-container .l-h-copy {
+  .l-h-copyform-container .l-h-copy {
     margin-top: 0rem;
     font-size: 10px;
   }
-  .l-h-dsk-container .l-h-copy .l-h-copy-mamy {
+  .l-h-copyform-container .l-h-copy .l-h-copy-mamy {
     position: relative;
     left: 3.625em;
     font-size: 2.625em;
   }
-  .l-h-dsk-container .l-h-copy .l-h-copy-wielkie {
+  .l-h-copyform-container .l-h-copy .l-h-copy-wielkie {
     position: relative;
     bottom: 0.3125em;
     font-size: 3.5em;
   }
-  .l-h-dsk-container .l-h-copy .l-h-copy-napelnijmy {
+  .l-h-copyform-container .l-h-copy .l-h-copy-napelnijmy {
     position: relative;
     left: 2.625em;
     bottom: 0.8125em;
     font-size: 2em;
   }
-  .l-h-dsk-container .l-h-copy .l-h-copy-butelke {
+  .l-h-copyform-container .l-h-copy .l-h-copy-butelke {
     position: relative;
     bottom: 0.5625em;
     left: -0.1875em;
     font-size: 3.5em;
   }
-  .l-h-dsk-container .l-h-copy .l-h-copy-jacka {
+  .l-h-copyform-container .l-h-copy .l-h-copy-jacka {
     position: relative;
     left: 170px;
     bottom: 66px;
