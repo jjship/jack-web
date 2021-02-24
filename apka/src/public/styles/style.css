@@ -685,30 +685,30 @@ input {
   }
   .l-copyform-container .l-copy .l-copy-mamy {
     position: relative;
-    left: 3.625em;
+    left: 1.8125rem;
     font-size: 2.625em;
   }
   .l-copyform-container .l-copy .l-copy-wielkie {
     position: relative;
-    bottom: 0.3125em;
+    bottom: 0.1875rem;
     font-size: 3.5em;
   }
   .l-copyform-container .l-copy .l-copy-napelnijmy {
     position: relative;
-    left: 2.625em;
-    bottom: 0.8125em;
+    left: 1.3125rem;
+    bottom: 0.6875rem;
     font-size: 2em;
   }
   .l-copyform-container .l-copy .l-copy-butelke {
     position: relative;
-    bottom: 0.5625em;
+    bottom: 0.6875rem;
     left: -0.1875em;
     font-size: 3.5em;
   }
   .l-copyform-container .l-copy .l-copy-jacka {
     position: relative;
-    left: 170px;
-    bottom: 66px;
+    left: 10.625rem;
+    bottom: 3.8125rem;
     text-align: start;
     font-size: 5.25em;
   }
