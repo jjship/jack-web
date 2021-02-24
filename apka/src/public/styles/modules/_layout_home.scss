@@ -6,6 +6,9 @@
   top: rem(70);
   position: relative;
   color: $white;
+  .l-copyform-container {
+    margin-top: rem(921);
+  }
 }
 
 .l-h-bottle_w_shadow {
@@ -67,15 +70,11 @@
   }
 }
 
-.l-h-copyform-container {
-  margin-top: rem(921);
-}
-
 .l-h-form {
   bottom: rem(95);
 }
 
-.l-h-form__btn {
+.l-h-form-btn {
   position: relative;
   top: rem(57);
   left: 50%;

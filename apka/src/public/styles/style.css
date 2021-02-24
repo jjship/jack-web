@@ -154,6 +154,12 @@ input {
   position: absolute;
 }
 
+.u-flex__dsk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @font-face {
   font-family: "FranklinGothic-Demi";
   src: url("/styles/fonts/FranklinGothic-Demi.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Demi.woff") format("woff");
@@ -296,7 +302,7 @@ input {
   text-transform: uppercase;
 }
 
-.c-h-form__btn {
+.c-h-form-btn {
   width: 28.56rem;
 }
 
@@ -444,6 +450,10 @@ input {
   color: #ffffff;
 }
 
+.l-h-container .l-copyform-container {
+  margin-top: 57.5625rem;
+}
+
 .l-h-bottle_w_shadow {
   top: -0.3125rem;
   right: 1.625rem;
@@ -512,15 +522,11 @@ input {
   font-size: 1.8125rem;
 }
 
-.l-h-copyform-container {
-  margin-top: 57.5625rem;
-}
-
 .l-h-form {
   bottom: 5.9375rem;
 }
 
-.l-h-form__btn {
+.l-h-form-btn {
   position: relative;
   top: 3.5625rem;
   left: 50%;
@@ -558,11 +564,11 @@ input {
           align-items: center;
 }
 
-.l-f-form-checkbox-container .l-f-form-group {
+.l-f-form-group {
   display: block;
   position: relative;
   width: 28rem;
-  height: 6.375rem;
+  margin-bottom: 3.625rem;
   padding-left: 2.5rem;
   cursor: pointer;
   font-size: 1.8125rem;
@@ -571,7 +577,7 @@ input {
   /* When the checkbox is checked, add an orange background */
 }
 
-.l-f-form-checkbox-container .l-f-form-group input {
+.l-f-form-group input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -579,7 +585,7 @@ input {
   width: 0;
 }
 
-.l-f-form-checkbox-container .l-f-form-group .c-checkmark {
+.l-f-form-group .c-checkmark {
   position: absolute;
   top: 0.6rem;
   left: 0;
@@ -588,11 +594,11 @@ input {
   border: 2px solid #baab8f;
 }
 
-.l-f-form-checkbox-container .l-f-form-group input:checked ~ .c-checkmark {
+.l-f-form-group input:checked ~ .c-checkmark {
   background-color: #d67c1c;
 }
 
-.l-f-form-checkbox-container .l-f-bottle {
+.l-f-bottle {
   position: absolute;
   right: 0;
   bottom: -4rem;
@@ -638,6 +644,13 @@ input {
     height: 56.25rem;
     top: 5.625rem;
   }
+  .l-h-container .l-copyform-container {
+    margin-top: 0;
+    left: 44.375rem;
+  }
+  .l-f-container .l-copyform-container {
+    width: 51.3125rem;
+  }
   .l-h-bottle_w_shadow {
     max-height: 47.5rem;
     top: -2.5rem;
@@ -656,39 +669,38 @@ input {
   .l-copy {
     height: 6.25rem;
   }
-  .l-h-copyform-container {
+  .l-copyform-container {
     margin-top: 0;
     max-width: 25rem;
     position: relative;
-    left: 710px;
   }
-  .l-h-copyform-container .l-h-copy {
+  .l-copyform-container .l-copy {
     margin-top: 0rem;
     font-size: 10px;
   }
-  .l-h-copyform-container .l-h-copy .l-h-copy-mamy {
+  .l-copyform-container .l-copy .l-copy-mamy {
     position: relative;
     left: 3.625em;
     font-size: 2.625em;
   }
-  .l-h-copyform-container .l-h-copy .l-h-copy-wielkie {
+  .l-copyform-container .l-copy .l-copy-wielkie {
     position: relative;
     bottom: 0.3125em;
     font-size: 3.5em;
   }
-  .l-h-copyform-container .l-h-copy .l-h-copy-napelnijmy {
+  .l-copyform-container .l-copy .l-copy-napelnijmy {
     position: relative;
     left: 2.625em;
     bottom: 0.8125em;
     font-size: 2em;
   }
-  .l-h-copyform-container .l-h-copy .l-h-copy-butelke {
+  .l-copyform-container .l-copy .l-copy-butelke {
     position: relative;
     bottom: 0.5625em;
     left: -0.1875em;
     font-size: 3.5em;
   }
-  .l-h-copyform-container .l-h-copy .l-h-copy-jacka {
+  .l-copyform-container .l-copy .l-copy-jacka {
     position: relative;
     left: 170px;
     bottom: 66px;
@@ -698,7 +710,7 @@ input {
   .l-h-form__dsk {
     max-width: 25rem;
   }
-  .l-h-form__dsk .l-h-form-btn__dsk {
+  .l-h-form-btn__dsk {
     top: 50px;
   }
   .c-form-label__masz {
@@ -707,8 +719,12 @@ input {
   .l-form-label__masz {
     left: 18.4375rem;
   }
-  .c-form-input__dsk {
+  .c-form-textarea__dsk {
     font-size: 1.125rem;
+    border: 1px solid #828282;
+  }
+  .c-form-input__dsk {
+    font-size: 1rem;
     border: 1px solid #828282;
   }
   .c-h-form-btn {
@@ -758,6 +774,71 @@ input {
   .l-footer {
     height: 12.5rem;
     padding-top: 6.25rem;
+  }
+  .l-f-form__dsk {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 'textarea textinputs' 'checkboxes buttons';
+  }
+  .l-f-form-textarea__dsk {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: textarea;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    width: 25rem;
+  }
+  .l-f-form-textinputs__dsk {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: textinputs;
+    -ms-grid-column-align: end;
+        justify-self: end;
+    width: 25rem;
+  }
+  .l-f-form-checkbox-container {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: checkboxes;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-top: 2.5rem;
+    height: 5.5rem;
+  }
+  .l-f-form-buttons-container {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: buttons;
+    -ms-grid-column-align: end;
+        justify-self: end;
+    margin-top: -0.25rem;
+  }
+  .l-f-form-group {
+    font-size: 0.875rem;
+    margin-bottom: 1.5625rem;
+  }
+  .l-f-form-group .c-checkmark {
+    position: absolute;
+    top: 0.3125rem;
+    height: 0.875rem;
+    width: 0.875rem;
+  }
+  .l-form-input__1 {
+    margin-top: 1.5625rem;
+  }
+  .l-form-input {
+    margin-top: 1.6875rem;
+  }
+  .l-f-form-zamknij {
+    font-size: 1rem;
+  }
+  .l-f-form-btn {
+    font-size: 1.5rem;
+    width: 18.25rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
