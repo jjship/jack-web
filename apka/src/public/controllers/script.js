@@ -27,7 +27,7 @@ const changeClass = (mediaQuery) => {
 };
 
 const changeInputSize = (mediaQuery) => {
-  mediaQuery.matches ? (input.rows = '7') : (input.rows = '4');
+  input ? (mediaQuery.matches ? (input.rows = '7') : (input.rows = '4')) : null;
 };
 
 // const changePicture = (mediaQuery) => {
