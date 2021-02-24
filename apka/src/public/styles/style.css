@@ -840,5 +840,10 @@ input {
     font-size: 1.5rem;
     width: 18.25rem;
   }
+  .l-f-bottle {
+    width: 14.0625rem;
+    left: -23.75rem;
+    bottom: 1.875rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
