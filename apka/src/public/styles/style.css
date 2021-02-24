@@ -536,7 +536,7 @@ input {
 
 .l-h-akcja {
   position: relative;
-  margin-top: 9.375rem;
+  margin-top: 16.25rem;
   margin-bottom: 50px;
   width: 100%;
 }
@@ -642,7 +642,12 @@ input {
   .l-f-container {
     width: 48.75rem;
     height: 56.25rem;
+  }
+  .l-h-container {
     top: 5.625rem;
+  }
+  .l-f-container {
+    top: 12.5rem;
   }
   .l-h-container .l-copyform-container {
     margin-top: 0;
@@ -732,12 +737,10 @@ input {
     width: 18.125rem;
   }
   .l-h-akcja__dsk {
-    position: relative;
-    margin: 0;
     width: 100%;
-    top: 12.5rem;
+    margin-top: 18.125rem;
   }
-  .c-h-akcja__dsk {
+  .c-akcja {
     font-size: 1rem;
   }
   .u-golden-bottom {
@@ -844,6 +847,10 @@ input {
     width: 14.0625rem;
     left: -23.75rem;
     bottom: 1.875rem;
+  }
+  .l-f-akcja {
+    margin-top: 10px;
+    margin-bottom: 1.625rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

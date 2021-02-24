@@ -3,7 +3,14 @@
   .l-f-container {
     width: rem(780);
     height: rem(900);
+  }
+
+  .l-h-container {
     top: rem(90);
+  }
+
+  .l-f-container {
+    top: rem(200);
   }
 
   .l-h-container {
@@ -108,13 +115,11 @@
   }
 
   .l-h-akcja__dsk {
-    position: relative;
-    margin: 0;
     width: 100%;
-    top: rem(200);
+    margin-top: rem(290);
   }
 
-  .c-h-akcja__dsk {
+  .c-akcja {
     font-size: 1rem;
   }
 
@@ -219,5 +224,10 @@
     width: rem(225);
     left: rem(-380);
     bottom: rem(30);
+  }
+
+  .l-f-akcja {
+    margin-top: 10px;
+    margin-bottom: rem(26);
   }
 }
