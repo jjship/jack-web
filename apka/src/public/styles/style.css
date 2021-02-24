@@ -632,7 +632,8 @@ input {
 }
 
 @media screen and (min-width: 1450px) {
-  .l-h-container {
+  .l-h-container,
+  .l-f-container {
     width: 48.75rem;
     height: 56.25rem;
     top: 5.625rem;
@@ -701,12 +702,12 @@ input {
     top: 50px;
   }
   .c-form-label__masz {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
   .l-form-label__masz {
-    left: 17.5rem;
+    left: 18.4375rem;
   }
-  .c-h-form-input__dsk {
+  .c-form-input__dsk {
     font-size: 1.125rem;
     border: 1px solid #828282;
   }

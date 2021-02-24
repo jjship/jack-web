@@ -1,5 +1,6 @@
 @media screen and (min-width: 1450px) {
-  .l-h-container {
+  .l-h-container,
+  .l-f-container {
     width: rem(780);
     height: rem(900);
     top: rem(90);
@@ -72,13 +73,13 @@
   }
 
   .c-form-label__masz {
-    font-size: rem(16);
+    font-size: rem(14);
   }
 
   .l-form-label__masz {
-    left: rem(280);
+    left: rem(295);
   }
-  .c-h-form-input__dsk {
+  .c-form-input__dsk {
     font-size: rem(18);
     border: 1px solid $grey-82;
   }
@@ -133,5 +134,10 @@
   .l-footer {
     height: rem(200);
     padding-top: rem(100);
+  }
+
+  // styles for /form
+
+  .l-f-form .l-f-form-textinputs__dsk {
   }
 }
