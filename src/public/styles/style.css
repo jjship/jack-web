@@ -647,7 +647,10 @@ input {
     top: 5.625rem;
   }
   .l-f-container {
-    top: 12.5rem;
+    top: 13.75rem;
+  }
+  .l-close {
+    display: none;
   }
   .l-h-container .l-copyform-container {
     margin-top: 0;
