@@ -650,7 +650,8 @@ input {
     top: 13.75rem;
   }
   .l-close {
-    display: none;
+    margin-left: 50rem;
+    bottom: 12.5rem;
   }
   .l-h-container .l-copyform-container {
     margin-top: 0;
