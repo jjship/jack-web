@@ -721,6 +721,17 @@ input {
   width: 100%;
 }
 
+.l-p-container {
+  height: auto;
+}
+
+.l-p-akcja {
+  position: relative;
+  margin-top: 13rem;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
 .h-nav {
   overflow: hidden;
   -webkit-transition: max-height 0.3s ease-out;
