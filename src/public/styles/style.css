@@ -459,7 +459,7 @@ input {
 
 .l-wrapper {
   background: #000000;
-  width: 45rem;
+  width: auto;
   margin: 0 auto 0 auto;
   color: #ffffff;
   background-repeat: no-repeat;
@@ -469,9 +469,9 @@ input {
 }
 
 .l-container {
-  width: 38.75rem;
-  margin-right: auto;
-  margin-left: auto;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 10px;
   top: 4.375rem;
   position: relative;
   color: #ffffff;
@@ -479,7 +479,7 @@ input {
 }
 
 .l-footer {
-  width: 39.625rem;
+  width: auto;
   height: 65.3125rem;
   margin-right: auto;
   margin-left: auto;
@@ -493,7 +493,7 @@ input {
 
 .l-copy {
   position: relative;
-  width: 38.875rem;
+  width: auto;
   height: 10.875rem;
 }
 
