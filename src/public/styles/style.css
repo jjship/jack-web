@@ -812,6 +812,16 @@ input {
   margin-right: auto;
 }
 
+.l-p-btn__zamknij {
+  display: block;
+  margin-top: 7.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .h-nav {
   overflow: hidden;
   -webkit-transition: max-height 0.3s ease-out;
