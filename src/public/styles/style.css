@@ -417,6 +417,26 @@ input {
   background-color: #000000;
 }
 
+.c-p-grid-qty__cash {
+  font-size: 7.3125rem;
+}
+
+.c-p-grid-x__cash {
+  font-size: 3.625rem;
+}
+
+.c-p-grid-value {
+  font-size: 4rem;
+}
+
+.c-p-grid-zl {
+  font-size: 1.8125rem;
+}
+
+.c-p-grid-na {
+  font-size: 1.5rem;
+}
+
 .l-wrapper {
   background: #000000;
   width: 45rem;
