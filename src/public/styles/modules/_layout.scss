@@ -1,6 +1,6 @@
 .l-wrapper {
   background: $black-00;
-  width: rem(720);
+  width: auto;
   margin: 0 auto 0 auto;
   color: $white;
   background-repeat: no-repeat;
@@ -10,9 +10,9 @@
 }
 
 .l-container {
-  width: rem(620);
-  margin-right: auto;
-  margin-left: auto;
+  width: auto;
+  margin-right: 10px;
+  margin-left: 10px;
   top: rem(70);
   position: relative;
   color: $white;
