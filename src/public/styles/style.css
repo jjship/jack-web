@@ -357,6 +357,16 @@ input {
   color: #ffffff;
 }
 
+.l-container {
+  width: 38.75rem;
+  margin-right: auto;
+  margin-left: auto;
+  top: 4.375rem;
+  position: relative;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 .l-footer {
   width: 39.625rem;
   height: 65.3125rem;
@@ -441,13 +451,7 @@ input {
 }
 
 .l-h-container {
-  width: 38.75rem;
   height: 137.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  top: 4.375rem;
-  position: relative;
-  color: #ffffff;
 }
 
 .l-h-container .l-copyform-container {
@@ -542,13 +546,7 @@ input {
 }
 
 .l-f-container {
-  width: 38.75rem;
   height: 119.625rem;
-  margin-right: auto;
-  margin-left: auto;
-  top: 4.375rem;
-  position: relative;
-  color: #ffffff;
 }
 
 .l-f-form-buttons-container {
@@ -609,6 +607,33 @@ input {
   margin-top: 13rem;
   margin-bottom: 50px;
   width: 100%;
+}
+
+.l-fs-slogan-container {
+  font-size: 26.545454px;
+}
+
+.l-fs-slogan-container .l-fs-slogan-dzis {
+  position: relative;
+  left: 0.4375em;
+  font-size: 2.75em;
+  margin: 0;
+}
+
+.l-fs-slogan-container .l-fs-slogan-zdarza {
+  position: relative;
+  top: -0.75em;
+  font-size: 0.625em;
+  font-size: 1em;
+  margin: 0;
+}
+
+.l-fs-slogan-container .l-fs-slogan-tylko {
+  position: relative;
+  top: -0.5625em;
+  left: 0.8125em;
+  font-size: 2.1875em;
+  margin: 0;
 }
 
 .h-nav {

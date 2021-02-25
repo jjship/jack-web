@@ -5,6 +5,16 @@
   color: $white;
 }
 
+.l-container {
+  width: rem(620);
+  margin-right: auto;
+  margin-left: auto;
+  top: rem(70);
+  position: relative;
+  color: $white;
+  text-transform: uppercase;
+}
+
 .l-footer {
   width: rem(634);
   height: rem(1045);
