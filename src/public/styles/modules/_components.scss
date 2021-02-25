@@ -118,3 +118,28 @@
   font-size: rem(29);
   letter-spacing: rem(0.21);
 }
+
+.c-fs-zgloszenie-container {
+  font-size: rem(38);
+  text-align: center;
+}
+
+.c-fs-doodwaznych-container {
+  font-size: rem(33);
+  text-align: center;
+}
+
+.c-fs-twoje-container {
+  font-size: rem(25);
+  text-align: center;
+  text-transform: none;
+}
+
+.c-fs-btn {
+  padding: 0.5rem;
+  font-size: rem(37);
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid $white;
+}

@@ -161,7 +161,7 @@ input {
 }
 
 .-f-finlandia {
-  font-family: 'FinlandiaHeadlineApp', 'Arial', Arial, sans-serif;
+  font-family: 'FinlandiaHeadlineApp', 'myriad-pro-condensed', Arial, sans-serif;
 }
 
 @font-face {
@@ -352,6 +352,31 @@ input {
   color: #959595;
   font-size: 1.8125rem;
   letter-spacing: 0.01312rem;
+}
+
+.c-fs-zgloszenie-container {
+  font-size: 2.375rem;
+  text-align: center;
+}
+
+.c-fs-doodwaznych-container {
+  font-size: 2.0625rem;
+  text-align: center;
+}
+
+.c-fs-twoje-container {
+  font-size: 1.5625rem;
+  text-align: center;
+  text-transform: none;
+}
+
+.c-fs-btn {
+  padding: 0.5rem;
+  font-size: 2.3125rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #ffffff;
 }
 
 .l-wrapper {
