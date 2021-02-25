@@ -417,6 +417,9 @@ input {
   width: 45rem;
   margin: 0 auto 0 auto;
   color: #ffffff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
 }
 
 .l-container {
