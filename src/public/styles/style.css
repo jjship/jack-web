@@ -314,6 +314,38 @@ input {
   width: 28.5rem;
 }
 
+.c-f-form-group {
+  width: 28rem;
+  padding-left: 2.5rem;
+  cursor: pointer;
+  font-size: 1.8125rem;
+  text-transform: none;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* When the checkbox is checked, add an orange background */
+}
+
+.c-f-form-group input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.c-f-form-group .c-checkmark {
+  position: absolute;
+  top: 0.6rem;
+  left: 0;
+  height: 1.25rem;
+  width: 1.25rem;
+  border: 2px solid #baab8f;
+}
+
+.c-f-form-group input:checked ~ .c-checkmark {
+  background-color: #d67c1c;
+}
+
 .c-akcja {
   color: #b7ac92;
   text-align: center;
@@ -595,35 +627,7 @@ input {
 .l-f-form-group {
   display: block;
   position: relative;
-  width: 28rem;
   margin-bottom: 3.625rem;
-  padding-left: 2.5rem;
-  cursor: pointer;
-  font-size: 1.8125rem;
-  /* Hide the browser's default checkbox */
-  /* Create a custom checkbox */
-  /* When the checkbox is checked, add an orange background */
-}
-
-.l-f-form-group input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.l-f-form-group .c-checkmark {
-  position: absolute;
-  top: 0.6rem;
-  left: 0;
-  height: 1.25rem;
-  width: 1.25rem;
-  border: 2px solid #baab8f;
-}
-
-.l-f-form-group input:checked ~ .c-checkmark {
-  background-color: #d67c1c;
 }
 
 .l-f-bottle {

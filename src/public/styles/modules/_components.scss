@@ -81,6 +81,35 @@
   width: rem(456);
 }
 
+.c-f-form-group {
+  width: 28rem;
+  padding-left: 2.5rem;
+  cursor: pointer;
+  font-size: rem(29);
+  text-transform: none;
+  /* Hide the browser's default checkbox */
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  /* Create a custom checkbox */
+  .c-checkmark {
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    border: 2px solid $gold-8f;
+  }
+  /* When the checkbox is checked, add an orange background */
+  input:checked ~ .c-checkmark {
+    background-color: $orange-1c;
+  }
+}
+
 .c-akcja {
   color: $gold-92;
   text-align: center;
