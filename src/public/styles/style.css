@@ -624,14 +624,14 @@ input {
 
 .l-fs-slogan-container .l-fs-slogan-dzis {
   position: relative;
-  left: 0.4375em;
   font-size: 2.75em;
   margin: 0;
 }
 
 .l-fs-slogan-container .l-fs-slogan-zdarza {
   position: relative;
-  top: -0.75em;
+  top: -0.9375rem;
+  right: 0.625rem;
   font-size: 0.625em;
   font-size: 1em;
   margin: 0;
@@ -639,8 +639,8 @@ input {
 
 .l-fs-slogan-container .l-fs-slogan-tylko {
   position: relative;
-  top: -0.5625em;
-  left: 0.8125em;
+  top: -0.75rem;
+  left: 0.875rem;
   font-size: 2.1875em;
   margin: 0;
 }
