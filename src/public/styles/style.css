@@ -766,6 +766,10 @@ input {
   width: 100%;
 }
 
+.l-p-wrapper {
+  height: 121.875rem;
+}
+
 .l-p-container {
   height: auto;
 }
