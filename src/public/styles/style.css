@@ -615,6 +615,11 @@ input {
 
 .l-fs-slogan-container {
   font-size: 26.545454px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .l-fs-slogan-container .l-fs-slogan-dzis {
