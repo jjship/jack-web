@@ -1,6 +1,10 @@
 @media screen and (min-width: 1450px) {
+  .l-wrapper {
+    width: rem(1440);
+  }
   .l-h-container,
-  .l-f-container {
+  .l-f-container,
+  .l-fs-container {
     width: rem(780);
     height: rem(900);
   }
