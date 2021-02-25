@@ -8,3 +8,24 @@
   margin-bottom: 50px;
   width: 100%;
 }
+
+.l-p-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.l-p-flex-seven,
+.l-p-flex-three,
+.l-p-flex-instax {
+  max-width: rem(270);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.l-p-flex-instax {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}

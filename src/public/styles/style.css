@@ -417,43 +417,43 @@ input {
   background-color: #000000;
 }
 
-.c-p-grid-qty__cash {
+.c-p-flex-qty__cash {
   font-size: 7.3125rem;
 }
 
-.c-p-grid-x__cash {
+.c-p-flex-x__cash {
   font-size: 3.625rem;
 }
 
-.c-p-grid-value {
+.c-p-flex-value {
   font-size: 4rem;
 }
 
-.c-p-grid-zl {
+.c-p-flex-zl {
   font-size: 1.8125rem;
 }
 
-.c-p-grid-na {
+.c-p-flex-na {
   font-size: 1.5rem;
 }
 
-.c-p-grid-qty {
+.c-p-flex-qty {
   font-size: 4.5625rem;
 }
 
-.c-p-grid-x {
+.c-p-flex-x {
   font-size: 2.25rem;
 }
 
-.c-p-grid-jack {
+.c-p-flex-jack {
   font-size: 4rem;
 }
 
-.c-p-grid-plus {
+.c-p-flex-plus {
   font-size: 1.8125rem;
 }
 
-.c-p-grid-instax {
+.c-p-flex-instax {
   font-size: 3rem;
 }
 
@@ -775,6 +775,39 @@ input {
   margin-top: 13rem;
   margin-bottom: 50px;
   width: 100%;
+}
+
+.l-p-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.l-p-flex-seven,
+.l-p-flex-three,
+.l-p-flex-instax {
+  max-width: 16.875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-p-flex-instax {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .h-nav {
