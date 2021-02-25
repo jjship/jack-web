@@ -609,6 +609,10 @@ input {
   width: 100%;
 }
 
+.l-fs-container {
+  height: 54.1875rem;
+}
+
 .l-fs-slogan-container {
   font-size: 26.545454px;
 }
