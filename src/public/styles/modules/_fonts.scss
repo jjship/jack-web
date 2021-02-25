@@ -8,6 +8,12 @@
   }
 }
 
+//TODO include Finlandia font
+
+.-f-finlandia {
+  font-family: 'FinlandiaHeadlineApp', 'Arial', Arial, sans-serif;
+}
+
 @include font('FranklinGothic-Demi', '/styles/fonts/FranklinGothic-Demi');
 
 .-f-franklin-demi {

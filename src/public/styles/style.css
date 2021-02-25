@@ -160,6 +160,10 @@ input {
   display: flex;
 }
 
+.-f-finlandia {
+  font-family: 'FinlandiaHeadlineApp', 'Arial', Arial, sans-serif;
+}
+
 @font-face {
   font-family: "FranklinGothic-Demi";
   src: url("/styles/fonts/FranklinGothic-Demi.woff2") format("woff2"), url("/styles/fonts/FranklinGothic-Demi.woff") format("woff");
