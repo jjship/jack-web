@@ -1,5 +1,5 @@
 .l-fs-container {
-  height: rem(867);
+  height: auto;
 }
 .l-fs-slogan-container {
   font-size: 26.545454px;
@@ -26,4 +26,40 @@
     font-size: em(35);
     margin: 0;
   }
+}
+
+.l-fs-zgloszenie-container {
+  margin-top: rem(2);
+}
+
+.l-fs-doodwaznych-container {
+  margin-top: rem(25);
+}
+
+.l-fs-twoje-container {
+  margin-top: rem(25);
+  width: rem(520);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-fs-btn {
+  display: block;
+  margin-top: rem(60);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-fs-bottle {
+  display: block;
+  margin-top: 31px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.l-fs-akcja {
+  margin-top: 210px;
+  margin-bottom: 150px;
+  width: 100%;
 }

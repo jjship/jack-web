@@ -355,7 +355,7 @@ input {
 }
 
 .c-fs-zgloszenie-container {
-  font-size: 2.375rem;
+  font-size: 1.875rem;
   text-align: center;
 }
 
@@ -371,12 +371,13 @@ input {
 }
 
 .c-fs-btn {
-  padding: 0.5rem;
-  font-size: 2.3125rem;
-  color: #ffffff;
+  padding: 7px 20px 7px 20px;
+  font-size: 2.375rem;
   text-transform: uppercase;
   text-decoration: none;
+  color: #ffffff;
   border: 2px solid #ffffff;
+  background-color: #000000;
 }
 
 .l-wrapper {
@@ -639,7 +640,7 @@ input {
 }
 
 .l-fs-container {
-  height: 54.1875rem;
+  height: auto;
 }
 
 .l-fs-slogan-container {
@@ -672,6 +673,44 @@ input {
   left: 0.875rem;
   font-size: 2.1875em;
   margin: 0;
+}
+
+.l-fs-zgloszenie-container {
+  margin-top: 0.125rem;
+}
+
+.l-fs-doodwaznych-container {
+  margin-top: 1.5625rem;
+}
+
+.l-fs-twoje-container {
+  margin-top: 1.5625rem;
+  width: 32.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-fs-btn {
+  display: block;
+  margin-top: 3.75rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-fs-bottle {
+  display: block;
+  margin-top: 31px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.l-fs-akcja {
+  margin-top: 210px;
+  margin-bottom: 150px;
+  width: 100%;
 }
 
 .h-nav {

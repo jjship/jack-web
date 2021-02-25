@@ -120,7 +120,7 @@
 }
 
 .c-fs-zgloszenie-container {
-  font-size: rem(38);
+  font-size: rem(30);
   text-align: center;
 }
 
@@ -136,10 +136,11 @@
 }
 
 .c-fs-btn {
-  padding: 0.5rem;
-  font-size: rem(37);
-  color: $white;
+  padding: 7px 20px 7px 20px;
+  font-size: rem(38);
   text-transform: uppercase;
   text-decoration: none;
+  color: $white;
   border: 2px solid $white;
+  background-color: $black-00;
 }
