@@ -402,7 +402,7 @@ input {
   text-transform: none;
 }
 
-.c-fs-btn {
+.c-btn__zamknij {
   padding: 7px 20px 7px 20px;
   font-size: 2.375rem;
   text-transform: uppercase;
@@ -698,7 +698,7 @@ input {
   margin-right: auto;
 }
 
-.l-fs-btn {
+.l-fs-btn__zamknij {
   display: block;
   margin-top: 3.75rem;
   width: -webkit-fit-content;
@@ -770,9 +770,6 @@ input {
   .l-h-container .l-copyform-container {
     margin-top: 0;
     left: 44.375rem;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
   }
   .l-f-container .l-copyform-container {
     width: 51.3125rem;
@@ -797,7 +794,7 @@ input {
     height: 6.25rem;
   }
   .l-copyform-container {
-    margin: 0;
+    margin-top: 0;
     max-width: 25rem;
     position: relative;
   }
