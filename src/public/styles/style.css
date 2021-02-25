@@ -842,7 +842,8 @@ input {
   }
   .l-h-container,
   .l-f-container,
-  .l-fs-container {
+  .l-fs-container,
+  .l-p-container {
     width: 48.75rem;
     height: 56.25rem;
   }
@@ -1059,6 +1060,9 @@ input {
   .l-f-akcja {
     margin-top: 10px;
     margin-bottom: 1.625rem;
+  }
+  .l-p-flex-instax {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

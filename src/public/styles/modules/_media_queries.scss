@@ -4,7 +4,8 @@
   }
   .l-h-container,
   .l-f-container,
-  .l-fs-container {
+  .l-fs-container,
+  .l-p-container {
     width: rem(780);
     height: rem(900);
   }
@@ -239,5 +240,9 @@
   .l-f-akcja {
     margin-top: 10px;
     margin-bottom: rem(26);
+  }
+
+  .l-p-flex-instax {
+    margin: 0;
   }
 }
