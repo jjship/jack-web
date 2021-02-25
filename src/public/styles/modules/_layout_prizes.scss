@@ -10,6 +10,7 @@
 }
 
 .l-p-flex {
+  margin-top: rem(70);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -26,6 +27,7 @@
 
 .l-p-flex-instax {
   position: relative;
+  margin-top: rem(30);
   margin-left: auto;
   margin-right: auto;
 }
