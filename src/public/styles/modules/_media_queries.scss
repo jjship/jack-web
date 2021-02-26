@@ -9,9 +9,14 @@
     height: rem(900);
   }
 
+  .l-p-wrapper {
+    height: rem(1100);
+  }
+
   .l-p-container {
     width: rem(982);
     height: rem(900);
+    top: rem(45);
   }
 
   .l-h-container {
@@ -250,6 +255,10 @@
     margin: 0;
   }
 
+  .l-p-btn__zamknij {
+    margin-top: rem(56);
+  }
+
   .c-btn__zamknij {
     padding: rem(12) rem(32);
     font-size: rem(16);
@@ -258,5 +267,9 @@
     color: $white;
     border: 2px solid $white;
     background-color: $black-00;
+  }
+
+  .c-title {
+    font-size: rem(36);
   }
 }

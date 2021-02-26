@@ -1,6 +1,6 @@
 .l-wrapper {
   background: $black-00;
-  width: rem(720);
+  width: vw_m(720);
   margin: 0 auto 0 auto;
   color: $white;
   background-repeat: no-repeat;
@@ -10,59 +10,59 @@
 }
 
 .l-container {
-  width: rem(620);
+  width: vw_m(620);
   margin-right: auto;
   margin-left: auto;
-  top: rem(70);
+  top: vw_m(70);
   position: relative;
   color: $white;
   text-transform: uppercase;
 }
 
 .l-footer {
-  width: rem(620);
-  height: rem(1045);
+  width: vw_m(620);
+  height: vw_m(1045);
   margin-right: auto;
   margin-left: auto;
-  padding-top: rem(310);
+  padding-top: vw_m(310);
 }
 
 .l-footer__socials {
   position: relative;
-  bottom: rem(46);
+  bottom: vw_m(46);
 }
 
 .l-copy {
   position: relative;
   width: auto;
-  height: rem(174);
+  height: vw_m(174);
   .l-copy-mamy {
     position: relative;
-    left: rem(58);
-    font-size: rem(42);
+    left: vw_m(58);
+    font-size: vw_m(42);
   }
   .l-copy-wielkie {
     position: relative;
-    bottom: rem(5);
-    font-size: rem(56);
+    bottom: w_m(5);
+    font-size: vw_m(56);
   }
   .l-copy-napelnijmy {
     position: relative;
-    left: rem(42);
-    bottom: rem(13);
-    font-size: rem(32);
+    left: vw_m(42);
+    bottom: vw_m(13);
+    font-size: vw_m(32);
   }
   .l-copy-butelke {
     position: relative;
-    bottom: rem(9);
-    left: rem(-3);
-    font-size: rem(56);
+    bottom: w_m(9);
+    left: vw_m(-3);
+    font-size: vw_m(56);
   }
   .l-copy-jacka {
     position: relative;
-    bottom: rem(86);
+    bottom: vw_m(86);
     text-align: end;
-    font-size: rem(84);
+    font-size: vw_m(84);
   }
 }
 
@@ -76,18 +76,18 @@
 }
 .l-form-label__masz {
   position: relative;
-  left: rem(468);
-  top: rem(4);
+  left: vw_m(468);
+  top: w_m(4);
 }
 .l-form-input {
-  margin-top: rem(60);
+  margin-top: vw_m(60);
 }
 .l-form-input__1 {
-  margin-top: rem(90);
+  margin-top: vw_m(90);
 }
 .l-f-form-buttons-container {
-  margin-top: rem(60);
+  margin-top: vw_m(60);
 }
 .l-f-form-checkbox-container {
-  margin-top: rem(140);
+  margin-top: vw_m(140);
 }
