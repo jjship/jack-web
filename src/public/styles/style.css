@@ -491,13 +491,11 @@ input {
 .c-a-p-jak {
   font-size: 2.0625rem;
   letter-spacing: 0.05875rem;
-  width: 38.25rem;
 }
 
 .c-a-p-moze {
   font-size: 2.0625rem;
   letter-spacing: 0.05187rem;
-  width: 38.25rem;
 }
 
 .l-wrapper {
@@ -964,6 +962,14 @@ input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.l-a-p-jak {
+  margin-top: 5rem;
+}
+
+.l-a-p-moze {
+  margin-top: 3.125rem;
 }
 
 .h-nav {
