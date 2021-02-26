@@ -4,9 +4,13 @@
   }
   .l-h-container,
   .l-f-container,
-  .l-fs-container,
-  .l-p-container {
+  .l-fs-container {
     width: rem(780);
+    height: rem(900);
+  }
+
+  .l-p-container {
+    width: rem(982);
     height: rem(900);
   }
 
