@@ -815,6 +815,7 @@ input {
 }
 
 .l-p-innerflex-container {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -872,6 +873,27 @@ input {
   position: relative;
   left: 1.3125rem;
   bottom: 0.8125rem;
+}
+
+.l-p-flex-visualisation {
+  margin-bottom: 2rem;
+}
+
+.l-p-flex-shadow__seven {
+  position: absolute;
+  top: 717px;
+  left: 6.0625rem;
+}
+
+.l-p-flex-shadow {
+  position: absolute;
+  top: 685px;
+  left: 26.25rem;
+  z-index: 0;
+}
+
+.l-p-flex-visualisation {
+  z-index: 1;
 }
 
 .l-p-btn__zamknij {

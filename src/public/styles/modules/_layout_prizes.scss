@@ -30,6 +30,7 @@
 }
 
 .l-p-innerflex-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,6 +81,27 @@
   position: relative;
   left: rem(21);
   bottom: rem(13);
+}
+
+.l-p-flex-visualisation {
+  margin-bottom: rem(32);
+}
+
+.l-p-flex-shadow__seven {
+  position: absolute;
+  top: 717px;
+  left: rem(97);
+}
+
+.l-p-flex-shadow {
+  position: absolute;
+  top: 685px;
+  left: rem(420);
+  z-index: 0;
+}
+
+.l-p-flex-visualisation {
+  z-index: 1;
 }
 
 .l-p-btn__zamknij {
