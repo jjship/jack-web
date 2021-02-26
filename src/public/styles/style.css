@@ -934,6 +934,11 @@ input {
   margin-right: auto;
 }
 
+.l-faq-flex > div,
+.l-faq-flex div > p {
+  margin-top: 1.25rem;
+}
+
 .h-nav {
   overflow: hidden;
   -webkit-transition: max-height 0.3s ease-out;
