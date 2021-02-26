@@ -934,7 +934,10 @@ input {
   margin-right: auto;
 }
 
-.l-faq-flex > div,
+.l-faq-flex > div {
+  margin-top: 3.75rem;
+}
+
 .l-faq-flex div > p {
   margin-top: 1.25rem;
 }
