@@ -22,7 +22,8 @@
 }
 
 .c-form-textarea,
-.c-form-input {
+.c-form-input,
+.c-c-textarea {
   padding: 1rem 1rem 2.5rem 1rem;
   width: 100%;
   background: black;
@@ -46,7 +47,9 @@
 .c-form-input:focus,
 .c-h-form__btn:focus,
 .c-f-form-btn:focus,
-.c-f-form-zamknij:focus {
+.c-f-form-zamknij:focus,
+.c-c-form-btn:focus,
+.c-c-form-zamknij:focus {
   outline: none;
   border: 2px solid $orange-1c;
 }
@@ -59,7 +62,8 @@
   color: $gold-92;
 }
 
-.c-f-form-zamknij {
+.c-f-form-zamknij,
+.c-c-form-btn {
   border: none;
   padding: 0.5rem;
   font-size: rem(37);
@@ -252,4 +256,26 @@
 .c-a-p-moze {
   font-size: rem(33);
   letter-spacing: rem(0.83);
+}
+
+.c-c-textarea {
+  color: $gold-92;
+}
+
+.c-c-textarea::placeholder {
+  color: $gold-92;
+}
+
+.c-c-form-zamknij {
+  padding: rem(7) rem(20);
+  font-size: rem(38);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  border: none;
+  background-color: none;
+}
+
+.c-c-akcja {
+  text-transform: uppercase;
 }
