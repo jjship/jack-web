@@ -918,10 +918,8 @@ input {
 }
 
 .h-is__up {
-  right: 16rem;
-  top: 2.4375rem;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .h-is__down {
