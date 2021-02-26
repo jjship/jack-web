@@ -513,7 +513,7 @@ input {
   width: 38.75rem;
   margin-right: auto;
   margin-left: auto;
-  top: 4.375rem;
+  padding-top: 4.375rem;
   position: relative;
   color: #ffffff;
   text-transform: uppercase;
@@ -964,12 +964,56 @@ input {
   margin-right: auto;
 }
 
-.l-a-p-jak {
-  margin-top: 5rem;
+.l-a-flex {
+  margin-top: 4.5625rem;
+  height: 79.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .l-a-p-moze {
   margin-top: 3.125rem;
+}
+
+.l-a-slogan__today {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-a-slogan__today .l-a-slogan__dzis {
+  position: relative;
+  left: 1.3125rem;
+  font-size: 8.25rem;
+  margin: 0;
+}
+
+.l-a-slogan__today .l-a-slogan__zdarza {
+  position: relative;
+  top: -1.9375rem;
+  font-size: 1.875rem;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.l-a-slogan__today .l-a-slogan__tylko {
+  position: relative;
+  top: -1.6875rem;
+  left: 2.4375rem;
+  font-size: 6.5625rem;
+  margin: 0;
+}
+
+.l-a-akcja {
+  padding: 12.1875rem 0 14.5rem 0;
+  width: 100%;
 }
 
 .h-nav {
