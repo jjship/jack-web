@@ -470,8 +470,8 @@ input {
 
 .l-container {
   width: 86.11111vw;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
   top: 9.72222vw;
   position: relative;
   color: #ffffff;
