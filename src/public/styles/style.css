@@ -435,6 +435,8 @@ input {
 
 .c-p-flex-na {
   font-size: 1.5rem;
+  text-align: center;
+  line-height: 30px;
 }
 
 .c-p-flex-qty {
@@ -794,10 +796,9 @@ input {
           justify-content: space-between;
 }
 
-.l-p-flex-seven-container,
-.l-p-flex-three-container,
-.l-p-flex-instax-container {
+.l-p-flex-item {
   max-width: 16.875rem;
+  height: 35.5625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -813,11 +814,63 @@ input {
           justify-content: space-between;
 }
 
+.l-p-innerflex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .l-p-flex-instax-container {
   position: relative;
   margin-top: 1.875rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.l-p-flex-value {
+  margin-top: -1.0625rem;
+}
+
+.l-p-flex-zl {
+  position: relative;
+  left: 3.25rem;
+  bottom: 0.5rem;
+}
+
+.l-p-flex-na {
+  margin-top: 0.25rem;
+}
+
+.l-p-flex-shadow {
+  position: absolute;
+}
+
+.l-p-flex-qty {
+  position: relative;
+  right: 35px;
+}
+
+.l-p-flex-jack {
+  margin-top: -0.5rem;
+}
+
+.l-p-flex-plus {
+  position: relative;
+  left: 3.0625rem;
+  bottom: 0.5625rem;
+}
+
+.l-p-flex-instax {
+  position: relative;
+  left: 1.3125rem;
+  bottom: 0.8125rem;
 }
 
 .l-p-btn__zamknij {
