@@ -459,7 +459,7 @@ input {
 
 .l-wrapper {
   background: #000000;
-  width: auto;
+  width: 100vw;
   margin: 0 auto 0 auto;
   color: #ffffff;
   background-repeat: no-repeat;
@@ -469,65 +469,65 @@ input {
 }
 
 .l-container {
-  width: auto;
+  width: 86.11111vw;
   margin-right: 10px;
   margin-left: 10px;
-  top: 4.375rem;
+  top: 9.72222vw;
   position: relative;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .l-footer {
-  width: auto;
-  height: 65.3125rem;
+  width: 86.11111vw;
+  height: 145.13889vw;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 19.375rem;
+  padding-top: 43.05556vw;
 }
 
 .l-footer__socials {
   position: relative;
-  bottom: 2.875rem;
+  bottom: 6.38889vw;
 }
 
 .l-copy {
   position: relative;
   width: auto;
-  height: 10.875rem;
+  height: 24.16667vw;
 }
 
 .l-copy .l-copy-mamy {
   position: relative;
-  left: 3.625rem;
-  font-size: 2.625rem;
+  left: 8.05556vw;
+  font-size: 5.83333vw;
 }
 
 .l-copy .l-copy-wielkie {
   position: relative;
-  bottom: 0.3125rem;
-  font-size: 3.5rem;
+  bottom: w_m(5);
+  font-size: 7.77778vw;
 }
 
 .l-copy .l-copy-napelnijmy {
   position: relative;
-  left: 2.625rem;
-  bottom: 0.8125rem;
-  font-size: 2rem;
+  left: 5.83333vw;
+  bottom: 1.80556vw;
+  font-size: 4.44444vw;
 }
 
 .l-copy .l-copy-butelke {
   position: relative;
-  bottom: 0.5625rem;
-  left: -0.1875rem;
-  font-size: 3.5rem;
+  bottom: w_m(9);
+  left: -0.41667vw;
+  font-size: 7.77778vw;
 }
 
 .l-copy .l-copy-jacka {
   position: relative;
-  bottom: 5.375rem;
+  bottom: 11.94444vw;
   text-align: end;
-  font-size: 5.25rem;
+  font-size: 11.66667vw;
 }
 
 .l-form {
@@ -541,50 +541,51 @@ input {
 
 .l-form-label__masz {
   position: relative;
-  left: 29.25rem;
-  top: 0.25rem;
+  left: 65vw;
+  top: w_m(4);
 }
 
 .l-form-input {
-  margin-top: 3.75rem;
+  margin-top: 8.33333vw;
 }
 
 .l-form-input__1 {
-  margin-top: 5.625rem;
+  margin-top: 12.5vw;
 }
 
 .l-f-form-buttons-container {
-  margin-top: 3.75rem;
+  margin-top: 8.33333vw;
 }
 
 .l-f-form-checkbox-container {
-  margin-top: 8.75rem;
+  margin-top: 19.44444vw;
 }
 
 .l-h-container {
-  height: 137.5rem;
+  height: 305.55556vw;
 }
 
 .l-h-container .l-copyform-container {
-  margin-top: 57.5625rem;
+  margin-top: 127.91667vw;
 }
 
 .l-h-bottle_w_shadow {
-  top: -0.3125rem;
-  right: 1.625rem;
+  top: -0.69444vw;
+  right: 3.61111vw;
+  width: 75.27778vw;
 }
 
 .l-h-live_icon {
   right: 0;
   width: auto;
-  max-width: 4.5rem;
+  max-width: 10vw;
 }
 
 .l-h-slogan {
-  width: 9.125rem;
-  height: 10.6875rem;
-  top: 0.625rem;
-  left: 0.1875rem;
+  width: 20.27778vw;
+  height: 23.75vw;
+  top: 1.38889vw;
+  left: w_m(3);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -599,24 +600,24 @@ input {
 
 .l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
   position: relative;
-  left: 0.4375rem;
-  font-size: 2.75rem;
+  left: w_m(7);
+  font-size: 6.11111vw;
   margin: 0;
 }
 
 .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
   position: relative;
-  top: -0.75rem;
-  font-size: 0.625rem;
-  font-size: 1rem;
+  top: -1.66667vw;
+  font-size: 1.38889vw;
+  font-size: 2.22222vw;
   margin: 0;
 }
 
 .l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
   position: relative;
-  top: -0.5625rem;
-  left: 0.8125rem;
-  font-size: 2.1875rem;
+  top: -1.25vw;
+  left: 1.80556vw;
+  font-size: 4.86111vw;
   margin: 0;
 }
 
@@ -624,26 +625,26 @@ input {
   display: block;
   position: relative;
   left: 50%;
-  bottom: 0.3125rem;
-  margin-left: -1.15625rem;
-  width: 2.3125rem;
+  bottom: w_m(5);
+  margin-left: -2.56944vw;
+  width: 5.13889vw;
 }
 
 .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
-  font-size: 1.375rem;
+  font-size: 3.05556vw;
 }
 
 .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
-  font-size: 1.8125rem;
+  font-size: 4.02778vw;
 }
 
 .l-h-form {
-  bottom: 5.9375rem;
+  bottom: 13.19444vw;
 }
 
 .l-h-form-btn {
   position: relative;
-  top: 3.5625rem;
+  top: 7.91667vw;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -651,7 +652,7 @@ input {
 
 .l-h-akcja {
   position: relative;
-  margin-top: 16.25rem;
+  margin-top: 36.11111vw;
   margin-bottom: 50px;
   width: 100%;
 }
@@ -793,9 +794,9 @@ input {
           justify-content: space-between;
 }
 
-.l-p-flex-seven,
-.l-p-flex-three,
-.l-p-flex-instax {
+.l-p-flex-seven-container,
+.l-p-flex-three-container,
+.l-p-flex-instax-container {
   max-width: 16.875rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -809,7 +810,7 @@ input {
           align-items: center;
 }
 
-.l-p-flex-instax {
+.l-p-flex-instax-container {
   position: relative;
   margin-top: 1.875rem;
   margin-left: auto;
@@ -858,9 +859,12 @@ input {
   }
   .l-h-container,
   .l-f-container,
-  .l-fs-container,
-  .l-p-container {
+  .l-fs-container {
     width: 48.75rem;
+    height: 56.25rem;
+  }
+  .l-p-container {
+    width: 61.375rem;
     height: 56.25rem;
   }
   .l-h-container {
