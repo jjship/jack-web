@@ -1054,6 +1054,10 @@ input {
   width: 100%;
 }
 
+.c-c-disclaimer {
+  line-height: 1.1;
+}
+
 .l-c-akcja {
   padding: 12.1875rem 0 14.5rem 0;
   width: 100%;
@@ -1074,6 +1078,10 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.l-c-disclaimer {
+  padding-top: 4.75rem;
 }
 
 .h-nav {
