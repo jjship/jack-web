@@ -9,13 +9,13 @@ const mq_mob = window.matchMedia(mob);
 const input = document.querySelector('.js-textarea');
 const wrap = document.querySelector('.js-wrapper');
 
-const setArrow = () => {
+const toggleMenu = () => {
   if (nav.classList.contains('h-is__closed')) {
-    togg.innerHTML - 'mniej';
+    togg.innerHTML = 'mniej';
     arr.classList.remove('h-is__down');
     nav.classList.toggle('h-is__closed');
   } else {
-    togg.innerHTML - 'menu';
+    togg.innerHTML = 'menu';
     arr.classList.add('h-is__down');
     nav.classList.toggle('h-is__closed');
   }
@@ -47,7 +47,7 @@ const setBackgoundImage = (mediaQuery) => {
 
 // Call listener function at run time
 changeClass(mq_dsk);
-setArrow(mq_mob);
+toggleMenu(mq_mob);
 changeInputSize(mq_dsk);
 setBackgoundImage(mq_dsk);
 setBackgoundImage(mq_mob);
@@ -56,11 +56,11 @@ setBackgoundImage(mq_mob);
 // Attach listener function on state changes
 // mediaQuery.addListener(changePicture);
 mq_dsk.addListener(changeClass);
-mq_mob.addListener(setArrow);
+mq_mob.addListener(toggleMenu);
 mq_dsk.addListener(changeInputSize);
 mq_mob.addListener(setBackgoundImage);
 mq_dsk.addListener(setBackgoundImage);
 
 togg.addEventListener('click', () => {
-  setArrow();
+  toggleMenu();
 });
