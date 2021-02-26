@@ -249,4 +249,14 @@
   .l-p-flex-instax-container {
     margin: 0;
   }
+
+  .c-btn__zamknij {
+    padding: rem(12) rem(32);
+    font-size: rem(16);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white;
+    border: 2px solid $white;
+    background-color: $black-00;
+  }
 }
