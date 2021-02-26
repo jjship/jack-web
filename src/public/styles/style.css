@@ -853,8 +853,9 @@ input {
 }
 
 .l-p-flex-qty {
+  margin-top: 2.1875rem;
   position: relative;
-  right: 35px;
+  right: 2.1875rem;
 }
 
 .l-p-flex-jack {
