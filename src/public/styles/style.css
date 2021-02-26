@@ -934,6 +934,10 @@ input {
   margin-right: auto;
 }
 
+.l-faq-container {
+  height: 127.5rem;
+}
+
 .l-faq-flex > div {
   margin-top: 3.75rem;
 }
