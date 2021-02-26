@@ -1,4 +1,5 @@
 const togg = document.querySelector('.js-toggle');
+const toggFAQ = document.querySelectorAll('.js-faq-btn');
 const nav = document.querySelector('.js-nav');
 const arr = document.querySelector('.js-arrow');
 const lights = document.querySelector('.bg_lights');
@@ -9,7 +10,7 @@ const mq_mob = window.matchMedia(mob);
 const input = document.querySelector('.js-textarea');
 const wrap = document.querySelector('.js-wrapper');
 
-const toggleMenu = () => {
+const toggleNav = () => {
   if (nav.classList.contains('h-is__closed')) {
     togg.innerHTML = 'mniej';
     arr.classList.remove('h-is__down');
@@ -19,6 +20,22 @@ const toggleMenu = () => {
     arr.classList.add('h-is__down');
     nav.classList.toggle('h-is__closed');
   }
+};
+
+const toggleCollapsible = (btn) => {
+  const elem = btn.nextElementSibling;
+  const closed = 'h-is__closed';
+  elem.classList.contains(closed)
+    ? elem.classList.remove(closed)
+    : elem.classList.add(closed);
+};
+
+const switchArrow = (btn) => {
+  const arrow = btn.children[0];
+  const isUp = 'h-is__up';
+  arrow.classList.contains(isUp)
+    ? arrow.classList.remove(isUp)
+    : arrow.classList.add(isUp);
 };
 
 const changeClass = (mediaQuery) => {
@@ -47,7 +64,7 @@ const setBackgoundImage = (mediaQuery) => {
 
 // Call listener function at run time
 changeClass(mq_dsk);
-toggleMenu(mq_mob);
+toggleNav(mq_mob);
 changeInputSize(mq_dsk);
 setBackgoundImage(mq_dsk);
 setBackgoundImage(mq_mob);
@@ -56,11 +73,18 @@ setBackgoundImage(mq_mob);
 // Attach listener function on state changes
 // mediaQuery.addListener(changePicture);
 mq_dsk.addListener(changeClass);
-mq_mob.addListener(toggleMenu);
+mq_mob.addListener(toggleNav);
 mq_dsk.addListener(changeInputSize);
 mq_mob.addListener(setBackgoundImage);
 mq_dsk.addListener(setBackgoundImage);
 
 togg.addEventListener('click', () => {
-  toggleMenu();
+  toggleNav();
 });
+
+toggFAQ.forEach((elem) =>
+  elem.addEventListener('click', (e) => {
+    toggleCollapsible(e.currentTarget);
+    switchArrow(e.currentTarget);
+  })
+);
