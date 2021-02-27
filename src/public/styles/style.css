@@ -476,6 +476,10 @@ input {
           align-items: center;
 }
 
+.c-faq-arrow {
+  width: 5vw;
+}
+
 .c-faq-p {
   font-size: 4.58333vw;
   text-transform: none;
@@ -965,20 +969,20 @@ input {
 }
 
 .l-faq-container {
-  height: 127.5rem;
+  height: 283.33333vw;
 }
 
 .l-faq-flex > div {
-  margin-top: 3.75rem;
+  margin-top: 8.33333vw;
 }
 
 .l-faq-flex div > p {
-  margin-top: 1.25rem;
+  margin-top: 2.77778vw;
 }
 
 .l-faq-bottle {
-  width: 12.5rem;
-  margin-top: 5.125rem;
+  width: 27.77778vw;
+  margin-top: 11.38889vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1070,6 +1074,7 @@ input {
   position: absolute;
   left: 58.33333vw;
   top: 6.94444vw;
+  width: 5vw;
 }
 
 .h-nav {
