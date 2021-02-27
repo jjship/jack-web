@@ -1,5 +1,5 @@
 .l-f-container {
-  height: rem(1914);
+  height: vwm(1914);
 }
 
 .l-f-form-buttons-container {
@@ -12,18 +12,18 @@
 .l-f-form-group {
   display: block;
   position: relative;
-  margin-bottom: rem(58);
+  margin-bottom: vwm(58);
 }
 
 .l-f-bottle {
   position: absolute;
   right: 0;
-  bottom: -4rem;
+  bottom: vwm(-64);
 }
 
 .l-f-akcja {
   position: relative;
-  margin-top: rem(208);
-  margin-bottom: 50px;
+  margin-top: vwm(208);
+  margin-bottom: vwm(50);
   width: 100%;
 }

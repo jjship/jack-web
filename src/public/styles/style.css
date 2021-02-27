@@ -114,6 +114,10 @@ input {
   border-radius: 0;
 }
 
+::-moz-placeholder {
+  opacity: 1;
+}
+
 .u-uppercase {
   text-transform: uppercase;
 }
@@ -724,7 +728,7 @@ input {
 }
 
 .l-f-container {
-  height: 119.625rem;
+  height: 265.83333vw;
 }
 
 .l-f-form-buttons-container {
@@ -743,19 +747,19 @@ input {
 .l-f-form-group {
   display: block;
   position: relative;
-  margin-bottom: 3.625rem;
+  margin-bottom: 8.05556vw;
 }
 
 .l-f-bottle {
   position: absolute;
   right: 0;
-  bottom: -4rem;
+  bottom: -8.88889vw;
 }
 
 .l-f-akcja {
   position: relative;
-  margin-top: 13rem;
-  margin-bottom: 50px;
+  margin-top: 28.88889vw;
+  margin-bottom: 6.94444vw;
   width: 100%;
 }
 
