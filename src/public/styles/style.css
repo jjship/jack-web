@@ -321,8 +321,8 @@ input {
 }
 
 .c-f-form-group {
-  width: 3.88889vw;
-  padding-left: 0.34722vw;
+  width: 62.22222vw;
+  padding-left: 5.55556vw;
   cursor: pointer;
   font-size: 4.02778vw;
   text-transform: none;
@@ -341,10 +341,10 @@ input {
 
 .c-f-form-group .c-checkmark {
   position: absolute;
-  top: 0.08333vw;
+  top: 1.38889vw;
   left: 0;
-  height: 0.17361vw;
-  width: 0.17361vw;
+  height: 2.77778vw;
+  width: 2.77778vw;
   border: 2px solid #baab8f;
 }
 

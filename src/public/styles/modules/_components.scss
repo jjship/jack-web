@@ -84,8 +84,8 @@
 }
 
 .c-f-form-group {
-  width: vwm(28);
-  padding-left: vwm(2.5);
+  width: vwm(448);
+  padding-left: vwm(40);
   cursor: pointer;
   font-size: vwm(29);
   text-transform: none;
@@ -100,10 +100,10 @@
   /* Create a custom checkbox */
   .c-checkmark {
     position: absolute;
-    top: vwm(0.6);
+    top: vwm(10);
     left: 0;
-    height: vwm(1.25);
-    width: vwm(1.25);
+    height: vwm(20);
+    width: vwm(20);
     border: 2px solid $gold-8f;
   }
   /* When the checkbox is checked, add an orange background */
