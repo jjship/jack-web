@@ -363,7 +363,7 @@ input {
   display: inline-block;
   color: white;
   position: absolute;
-  font-size: 0.55556vw;
+  font-size: 8.88889vw;
   font-weight: 700;
 }
 
@@ -377,8 +377,8 @@ input {
   background: none;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 0.30556vw;
-  padding: 0.30556vw 0 0.30556vw 0;
+  font-size: 5vw;
+  padding: 5vw 0 5vw 0;
   border-bottom: 3px solid #b7ac92;
 }
 

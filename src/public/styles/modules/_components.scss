@@ -125,7 +125,7 @@
     display: inline-block;
     color: white;
     position: absolute;
-    font-size: vwm(4);
+    font-size: vwm(64);
     font-weight: 700;
   }
   .c-nav__btn {
@@ -138,8 +138,8 @@
     background: none;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: vwm(2.2);
-    padding: vwm(2.2) 0 vwm(2.2) 0;
+    font-size: vwm(36);
+    padding: vwm(36) 0 vwm(36) 0;
     border-bottom: 3px solid $gold-92;
   }
 }
