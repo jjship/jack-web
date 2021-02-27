@@ -1049,16 +1049,16 @@ input {
 }
 
 .l-c-akcja {
-  padding: 12.1875rem 0 14.5rem 0;
+  padding: 27.08333vw 0 32.22222vw 0;
   width: 100%;
 }
 
 .l-c-textarea {
-  margin-top: 3.75rem;
+  margin-top: 8.33333vw;
 }
 
 .l-c-form-buttons-container {
-  padding-top: 5.4375rem;
+  padding-top: 12.08333vw;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1071,7 +1071,7 @@ input {
 }
 
 .l-c-disclaimer {
-  padding-top: 4.75rem;
+  padding-top: 10.55556vw;
 }
 
 .l-nav-arrow {
