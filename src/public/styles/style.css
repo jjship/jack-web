@@ -213,8 +213,8 @@ input {
 
 .c-close {
   position: relative;
-  margin-left: 5.16667vw;
-  font-size: 0.27778vw;
+  margin-left: 82.63889vw;
+  font-size: 4.44444vw;
   color: #ffffff;
   text-decoration: none;
 }
@@ -727,10 +727,6 @@ input {
   width: 100%;
 }
 
-.l-f-container {
-  height: 265.83333vw;
-}
-
 .l-f-form-buttons-container {
   width: 100%;
   display: -webkit-box;
@@ -754,13 +750,6 @@ input {
   position: absolute;
   right: 0;
   bottom: -8.88889vw;
-}
-
-.l-f-akcja {
-  position: relative;
-  margin-top: 28.88889vw;
-  margin-bottom: 6.94444vw;
-  width: 100%;
 }
 
 .l-fs-container {
