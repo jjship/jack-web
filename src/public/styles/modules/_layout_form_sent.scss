@@ -8,44 +8,44 @@
   margin-right: auto;
   .l-fs-slogan-dzis {
     position: relative;
-    font-size: em(44);
+    font-size: vwm(72.6);
     margin: 0;
   }
   .l-fs-slogan-zdarza {
     position: relative;
-    top: rem(-15);
-    right: rem(10);
-    font-size: em(10);
-    font-size: em(16);
+    top: vwm(-15);
+    right: vwm(10);
+    font-size: vwm(16.5);
+    font-size: vwm(26.4);
     margin: 0;
   }
   .l-fs-slogan-tylko {
     position: relative;
-    top: rem(-12);
-    left: rem(14);
-    font-size: em(35);
+    top: vwm(-12);
+    left: vwm(14);
+    font-size: vwm(57.75);
     margin: 0;
   }
 }
 
 .l-fs-zgloszenie-container {
-  margin-top: rem(2);
+  margin-top: vwm(2);
 }
 
 .l-fs-doodwaznych-container {
-  margin-top: rem(25);
+  margin-top: vwm(25);
 }
 
 .l-fs-twoje-container {
-  margin-top: rem(25);
-  width: rem(520);
+  margin-top: vwm(25);
+  width: vwm(520);
   margin-left: auto;
   margin-right: auto;
 }
 
 .l-fs-btn__zamknij {
   display: block;
-  margin-top: rem(60);
+  margin-top: vwm(60);
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -53,13 +53,13 @@
 
 .l-fs-bottle {
   display: block;
-  margin-top: 31px;
+  margin-top: vwm(31);
   margin-right: auto;
   margin-left: auto;
 }
 
 .l-fs-akcja {
-  margin-top: 210px;
-  margin-bottom: 150px;
+  margin-top: vwm(210);
+  margin-bottom: vwm(150);
   width: 100%;
 }

@@ -766,45 +766,45 @@ input {
 
 .l-fs-slogan-container .l-fs-slogan-dzis {
   position: relative;
-  font-size: 2.75em;
+  font-size: 10.08333vw;
   margin: 0;
 }
 
 .l-fs-slogan-container .l-fs-slogan-zdarza {
   position: relative;
-  top: -0.9375rem;
-  right: 0.625rem;
-  font-size: 0.625em;
-  font-size: 1em;
+  top: -2.08333vw;
+  right: 1.38889vw;
+  font-size: 2.29167vw;
+  font-size: 3.66667vw;
   margin: 0;
 }
 
 .l-fs-slogan-container .l-fs-slogan-tylko {
   position: relative;
-  top: -0.75rem;
-  left: 0.875rem;
-  font-size: 2.1875em;
+  top: -1.66667vw;
+  left: 1.94444vw;
+  font-size: 8.02083vw;
   margin: 0;
 }
 
 .l-fs-zgloszenie-container {
-  margin-top: 0.125rem;
+  margin-top: 0.27778vw;
 }
 
 .l-fs-doodwaznych-container {
-  margin-top: 1.5625rem;
+  margin-top: 3.47222vw;
 }
 
 .l-fs-twoje-container {
-  margin-top: 1.5625rem;
-  width: 32.5rem;
+  margin-top: 3.47222vw;
+  width: 72.22222vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 .l-fs-btn__zamknij {
   display: block;
-  margin-top: 3.75rem;
+  margin-top: 8.33333vw;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -814,14 +814,14 @@ input {
 
 .l-fs-bottle {
   display: block;
-  margin-top: 31px;
+  margin-top: 4.30556vw;
   margin-right: auto;
   margin-left: auto;
 }
 
 .l-fs-akcja {
-  margin-top: 210px;
-  margin-bottom: 150px;
+  margin-top: 29.16667vw;
+  margin-bottom: 20.83333vw;
   width: 100%;
 }
 
