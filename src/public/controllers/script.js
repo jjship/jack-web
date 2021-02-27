@@ -13,11 +13,11 @@ const wrap = document.querySelector('.js-wrapper');
 const toggleNav = () => {
   if (nav.classList.contains('h-is__closed')) {
     togg.innerHTML = 'mniej';
-    arr.classList.remove('h-is__down');
+    arr.classList.add('h-is__up');
     nav.classList.toggle('h-is__closed');
   } else {
     togg.innerHTML = 'menu';
-    arr.classList.add('h-is__down');
+    arr.classList.remove('h-is__up');
     nav.classList.toggle('h-is__closed');
   }
 };
