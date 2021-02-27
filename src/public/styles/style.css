@@ -989,8 +989,8 @@ input {
 }
 
 .l-a-flex {
-  margin-top: 4.5625rem;
-  height: 79.3125rem;
+  margin-top: 10.13889vw;
+  height: 176.25vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1003,8 +1003,12 @@ input {
           justify-content: space-between;
 }
 
+.l-a-zaslepka {
+  width: 86.11111vw;
+}
+
 .l-a-p-moze {
-  margin-top: 3.125rem;
+  margin-top: 6.94444vw;
 }
 
 .l-a-slogan__today {
@@ -1014,29 +1018,29 @@ input {
 
 .l-a-slogan__today .l-a-slogan__dzis {
   position: relative;
-  left: 1.3125rem;
-  font-size: 8.25rem;
+  left: 2.91667vw;
+  font-size: 18.33333vw;
   margin: 0;
 }
 
 .l-a-slogan__today .l-a-slogan__zdarza {
   position: relative;
-  top: -1.9375rem;
-  font-size: 1.875rem;
-  font-size: 3rem;
+  top: -4.30556vw;
+  font-size: 4.16667vw;
+  font-size: 6.66667vw;
   margin: 0;
 }
 
 .l-a-slogan__today .l-a-slogan__tylko {
   position: relative;
-  top: -1.6875rem;
-  left: 2.4375rem;
-  font-size: 6.5625rem;
+  top: -3.75vw;
+  left: 6.66667vw;
+  font-size: 14.58333vw;
   margin: 0;
 }
 
 .l-a-akcja {
-  padding: 12.1875rem 0 14.5rem 0;
+  padding: 27.08333vw 0 32.22222vw 0;
   width: 100%;
 }
 

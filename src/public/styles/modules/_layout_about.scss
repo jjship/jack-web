@@ -1,13 +1,17 @@
 .l-a-flex {
-  margin-top: rem(73);
-  height: rem(1269);
+  margin-top: vwm(73);
+  height: vwm(1269);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.l-a-zaslepka {
+  width: vwm(620);
+}
+
 .l-a-p-moze {
-  margin-top: rem(50);
+  margin-top: vwm(50);
 }
 
 .l-a-slogan__today {
@@ -15,28 +19,28 @@
   margin-right: auto;
   .l-a-slogan__dzis {
     position: relative;
-    left: rem(21);
-    font-size: rem(132);
+    left: vwm(21);
+    font-size: vwm(132);
     margin: 0;
   }
   .l-a-slogan__zdarza {
     position: relative;
-    top: rem(-31);
-    font-size: rem(30);
-    font-size: rem(48);
+    top: vwm(-31);
+    font-size: vwm(30);
+    font-size: vwm(48);
     margin: 0;
   }
   .l-a-slogan__tylko {
     position: relative;
-    top: rem(-27);
-    left: rem(39);
-    font-size: rem(105);
+    top: vwm(-27);
+    left: vwm(48);
+    font-size: vwm(105);
     margin: 0;
   }
 }
 
 .l-a-akcja {
-  padding: rem(195) 0 rem(232) 0;
+  padding: vwm(195) 0 vwm(232) 0;
   width: 100%;
 }
 
