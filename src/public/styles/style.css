@@ -627,7 +627,7 @@ input {
 }
 
 .l-akcja {
-  padding: 11.75rem 0 14.5rem 0;
+  padding: 26.11111vw 0 32.22222vw 0;
   width: 100%;
 }
 
@@ -819,29 +819,19 @@ input {
   margin-left: auto;
 }
 
-.l-fs-akcja {
-  margin-top: 29.16667vw;
-  margin-bottom: 20.83333vw;
-  width: 100%;
-}
-
-.l-p-wrapper {
-  height: 121.875rem;
-}
-
 .l-p-container {
   height: auto;
 }
 
 .l-p-akcja {
   position: relative;
-  margin-top: 13rem;
+  margin-top: 28.88889vw;
   margin-bottom: 50px;
   width: 100%;
 }
 
 .l-p-flex {
-  margin-top: 4.375rem;
+  margin-top: 9.72222vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -853,8 +843,8 @@ input {
 }
 
 .l-p-flex-item {
-  max-width: 16.875rem;
-  height: 35.5625rem;
+  max-width: 37.5vw;
+  height: 79.02778vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -886,23 +876,23 @@ input {
 
 .l-p-flex-instax-container {
   position: relative;
-  margin-top: 1.875rem;
+  margin-top: 4.16667vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 .l-p-flex-value {
-  margin-top: -1.0625rem;
+  margin-top: -2.36111vw;
 }
 
 .l-p-flex-zl {
   position: relative;
-  left: 3.25rem;
-  bottom: 0.5rem;
+  left: 7.22222vw;
+  bottom: 1.11111vw;
 }
 
 .l-p-flex-na {
-  margin-top: 0.25rem;
+  margin-top: 0.55556vw;
 }
 
 .l-p-flex-shadow {
@@ -910,41 +900,53 @@ input {
 }
 
 .l-p-flex-qty {
-  margin-top: 2.1875rem;
+  margin-top: 4.86111vw;
   position: relative;
-  right: 2.1875rem;
+  right: 4.86111vw;
 }
 
 .l-p-flex-jack {
-  margin-top: -0.5rem;
+  margin-top: -1.11111vw;
 }
 
 .l-p-flex-plus {
   position: relative;
-  left: 3.0625rem;
-  bottom: 0.5625rem;
+  left: 6.80556vw;
+  bottom: 1.25vw;
 }
 
 .l-p-flex-instax {
   position: relative;
-  left: 1.3125rem;
-  bottom: 0.8125rem;
+  left: 2.91667vw;
+  bottom: 1.80556vw;
 }
 
 .l-p-flex-visualisation {
-  margin-bottom: 2rem;
+  margin-bottom: 4.44444vw;
+}
+
+.l-p-flex-visualisation__seven {
+  width: 43.05556vw;
+}
+
+.l-p-flex-visualisation__three {
+  width: 40vw;
+}
+
+.l-p-flex-visualisation__instax {
+  width: 26.52778vw;
 }
 
 .l-p-flex-shadow__seven {
   position: absolute;
-  top: 717px;
-  left: 6.0625rem;
+  top: 99.58333vw;
+  left: 13.47222vw;
 }
 
 .l-p-flex-shadow {
   position: absolute;
-  top: 685px;
-  left: 26.25rem;
+  top: 95.13889vw;
+  left: 58.33333vw;
   z-index: 0;
 }
 
@@ -954,7 +956,7 @@ input {
 
 .l-p-btn__zamknij {
   display: block;
-  margin-top: 7.5rem;
+  margin-top: 16.66667vw;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
