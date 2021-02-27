@@ -1,7 +1,7 @@
 .l-wrapper {
   background: $black-00;
-  width: rem(720);
-  margin: 0 auto 0 auto;
+  width: 100vw;
+  margin: 0 auto;
   color: $white;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,59 +10,57 @@
 }
 
 .l-container {
-  width: rem(620);
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: rem(70);
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 10vw;
   position: relative;
   color: $white;
   text-transform: uppercase;
 }
 
 .l-footer {
-  width: rem(620);
-  height: rem(1045);
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: rem(310);
+  width: 86%;
+  margin: 0 auto;
+  height: vwm(1045);
+  padding-top: vwm(310);
 }
 
 .l-footer__socials {
   position: relative;
-  bottom: rem(46);
+  bottom: vwm(46);
 }
 
 .l-copy {
   position: relative;
   width: auto;
-  height: rem(174);
+  height: vwm(174);
   .l-copy-mamy {
     position: relative;
-    left: rem(58);
-    font-size: rem(42);
+    left: vwm(58);
+    font-size: vwm(42);
   }
   .l-copy-wielkie {
     position: relative;
-    bottom: rem(5);
-    font-size: rem(56);
+    bottom: vwm(5);
+    font-size: vwm(56);
   }
   .l-copy-napelnijmy {
     position: relative;
-    left: rem(42);
-    bottom: rem(13);
-    font-size: rem(32);
+    left: vwm(42);
+    bottom: vwm(13);
+    font-size: vwm(32);
   }
   .l-copy-butelke {
     position: relative;
-    bottom: rem(9);
-    left: rem(-3);
-    font-size: rem(56);
+    bottom: vwm(9);
+    left: vwm(-3);
+    font-size: vwm(56);
   }
   .l-copy-jacka {
     position: relative;
-    bottom: rem(86);
+    bottom: vwm(86);
     text-align: end;
-    font-size: rem(84);
+    font-size: vwm(84);
   }
 }
 
@@ -72,22 +70,27 @@
 }
 
 .l-form-textarea {
-  margin-top: 0.5rem;
+  margin-top: vwm(0.5);
 }
 .l-form-label__masz {
   position: relative;
-  left: rem(468);
-  top: rem(4);
+  left: vwm(468);
+  top: vwm(4);
 }
 .l-form-input {
-  margin-top: rem(60);
+  margin-top: vwm(60);
 }
 .l-form-input__1 {
-  margin-top: rem(90);
+  margin-top: vwm(90);
 }
 .l-f-form-buttons-container {
-  margin-top: rem(60);
+  margin-top: vwm(60);
 }
 .l-f-form-checkbox-container {
-  margin-top: rem(140);
+  margin-top: vwm(140);
+}
+
+.l-akcja {
+  padding: rem(188) 0 rem(232) 0;
+  width: 100%;
 }

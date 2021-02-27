@@ -22,7 +22,8 @@ $white: #ffffff;
   @return ($px / 16) * 1em;
 }
 
-@function vw_m($px) {
+// vw at mobile
+@function vwm($px) {
   @return ($px / 7.2) * 1vw;
 }
 
