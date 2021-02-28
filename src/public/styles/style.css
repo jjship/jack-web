@@ -1234,129 +1234,156 @@ input {
 
 @media screen and (min-width: 1450px) {
   .l-wrapper {
-    width: 90rem;
+    width: 82.66667vw;
   }
-  .l-h-container,
-  .l-f-container,
-  .l-fs-container {
-    width: 48.75rem;
-    height: 56.25rem;
+  .u-golden-bottom {
+    border: none;
   }
-  .l-p-wrapper {
-    height: 68.75rem;
-  }
-  .l-p-container {
-    width: 61.375rem;
-    height: 56.25rem;
-    top: 2.8125rem;
-  }
-  .l-h-container {
-    top: 5.625rem;
-  }
-  .l-f-container {
-    top: 13.75rem;
-  }
-  .l-close {
-    margin-left: 50rem;
-    bottom: 12.5rem;
-  }
-  .l-h-container .l-copyform-container {
-    margin-top: 0;
-    left: 44.375rem;
-  }
-  .l-f-container .l-copyform-container {
-    width: 51.3125rem;
-    left: 9.5rem;
-  }
-  .l-h-bottle_w_shadow {
-    max-height: 47.5rem;
-    top: -2.5rem;
-    left: 11.25rem;
+  .l-h-flex_dsk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 13.33333vw;
+    bottom: 3vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .l-h-live_icon {
     right: 0;
     width: auto;
-    max-width: 3.3125rem;
+    max-width: 3.53333vw;
   }
   .l-h-slogan {
+    width: 13.33333vw;
+    height: 13.33333vw;
     position: relative;
-    top: 30rem;
-    left: -1.25rem;
+    top: 34vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
+    position: relative;
+    left: 0.62667vw;
+    font-size: 3.93333vw;
+    margin: 0;
+  }
+  .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
+    position: relative;
+    bottom: 0.93333vw;
+    font-size: 1.4vw;
+    margin: 0;
+  }
+  .l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
+    position: relative;
+    top: -0.8vw;
+    left: 1.16667vw;
+    font-size: 3.13333vw;
+    margin: 0;
+  }
+  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
+    display: block;
+    position: relative;
+    bottom: 0.44667vw;
+    width: 2.66667vw;
+    left: 50%;
+    margin-left: -1.33333vw;
+  }
+  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
+    font-size: 1.93333vw;
+  }
+  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
+    font-size: 2.6vw;
+  }
+  .l-h-bottle_w_shadow {
+    width: 26.66667vw;
+    padding: 0;
   }
   .l-copy {
-    height: 6.25rem;
-  }
-  .l-copyform-container {
-    margin-top: 0;
-    max-width: 25rem;
     position: relative;
+    width: 25vw;
+    height: 6.93333vw;
+    margin-left: 0.71333vw;
   }
-  .l-copyform-container .l-copy {
-    margin-top: 0rem;
-    font-size: 10px;
-  }
-  .l-copyform-container .l-copy .l-copy-mamy {
+  .l-copy .l-copy-mamy {
     position: relative;
-    left: 1.8125rem;
-    font-size: 2.625em;
+    left: 2.33333vw;
+    font-size: 1.66667vw;
   }
-  .l-copyform-container .l-copy .l-copy-wielkie {
+  .l-copy .l-copy-wielkie {
     position: relative;
-    bottom: 0.1875rem;
-    font-size: 3.5em;
+    bottom: 0.2vw;
+    font-size: 2.23333vw;
   }
-  .l-copyform-container .l-copy .l-copy-napelnijmy {
+  .l-copy .l-copy-napelnijmy {
     position: relative;
-    left: 1.3125rem;
-    bottom: 0.6875rem;
-    font-size: 2em;
+    left: 1.66667vw;
+    bottom: 0.6vw;
+    font-size: 1.26667vw;
   }
-  .l-copyform-container .l-copy .l-copy-butelke {
+  .l-copy .l-copy-butelke {
     position: relative;
-    bottom: 0.6875rem;
-    left: -0.1875em;
-    font-size: 3.5em;
+    bottom: 0.36vw;
+    left: -0.12vw;
+    font-size: 2.23333vw;
   }
-  .l-copyform-container .l-copy .l-copy-jacka {
+  .l-copy .l-copy-jacka {
     position: relative;
-    left: 10.625rem;
-    bottom: 3.8125rem;
-    text-align: start;
-    font-size: 5.25em;
-  }
-  .l-h-form__dsk {
-    max-width: 25rem;
-  }
-  .l-h-form-btn__dsk {
-    top: 50px;
+    bottom: 3.43333vw;
+    text-align: end;
+    font-size: 3.33333vw;
   }
   .c-form-label__masz {
-    font-size: 0.875rem;
+    font-size: 0.66667vw;
   }
-  .l-form-label__masz {
-    left: 18.4375rem;
+  .l-form {
+    width: 26.66667vw;
   }
-  .c-form-textarea__dsk {
-    font-size: 1.125rem;
-    border: 1px solid #828282;
+  .c-form-textarea,
+  .c-form-input,
+  .c-c-textarea {
+    padding: 0.53333vw 0.53333vw 1.33333vw 0.53333vw;
+    width: 26.66667vw;
+    font-size: 1.2vw;
   }
-  .c-form-input__dsk {
-    font-size: 1rem;
-    border: 1px solid #828282;
+  .c-form-textarea {
+    padding: 0.53333vw 0.53333vw 1.33333vw 0.53333vw;
+    color: #ffffff;
   }
-  .c-h-form-btn {
-    font-size: 1.5rem;
-    width: 18.125rem;
+  .c-form-input {
+    padding: 0.53333vw;
+    color: #b7ac92;
   }
-  .l-h-akcja__dsk {
-    width: 100%;
-    margin-top: 18.125rem;
-  }
-  .c-akcja {
-    font-size: 1rem;
-  }
-  .u-golden-bottom {
+  .c-h-form-btn,
+  .c-f-form-btn {
     border: none;
+    background-color: #ee731d;
+    color: black;
+    padding: 0.26667vw;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    width: 19.46667vw;
+  }
+  .c-f-form-group {
+    width: 14.93333vw;
+    padding-left: 2.66667vw;
+    font-size: 0.93333vw;
+    /* Create a custom checkbox */
+  }
+  .c-f-form-group .c-checkmark {
+    top: 0.33333vw;
+    left: 0;
+    height: 0.66667vw;
+    width: 0.66667vw;
   }
   .c-nav .js-toggle,
   .c-nav .c-nav__arrow {
@@ -1379,108 +1406,6 @@ input {
     border: none;
     width: auto;
     padding: 0;
-  }
-  .c-footer {
-    font-size: 1rem;
-  }
-  .c-footer .c-footer__socials {
-    height: 21px;
-  }
-  .l-footer {
-    height: 12.5rem;
-    padding-top: 6.25rem;
-  }
-  .l-f-form__dsk {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-        grid-template-rows: auto auto;
-        grid-template-areas: 'textarea textinputs' 'checkboxes buttons';
-  }
-  .l-f-form-textarea__dsk {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: textarea;
-    -ms-grid-column-align: start;
-        justify-self: start;
-    width: 25rem;
-  }
-  .l-f-form-textinputs__dsk {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-    grid-area: textinputs;
-    -ms-grid-column-align: end;
-        justify-self: end;
-    width: 25rem;
-  }
-  .l-f-form-checkbox-container {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    grid-area: checkboxes;
-    -ms-grid-column-align: start;
-        justify-self: start;
-    margin-top: 2.5rem;
-    height: 5.5rem;
-  }
-  .l-f-form-buttons-container {
-    -ms-grid-row: 2;
-    -ms-grid-column: 2;
-    grid-area: buttons;
-    -ms-grid-column-align: end;
-        justify-self: end;
-    margin-top: -0.25rem;
-  }
-  .l-f-form-group {
-    font-size: 0.875rem;
-    margin-bottom: 1.5625rem;
-  }
-  .l-f-form-group .c-checkmark {
-    position: absolute;
-    top: 0.3125rem;
-    height: 0.875rem;
-    width: 0.875rem;
-  }
-  .l-form-input__1 {
-    margin-top: 1.5625rem;
-  }
-  .l-form-input {
-    margin-top: 1.6875rem;
-  }
-  .l-f-form-zamknij {
-    font-size: 1rem;
-  }
-  .l-f-form-btn {
-    font-size: 1.5rem;
-    width: 18.25rem;
-  }
-  .l-f-bottle {
-    width: 14.0625rem;
-    left: -23.75rem;
-    bottom: 1.875rem;
-  }
-  .l-f-akcja {
-    margin-top: 10px;
-    margin-bottom: 1.625rem;
-  }
-  .l-p-flex-instax-container {
-    margin: 0;
-  }
-  .l-p-btn__zamknij {
-    margin-top: 3.5rem;
-  }
-  .c-btn__zamknij {
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    background-color: #000000;
-  }
-  .c-title {
-    font-size: 2.25rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
