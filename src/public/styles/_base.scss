@@ -23,8 +23,13 @@ $white: #ffffff;
 }
 
 // vw at mobile
-@function vwm($px) {
-  @return ($px / 7.2) * 1vw;
+@function vwm($px, $screen: mob) {
+  @if ($screen == mob) {
+    @return ($px / 7.2) * 1vw;
+  }
+  @if ($screen == dsk) {
+    @return ($px / 15) * 1vw;
+  }
 }
 
 body {
