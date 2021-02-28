@@ -591,6 +591,11 @@ input {
   color: #828282;
 }
 
+.c-age-input:focus {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
 .c-age-strona-container {
   font-size: 5.27778vw;
   text-align: center;

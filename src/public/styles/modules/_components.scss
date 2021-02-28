@@ -311,6 +311,10 @@
 .c-age-input::placeholder {
   color: $grey-82;
 }
+.c-age-input:focus {
+  color: $white;
+  border-color: $white;
+}
 
 .c-age-strona-container {
   font-size: vwm(38);
