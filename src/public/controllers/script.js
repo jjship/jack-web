@@ -11,6 +11,7 @@ const input = document.querySelector('.js-textarea');
 const wrap = document.querySelector('.js-wrapper');
 const ageInputs = document.querySelectorAll('.js-age-input');
 const textarea = document.querySelector('.js-h-textarea');
+console.log(togg);
 
 const switchToForm = (e) => {
   window.location.href = '/form';
@@ -35,11 +36,11 @@ const onlyNumberKey = (evt) => {
 
 const toggleNav = () => {
   if (nav.classList.contains('h-is__closed')) {
-    togg.innerHTML = 'mniej';
+    togg.firstChild.textContent = 'mniej';
     arr.classList.add('h-is__up');
     nav.classList.toggle('h-is__closed');
   } else {
-    togg.innerHTML = 'menu';
+    togg.firstChild.textContent = 'menu';
     arr.classList.remove('h-is__up');
     nav.classList.toggle('h-is__closed');
   }
