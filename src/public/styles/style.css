@@ -1232,7 +1232,7 @@ input {
           transform: rotate(180deg);
 }
 
-@media screen and (min-width: 1450px) {
+@media screen and (min-width: 1000px) {
   .l-wrapper {
     width: 65.26316vw;
   }
@@ -1241,7 +1241,7 @@ input {
     padding: 1rem;
   }
   .main-dsk {
-    height: 78vh;
+    height: 53.68421vw;
   }
   .u-golden-bottom {
     border: none;
@@ -1360,14 +1360,14 @@ input {
   .c-c-textarea {
     padding: 0.42105vw 0.42105vw 1.05263vw 0.42105vw;
     width: 21.05263vw;
-    font-size: 0.94737vw;
+    font-size: calc(10px + 0.42vw);
   }
   .c-form-label__masz {
-    font-size: 0.73684vw;
+    font-size: calc(6px + 0.42vw);
   }
   .l-form-label__masz {
     position: relative;
-    left: 15.52632vw;
+    left: 14.47368vw;
   }
   .c-form-textarea {
     padding: 0.42105vw 0.42105vw 1.05263vw 0.42105vw;
@@ -1427,7 +1427,7 @@ input {
     padding: 0;
   }
   .l-footer {
-    height: calc(33vh - 1rem);
+    height: 13.15789vw;
     padding: 0;
     max-width: 50rem;
   }

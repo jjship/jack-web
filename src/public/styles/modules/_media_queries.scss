@@ -1,4 +1,4 @@
-@media screen and (min-width: 1450px) {
+@media screen and (min-width: 1000px) {
   .l-wrapper {
     width: vwm(1240, dsk);
   }
@@ -9,7 +9,7 @@
   }
 
   .main-dsk {
-    height: 78vh;
+    height: vwm(1020, dsk);
   }
 
   .u-golden-bottom {
@@ -130,16 +130,16 @@
   .c-c-textarea {
     padding: vwm(8, dsk) vwm(8, dsk) vwm(20, dsk) vwm(8, dsk);
     width: vwm(400, dsk);
-    font-size: vwm(18, dsk);
+    font-size: calc(10px + 0.42vw);
   }
 
   .c-form-label__masz {
-    font-size: vwm(14, dsk);
+    font-size: calc(6px + 0.42vw);
   }
 
   .l-form-label__masz {
     position: relative;
-    left: vwm(295, dsk);
+    left: vwm(275, dsk);
   }
 
   .c-form-textarea {
@@ -204,7 +204,7 @@
   }
 
   .l-footer {
-    height: calc(33vh - 1rem);
+    height: vwm(250, dsk);
     padding: 0;
     max-width: rem(800);
     p {
