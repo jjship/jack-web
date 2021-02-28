@@ -286,9 +286,8 @@
 }
 
 .c-age-data-container {
-  font-size: vwm(42);
+  font-size: vwm(40);
   text-align: center;
-  margin: 0 vwm(-22);
 }
 
 .c-age-input {
@@ -308,6 +307,9 @@
   text-align: center;
   transition: border-color 0.25s ease-in-out;
   vertical-align: bottom;
+}
+.c-age-input::placeholder {
+  color: $grey-82;
 }
 
 .c-age-strona-container {

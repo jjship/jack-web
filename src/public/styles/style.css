@@ -551,9 +551,8 @@ input {
 }
 
 .c-age-data-container {
-  font-size: 5.83333vw;
+  font-size: 5.55556vw;
   text-align: center;
-  margin: 0 -3.05556vw;
 }
 
 .c-age-input {
@@ -566,15 +565,30 @@ input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   color: #fff;
-  font-size: 4.44444vw;
-  line-height: 4.44444vw;
-  margin: 0 2.08333vw;
+  font-size: 7.22222vw;
+  margin: 0 0.55556vw;
   outline: none;
-  padding: 2.77778vw 2.5vw;
+  padding: 4.16667vw 1.52778vw;
   text-align: center;
   -webkit-transition: border-color 0.25s ease-in-out;
   transition: border-color 0.25s ease-in-out;
   vertical-align: bottom;
+}
+
+.c-age-input::-webkit-input-placeholder {
+  color: #828282;
+}
+
+.c-age-input:-ms-input-placeholder {
+  color: #828282;
+}
+
+.c-age-input::-ms-input-placeholder {
+  color: #828282;
+}
+
+.c-age-input::placeholder {
+  color: #828282;
 }
 
 .c-age-strona-container {
@@ -720,7 +734,7 @@ input {
 }
 
 .l-age-data-container {
-  margin: 0 -3.05556vw;
+  margin: 0 -3.47222vw;
 }
 
 .l-copyform-container {
