@@ -1,0 +1,59 @@
+.l-fs-container {
+  height: auto;
+}
+.l-fs-slogan-container {
+  font-size: 26.545454px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  .l-fs-slogan-dzis {
+    position: relative;
+    font-size: vwm(72.6);
+    margin: 0;
+  }
+  .l-fs-slogan-zdarza {
+    position: relative;
+    top: vwm(-15);
+    right: vwm(10);
+    font-size: vwm(16.5);
+    font-size: vwm(26.4);
+    margin: 0;
+  }
+  .l-fs-slogan-tylko {
+    position: relative;
+    top: vwm(-12);
+    left: vwm(14);
+    font-size: vwm(57.75);
+    margin: 0;
+  }
+}
+
+.l-fs-zgloszenie-container {
+  margin-top: vwm(2);
+}
+
+.l-fs-doodwaznych-container {
+  margin-top: vwm(25);
+}
+
+.l-fs-twoje-container {
+  margin-top: vwm(25);
+  width: vwm(520);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-fs-btn__zamknij {
+  display: block;
+  margin-top: vwm(60);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-fs-bottle {
+  display: block;
+  margin-top: vwm(31);
+  margin-right: auto;
+  margin-left: auto;
+}

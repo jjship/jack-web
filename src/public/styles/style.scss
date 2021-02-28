@@ -1,0 +1,47 @@
+@import './base';
+@import './modules/reset';
+@import './modules/utilities';
+@import './modules/fonts';
+@import './modules/components';
+@import './modules/layout';
+@import './modules/layout_age';
+@import './modules/layout_home';
+@import './modules/layout_form';
+@import './modules/layout_form_sent';
+@import './modules/layout_prizes';
+@import './modules/layout_faq';
+@import './modules/layout_about';
+@import './modules/layout_contact';
+@import './modules/layout_nav';
+@import './modules/helpers';
+@import './modules/media_queries';
+
+// TODO move variables to _variables
+
+// @mixin flexCenter($direction, $background) {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
+
+// nesting:
+// header {
+//   @include flexCenter(column, black);
+
+//   background: black;
+//   button {
+//     background: $golden;
+//     &:hover {
+//       background: $darkGrey;
+//     }
+//     &::after {
+//       content: 'WTF!!!!';
+//     }
+//   }
+//   .hero {
+//     @include flexCenter(row, $golden);
+//     background: $grey;
+//   }
+// }

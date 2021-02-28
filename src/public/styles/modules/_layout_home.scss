@@ -1,0 +1,83 @@
+.l-copyform-container {
+  margin-top: vwm(59);
+}
+.l-h-bottle_w_shadow {
+  display: block;
+  width: vwm(542);
+  padding-left: vwm(52);
+  padding-right: vwm(26);
+}
+
+.l-h-live_icon {
+  position: absolute;
+  top: vwm(70);
+  right: 0;
+  width: auto;
+  max-width: vwm(72);
+}
+
+.l-h-slogan {
+  width: vwm(146);
+  height: vwm(171);
+  position: absolute;
+  top: vwm(70);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .l-h-slogan__today {
+    .l-h-slogan__dzis {
+      position: relative;
+      left: vwm(7);
+      font-size: vwm(44);
+      margin: 0;
+    }
+    .l-h-slogan__zdarza {
+      position: relative;
+      top: vwm(-12);
+      font-size: vwm(10);
+      font-size: vwm(16);
+      margin: 0;
+    }
+    .l-h-slogan__tylko {
+      position: relative;
+      top: vwm(-9);
+      left: vwm(13);
+      font-size: vwm(35);
+      margin: 0;
+    }
+  }
+  .l-h-slogan__m_i_c {
+    .l-h-slogan__logo {
+      display: block;
+      position: relative;
+      left: 50%;
+      bottom: vwm(5);
+      margin-left: vwm(-18.5);
+      width: vwm(37);
+    }
+    .l-h-slogan__make {
+      font-size: vwm(22);
+    }
+    .l-h-slogan__count {
+      font-size: vwm(29);
+    }
+  }
+}
+
+.l-h-form {
+  bottom: vwm(95);
+}
+
+.l-h-form-btn {
+  position: relative;
+  top: vwm(57);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.l-h-akcja {
+  position: relative;
+  margin-top: vwm(260);
+  margin-bottom: 50px;
+  width: 100%;
+}

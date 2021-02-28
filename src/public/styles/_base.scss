@@ -1,0 +1,32 @@
+$black-00: #000000;
+$green-2c: #4f822c;
+$grey-27: #272727;
+$grey-74: #747474;
+$grey-82: #828282;
+$grey-95: #959595;
+$gold-92: #b7ac92;
+$gold-8f: #baab8f;
+$orange-1d: #ee731d;
+$orange-1c: #d67c1c;
+$white: #ffffff;
+
+@function rem($px) {
+  @return ($px / 16) * 1rem;
+}
+
+@function em($px) {
+  @return ($px / 16) * 1em;
+}
+
+@function vw($px) {
+  @return ($px / 16) * 1em;
+}
+
+// vw at mobile
+@function vwm($px) {
+  @return ($px / 7.2) * 1vw;
+}
+
+body {
+  background-color: $black-00;
+}

@@ -1,0 +1,18 @@
+.l-f-form-buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.l-f-form-group {
+  display: block;
+  position: relative;
+  margin-bottom: vwm(58);
+}
+
+.l-f-bottle {
+  position: absolute;
+  right: 0;
+  bottom: vwm(-64);
+}
