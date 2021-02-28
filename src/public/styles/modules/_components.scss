@@ -270,3 +270,29 @@
 .c-c-akcja {
   text-transform: uppercase;
 }
+
+.c-age-data-container {
+  font-size: vwm(42);
+  text-align: center;
+  margin: 0 vwm(-22);
+}
+
+.c-age-input {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background: $grey-27;
+  border: 2px solid $grey-27;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: #fff;
+  font-size: vwm(32);
+  line-height: vwm(32);
+  margin: 0 vwm(15);
+  outline: none;
+  padding: vwm(20) vwm(18);
+  text-align: center;
+  transition: border-color 0.25s ease-in-out;
+  vertical-align: bottom;
+}
