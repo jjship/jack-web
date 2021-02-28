@@ -11,13 +11,13 @@ const input = document.querySelector('.js-textarea');
 const wrap = document.querySelector('.js-wrapper');
 const ageInputs = document.querySelectorAll('.js-age-input');
 
-function onlyNumberKey(evt) {
+const onlyNumberKey = (evt) => {
   // Only ASCII charactar in that range allowed
-  var ASCIICode = evt.which ? evt.which : evt.keyCode;
-  if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
-    evt.preventDefault();
-  return true;
-}
+  const ASCIICode = evt.which ? evt.which : evt.keyCode;
+  ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)
+    ? evt.preventDefault()
+    : true;
+};
 
 const toggleNav = () => {
   if (nav.classList.contains('h-is__closed')) {
