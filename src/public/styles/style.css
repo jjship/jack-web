@@ -1362,6 +1362,13 @@ input {
     width: 21.05263vw;
     font-size: 0.94737vw;
   }
+  .c-form-label__masz {
+    font-size: 0.73684vw;
+  }
+  .l-form-label__masz {
+    position: relative;
+    left: 15.52632vw;
+  }
   .c-form-textarea {
     padding: 0.42105vw 0.42105vw 1.05263vw 0.42105vw;
     color: #ffffff;

@@ -133,6 +133,15 @@
     font-size: vwm(18, dsk);
   }
 
+  .c-form-label__masz {
+    font-size: vwm(14, dsk);
+  }
+
+  .l-form-label__masz {
+    position: relative;
+    left: vwm(295, dsk);
+  }
+
   .c-form-textarea {
     padding: vwm(8, dsk) vwm(8, dsk) vwm(20, dsk) vwm(8, dsk);
     color: $white;
