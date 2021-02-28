@@ -161,10 +161,24 @@
 }
 
 .c-btn__zamknij {
-  padding: vwm(7) vwm(20);
+  padding: vwm(10) vwm(20);
   font-size: vwm(38);
   text-transform: uppercase;
   text-decoration: none;
+  color: $white;
+  border: 2px solid $white;
+  background-color: $black-00;
+  width: vwm(180);
+}
+
+.c-btn__wejdz {
+  padding: vwm(40) vwm(20);
+  width: vwm(310);
+  display: block;
+  font-size: vwm(42);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
   color: $white;
   border: 2px solid $white;
   background-color: $black-00;
