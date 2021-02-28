@@ -1365,6 +1365,7 @@ input {
   .c-form-textarea {
     padding: 0.42105vw 0.42105vw 1.05263vw 0.42105vw;
     color: #ffffff;
+    height: 9.68421vw;
   }
   .c-form-input {
     padding: 0.42105vw;
@@ -1379,6 +1380,10 @@ input {
     font-size: 1.26316vw;
     text-transform: uppercase;
     width: 15.36842vw;
+  }
+  .l-h-form-btn {
+    top: unset;
+    margin-top: 2.10526vw;
   }
   .c-f-form-group {
     width: 11.78947vw;

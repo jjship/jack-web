@@ -136,6 +136,7 @@
   .c-form-textarea {
     padding: vwm(8, dsk) vwm(8, dsk) vwm(20, dsk) vwm(8, dsk);
     color: $white;
+    height: vwm(184, dsk);
   }
 
   .c-form-input {
@@ -152,6 +153,11 @@
     font-size: vwm(24, dsk);
     text-transform: uppercase;
     width: vwm(292, dsk);
+  }
+
+  .l-h-form-btn {
+    top: unset;
+    margin-top: vwm(40, dsk);
   }
 
   .c-f-form-group {
