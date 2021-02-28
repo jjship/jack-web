@@ -10,6 +10,20 @@ const mq_mob = window.matchMedia(mob);
 const input = document.querySelector('.js-textarea');
 const wrap = document.querySelector('.js-wrapper');
 const ageInputs = document.querySelectorAll('.js-age-input');
+const textarea = document.querySelector('.js-h-textarea');
+
+const switchToForm = (e) => {
+  window.location.href = '/form';
+  // e.preventDefault();
+  // const source = document.querySelector('.js-h-textarea');
+  // testimonial = source.value;
+  // window.location.href = '/form';
+  // window.onload = () => {
+  //   const target = document.querySelector('.js-target');
+  //   console.log(target);
+  //   target.value = testimonial;
+  // };
+};
 
 const onlyNumberKey = (evt) => {
   // Only ASCII charactar in that range allowed
@@ -103,3 +117,13 @@ ageInputs.forEach((elem) =>
     onlyNumberKey(e);
   })
 );
+
+// homeBtn
+//   ? homeBtn.addEventListener('click', (e) => {
+//       switchToForm(e);
+//     })
+//   : null;
+
+textarea.addEventListener('focus', (e) => {
+  switchToForm(e);
+});
