@@ -64,6 +64,8 @@ video {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   text-size-adjust: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: block;
 }
 
 footer,
