@@ -11,7 +11,6 @@ const input = document.querySelector('.js-textarea');
 const wrap = document.querySelector('.js-wrapper');
 const ageInputs = document.querySelectorAll('.js-age-input');
 const textarea = document.querySelector('.js-h-textarea');
-console.log(togg);
 
 const switchToForm = (e) => {
   window.location.href = '/form';
