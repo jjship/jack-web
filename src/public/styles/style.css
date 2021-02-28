@@ -696,7 +696,8 @@ input {
   width: 26.94444vw;
 }
 
-.l-age-flex-container {
+.l-age-flex-container,
+.l-age-flex-container__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -707,6 +708,15 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.l-age-flex-container {
+  height: 78.33333vw;
+  margin-top: 6.11111vw;
+  margin-bottom: 9.44444vw;
 }
 
 .l-age-data-container {
