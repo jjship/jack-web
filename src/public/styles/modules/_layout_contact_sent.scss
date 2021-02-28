@@ -1,0 +1,18 @@
+.l-cs-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.l-cs-wiadomosc-container {
+  margin-top: vwm(100);
+}
+
+.l-cs-bottle {
+  margin-top: vwm(80);
+  width: vwm(309);
+}
+
+.l-cs-btn__zamknij {
+  margin-top: vwm(60);
+}

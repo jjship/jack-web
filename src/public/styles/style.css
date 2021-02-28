@@ -384,7 +384,8 @@ input {
   letter-spacing: 0.02917vw;
 }
 
-.c-fs-zgloszenie-container {
+.c-fs-zgloszenie-container,
+.c-cs-wiadomosc-container {
   font-size: 4.16667vw;
   text-align: center;
 }
@@ -1072,6 +1073,32 @@ input {
 
 .l-c-disclaimer {
   padding-top: 10.55556vw;
+}
+
+.l-cs-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-cs-wiadomosc-container {
+  margin-top: 13.88889vw;
+}
+
+.l-cs-bottle {
+  margin-top: 11.11111vw;
+  width: 42.91667vw;
+}
+
+.l-cs-btn__zamknij {
+  margin-top: 8.33333vw;
 }
 
 .l-nav-arrow {
