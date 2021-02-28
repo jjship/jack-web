@@ -1,12 +1,23 @@
-<div class="l-wrapper l-faq-wrapper js-wrapper u-golden-bottom" data-bg__mob="url(/images/BG_lights_mob_l.png)" data-bg__dsk="url(/images/TLO_SWIATLO.jpg)">
-  <div class="l-container l-faq-container u-uppercase">
-    <div class="l-age-logo-container">
-      <img src="/images/navLogo.png" alt="Jack Daniel's logo" class="l-p-age-logo">
-      <img src="/images/kreski.png" class="l-p-age-kreski">
+<div class="l-wrapper l-age-wrapper js-wrapper u-golden-bottom">
+  <div class="l-container l-age-container u-uppercase">
+    <div class="l-age-flex-container">
+      <img src="/images/navLogo.png" alt="Jack Daniel's logo" class="l-age-logo">
+      <img src="/images/kreski.png" class="l-age-kreski">
     </div>
-    <form action="" class="l-age-form c-age-form">
-      <input type="date" class="l-age-input c-age-input">
-    </form>
-    <a href="/" class="c-btn__zamknij l-p-btn__zamknij -f-myriad-cond">zamknij</a>
+    <div class="l-age-flex-container">
+      <div class="c-age-data-container l-age-data-container -f-finlandia">
+        <p>data urodzin jack'a zawsze była tajemnicą.<br>mamy nadzieję, że twoja nie jest</p>
+      </div>
+      <form method="post" autocomplete="off" class="l-age-form c-age-form">
+        <input type="tel" id="day" name="day" aria-label="Birth Day" placeholder="DD" data-error="" maxlength="2" size="4" class="l-age-input c-age-input -f-myriad-cond">
+        <input type="tel" id="month" name="month" placeholder="MM" aria-label="Birth Month" data-error="" maxlength="2" size="4" class="l-age-input c-age-input -f-myriad-cond">
+        <input type="tel" id="year" name="year" maxlength="4" size="4" class="l-age-input c-age-input -f-myriad-cond" placeholder="YYYY" aria-label="Birth Year" data-error="">
+      </form>
+      <div class="c-age-strona-container l-age-strona-container -f-jasper-caps u-grey-82
+      u-no-text-transform">
+        <p>Strona zawiera materiały przeznaczone<br>dla osób pełnoletnich. </p>
+      </div>
+    </div>
+    <a href="/" class="c-btn__zamknij l-age-btn__zamknij -f-myriad-cond">zamknij</a>
   </div>
 </div>
