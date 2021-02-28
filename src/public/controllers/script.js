@@ -124,6 +124,8 @@ ageInputs.forEach((elem) =>
 //     })
 //   : null;
 
-textarea.addEventListener('focus', (e) => {
-  switchToForm(e);
-});
+textarea
+  ? textarea.addEventListener('focus', (e) => {
+      switchToForm(e);
+    })
+  : null;
