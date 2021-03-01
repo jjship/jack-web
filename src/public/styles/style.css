@@ -1236,8 +1236,15 @@ input {
   .l-wrapper {
     width: 65.26316vw;
   }
+  .l-close {
+    position: absolute;
+    left: 54.73684vw;
+    top: 8px;
+    margin: 0;
+    font-size: 24px;
+  }
   .l-akcja {
-    font-size: 1rem;
+    font-size: calc(8px + 0.42vw);
     padding: 1rem;
   }
   .main-dsk {
@@ -1349,9 +1356,6 @@ input {
     text-align: end;
     font-size: 2.63158vw;
   }
-  .c-form-label__masz {
-    font-size: 0.52632vw;
-  }
   .l-form {
     width: 21.05263vw;
   }
@@ -1392,10 +1396,14 @@ input {
     top: unset;
     margin-top: 2.10526vw;
   }
+  .l-f-container {
+    padding-top: 10.52632vw;
+    padding-bottom: 3.68421vw;
+  }
   .c-f-form-group {
-    width: 11.78947vw;
+    width: 15.78947vw;
     padding-left: 2.10526vw;
-    font-size: 0.73684vw;
+    font-size: calc(6px + 0.42vw);
     /* Create a custom checkbox */
   }
   .c-f-form-group .c-checkmark {
@@ -1403,6 +1411,94 @@ input {
     left: 0;
     height: 0.52632vw;
     width: 0.52632vw;
+  }
+  .l-f-copyform {
+    padding-left: calc(150px + 5vw);
+  }
+  .l-f-form__dsk {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 'textarea textinputs' 'checkboxes buttons';
+  }
+  .l-f-form-textarea__dsk {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: textarea;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    width: 21.05263vw;
+  }
+  .l-f-form-textinputs__dsk {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: textinputs;
+    justify-self: end;
+    width: 21.05263vw;
+    height: 9.73684vw;
+    margin-top: calc(1.3 * (5px + 0.42vw));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .l-f-form-checkbox-container {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: checkboxes;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-top: 2.10526vw;
+    height: 4.63158vw;
+  }
+  .l-f-form-buttons-container {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: buttons;
+    -ms-grid-column-align: end;
+        justify-self: end;
+    margin-top: -0.21053vw;
+    position: relative;
+    left: 1.26316vw;
+  }
+  .l-f-form-group {
+    margin-bottom: 1.31579vw;
+  }
+  .l-f-form-group .c-checkmark {
+    position: absolute;
+    top: 0.26316vw;
+    height: 0.73684vw;
+    width: 0.73684vw;
+    border: 1px solid #b7ac92;
+  }
+  .l-form-input__1 {
+    margin-top: 0;
+    margin-left: 1.26316vw;
+  }
+  .l-form-input {
+    margin-top: 0;
+    margin-left: 1.26316vw;
+  }
+  .l-f-form-zamknij {
+    font-size: 0.84211vw;
+  }
+  .l-f-form-btn {
+    font-size: 1.26316vw;
+    width: 15.36842vw;
+  }
+  .l-f-bottle {
+    width: 13.26316vw;
+    left: -20vw;
+    bottom: -1.05263vw;
   }
   .c-nav .js-toggle,
   .c-nav .c-nav__arrow {
@@ -1420,7 +1516,7 @@ input {
     margin-right: auto;
   }
   .c-nav .l-nav .c-nav__btn {
-    font-size: 1rem;
+    font-size: calc(8px + 0.42vw);
     text-decoration: underline;
     border: none;
     width: auto;
@@ -1436,7 +1532,7 @@ input {
     font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
   }
   .c-footer {
-    font-size: 1rem;
+    font-size: calc(8px + 0.42vw);
   }
   .l-footer__socials {
     bottom: unset;
