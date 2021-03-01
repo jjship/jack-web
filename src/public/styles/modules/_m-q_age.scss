@@ -1,0 +1,91 @@
+@media screen and (min-width: 1000px) {
+  .l-age-container {
+    padding-top: vwm(150, dsk);
+    height: vwm(860, dsk);
+    width: vwm(1240, dsk);
+    margin: 0 auto;
+  }
+  .l-age-kreski {
+    height: vwm(36, dsk);
+  }
+
+  .l-age-logo {
+    width: vwm(129, dsk);
+  }
+
+  .l-age-flex-container,
+  .l-age-flex-container__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .l-age-flex-container {
+    height: vwm(268, dsk);
+    margin: vwm(10, dsk) auto 0 auto;
+    width: vwm(925, dsk);
+    justify-content: space-between;
+    .l-age-btn__wejdz {
+      font-size: calc(8px + 0.42vw);
+      width: 6.26316vw;
+      height: 2.31579vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0;
+      flex-shrink: 0;
+      margin-top: vwm(58, dsk);
+    }
+  }
+
+  .c-age-data-container {
+    font-size: vwm(30, dsk);
+    text-align: center;
+  }
+
+  .l-age-data-container {
+    margin: 0 vwm(-25);
+    width: vwm(925, dsk);
+  }
+
+  .l-age-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: vwm(380, dsk);
+    margin: vwm(25, dsk) auto vwm(45, dsk) auto;
+  }
+
+  .c-age-input {
+    font-size: vwm(40, dsk);
+    margin: 0 vwm(3, dsk);
+    outline: none;
+    padding: 0;
+    width: vwm(123, dsk);
+    height: vwm(102, dsk);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.25s ease-in-out;
+    vertical-align: bottom;
+  }
+  .c-age-input::placeholder {
+    color: $grey-82;
+  }
+  .c-age-input:focus {
+    color: $white;
+    border-color: $white;
+  }
+
+  .c-age-strona-container {
+    font-size: vwm(30, dsk);
+    text-align: center;
+  }
+}

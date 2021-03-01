@@ -1500,6 +1500,125 @@ input {
 }
 
 @media screen and (min-width: 1000px) {
+  .l-age-container {
+    padding-top: 7.89474vw;
+    height: 45.26316vw;
+    width: 65.26316vw;
+    margin: 0 auto;
+  }
+  .l-age-kreski {
+    height: 1.89474vw;
+  }
+  .l-age-logo {
+    width: 6.78947vw;
+  }
+  .l-age-flex-container,
+  .l-age-flex-container__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .l-age-flex-container {
+    height: 14.10526vw;
+    margin: 0.52632vw auto 0 auto;
+    width: 48.68421vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .l-age-flex-container .l-age-btn__wejdz {
+    font-size: calc(8px + 0.42vw);
+    width: 6.26316vw;
+    height: 2.31579vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-top: 3.05263vw;
+  }
+  .c-age-data-container {
+    font-size: 1.57895vw;
+    text-align: center;
+  }
+  .l-age-data-container {
+    margin: 0 -3.47222vw;
+    width: 48.68421vw;
+  }
+  .l-age-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 20vw;
+    margin: 1.31579vw auto 2.36842vw auto;
+  }
+  .c-age-input {
+    font-size: 2.10526vw;
+    margin: 0 0.15789vw;
+    outline: none;
+    padding: 0;
+    width: 6.47368vw;
+    height: 5.36842vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: border-color 0.25s ease-in-out;
+    transition: border-color 0.25s ease-in-out;
+    vertical-align: bottom;
+  }
+  .c-age-input::-webkit-input-placeholder {
+    color: #828282;
+  }
+  .c-age-input:-ms-input-placeholder {
+    color: #828282;
+  }
+  .c-age-input::-ms-input-placeholder {
+    color: #828282;
+  }
+  .c-age-input::placeholder {
+    color: #828282;
+  }
+  .c-age-input:focus {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .c-age-strona-container {
+    font-size: 1.57895vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   .l-h-container {
     padding-top: 6.05263vw;
     height: 50.52632vw;
