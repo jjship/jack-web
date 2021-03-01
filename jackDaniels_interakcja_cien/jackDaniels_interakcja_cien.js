@@ -12,6 +12,7 @@ let wysokoscButelki = 810;
 let startTekstX = 480;
 let maska;
 let tlo;
+let tlo2;
 let t=0;
 let tb1=0;
 let tb2=0;
@@ -19,17 +20,20 @@ let zi=0;
 let zib1=5;
 let zib2=10;
 
-let okres = 220;
-let okresb1 = 320;
-let okresb2 = 320;
+let okres = 20;
+let okresb1 = 120;
+let okresb2 = 120;
 
 function preload() {
   fontJasper = loadFont("font/JasperPl-Caps.otf");  
   fontMotlow = loadFont("font/Motlow.otf");  
   fontFranklin = loadFont("font/Franklin.ttf");  
 
-  maska = loadImage('dziura_po_cieniu.png');
-  tlo = loadImage('wypelnienie_butelki.png');
+  //maska = loadImage('dziura_po_cieniu.png');
+  //tlo = loadImage('wypelnienie_butelki.png');
+  tlo = loadImage('tlo.jpg');
+  tlo2 = loadImage('tlo.jpg');
+  maska = loadImage('maska.png');
 }
 
 function setup() {
@@ -39,7 +43,7 @@ function setup() {
 
 function draw() {  
   background(0);
-  image(tlo, 0, 0);
+  image(tlo2, 0, 0);
   t++;
   tb1++;
   tb2++;
@@ -96,8 +100,8 @@ function draw() {
       zdaniaZBoku2.splice(i, 1);
     }
   }
-
-  image(maska, 0, 0);
+  tlo.mask(maska);
+  image(tlo, 0, 0);
 }
 
 
@@ -107,8 +111,7 @@ class Zdanie {
     this.y = wysokoscButelki+40;
     this.font = this.wybierzFont(txt);
     this.txt = this.podzialNaLinie(txt, this.font);    
-    this.xx = this.x;
-    this.yy = this.y;
+    this.t = 0;
     this.sx = random(-0.05, 0.05);
     // this.sy = random(0.4, 0.6);
     this.sy = 0.4;
@@ -162,45 +165,67 @@ class Zdanie {
     let ileLiter = podzieloneNaLitery.length;
 
     push();
-    fill(255, kolor);
-    textFont(font);
-    textSize(s);
-    noStroke();
 
+    let graniceLinijki = font.textBounds(txt, x, y, s);
+   
+
+    if (mouseX > graniceLinijki.x && mouseX < graniceLinijki.x + graniceLinijki.w && mouseY > graniceLinijki.y && mouseY < graniceLinijki.y + graniceLinijki.h) {
+      this.t+=3;
+    //   stroke('pink');
+   // strokeWeight(1);
+   // noFill();
+  // rect(graniceLinijki.x,graniceLinijki.y,graniceLinijki.w,graniceLinijki.h);
+    } else {
+      this.t--;
+    }
+
+    if (this.t<0) {
+      this.t = 0;
+    } else if (this.t>30) {
+      this.t = 30;
+    }
+    
+    textFont(font);
+    noStroke();    
+    fill(255, kolor+this.t);
+    //print(this.t);
+    textSize(s+this.t/10);
     for (let i = 0; i < ileLiter; i++) {
       let graniceLitery = font.textBounds(podzieloneNaLitery[i], x, y, s);
       let czescLinijki = podzieloneNaLitery.slice(0, i+1);     
       let graniceCzesci = font.textBounds(czescLinijki, x, y, s);       
-      let literaX = x + graniceCzesci.w - graniceLitery.w + 50 * sin(y/100);      
+      let literaX = x + graniceCzesci.w - graniceLitery.w + 50 * sin(y/100);   
+      let literaY = y + 3 * sin(literaX/30);      
 
-      let v = this.odepchnij(literaX, y, 1300, 2);
-
+      /*
       let easing = 0.4;     
+       
+       let dx = v.x - this.xx;
+       this.xx += dx * easing;
+       
+       let dy = v.y - this.yy;
+       this.yy += dy * easing;*/
 
-      let dx = v.x - this.xx;
-      this.xx += dx * easing;
 
-      let dy = v.y - this.yy;
-      this.yy += dy * easing;
 
-      text(podzieloneNaLitery[i], this.xx + literaX, this.yy + y);
+      text(podzieloneNaLitery[i], literaX, literaY);
     }
 
     pop();
   }
 
-  odepchnij(x, y, r, e) {
-    let odleglosc = dist(mouseX, mouseY, x, y);
-    let v = createVector(0, 0); 
-    if (odleglosc < r) {
-      //line(mouseX, mouseY, x, y);
-      v.set(x-mouseX, y-mouseY);   
-      let dlugosc = r/odleglosc;  
-      v.setMag(dlugosc); 
-      v.div(e);
-    }
-    return v;
-  }
+  /*odepchnij(x, y, r, e) {
+   let odleglosc = dist(mouseX, mouseY, x, y);
+   let v = createVector(0, 0); 
+   if (odleglosc < r) {
+   //line(mouseX, mouseY, x, y);
+   v.set(x-mouseX, y-mouseY);   
+   let dlugosc = r/odleglosc;  
+   v.setMag(dlugosc); 
+   v.div(e);
+   }
+   return v;
+   }*/
 
   podzialNaLinie(txt, font) {
     let pierwszaLinijka = txt;    
