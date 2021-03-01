@@ -1,4 +1,4 @@
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 1000px) {
   .l-wrapper {
     width: 100vw;
     background-attachment: fixed;
@@ -11,10 +11,10 @@
 
   .l-close {
     position: absolute;
-    left: rem(1040);
+    left: vwm(1040, dsk);
     top: 8px;
     margin: 0;
-    font-size: 24px;
+    font-size: vwm(24, dsk);
   }
 
   .l-title {

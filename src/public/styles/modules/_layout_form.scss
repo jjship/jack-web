@@ -15,4 +15,10 @@
   position: absolute;
   right: 0;
   bottom: vwm(-64);
+  width: vwm(133);
+}
+
+.l-form-label__dsk {
+  color: $black-00;
+  display: none;
 }
