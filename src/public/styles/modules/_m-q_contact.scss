@@ -7,11 +7,15 @@
   }
 
   .l-c-form__dsk {
-    height: vwm(500, dsk);
+    height: vwm(416, dsk);
+    width: vwm(400, dsk);
     margin: vwm(80, dsk) auto 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    .l-c-form-input__dsk {
+      width: 100%;
+    }
   }
 
   .l-c-textarea {
@@ -38,11 +42,22 @@
 
   .l-c-disclaimer {
     padding-top: vwm(70, dsk);
-    font-size: calc(5px + 0.42vw);
+    font-size: calc(4px + 0.42vw);
+    width: vwm(511, dsk);
+    margin: 0 auto;
+    color: $grey-74;
   }
 
   .l-c-container {
     padding-top: vwm(70, dsk);
     padding-bottom: vwm(260, dsk);
+  }
+
+  .l-c-bottle {
+    display: block;
+    position: relative;
+    left: vwm(60, dsk);
+    width: vwm(252, dsk);
+    bottom: vwm(700, dsk);
   }
 }
