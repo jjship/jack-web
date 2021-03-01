@@ -1,0 +1,55 @@
+@media screen and (min-width: 1000px) {
+  .l-fs-container {
+    padding-top: vwm(120, dsk);
+    height: vwm(980, dsk);
+    width: vwm(1240, dsk);
+  }
+  .l-fs-slogan-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    .l-fs-slogan-dzis {
+      position: relative;
+      font-size: vwm(72.6, dsk);
+      margin: 0;
+    }
+    .l-fs-slogan-zdarza {
+      position: relative;
+      top: vwm(-15, dsk);
+      right: vwm(10, dsk);
+      font-size: vwm(26.4, dsk);
+      margin: 0;
+    }
+    .l-fs-slogan-tylko {
+      position: relative;
+      top: vwm(-12, dsk);
+      left: vwm(14, dsk);
+      font-size: vwm(57.75, dsk);
+      margin: 0;
+    }
+  }
+  .c-fs-zgloszenie-container {
+    font-size: vwm(24, dsk);
+    margin-top: vwm(115, dsk);
+  }
+  .c-fs-doodwaznych-container {
+    font-size: vwm(30, dsk);
+    margin-top: vwm(30, dsk);
+  }
+  .c-fs-twoje-container {
+    font-size: vwm(16, dsk);
+  }
+  .l-fs-twoje-container {
+    width: 100%;
+    margin-top: vwm(30, dsk);
+  }
+  .l-fs-btn__zamknij {
+    margin-top: vwm(50, dsk);
+  }
+  .l-fs-bottle {
+    position: relative;
+    right: vwm(400, dsk);
+    width: vwm(252, dsk);
+    bottom: vwm(700, dsk);
+  }
+}

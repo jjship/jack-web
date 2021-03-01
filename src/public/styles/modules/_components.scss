@@ -143,7 +143,10 @@
   letter-spacing: vwm(0.21);
 }
 
-.c-fs-zgloszenie-container,
+.c-fs-zgloszenie-container {
+  font-size: vwm(30);
+  text-align: center;
+}
 .c-cs-wiadomosc-container {
   font-size: vwm(30);
   text-align: center;

@@ -390,7 +390,11 @@ input {
   letter-spacing: 0.02917vw;
 }
 
-.c-fs-zgloszenie-container,
+.c-fs-zgloszenie-container {
+  font-size: 4.16667vw;
+  text-align: center;
+}
+
 .c-cs-wiadomosc-container {
   font-size: 4.16667vw;
   text-align: center;
@@ -608,6 +612,7 @@ input {
   color: #ffffff;
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: contain;
 }
 
 .l-container {
@@ -913,7 +918,7 @@ input {
 
 .l-fs-twoje-container {
   margin-top: 3.47222vw;
-  width: 72.22222vw;
+  width: 59.58333vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -933,6 +938,7 @@ input {
   margin-top: 4.30556vw;
   margin-right: auto;
   margin-left: auto;
+  width: 27.77778vw;
 }
 
 .l-p-container {
@@ -1262,6 +1268,15 @@ input {
   .u-golden-bottom {
     border: none;
   }
+  .c-btn__zamknij {
+    padding: 0.63158vw 1.68421vw;
+    font-size: 0.84211vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+  }
   .l-copy {
     position: relative;
     width: 19.73684vw;
@@ -1529,7 +1544,7 @@ input {
   }
 }
 
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 1000px) {
   .l-h-container {
     padding-top: 6.05263vw;
     height: 51.57895vw;
@@ -1730,6 +1745,64 @@ input {
     width: 13.26316vw;
     left: -20vw;
     bottom: -4.47368vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .l-fs-container {
+    padding-top: 6.31579vw;
+    height: 51.57895vw;
+    width: 65.26316vw;
+  }
+  .l-fs-slogan-container {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .l-fs-slogan-container .l-fs-slogan-dzis {
+    position: relative;
+    font-size: 3.82105vw;
+    margin: 0;
+  }
+  .l-fs-slogan-container .l-fs-slogan-zdarza {
+    position: relative;
+    top: -0.78947vw;
+    right: 0.52632vw;
+    font-size: 1.38947vw;
+    margin: 0;
+  }
+  .l-fs-slogan-container .l-fs-slogan-tylko {
+    position: relative;
+    top: -0.63158vw;
+    left: 0.73684vw;
+    font-size: 3.03947vw;
+    margin: 0;
+  }
+  .c-fs-zgloszenie-container {
+    font-size: 1.26316vw;
+    margin-top: 6.05263vw;
+  }
+  .c-fs-doodwaznych-container {
+    font-size: 1.57895vw;
+    margin-top: 1.57895vw;
+  }
+  .c-fs-twoje-container {
+    font-size: 0.84211vw;
+  }
+  .l-fs-twoje-container {
+    width: 100%;
+    margin-top: 1.57895vw;
+  }
+  .l-fs-btn__zamknij {
+    margin-top: 2.63158vw;
+  }
+  .l-fs-bottle {
+    position: relative;
+    right: 21.05263vw;
+    width: 13.26316vw;
+    bottom: 36.84211vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

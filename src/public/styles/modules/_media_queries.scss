@@ -30,7 +30,14 @@
     border: none;
   }
 
-  .c-btn-zamknij {
+  .c-btn__zamknij {
+    padding: vwm(12, dsk) vwm(32, dsk);
+    font-size: vwm(16, dsk);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white;
+    border: 2px solid $white;
+    background-color: $black-00;
   }
 
   .l-copy {
