@@ -11,6 +11,10 @@
     font-size: 24px;
   }
 
+  .l-title {
+    font-size: vwm(36, dsk);
+  }
+
   .l-akcja {
     font-size: calc(8px + 0.42vw);
     padding: 1rem;
@@ -22,6 +26,9 @@
 
   .u-golden-bottom {
     border: none;
+  }
+
+  .c-btn-zamknij {
   }
 
   .l-h-flex_dsk {
@@ -178,6 +185,16 @@
     padding-bottom: vwm(70, dsk);
   }
 
+  .l-c-container {
+    padding-top: vwm(70, dsk);
+    padding-bottom: vwm(260, dsk);
+  }
+
+  .l-f-container {
+    padding-top: vwm(70, dsk);
+    padding-bottom: vwm(70, dsk);
+  }
+
   .c-f-form-group {
     width: vwm(300, dsk);
     padding-left: vwm(40, dsk);
@@ -217,6 +234,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    left: vwm(24, dsk);
   }
   .l-f-form-checkbox-container {
     grid-area: checkboxes;
@@ -245,12 +264,10 @@
 
   .l-form-input__1 {
     margin-top: 0;
-    margin-left: vwm(24, dsk);
   }
 
   .l-form-input {
     margin-top: 0;
-    margin-left: vwm(24, dsk);
   }
 
   .l-f-form-zamknij {
@@ -266,6 +283,40 @@
     width: vwm(252, dsk);
     left: vwm(-380, dsk);
     bottom: vwm(-20, dsk);
+  }
+
+  .l-c-form__dsk {
+    height: vwm(500, dsk);
+    margin: vwm(80, dsk) auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .l-c-textarea {
+    margin-top: 0;
+    height: vwm(166, dsk);
+  }
+
+  .l-c-form-buttons-container {
+    padding-top: 0;
+    width: vwm(220, dsk);
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .l-c-form-zamknij,
+  .l-c-form-btn {
+    font-size: calc(8px + 0.42vw);
+    width: vwm(119, dsk);
+    height: vwm(44, dsk);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .l-c-disclaimer {
+    padding-top: vwm(70, dsk);
   }
 
   .c-nav {

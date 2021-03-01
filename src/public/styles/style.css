@@ -1243,6 +1243,9 @@ input {
     margin: 0;
     font-size: 24px;
   }
+  .l-title {
+    font-size: 1.89474vw;
+  }
   .l-akcja {
     font-size: calc(8px + 0.42vw);
     padding: 1rem;
@@ -1400,6 +1403,14 @@ input {
     padding-top: 10.52632vw;
     padding-bottom: 3.68421vw;
   }
+  .l-c-container {
+    padding-top: 3.68421vw;
+    padding-bottom: 13.68421vw;
+  }
+  .l-f-container {
+    padding-top: 3.68421vw;
+    padding-bottom: 3.68421vw;
+  }
   .c-f-form-group {
     width: 15.78947vw;
     padding-left: 2.10526vw;
@@ -1450,6 +1461,8 @@ input {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    position: relative;
+    left: 1.26316vw;
   }
   .l-f-form-checkbox-container {
     -ms-grid-row: 2;
@@ -1482,11 +1495,9 @@ input {
   }
   .l-form-input__1 {
     margin-top: 0;
-    margin-left: 1.26316vw;
   }
   .l-form-input {
     margin-top: 0;
-    margin-left: 1.26316vw;
   }
   .l-f-form-zamknij {
     font-size: 0.84211vw;
@@ -1499,6 +1510,50 @@ input {
     width: 13.26316vw;
     left: -20vw;
     bottom: -1.05263vw;
+  }
+  .l-c-form__dsk {
+    height: 26.31579vw;
+    margin: 4.21053vw auto 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .l-c-textarea {
+    margin-top: 0;
+    height: 8.73684vw;
+  }
+  .l-c-form-buttons-container {
+    padding-top: 0;
+    width: 11.57895vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+  }
+  .l-c-form-zamknij,
+  .l-c-form-btn {
+    font-size: calc(8px + 0.42vw);
+    width: 6.26316vw;
+    height: 2.31579vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .l-c-disclaimer {
+    padding-top: 3.68421vw;
   }
   .c-nav .js-toggle,
   .c-nav .c-nav__arrow {
