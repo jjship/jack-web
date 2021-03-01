@@ -1,51 +1,51 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 721px) {
   .l-h-container {
-    padding-top: rem(115);
-    height: rem(980);
-    width: rem(1240);
+    padding-top: vwm(115, dsk);
+    height: vwm(980, dsk);
+    width: vwm(1240, dsk);
   }
 
   .l-h-live_icon {
-    right: rem(240);
-    top: rem(115);
+    right: vwm(240, dsk);
+    top: vwm(115, dsk);
     width: auto;
-    width: rem(53);
+    width: vwm(53, dsk);
   }
 
   .l-h-flex_dsk {
     display: flex;
     position: relative;
-    padding-left: rem(200);
-    bottom: rem(45);
+    padding-left: vwm(200, dsk);
+    bottom: vwm(45, dsk);
     justify-content: space-between;
   }
 
   .l-h-slogan {
-    width: rem(200);
-    height: rem(200);
+    width: vwm(200, dsk);
+    height: vwm(200, dsk);
     position: relative;
-    top: rem(510);
+    top: vwm(510, dsk);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     .l-h-slogan__today {
       .l-h-slogan__dzis {
         position: relative;
-        left: rem(9.4);
-        font-size: rem(59);
+        left: vwm(9.4, dsk);
+        font-size: vwm(59, dsk);
         margin: 0;
       }
       .l-h-slogan__zdarza {
         position: relative;
-        bottom: rem(14);
-        font-size: rem(21);
+        bottom: vwm(14, dsk);
+        font-size: vwm(21, dsk);
         margin: 0;
       }
       .l-h-slogan__tylko {
         position: relative;
-        top: rem(-12);
-        left: rem(17.5);
-        font-size: rem(47);
+        top: vwm(-12, dsk);
+        left: vwm(17.5, dsk);
+        font-size: vwm(47, dsk);
         margin: 0;
       }
     }
@@ -53,27 +53,27 @@
       .l-h-slogan__logo {
         display: block;
         position: relative;
-        bottom: rem(6.7);
-        width: rem(40);
+        bottom: vwm(6.7, dsk);
+        width: vwm(40, dsk);
         left: 50%;
-        margin-left: rem(-20);
+        margin-left: vwm(-20, dsk);
       }
       .l-h-slogan__make {
-        font-size: rem(29);
+        font-size: vwm(29, dsk);
       }
       .l-h-slogan__count {
-        font-size: rem(39);
+        font-size: vwm(39, dsk);
       }
     }
   }
 
   .l-h-bottle_w_shadow {
-    width: rem(400);
+    width: vwm(400, dsk);
     padding: 0;
   }
   .l-h-form-btn {
     position: relative;
     top: unset;
-    margin-top: rem(40);
+    margin-top: vwm(40, dsk);
   }
 }
