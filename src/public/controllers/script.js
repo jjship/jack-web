@@ -3,8 +3,8 @@ const toggFAQ = document.querySelectorAll('.js-faq-btn');
 const nav = document.querySelector('.js-nav');
 const arr = document.querySelector('.js-arrow');
 const lights = document.querySelector('.bg_lights');
-const dsk = '(min-width: 1000px)';
-const mob = '(max-width: 999px)';
+const dsk = '(min-width: 721px)';
+const mob = '(max-width: 720px)';
 const mq_dsk = window.matchMedia(dsk);
 const mq_mob = window.matchMedia(mob);
 const input = document.querySelector('.js-textarea');
@@ -71,9 +71,9 @@ const changeInputSize = (mediaQuery) => {
   input ? (mediaQuery.matches ? (input.rows = '7') : (input.rows = '4')) : null;
 };
 
-const setBackgoundImage = (mediaQuery) => {
+const setBackgoundImage = () => {
   wrap
-    ? mediaQuery.matches
+    ? mq_dsk.matches
       ? (wrap.style.backgroundImage = wrap.dataset.bg__dsk)
       : (wrap.style.backgroundImage = wrap.dataset.bg__mob)
     : null;
@@ -89,8 +89,8 @@ const setBackgoundImage = (mediaQuery) => {
 changeClass(mq_dsk);
 toggleNav(mq_mob);
 changeInputSize(mq_dsk);
-setBackgoundImage(mq_dsk);
-setBackgoundImage(mq_mob);
+setBackgoundImage();
+// setBackgoundImage(mq_mob);
 // changePicture(mediaQuery);
 
 // Attach listener function on state changes

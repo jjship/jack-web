@@ -607,9 +607,7 @@ input {
   margin: 0 auto;
   color: #ffffff;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center top;
-  background-size: contain;
 }
 
 .l-container {
@@ -1232,9 +1230,11 @@ input {
           transform: rotate(180deg);
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 721px) {
   .l-wrapper {
     width: 100vw;
+    background-attachment: fixed;
+    background-size: contain;
   }
   .l-container {
     width: 77.5rem;
@@ -1251,7 +1251,7 @@ input {
   }
   .l-akcja {
     font-size: calc(8px + 0.42vw);
-    padding: 1rem;
+    padding: calc(8px + 0.42vw);
   }
   .u-golden-bottom {
     border: none;
@@ -1523,34 +1523,34 @@ input {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 721px) {
   .l-h-container {
-    padding-top: 7.1875rem;
-    height: 61.25rem;
-    width: 77.5rem;
+    padding-top: 6.05263vw;
+    height: 51.57895vw;
+    width: 65.26316vw;
   }
   .l-h-live_icon {
-    right: 15rem;
-    top: 7.1875rem;
+    right: 12.63158vw;
+    top: 6.05263vw;
     width: auto;
-    width: 3.3125rem;
+    width: 2.78947vw;
   }
   .l-h-flex_dsk {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    padding-left: 12.5rem;
-    bottom: 2.8125rem;
+    padding-left: 10.52632vw;
+    bottom: 2.36842vw;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .l-h-slogan {
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 10.52632vw;
+    height: 10.52632vw;
     position: relative;
-    top: 31.875rem;
+    top: 26.84211vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1564,45 +1564,45 @@ input {
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
     position: relative;
-    left: 0.5875rem;
-    font-size: 3.6875rem;
+    left: 0.49474vw;
+    font-size: 3.10526vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
     position: relative;
-    bottom: 0.875rem;
-    font-size: 1.3125rem;
+    bottom: 0.73684vw;
+    font-size: 1.10526vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
     position: relative;
-    top: -0.75rem;
-    left: 1.09375rem;
-    font-size: 2.9375rem;
+    top: -0.63158vw;
+    left: 0.92105vw;
+    font-size: 2.47368vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
     display: block;
     position: relative;
-    bottom: 0.41875rem;
-    width: 2.5rem;
+    bottom: 0.35263vw;
+    width: 2.10526vw;
     left: 50%;
-    margin-left: -1.25rem;
+    margin-left: -1.05263vw;
   }
   .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
-    font-size: 1.8125rem;
+    font-size: 1.52632vw;
   }
   .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
-    font-size: 2.4375rem;
+    font-size: 2.05263vw;
   }
   .l-h-bottle_w_shadow {
-    width: 25rem;
+    width: 21.05263vw;
     padding: 0;
   }
   .l-h-form-btn {
     position: relative;
     top: unset;
-    margin-top: 2.5rem;
+    margin-top: 2.10526vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,8 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 721px) {
   .l-wrapper {
     width: 100vw;
+    background-attachment: fixed;
+    background-size: contain;
   }
 
   .l-container {
@@ -21,12 +23,8 @@
 
   .l-akcja {
     font-size: calc(8px + 0.42vw);
-    padding: 1rem;
+    padding: calc(8px + 0.42vw);
   }
-
-  // .main-dsk {
-  //   height: vwm(1020, dsk);
-  // }
 
   .u-golden-bottom {
     border: none;
