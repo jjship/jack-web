@@ -1232,13 +1232,16 @@ input {
           transform: rotate(180deg);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1400px) {
   .l-wrapper {
-    width: 65.26316vw;
+    width: 100vw;
+  }
+  .l-container {
+    width: 77.5rem;
   }
   .l-close {
     position: absolute;
-    left: 54.73684vw;
+    left: 65rem;
     top: 8px;
     margin: 0;
     font-size: 24px;
@@ -1250,80 +1253,8 @@ input {
     font-size: calc(8px + 0.42vw);
     padding: 1rem;
   }
-  .main-dsk {
-    height: 53.68421vw;
-  }
   .u-golden-bottom {
     border: none;
-  }
-  .l-h-flex_dsk {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    left: 10.52632vw;
-    bottom: 2.36842vw;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .l-h-live_icon {
-    right: 0;
-    width: auto;
-    max-width: 2.78947vw;
-  }
-  .l-h-slogan {
-    width: 10.52632vw;
-    height: 10.52632vw;
-    position: relative;
-    top: 26.84211vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
-    position: relative;
-    left: 0.49474vw;
-    font-size: 3.10526vw;
-    margin: 0;
-  }
-  .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
-    position: relative;
-    bottom: 0.73684vw;
-    font-size: 1.10526vw;
-    margin: 0;
-  }
-  .l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
-    position: relative;
-    top: -0.63158vw;
-    left: 0.92105vw;
-    font-size: 2.47368vw;
-    margin: 0;
-  }
-  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
-    display: block;
-    position: relative;
-    bottom: 0.35263vw;
-    width: 2.10526vw;
-    left: 50%;
-    margin-left: -1.05263vw;
-  }
-  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
-    font-size: 1.52632vw;
-  }
-  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
-    font-size: 2.05263vw;
-  }
-  .l-h-bottle_w_shadow {
-    width: 21.05263vw;
-    padding: 0;
   }
   .l-copy {
     position: relative;
@@ -1394,10 +1325,6 @@ input {
     font-size: 1.26316vw;
     text-transform: uppercase;
     width: 15.36842vw;
-  }
-  .l-h-form-btn {
-    top: unset;
-    margin-top: 2.10526vw;
   }
   .l-f-container {
     padding-top: 10.52632vw;
@@ -1593,6 +1520,89 @@ input {
     bottom: unset;
     width: 12.5625rem;
     padding-top: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .l-h-container {
+    padding-top: 7.1875rem;
+    height: 61.25rem;
+    width: 77.5rem;
+  }
+  .l-h-live_icon {
+    right: 15rem;
+    top: 7.1875rem;
+    width: auto;
+    width: 3.3125rem;
+  }
+  .l-h-flex_dsk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-left: 12.5rem;
+    bottom: 2.8125rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .l-h-slogan {
+    width: 12.5rem;
+    height: 12.5rem;
+    position: relative;
+    top: 31.875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
+    position: relative;
+    left: 0.5875rem;
+    font-size: 3.6875rem;
+    margin: 0;
+  }
+  .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
+    position: relative;
+    bottom: 0.875rem;
+    font-size: 1.3125rem;
+    margin: 0;
+  }
+  .l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
+    position: relative;
+    top: -0.75rem;
+    left: 1.09375rem;
+    font-size: 2.9375rem;
+    margin: 0;
+  }
+  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
+    display: block;
+    position: relative;
+    bottom: 0.41875rem;
+    width: 2.5rem;
+    left: 50%;
+    margin-left: -1.25rem;
+  }
+  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
+    font-size: 1.8125rem;
+  }
+  .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
+    font-size: 2.4375rem;
+  }
+  .l-h-bottle_w_shadow {
+    width: 25rem;
+    padding: 0;
+  }
+  .l-h-form-btn {
+    position: relative;
+    top: unset;
+    margin-top: 2.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
