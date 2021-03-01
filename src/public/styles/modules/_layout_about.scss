@@ -14,23 +14,23 @@
   margin-top: vwm(50);
 }
 
-.l-a-slogan__today {
+.l-a-slogan-container {
   margin-left: auto;
   margin-right: auto;
-  .l-a-slogan__dzis {
+  .l-a-slogan-dzis {
     position: relative;
     left: vwm(21);
     font-size: vwm(132);
     margin: 0;
   }
-  .l-a-slogan__zdarza {
+  .l-a-slogan-zdarza {
     position: relative;
     top: vwm(-31);
     font-size: vwm(30);
     font-size: vwm(48);
     margin: 0;
   }
-  .l-a-slogan__tylko {
+  .l-a-slogan-tylko {
     position: relative;
     top: vwm(-27);
     left: vwm(48);

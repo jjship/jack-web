@@ -1,0 +1,88 @@
+@media screen and (min-width: 1000px) {
+  .l-a-container {
+    padding-top: vwm(70, dsk);
+    height: vwm(980, dsk);
+    width: vwm(1240, dsk);
+    margin: 0 auto;
+  }
+
+  .l-a-flex {
+    margin-top: vwm(70, dsk);
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: vwm(253, dsk) vwm(206, dsk);
+    grid-template-areas:
+      'text video video'
+      'slogan video video';
+  }
+  .l-a-flex__text {
+    grid-area: text;
+    justify-self: center;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+  }
+  .l-a-slogan-container {
+    grid-area: slogan;
+    justify-self: auto;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+  }
+  .l-a-grid-video {
+    grid-area: video;
+    justify-self: center;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .l-a-zaslepka {
+    width: vwm(818, dsk);
+  }
+  .l-a-p-moze {
+    margin-top: vwm(26, dsk);
+  }
+  .c-a-p-jak {
+    font-size: vwm(24, dsk);
+    letter-spacing: vwm(0.6, dsk);
+  }
+
+  .c-a-p-moze {
+    font-size: calc(8px + 0.42vw);
+    letter-spacing: vwm(0.4, dsk);
+  }
+  .l-a-slogan-container {
+    margin-left: auto;
+    margin-right: auto;
+    .l-a-slogan-dzis {
+      position: relative;
+      font-size: vwm(72.6, dsk);
+      margin: 0;
+    }
+    .l-a-slogan-zdarza {
+      position: relative;
+      top: vwm(-15, dsk);
+      right: vwm(10, dsk);
+      font-size: vwm(26.4, dsk);
+      margin: 0;
+    }
+    .l-a-slogan-tylko {
+      position: relative;
+      top: vwm(-12, dsk);
+      left: vwm(14, dsk);
+      font-size: vwm(57.75, dsk);
+      margin: 0;
+    }
+  }
+
+  .l-a-akcja {
+    padding: vwm(195) 0 vwm(232) 0;
+    width: 100%;
+  }
+
+  .c-c-disclaimer {
+    line-height: 1.1;
+  }
+}

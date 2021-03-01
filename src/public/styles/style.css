@@ -1112,19 +1112,19 @@ input {
   margin-top: 6.94444vw;
 }
 
-.l-a-slogan__today {
+.l-a-slogan-container {
   margin-left: auto;
   margin-right: auto;
 }
 
-.l-a-slogan__today .l-a-slogan__dzis {
+.l-a-slogan-container .l-a-slogan-dzis {
   position: relative;
   left: 2.91667vw;
   font-size: 18.33333vw;
   margin: 0;
 }
 
-.l-a-slogan__today .l-a-slogan__zdarza {
+.l-a-slogan-container .l-a-slogan-zdarza {
   position: relative;
   top: -4.30556vw;
   font-size: 4.16667vw;
@@ -1132,7 +1132,7 @@ input {
   margin: 0;
 }
 
-.l-a-slogan__today .l-a-slogan__tylko {
+.l-a-slogan-container .l-a-slogan-tylko {
   position: relative;
   top: -3.75vw;
   left: 6.66667vw;
@@ -1928,6 +1928,175 @@ input {
   }
   .c-p-flex-instax {
     font-size: 2.52632vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .l-faq-container {
+    padding-top: 3.68421vw;
+    height: 51.57895vw;
+    width: 65.26316vw;
+    margin: 0 auto;
+  }
+  .l-faq-flex {
+    width: 32vw;
+    margin: 0 auto;
+  }
+  .l-faq-flex > div {
+    margin-top: 3.15789vw;
+  }
+  .l-faq-flex div > p {
+    margin-top: 1.05263vw;
+  }
+  .l-faq-bottle {
+    position: relative;
+    right: 24.73684vw;
+    width: 13.26316vw;
+    bottom: 41.05263vw;
+  }
+  .c-faq-btn {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #b7ac92;
+    text-align: left;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: calc(8px + 0.42vw);
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c-faq-arrow {
+    width: 0.94737vw;
+  }
+  .c-faq-p {
+    font-size: calc(8px + 0.42vw);
+    text-transform: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .l-a-container {
+    padding-top: 3.68421vw;
+    height: 51.57895vw;
+    width: 65.26316vw;
+    margin: 0 auto;
+  }
+  .l-a-flex {
+    margin-top: 3.68421vw;
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 13.31579vw 10.84211vw;
+        grid-template-rows: 13.31579vw 10.84211vw;
+        grid-template-areas: 'text video video' 'slogan video video';
+  }
+  .l-a-flex__text {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: text;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .l-a-slogan-container {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: slogan;
+    -ms-grid-column-align: auto;
+        justify-self: auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .l-a-grid-video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: video;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .l-a-zaslepka {
+    width: 43.05263vw;
+  }
+  .l-a-p-moze {
+    margin-top: 1.36842vw;
+  }
+  .c-a-p-jak {
+    font-size: 1.26316vw;
+    letter-spacing: 0.03158vw;
+  }
+  .c-a-p-moze {
+    font-size: calc(8px + 0.42vw);
+    letter-spacing: 0.02105vw;
+  }
+  .l-a-slogan-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .l-a-slogan-container .l-a-slogan-dzis {
+    position: relative;
+    font-size: 3.82105vw;
+    margin: 0;
+  }
+  .l-a-slogan-container .l-a-slogan-zdarza {
+    position: relative;
+    top: -0.78947vw;
+    right: 0.52632vw;
+    font-size: 1.38947vw;
+    margin: 0;
+  }
+  .l-a-slogan-container .l-a-slogan-tylko {
+    position: relative;
+    top: -0.63158vw;
+    left: 0.73684vw;
+    font-size: 3.03947vw;
+    margin: 0;
+  }
+  .l-a-akcja {
+    padding: 27.08333vw 0 32.22222vw 0;
+    width: 100%;
+  }
+  .c-c-disclaimer {
+    line-height: 1.1;
   }
 }
 /*# sourceMappingURL=style.css.map */
