@@ -1641,7 +1641,7 @@ input {
     width: 10.52632vw;
     height: 10.52632vw;
     position: relative;
-    top: 26.84211vw;
+    top: 10.52632vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2038,7 +2038,7 @@ input {
     position: fixed;
     margin-top: 0;
     width: 13.26316vw;
-    top: 1.57895vw;
+    top: 2.63158vw;
   }
   .c-faq-btn {
     display: block;
@@ -2069,6 +2069,16 @@ input {
   .c-faq-p {
     font-size: calc(8px + 0.42vw);
     text-transform: none;
+  }
+  .l-faq-btn__zamknij {
+    margin-bottom: 18.42105vw;
+    display: block;
+    margin-top: 3.15789vw;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
