@@ -23,7 +23,7 @@
     position: fixed;
     margin-top: 0;
     width: vwm(252, dsk);
-    top: vwm(30, dsk);
+    top: vwm(50, dsk);
   }
 
   .c-faq-btn {
@@ -51,5 +51,14 @@
   .c-faq-p {
     font-size: calc(8px + 0.42vw);
     text-transform: none;
+  }
+
+  .l-faq-btn__zamknij {
+    margin-bottom: vwm(350, dsk);
+    display: block;
+    margin-top: vwm(60, dsk);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
