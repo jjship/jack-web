@@ -1069,10 +1069,6 @@ input {
   margin-right: auto;
 }
 
-.l-faq-container {
-  height: 283.33333vw;
-}
-
 .l-faq-flex > div {
   margin-top: 8.33333vw;
 }
@@ -2025,7 +2021,6 @@ input {
 @media screen and (min-width: 1000px) {
   .l-faq-container {
     padding-top: 3.68421vw;
-    height: 50.52632vw;
     width: 65.26316vw;
     margin: 0 auto;
   }
@@ -2040,10 +2035,10 @@ input {
     margin-top: 1.05263vw;
   }
   .l-faq-bottle {
-    position: relative;
-    right: 24.73684vw;
+    position: fixed;
+    margin-top: 0;
     width: 13.26316vw;
-    bottom: 41.05263vw;
+    top: 1.57895vw;
   }
   .c-faq-btn {
     display: block;
