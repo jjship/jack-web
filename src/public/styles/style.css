@@ -1661,7 +1661,7 @@ input {
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
     position: relative;
-    bottom: 0.73684vw;
+    top: -0.68421vw;
     font-size: 1.10526vw;
     margin: 0;
   }
@@ -2170,21 +2170,21 @@ input {
   }
   .l-a-slogan-container .l-a-slogan-dzis {
     position: relative;
-    font-size: 3.82105vw;
+    left: 0.49474vw;
+    font-size: 3.10526vw;
     margin: 0;
   }
   .l-a-slogan-container .l-a-slogan-zdarza {
     position: relative;
-    top: -0.78947vw;
-    right: 0.52632vw;
-    font-size: 1.38947vw;
+    top: -0.68421vw;
+    font-size: 1.10526vw;
     margin: 0;
   }
   .l-a-slogan-container .l-a-slogan-tylko {
     position: relative;
     top: -0.63158vw;
-    left: 0.73684vw;
-    font-size: 3.03947vw;
+    left: 0.92105vw;
+    font-size: 2.47368vw;
     margin: 0;
   }
   .l-a-akcja {
