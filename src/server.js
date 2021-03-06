@@ -31,6 +31,7 @@ fastify.register(pov, {
       nav: 'partials/nav.hbs',
       body: 'partials/body.hbs',
       footer: 'partials/footer.hbs',
+      form: 'partials/form.hbs',
     },
   },
 });
