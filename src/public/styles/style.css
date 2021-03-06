@@ -157,7 +157,7 @@ input {
 }
 
 .u-white {
-  color: #ffffff;
+  color: #fff;
 }
 
 .u-absolute {
@@ -254,7 +254,7 @@ input {
 
 .c-form-textarea {
   padding: 2.22222vw 2.22222vw 5.55556vw 2.22222vw;
-  color: #ffffff;
+  color: #fff;
 }
 
 .c-form-input {
@@ -274,19 +274,19 @@ input {
 }
 
 .c-form-textarea::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 .c-form-textarea:-ms-input-placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 .c-form-textarea::-ms-input-placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 .c-form-textarea::placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 .c-form-input::-webkit-input-placeholder {
@@ -310,7 +310,7 @@ input {
   border: none;
   padding: 0.06944vw;
   font-size: 5.13889vw;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -416,8 +416,8 @@ input {
   font-size: 5.27778vw;
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #fff;
+  border: 2px solid #fff;
   background-color: #000000;
   width: 25vw;
 }
@@ -430,8 +430,8 @@ input {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #fff;
+  border: 2px solid #fff;
   background-color: #000000;
 }
 
@@ -545,7 +545,7 @@ input {
   font-size: 5.27778vw;
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   border: none;
   background-color: none;
 }
@@ -596,8 +596,8 @@ input {
 }
 
 .c-age-input:focus {
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #fff;
+  border-color: #fff;
 }
 
 .c-age-strona-container {
@@ -609,7 +609,7 @@ input {
   background: #000000;
   width: 100vw;
   margin: 0 auto;
-  color: #ffffff;
+  color: #fff;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
@@ -620,7 +620,7 @@ input {
   margin: 0 auto;
   padding-top: 10vw;
   position: relative;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -1271,8 +1271,8 @@ input {
     font-size: 0.84211vw;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    color: #fff;
+    border: 2px solid #fff;
     background-color: #000000;
   }
   .l-copy {
@@ -1328,7 +1328,7 @@ input {
   }
   .c-form-textarea {
     padding: 0.42105vw 0.42105vw 1.05263vw 0.42105vw;
-    color: #ffffff;
+    color: #fff;
     height: 9.68421vw;
   }
   .c-form-input {
@@ -1605,8 +1605,8 @@ input {
     color: #828282;
   }
   .c-age-input:focus {
-    color: #ffffff;
-    border-color: #ffffff;
+    color: #fff;
+    border-color: #fff;
   }
   .c-age-strona-container {
     font-size: 1.57895vw;
