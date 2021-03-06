@@ -1,15 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.typekit.net/vur6ixu.css">  <link rel="stylesheet" href="/styles/style.css">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    </head>
+    <body>
+	    <div id="body-outer">
+	    	<div id="body-inner">
+		    	{{{body}}}
+	    	</div>
+	    </div>
+		<div id="agegate-outer">
+			<div class="agegate-container">
+				<div class="agegate-inner">
+					<form name="agegate" data-auto-tab="true">
+						<h1 class="instructions">Please enter your birthday!</h1>
+						<div class="fields">
 
-  
-  {{>head}}
-</head>
-<body class="body">
-  {{{body}}}
-  <script src="/controllers/script.js"></script>
-</body>
+							<fieldset class="agegate-fieldset" name="agegate-mmddyyyy">
+								<div class="fieldwrapper"><label class="sr-only">Month</label><input type="number" name="agegate-month" placeholder="MM" required="required" min="01" max="12" pattern="\d*"></div>
+								<div class="fieldwrapper"><label class="sr-only">Day</label><input type="number" name="agegate-day" placeholder="DD" required="required" min="01" max="31" pattern="\d*"></div>
+								<div class="fieldwrapper"><label class="sr-only">Year</label><input type="number" name="agegate-year" placeholder="YYYY" required="required" min="1900" max="2017" pattern="\d*"></div>
+							</fieldset>
+
+							<fieldset class="agegate-fieldset" name="agegate-ddmmyyyy" disabled="disabled">
+								<div class="fieldwrapper"><label class="sr-only">Day</label><input type="number" name="agegate-day" placeholder="DD" required="required" min="01" max="31" pattern="\d*"></div>
+								<div class="fieldwrapper"><label class="sr-only">Month</label><input type="number" name="agegate-month" placeholder="MM" required="required" min="01" max="12" pattern="\d*"></div>
+								<div class="fieldwrapper"><label class="sr-only">Year</label><input type="number" name="agegate-year" placeholder="YYYY" required="required" min="1900" max="2017" pattern="\d*"></div>
+							</fieldset>
+
+							<div class="selectwrapper">
+								<label class="sr-only">Country</label>
+								<select name="agegate-country" data-default-iso="US" data-use-cf required="required">
+									<option value="US">The United States</option>
+								</select>
+							</div>
+							<div class="rememberwrapper">
+								<label><input type="checkbox" name="agegate-remember"> Remember me</label>
+								<p>Do not choose this option if you use a shared computer</p>
+								<p>This site uses <a href="https://legal.brown-forman.com/cookie-policy/english" target="_blank">Cookies</a>. I agree to the <a href="https://legal.brown-forman.com/terms-of-use/english" target="_blank">Terms of Use</a> and <a href="https://legal.brown-forman.com/privacy-policy/english" target="_blank">Privacy Policy</a></p>
+							</div>
+							<input type="hidden" name="agegate-category" value="spirits">
+							<div id="agegate-errors"></div>
+							<div class="submitwrapper">
+								<input type="submit" value="Submit">
+							</div>
+						</div>
+					</form>
+					<div class="legalfooter">
+						<h2>Drink Responsibly</h2>
+						<p>Legal mandatory language here</p>
+            <p>Please do not share or forward this content to anyone under the legal drinking age.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+        <script type="text/javascript" src="/controllers/agegate.js"></script>
+        <script type="text/javascript" src="/controllers/script.js"></script>
+    </body>
 </html>
