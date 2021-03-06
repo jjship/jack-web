@@ -1251,7 +1251,7 @@ input {
   .l-akcja {
     height: auto;
     font-size: calc(8px + 0.42vw);
-    padding: calc(8px + 0.42vw);
+    padding: calc(8px + 0.42vw) 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
