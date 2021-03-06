@@ -38,49 +38,57 @@
     padding-left: vwm(415, dsk);
   }
 
+  .l-f-form2__dsk {
+    margin-top: vwm(40, dsk);
+  }
+
   .l-form-label__dsk {
     color: $black-00;
     display: inline;
   }
 
-  .l-f-form__dsk {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      'textarea textinputs'
-      'checkboxes buttons';
-  }
+  // .l-f-form__dsk {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   grid-template-rows: auto auto;
+  //   grid-template-areas:
+  //     'textarea textinputs'
+  //     'checkboxes buttons';
+  // }
   .l-f-form-textarea__dsk {
-    grid-area: textarea;
-    justify-self: start;
+    // grid-area: textarea;
+    // justify-self: start;
     width: vwm(400, dsk);
     height: vwm(199, dsk);
   }
   .l-f-form-textinputs__dsk {
-    grid-area: textinputs;
-    justify-self: end;
+    margin-top: vwm(40, dsk);
+    // grid-area: textinputs;
+    // justify-self: end;
     width: vwm(400, dsk);
     height: vwm(199, dsk);
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: relative;
-    left: vwm(24, dsk);
   }
+
+  .l-form-input__1,
+  .l-form-input {
+    margin-top: 0;
+  }
+
   .l-f-form-checkbox-container {
-    grid-area: checkboxes;
-    justify-self: start;
-    margin-top: vwm(40, dsk);
+    // grid-area: checkboxes;
+    // justify-self: start;
     height: vwm(88, dsk);
+    width: fit-content;
+    margin: vwm(40, dsk) auto 0 auto;
   }
   .l-f-form-buttons-container {
-    grid-area: buttons;
-    justify-self: end;
-    margin-top: vwm(-4, dsk);
-    position: relative;
-    left: vwm(24, dsk);
+    // grid-area: buttons;
+    // justify-self: end;
+    margin: vwm(40, dsk) auto 0 auto;
   }
 
   .l-f-form-group {
