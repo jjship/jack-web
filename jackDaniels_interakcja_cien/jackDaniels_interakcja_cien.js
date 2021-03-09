@@ -187,7 +187,8 @@ class Zdanie {
     
     textFont(font);
     noStroke();    
-    fill(255, kolor+this.t);
+    fill(255);
+   // fill(255, kolor+this.t);
     //print(this.t);
     textSize(s+this.t/10);
     for (let i = 0; i < ileLiter; i++) {
