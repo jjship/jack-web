@@ -612,7 +612,7 @@ input {
   color: #fff;
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: contain;
+  background-size: cover;
 }
 
 .l-container {
@@ -1237,7 +1237,7 @@ input {
   .l-wrapper {
     width: 100vw;
     background-attachment: scroll;
-    background-size: contain;
+    background-size: cover;
   }
   .l-container {
     width: 65.26316vw;
