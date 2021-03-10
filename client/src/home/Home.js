@@ -1,12 +1,17 @@
 import React from 'react';
+import { useWindowWidth } from '../Shared/useWindowWidth';
+const desktopBG = '/images/BG_lights_dsk_l.jpg';
+const mobileBG = '/images/BG_lights_mob_l.jpg';
 
 export const Home = () => {
+  const imageUrl = useWindowWidth() >= 1000 ? desktopBG : mobileBG;
+
   return (
     <div
       className="main-dsk l-wrapper l-h-wrapper js-wrapper"
       data-bg__mob="url(/images/BG_lights_mob_l.jpg)"
       data-bg__dsk="url(/images/BG_lights_dsk_l.jpg)"
-      backgroundImage="/images/BG_lights_mob_l.jpg"
+      style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className="l-container l-h-container u-uppercase">
         <img
