@@ -1229,6 +1229,10 @@ input {
           transform: rotate(180deg);
 }
 
+.h-is__hidden {
+  display: none;
+}
+
 @media screen and (min-width: 1000px) {
   .l-wrapper {
     width: 100vw;
