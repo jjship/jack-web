@@ -1,0 +1,64 @@
+@media screen and (min-width: 1000px) {
+  .l-faq-container {
+    padding-top: vwm(70, dsk);
+    // height: vwm(960, dsk);
+    width: vwm(1240, dsk);
+    margin: 0 auto;
+  }
+
+  .l-faq-flex {
+    width: vwm(608, dsk);
+    margin: 0 auto;
+  }
+
+  .l-faq-flex > div {
+    margin-top: vwm(60, dsk);
+  }
+
+  .l-faq-flex div > p {
+    margin-top: vwm(20, dsk);
+  }
+
+  .l-faq-bottle {
+    position: fixed;
+    margin-top: 0;
+    width: vwm(252, dsk);
+    top: vwm(50, dsk);
+  }
+
+  .c-faq-btn {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $gold-92;
+    text-align: left;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: calc(8px + 0.42vw);
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .c-faq-arrow {
+    width: vwm(18, dsk);
+  }
+
+  .c-faq-p {
+    font-size: calc(8px + 0.42vw);
+    text-transform: none;
+  }
+
+  .l-faq-btn__zamknij {
+    margin-bottom: vwm(350, dsk);
+    display: block;
+    margin-top: vwm(60, dsk);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

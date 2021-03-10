@@ -1,0 +1,84 @@
+.l-h-container {
+  height: vw_m(2200);
+  .l-copyform-container {
+    margin-top: vw_m(921);
+  }
+}
+
+.l-h-bottle_w_shadow {
+  top: vw_m(-5);
+  right: vw_m(26);
+  width: vw_m(542);
+}
+
+.l-h-live_icon {
+  right: 0;
+  width: auto;
+  max-width: vw_m(72);
+}
+
+.l-h-slogan {
+  width: vw_m(146);
+  height: vw_m(171);
+  top: vw_m(10);
+  left: w_m(3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .l-h-slogan__today {
+    .l-h-slogan__dzis {
+      position: relative;
+      left: w_m(7);
+      font-size: vw_m(44);
+      margin: 0;
+    }
+    .l-h-slogan__zdarza {
+      position: relative;
+      top: vw_m(-12);
+      font-size: vw_m(10);
+      font-size: vw_m(16);
+      margin: 0;
+    }
+    .l-h-slogan__tylko {
+      position: relative;
+      top: vw_m(-9);
+      left: vw_m(13);
+      font-size: vw_m(35);
+      margin: 0;
+    }
+  }
+  .l-h-slogan__m_i_c {
+    .l-h-slogan__logo {
+      display: block;
+      position: relative;
+      left: 50%;
+      bottom: w_m(5);
+      margin-left: vw_m(-18.5);
+      width: vw_m(37);
+    }
+    .l-h-slogan__make {
+      font-size: vw_m(22);
+    }
+    .l-h-slogan__count {
+      font-size: vw_m(29);
+    }
+  }
+}
+
+.l-h-form {
+  bottom: vw_m(95);
+}
+
+.l-h-form-btn {
+  position: relative;
+  top: vw_m(57);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.l-h-akcja {
+  position: relative;
+  margin-top: vw_m(260);
+  margin-bottom: 50px;
+  width: 100%;
+}

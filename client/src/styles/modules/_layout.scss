@@ -1,0 +1,95 @@
+.l-wrapper {
+  background: $black-00;
+  width: 100vw;
+  margin: 0 auto;
+  color: $white;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.l-container {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 10vw;
+  position: relative;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.l-footer {
+  width: 86%;
+  margin: 0 auto;
+  height: vwm(1045);
+  padding-top: vwm(310);
+}
+
+.l-footer__socials {
+  position: relative;
+  bottom: vwm(46);
+  width: vwm(611);
+}
+
+.l-copy {
+  position: relative;
+  width: auto;
+  height: vwm(174);
+  .l-copy-mamy {
+    position: relative;
+    left: vwm(58);
+    font-size: vwm(42);
+  }
+  .l-copy-wielkie {
+    position: relative;
+    bottom: vwm(5);
+    font-size: vwm(56);
+  }
+  .l-copy-napelnijmy {
+    position: relative;
+    left: vwm(42);
+    bottom: vwm(13);
+    font-size: vwm(32);
+  }
+  .l-copy-butelke {
+    position: relative;
+    bottom: vwm(9);
+    left: vwm(-3);
+    font-size: vwm(56);
+  }
+  .l-copy-jacka {
+    position: relative;
+    bottom: vwm(86);
+    text-align: end;
+    font-size: vwm(84);
+  }
+}
+
+.l-form {
+  position: relative;
+  width: 100%;
+}
+
+.l-form-textarea {
+  margin-top: vwm(0.5);
+}
+.l-form-label__masz {
+  position: relative;
+  left: vwm(468);
+}
+.l-form-input {
+  margin-top: vwm(60);
+}
+.l-form-input__1 {
+  margin-top: vwm(90);
+}
+.l-f-form-buttons-container {
+  margin-top: vwm(60);
+}
+.l-f-form-checkbox-container {
+  margin-top: vwm(140);
+}
+
+.l-akcja {
+  padding: vwm(188) 0 vwm(232) 0;
+  width: 100%;
+}
