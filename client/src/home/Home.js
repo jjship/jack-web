@@ -1,5 +1,6 @@
 import React from 'react';
 import { useWindowWidth } from '../Shared/useWindowWidth';
+import { Form } from './Form';
 const desktopBG = '/images/BG_lights_dsk_l.jpg';
 const mobileBG = '/images/BG_lights_mob_l.jpg';
 
@@ -51,7 +52,9 @@ export const Home = () => {
             alt="Jack Daniels bottle"
             className="l-h-bottle_w_shadow"
           />
-          <div className="l-copyform-container"></div>
+          <div className="l-copyform-container">
+            <Form />
+          </div>
         </div>
       </div>
     </div>
