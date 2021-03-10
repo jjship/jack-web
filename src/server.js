@@ -5,6 +5,7 @@ const handlebars = require('handlebars');
 const helmet = require('fastify-helmet');
 const autoload = require('fastify-autoload');
 const static = require('fastify-static');
+const formbody = require('fastify-formbody');
 const path = require('path');
 const { selectAll } = require('./model');
 
@@ -17,6 +18,8 @@ fastify.register(autoload, {
 fastify.register(static, {
   root: path.join(__dirname, 'public'),
 });
+
+fastify.register(formbody);
 
 // Register point-of-view with handlebars
 fastify.register(pov, {
@@ -43,4 +46,8 @@ fastify.listen(process.env.PORT || 3000, '0.0.0.0', function (err, address) {
     process.exit(1);
   }
   fastify.log.info(`server listening on ${address}`);
+});
+
+fastify.post('/', (req, reply) => {
+  fastify.log(req.body);
 });
