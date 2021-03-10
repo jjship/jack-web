@@ -34,10 +34,9 @@ export const Home = () => {
             </div>
             <div className="c-h-slogan__m_i_c l-h-slogan__m_i_c u-align__center">
               <img
-                className="c-h-slogan__logo l-h-slogan__logo u-absolute"
+                className="c-h-slogan__logo l-h-slogan__logo u-absolute navLogo"
                 src="/images/navLogo.png"
                 alt="Jack Daniel's logo"
-                className="navLogo"
               />
               <p className="c-h-slogan__make l-h-slogan__make -f-jasper-caps">
                 make it
