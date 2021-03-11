@@ -1,12 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useWindowWidth } from './useWindowWidth';
 
 export const Nav = () => {
-  const navClasses =
-    useWindowWidth() >= 1000
-      ? 'js-nav l-nav h-nav'
-      : 'js-nav l-nav h-nav h-is__closed';
+  const [navClosed, setNavClosed] = useState(true);
+
+  useEffect(() => {
+    function handleResize() {
+      window.innerWidth >= 1000 ? setNavClosed(false) : setNavClosed(true);
+    }
+
+    window.addEventListener('resize', handleResize);
+
+    return (_) => {
+      window.removeEventListener('resize', handleResize);
+    };
+  });
+
+  const handleToggle = () => {
+    navClosed ? setNavClosed(false) : setNavClosed(true);
+  };
+
+  const btnTxt = navClosed ? 'menu' : 'mniej';
+
+  const arrClasses = navClosed
+    ? 'l-nav-arrow js-arrow'
+    : 'l-nav-arrow js-arrow h-is__up';
+
+  const navClasses = navClosed
+    ? 'js-nav l-nav h-nav h-is__closed'
+    : 'js-nav l-nav h-nav';
 
   return (
     <div>
@@ -19,12 +42,13 @@ export const Nav = () => {
         <button
           className="c-nav__btn -f-myriad-cond u-white js-toggle"
           data-text="mniej"
+          onClick={() => handleToggle()}
         >
-          menu
+          {btnTxt}
           <img
             src="/images/arrow_white.png"
             alt="arrow"
-            className="l-nav-arrow js-arrow"
+            className={arrClasses}
           />
         </button>
         <div id="nav" className={navClasses}>
