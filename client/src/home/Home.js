@@ -1,6 +1,7 @@
 import React from 'react';
 import { useWindowWidth } from '../Shared/useWindowWidth';
 import { Nav } from '../Shared/Nav';
+import { Footer } from '../Shared/Footer';
 import { Form } from './Form';
 const desktopBG = '/images/BG_lights_dsk_l.jpg';
 const mobileBG = '/images/BG_lights_mob_l.jpg';
@@ -57,6 +58,7 @@ export const Home = () => {
         </div>
       </div>
       <Nav />
+      <Footer />
     </div>
   );
 };

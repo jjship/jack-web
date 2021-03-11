@@ -1,3 +1,5 @@
+import React from 'react';
+
 const togg = document.querySelector('.js-toggle');
 const toggFAQ = document.querySelectorAll('.js-faq-btn');
 const nav = document.querySelector('.js-nav');
@@ -12,38 +14,38 @@ const wrap = document.querySelector('.js-wrapper');
 const ageInputs = document.querySelectorAll('.js-age-input');
 const textarea = document.querySelector('.js-h-textarea');
 
-const switchToForm = (e) => {
-  window.location.href = '/form';
-  // e.preventDefault();
-  // const source = document.querySelector('.js-h-textarea');
-  // testimonial = source.value;
-  // window.location.href = '/form';
-  // window.onload = () => {
-  //   const target = document.querySelector('.js-target');
-  //   console.log(target);
-  //   target.value = testimonial;
-  // };
-};
+// const switchToForm = (e) => {
+//   window.location.href = '/form';
+//   // e.preventDefault();
+//   // const source = document.querySelector('.js-h-textarea');
+//   // testimonial = source.value;
+//   // window.location.href = '/form';
+//   // window.onload = () => {
+//   //   const target = document.querySelector('.js-target');
+//   //   console.log(target);
+//   //   target.value = testimonial;
+//   // };
+// };
 
-const onlyNumberKey = (evt) => {
-  // Only ASCII charactar in that range allowed
-  const ASCIICode = evt.which ? evt.which : evt.keyCode;
-  ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)
-    ? evt.preventDefault()
-    : true;
-};
+// const onlyNumberKey = (evt) => {
+//   // Only ASCII charactar in that range allowed
+//   const ASCIICode = evt.which ? evt.which : evt.keyCode;
+//   ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)
+//     ? evt.preventDefault()
+//     : true;
+// };
 
-const toggleNav = () => {
-  if (nav.classList.contains('h-is__closed')) {
-    togg.firstChild.textContent = 'mniej';
-    arr.classList.add('h-is__up');
-    nav.classList.toggle('h-is__closed');
-  } else {
-    togg.firstChild.textContent = 'menu';
-    arr.classList.remove('h-is__up');
-    nav.classList.toggle('h-is__closed');
-  }
-};
+// const toggleNav = () => {
+//   if (nav.classList.contains('h-is__closed')) {
+//     togg.firstChild.textContent = 'mniej';
+//     arr.classList.add('h-is__up');
+//     nav.classList.toggle('h-is__closed');
+//   } else {
+//     togg.firstChild.textContent = 'menu';
+//     arr.classList.remove('h-is__up');
+//     nav.classList.toggle('h-is__closed');
+//   }
+// };
 
 const toggleCollapsible = (btn) => {
   const elem = btn.nextElementSibling;
@@ -61,23 +63,22 @@ const switchArrow = (btn) => {
     : arrow.classList.add(isUp);
 };
 
-const changeClass = (mediaQuery) => {
-  mediaQuery.matches
-    ? nav.classList.add('h-is__closed')
-    : nav.classList.remove('h-is__closed');
-};
+// const changeClass = (mediaQuery) => {
+//   mediaQuery.matches
+//     ? nav.classList.add('h-is__closed')
+//     : nav.classList.remove('h-is__closed');
+// };
 
-const changeInputSize = (mediaQuery) => {
-  input ? (mediaQuery.matches ? (input.rows = '7') : (input.rows = '4')) : null;
-};
+// const changeInputSize = (mediaQuery) => {
+//   input ? (mediaQuery.matches ? (input.rows = '7') : (input.rows = '4')) : null;
+// };
 
-const setBackgoundImage = () => {
-  wrap
-    ? mq_dsk.matches
-      ? (wrap.style.backgroundImage = wrap.dataset.bg__dsk)
-      : (wrap.style.backgroundImage = wrap.dataset.bg__mob)
-    : null;
-};
+// export const setBackgoundImage = (bg__dsk, bg__mob) => {
+// mq_dsk.matches
+//       ? return bg__dsk
+//       : return bg__mob
+
+// };
 
 // const changePicture = (mediaQuery) => {
 //   mediaQuery.matches

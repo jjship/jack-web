@@ -1,6 +1,7 @@
 import React from 'react';
 import { useWindowWidth } from '../Shared/useWindowWidth';
 import { Nav } from '../Shared/Nav';
+import { Footer } from '../Shared/Footer';
 const desktopBG = '/images/BG_lights_dsk_s.jpg';
 const mobileBG = '/images/BG_lights_mob_s.jpg';
 
@@ -55,6 +56,7 @@ export const About = () => {
         </a>
       </div>
       <Nav />
+      <Footer />
     </div>
   );
 };
