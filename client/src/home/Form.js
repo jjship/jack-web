@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useWindowWidth } from '../Shared/useWindowWidth';
 
 export const Form = () => {
   const [statement, setStatement] = useState(false);
@@ -18,6 +19,8 @@ export const Form = () => {
     setStatement(false);
     setSent(false);
   };
+
+  const rows = useWindowWidth() >= 1000 ? 7 : 4;
 
   if (!statement && !sent) {
     return (
@@ -47,7 +50,7 @@ export const Form = () => {
             className="c-form-textarea c-form-input__dsk l-form-textarea -f-myriad-cond u-uppercase js-h-textarea"
             name="statement"
             id="statement"
-            rows="4"
+            rows={rows}
             required="required"
             placeholder="Napisz co zawsze chciałeś zrobić&#10;i dlaczego właśnie to, i wygraj kasę&#10;na realizację swojego wielkiego planu!"
           ></textarea>
