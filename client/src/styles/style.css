@@ -416,6 +416,7 @@ input {
   font-size: 5.27778vw;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   color: #fff;
   border: 2px solid #fff;
   background-color: #000000;
@@ -1083,6 +1084,11 @@ input {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.l-faq-btn__zamknij {
+  display: block;
+  margin: 70px auto;
 }
 
 .l-a-flex {
