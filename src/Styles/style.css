@@ -1669,10 +1669,10 @@ input {
     display: table-cell;
   }
   .l-f-form-imie {
-    padding-right: 1.05263vw;
+    padding-right: 0.52632vw;
   }
   .l-f-form-nazwisko {
-    padding-left: 1.05263vw;
+    padding-left: 0.52632vw;
   }
   .l-form-input__1,
   .l-form-input {
