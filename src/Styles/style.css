@@ -1559,20 +1559,20 @@ input {
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
     position: relative;
-    left: 0.63158vw;
+    left: 0.36842vw;
     font-size: 3.78947vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
     position: relative;
-    top: -0.81579vw;
+    bottom: 0.89474vw;
     font-size: 1.32632vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
     position: relative;
     top: -0.75789vw;
-    left: 1.10526vw;
+    left: 1.21053vw;
     font-size: 2.96842vw;
     margin: 0;
   }
