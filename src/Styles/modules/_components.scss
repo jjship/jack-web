@@ -1,0 +1,326 @@
+.c-close {
+  position: relative;
+  margin-left: vwm(595);
+  font-size: vwm(32);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-title {
+  font-size: vwm(75);
+  text-align: center;
+}
+
+.c-copy-napelnijmy {
+  text-transform: uppercase;
+}
+
+.c-form-label__masz {
+  font-size: vwm(21);
+  color: $gold-92;
+  text-transform: none;
+}
+
+.c-form-textarea,
+.c-form-input,
+.c-c-textarea {
+  padding: vwm(16) vwm(16) vwm(40) vwm(16);
+  width: 100%;
+  background: black;
+  border-radius: 8px;
+  border: 2px solid $grey-82;
+  font-size: vwm(37);
+  caret-color: $grey-82;
+}
+
+.c-form-textarea {
+  padding: vwm(16) vwm(16) vwm(40) vwm(16);
+  color: $white;
+}
+
+.c-form-input {
+  padding: vwm(16) vwm(16) vwm(16) vwm(16);
+  color: $gold-92;
+}
+
+.c-form-textarea:focus,
+.c-form-input:focus,
+.c-h-form__btn:focus,
+.c-f-form-btn:focus,
+.c-f-form-zamknij:focus,
+.c-c-form-btn:focus,
+.c-c-form-zamknij:focus {
+  outline: none;
+  border: 2px solid $orange-1c;
+}
+
+.c-form-textarea::placeholder {
+  color: $white;
+}
+
+.c-form-input::placeholder {
+  color: $gold-92;
+}
+
+.c-f-form-zamknij,
+.c-c-form-btn {
+  border: none;
+  padding: vwm(0.5);
+  font-size: vwm(37);
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.c-h-form-btn,
+.c-f-form-btn {
+  border: none;
+  background-color: #ee731d;
+  color: black;
+  padding: vwm(8);
+  font-size: vwm(37);
+  text-transform: uppercase;
+  width: vwm(456);
+}
+
+.c-f-form-group {
+  width: vwm(448);
+  padding-left: vwm(40);
+  cursor: pointer;
+  font-size: vwm(29);
+  text-transform: none;
+  /* Hide the browser's default checkbox */
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  /* Create a custom checkbox */
+  .c-checkmark {
+    position: absolute;
+    top: vwm(10);
+    left: 0;
+    height: vwm(20);
+    width: vwm(20);
+    border: 2px solid $gold-8f;
+  }
+  /* When the checkbox is checked, add an orange background */
+  input:checked ~ .c-checkmark {
+    background-color: $orange-1c;
+  }
+}
+
+.c-akcja {
+  color: $gold-92;
+  text-align: center;
+  font-size: vwm(29);
+}
+
+.c-nav {
+  position: relative;
+  color: white;
+  .c-nav__btn {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: vwm(36);
+    padding: vwm(36) 0 vwm(36) 0;
+    border-bottom: 3px solid $gold-92;
+  }
+}
+
+.c-footer {
+  color: $grey-95;
+  font-size: vwm(29);
+  letter-spacing: vwm(0.21);
+}
+
+.c-fs-zgloszenie-container {
+  font-size: vwm(30);
+  text-align: center;
+}
+.c-cs-wiadomosc-container {
+  font-size: vwm(30);
+  text-align: center;
+}
+
+.c-fs-doodwaznych-container {
+  font-size: vwm(33);
+  text-align: center;
+}
+
+.c-fs-twoje-container {
+  font-size: vwm(25);
+  text-align: center;
+  text-transform: none;
+}
+
+.c-btn__zamknij {
+  padding: vwm(10) vwm(20);
+  font-size: vwm(38);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: $white;
+  border: 2px solid $white;
+  background-color: $black-00;
+  width: vwm(180);
+}
+
+.c-btn__wejdz {
+  padding: vwm(40) vwm(20);
+  width: vwm(310);
+  display: block;
+  font-size: vwm(42);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: $white;
+  border: 2px solid $white;
+  background-color: $black-00;
+}
+
+.c-p-flex-qty__cash {
+  font-size: vwm(117);
+}
+
+.c-p-flex-x__cash {
+  font-size: vwm(58);
+}
+
+.c-p-flex-value {
+  font-size: vwm(64);
+}
+
+.c-p-flex-zl {
+  font-size: vwm(29);
+}
+
+.c-p-flex-na {
+  font-size: vwm(24);
+  text-align: center;
+  line-height: vwm(30);
+}
+
+.c-p-flex-qty {
+  font-size: vwm(73);
+}
+
+.c-p-flex-x {
+  font-size: vwm(36);
+}
+
+.c-p-flex-jack {
+  font-size: vwm(64);
+}
+
+.c-p-flex-plus {
+  font-size: vwm(29);
+}
+
+.c-p-flex-instax {
+  font-size: vwm(48);
+}
+
+.c-faq-btn {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid $gold-92;
+  text-align: left;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: vwm(33);
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-faq-arrow {
+  width: vwm(36);
+}
+
+.c-faq-p {
+  font-size: vwm(33);
+  text-transform: none;
+}
+
+.c-a-p-jak {
+  font-size: vwm(33);
+  letter-spacing: vwm(0.94);
+}
+
+.c-a-p-moze {
+  font-size: vwm(33);
+  letter-spacing: vwm(0.83);
+}
+
+.c-c-textarea {
+  color: $gold-92;
+}
+
+.c-c-textarea::placeholder {
+  color: $gold-92;
+}
+
+.c-c-form-zamknij {
+  padding: vwm(7) vwm(20);
+  font-size: vwm(38);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  border: none;
+  background-color: none;
+}
+
+.c-c-akcja {
+  text-transform: uppercase;
+}
+
+.c-age-data-container {
+  font-size: vwm(40);
+  text-align: center;
+}
+
+.c-age-input {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background: $grey-27;
+  border: 2px solid $grey-27;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: #fff;
+  font-size: vwm(52);
+  margin: 0 vwm(4);
+  outline: none;
+  padding: vwm(30) vwm(11);
+  text-align: center;
+  transition: border-color 0.25s ease-in-out;
+  vertical-align: bottom;
+}
+.c-age-input::placeholder {
+  color: $grey-82;
+}
+.c-age-input:focus {
+  color: $white;
+  border-color: $white;
+}
+
+.c-age-strona-container {
+  font-size: vwm(38);
+  text-align: center;
+}

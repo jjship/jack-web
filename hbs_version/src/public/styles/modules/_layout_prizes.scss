@@ -1,0 +1,104 @@
+.l-p-container {
+  height: auto;
+}
+
+.l-p-akcja {
+  position: relative;
+  margin-top: vwm(208);
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.l-p-flex {
+  margin-top: vwm(70);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.l-p-flex-item {
+  max-width: vwm(270);
+  height: vwm(569);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.l-p-innerflex-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.l-p-flex-instax-container {
+  position: relative;
+  margin-top: vwm(30);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-p-flex-value {
+  margin-top: vwm(-17);
+}
+
+.l-p-flex-zl {
+  position: relative;
+  left: vwm(52);
+  bottom: vwm(8);
+}
+
+.l-p-flex-na {
+  margin-top: vwm(4);
+}
+
+.l-p-flex-qty {
+  margin-top: vwm(35);
+  position: relative;
+  right: vwm(35);
+}
+
+.l-p-flex-jack {
+  margin-top: vwm(-8);
+}
+
+.l-p-flex-plus {
+  position: relative;
+  left: vwm(49);
+  bottom: vwm(9);
+}
+
+.l-p-flex-instax {
+  position: relative;
+  left: vwm(21);
+  bottom: vwm(13);
+}
+
+.l-p-flex-visualisation {
+  margin-bottom: vwm(32);
+}
+
+.l-p-flex-visualisation__seven {
+  width: vwm(310);
+}
+
+.l-p-flex-visualisation__three {
+  width: vwm(288);
+}
+
+.l-p-flex-visualisation__instax {
+  width: vwm(191);
+}
+
+.l-p-flex-visualisation {
+  z-index: 1;
+}
+
+.l-p-btn__zamknij {
+  display: block;
+  margin-top: vwm(120);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
