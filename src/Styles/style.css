@@ -761,7 +761,7 @@ input {
 .l-h-live_icon {
   position: absolute;
   top: 9.72222vw;
-  right: 0;
+  left: 0;
   width: auto;
   max-width: 10vw;
 }
@@ -1523,7 +1523,7 @@ input {
     width: 65.26316vw;
   }
   .l-h-live_icon {
-    right: 12.63158vw;
+    left: 10.52632vw;
     top: 6.05263vw;
     width: auto;
     width: 2.78947vw;
@@ -1543,7 +1543,7 @@ input {
     width: 10.52632vw;
     height: 10.52632vw;
     position: relative;
-    top: 10.52632vw;
+    top: 27.36842vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
