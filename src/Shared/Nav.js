@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useWindowWidth } from './useWindowWidth';
 
 export const Nav = () => {
   const [navClosed, setNavClosed] = useState(false);
