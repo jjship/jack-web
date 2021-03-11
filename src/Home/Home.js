@@ -53,7 +53,22 @@ export const Home = () => {
             className="l-h-bottle_w_shadow"
           />
           <div className="l-copyform-container">
-            <Form />
+            <div className="js-testimony">
+              <div className="c-copy l-copy">
+                <p className="c-copy-mamy l-copy-mamy -f-motlow">mamy</p>
+                <p className="c-copy-wielkie l-copy-wielkie -f-motlow">
+                  wielkie plany!
+                </p>
+                <p className="c-copy-napelnijmy l-copy-napelnijmy -f-franklin-demi">
+                  napełnijmy nimi
+                </p>
+                <p className="c-copy-butelke l-copy-butelke -f-motlow">
+                  butelkę
+                </p>
+                <p className="c-copy-jacka l-copy-jacka -f-motlow">jack'a.</p>
+              </div>
+              <Form />
+            </div>
           </div>
         </div>
       </div>

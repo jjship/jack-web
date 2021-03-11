@@ -24,41 +24,28 @@ export const Form = () => {
 
   if (!statement && !sent) {
     return (
-      <div className="js-testimony">
-        <div className="c-copy l-copy">
-          <p className="c-copy-mamy l-copy-mamy -f-motlow">mamy</p>
-          <p className="c-copy-wielkie l-copy-wielkie -f-motlow">
-            wielkie plany!
-          </p>
-          <p className="c-copy-napelnijmy l-copy-napelnijmy -f-franklin-demi">
-            napełnijmy nimi
-          </p>
-          <p className="c-copy-butelke l-copy-butelke -f-motlow">butelkę</p>
-          <p className="c-copy-jacka l-copy-jacka -f-motlow">jack'a.</p>
-        </div>
-        <form
-          onSubmit={handleStatementSubmit}
-          className="l-form c-h-form l-h-form__dsk -f-myriad-cond"
+      <form
+        onSubmit={handleStatementSubmit}
+        className="l-form c-h-form l-h-form__dsk -f-myriad-cond"
+      >
+        <label
+          className="u-text-transform-none l-form-label__masz c-form-label__masz -f-myriad-light"
+          htmlFor="statement"
         >
-          <label
-            className="u-text-transform-none l-form-label__masz c-form-label__masz -f-myriad-light"
-            htmlFor="statement"
-          >
-            masz <span>280</span> znaków
-          </label>
-          <textarea
-            className="c-form-textarea c-form-input__dsk l-form-textarea -f-myriad-cond u-uppercase js-h-textarea"
-            name="statement"
-            id="statement"
-            rows={rows}
-            required="required"
-            placeholder="Napisz co zawsze chciałeś zrobić&#10;i dlaczego właśnie to, i wygraj kasę&#10;na realizację swojego wielkiego planu!"
-          ></textarea>
-          <button className="c-h-form-btn l-h-form-btn l-h-form-btn__dsk -f-myriad-cond js-h-btn">
-            zatwierdź
-          </button>
-        </form>
-      </div>
+          masz <span>280</span> znaków
+        </label>
+        <textarea
+          className="c-form-textarea c-form-input__dsk l-form-textarea -f-myriad-cond u-uppercase js-h-textarea"
+          name="statement"
+          id="statement"
+          rows={rows}
+          required="required"
+          placeholder="Napisz co zawsze chciałeś zrobić&#10;i dlaczego właśnie to, i wygraj kasę&#10;na realizację swojego wielkiego planu!"
+        ></textarea>
+        <button className="c-h-form-btn l-h-form-btn l-h-form-btn__dsk -f-myriad-cond js-h-btn">
+          zatwierdź
+        </button>
+      </form>
     );
   }
   if (statement && !sent) {
