@@ -20,7 +20,7 @@ let zi=0;
 let zib1=5;
 let zib2=10;
 
-let okres = 20;
+let okres = 4;
 let okresb1 = 120;
 let okresb2 = 120;
 
@@ -45,7 +45,7 @@ function draw() {
   background(0);
   image(tlo2, 0, 0);
   t++;
-  tb1++;
+  //tb1++;
   tb2++;
 
   if (t==okres) {
@@ -56,19 +56,19 @@ function draw() {
     }
     t=0;
   }
-
+/*
 
   if (okresb1==tb1) {  
-    zdaniaZBoku1.push(new Zdanie(zdania[zib1], startTekstX-290));  
+    zdaniaZBoku1.push(new Zdanie(zdania[zib1], startTekstX-250));  
     zib1++;  
     if (zib1>=zdania.length) {
       zib1=0;
     }
     tb1=0;
-  }
+  }*/
 
   if (okresb2==tb2) {    
-    zdaniaZBoku2.push(new Zdanie(zdania[zib2], startTekstX+290));     
+    zdaniaZBoku2.push(new Zdanie(zdania[zib2], startTekstX+250));     
     zib2++;    
     if (zib2>=zdania.length) {
       zib2=0;
@@ -77,7 +77,7 @@ function draw() {
   }
 
   let ile = zdaniaWyswietlane.length-1;
-  let ile1 = zdaniaZBoku1.length-1;
+  //let ile1 = zdaniaZBoku1.length-1;
   let ile2 = zdaniaZBoku2.length-1;
 
   for (let i=ile; i>=0; i--) {
@@ -86,13 +86,13 @@ function draw() {
       zdaniaWyswietlane.splice(i, 1);
     }
   }
-
+/*
   for (let i=ile1; i>=0; i--) {   
     zdaniaZBoku1[i].show();   
     if (zdaniaZBoku1[i].martwy) {
       zdaniaZBoku1.splice(i, 1);
     }
-  }
+  }*/
 
   for (let i=ile2; i>=0; i--) {      
     zdaniaZBoku2[i].show();
@@ -108,13 +108,13 @@ function draw() {
 class Zdanie {
   constructor(txt, x) {
     this.x = x;
-    this.y = wysokoscButelki+40;
+    this.y = wysokoscButelki;
     this.font = this.wybierzFont(txt);
     this.txt = this.podzialNaLinie(txt, this.font);    
     this.t = 0;
     this.sx = random(-0.05, 0.05);
     // this.sy = random(0.4, 0.6);
-    this.sy = 0.4;
+    this.sy = 0.7;
     this.f = random(80, 140);//przeźroczystość
     this.martwy = false;
     this.o = 0;
@@ -123,10 +123,10 @@ class Zdanie {
       this.granice1 = this.font.textBounds(this.txt[0], startTekstX, 0, int(this.txt[2]));
       this.granice2 = this.font.textBounds(this.txt[1], startTekstX, 0, int(this.txt[3]));
       this.y2 =  this.granice2.h - (this.granice2.h + this.granice2.y) + this.granice1.h + this.granice1.y; //tyle trzeba dodać do y pierwszej linijki, żeby znaleźć y drugiej linijki
-      this.o = int((this.granice1.h + this.granice2.h)/this.sy) + 70;
+      this.o = int((this.granice1.h + this.granice2.h)/this.sy) + 20;
     } else {
       this.granice1 = this.font.textBounds(this.txt[0], startTekstX, 0, int(this.txt[1]));
-      this.o = int(this.granice1.h/this.sy) + 70;
+      this.o = int(this.granice1.h/this.sy) + 30; //czas, który należy czekać zanim pojawi się następny napis
     }
 
     if (x == startTekstX) {
@@ -166,8 +166,7 @@ class Zdanie {
 
     push();
 
-    let graniceLinijki = font.textBounds(txt, x, y, s);
-   
+    let graniceLinijki = font.textBounds(txt, x, y, s);   
 
     if (mouseX > graniceLinijki.x && mouseX < graniceLinijki.x + graniceLinijki.w && mouseY > graniceLinijki.y && mouseY < graniceLinijki.y + graniceLinijki.h) {
       this.t+=3;
@@ -206,8 +205,6 @@ class Zdanie {
        
        let dy = v.y - this.yy;
        this.yy += dy * easing;*/
-
-
 
       text(podzieloneNaLitery[i], literaX, literaY);
     }
@@ -266,7 +263,7 @@ class Zdanie {
 
   sprawdzGranice(txt, s, font) {
     let granice = font.textBounds(txt, startTekstX, 0, s);
-    if (granice.x + granice.w > szerokoscButelki) {
+    if (granice.x + granice.w > szerokoscButelki-40) {
       return false;
     } else {
       return true;
