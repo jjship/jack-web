@@ -1542,10 +1542,10 @@ input {
     margin-top: 5.26316vw;
   }
   .l-h-slogan {
-    width: 10.52632vw;
-    height: 10.52632vw;
+    width: 12.63158vw;
+    height: 12.63158vw;
     position: relative;
-    top: 27.36842vw;
+    top: 7.36842vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1559,36 +1559,36 @@ input {
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__dzis {
     position: relative;
-    left: 0.49474vw;
-    font-size: 3.10526vw;
+    left: 0.63158vw;
+    font-size: 3.78947vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__zdarza {
     position: relative;
-    top: -0.68421vw;
-    font-size: 1.10526vw;
+    top: -0.81579vw;
+    font-size: 1.32632vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__today .l-h-slogan__tylko {
     position: relative;
-    top: -0.63158vw;
-    left: 0.92105vw;
-    font-size: 2.47368vw;
+    top: -0.75789vw;
+    left: 1.10526vw;
+    font-size: 2.96842vw;
     margin: 0;
   }
   .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
     display: block;
     position: relative;
-    bottom: 0.35263vw;
-    width: 2.10526vw;
+    bottom: 0.44211vw;
+    width: 2.52632vw;
     left: 50%;
-    margin-left: -1.05263vw;
+    margin-left: -1.26316vw;
   }
   .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__make {
-    font-size: 1.52632vw;
+    font-size: 1.89474vw;
   }
   .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__count {
-    font-size: 2.05263vw;
+    font-size: 2.52632vw;
   }
   .l-h-bottle_w_shadow {
     width: 21.05263vw;

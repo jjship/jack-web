@@ -25,31 +25,31 @@
   }
 
   .l-h-slogan {
-    width: vwm(200, dsk);
-    height: vwm(200, dsk);
+    width: vwm(240, dsk);
+    height: vwm(240, dsk);
     position: relative;
-    top: vwm(520, dsk);
+    top: vwm(140, dsk);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     .l-h-slogan__today {
       .l-h-slogan__dzis {
         position: relative;
-        left: vwm(9.4, dsk);
-        font-size: vwm(59, dsk);
+        left: vwm(12, dsk);
+        font-size: vwm(72, dsk);
         margin: 0;
       }
       .l-h-slogan__zdarza {
         position: relative;
-        top: vwm(-13, dsk);
-        font-size: vwm(21, dsk);
+        top: vwm(-15.5, dsk);
+        font-size: vwm(25.2, dsk);
         margin: 0;
       }
       .l-h-slogan__tylko {
         position: relative;
-        top: vwm(-12, dsk);
-        left: vwm(17.5, dsk);
-        font-size: vwm(47, dsk);
+        top: vwm(-14.4, dsk);
+        left: vwm(21, dsk);
+        font-size: vwm(56.4, dsk);
         margin: 0;
       }
     }
@@ -57,16 +57,16 @@
       .l-h-slogan__logo {
         display: block;
         position: relative;
-        bottom: vwm(6.7, dsk);
-        width: vwm(40, dsk);
+        bottom: vwm(8.4, dsk);
+        width: vwm(48, dsk);
         left: 50%;
-        margin-left: vwm(-20, dsk);
+        margin-left: vwm(-24, dsk);
       }
       .l-h-slogan__make {
-        font-size: vwm(29, dsk);
+        font-size: vwm(36, dsk);
       }
       .l-h-slogan__count {
-        font-size: vwm(39, dsk);
+        font-size: vwm(48, dsk);
       }
     }
   }
