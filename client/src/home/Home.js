@@ -11,8 +11,6 @@ export const Home = () => {
   return (
     <div
       className="main-dsk l-wrapper l-h-wrapper js-wrapper"
-      data-bg__mob="url(/images/BG_lights_mob_l.jpg)"
-      data-bg__dsk="url(/images/BG_lights_dsk_l.jpg)"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className="l-container l-h-container u-uppercase">
