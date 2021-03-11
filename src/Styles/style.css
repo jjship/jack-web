@@ -761,7 +761,7 @@ input {
 .l-h-live_icon {
   position: absolute;
   top: 9.72222vw;
-  left: 0;
+  right: 0;
   width: auto;
   max-width: 10vw;
 }
