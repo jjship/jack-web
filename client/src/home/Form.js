@@ -52,7 +52,7 @@ export const Form = () => {
             placeholder="Napisz co zawsze chciałeś zrobić&#10;i dlaczego właśnie to, i wygraj kasę&#10;na realizację swojego wielkiego planu!"
           ></textarea>
           <button className="c-h-form-btn l-h-form-btn l-h-form-btn__dsk -f-myriad-cond js-h-btn">
-            wyślij i wygraj jacka
+            zatwierdź
           </button>
         </form>
       </div>
