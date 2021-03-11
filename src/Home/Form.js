@@ -54,25 +54,58 @@ export const Form = () => {
         onSubmit={handlePersonalInfoSubmit}
         className="js-personal l-f__personal__dsk"
       >
+        <div className="textinput">
+          <label
+            className="u-text-transform-none l-form-label__masz c-form-label__masz -f-myriad-light"
+            htmlFor="statement"
+          >
+            masz <span>280</span> znaków
+          </label>
+          <textarea
+            className="c-form-textarea c-form-input__dsk l-form-textarea -f-myriad-cond u-uppercase js-h-textarea"
+            name="statement"
+            id="statement"
+            rows={rows}
+            required="required"
+            placeholder="Napisz co zawsze chciałeś zrobić&#10;i dlaczego właśnie to, i wygraj kasę&#10;na realizację swojego wielkiego planu!"
+          ></textarea>
+        </div>
         <div className="l-f-form-textinputs__dsk">
-          <input
-            type="text"
-            className="c-form-input l-form-input__1 c-form-input__dsk -f-myriad-cond u-uppercase"
-            name="name"
-            placeholder="wpisz imię"
-          />
-          <input
-            type="text"
-            className="c-form-input l-form-input c-form-input__dsk -f-myriad-cond u-uppercase"
-            name="surname"
-            placeholder="wpisz nazwisko"
-          />
+          <div className="table-container__dsk">
+            <div className="table-item__dsk l-f-form-imie">
+              <input
+                type="text"
+                className="c-form-input l-form-input__1 c-form-input__dsk -f-myriad-cond u-uppercase"
+                name="name"
+                placeholder="wpisz imię"
+              />
+            </div>
+            <div className="table-item__dsk l-f-form-nazwisko">
+              <input
+                type="text"
+                className="c-form-input l-form-input c-form-input__dsk -f-myriad-cond u-uppercase"
+                name="surname"
+                placeholder="wpisz nazwisko"
+              />
+            </div>
+          </div>
           <input
             type="email"
             className="c-form-input l-form-input c-form-input__dsk -f-myriad-cond u-uppercase"
             name="email"
             placeholder="wpisz adres e-mail"
           />
+        </div>
+        <div className="l-f-form-buttons-container u-uppercase">
+          <a
+            href="/"
+            className="c-f-form-zamknij l-f-form-zamknij -f-myriad-cond"
+          >
+            zamknij
+          </a>
+          <button className="c-f-form-btn l-f-form-btn -f-myriad-cond">
+            wyślij i wygraj jacka
+          </button>
         </div>
         <div className="l-f-form-checkbox-container -f-myriad-light u-golden-92">
           <label className="l-f-form-group c-f-form-group">
@@ -97,17 +130,6 @@ export const Form = () => {
             <input type="checkbox" id="" name="privacy" />
             <span className="c-checkmark"></span>
           </label>
-        </div>
-        <div className="l-f-form-buttons-container u-uppercase">
-          <a
-            href="/"
-            className="c-f-form-zamknij l-f-form-zamknij -f-myriad-cond"
-          >
-            zamknij
-          </a>
-          <button className="c-f-form-btn l-f-form-btn -f-myriad-cond">
-            wyślij i wygraj jacka
-          </button>
         </div>
       </form>
     );

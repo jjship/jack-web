@@ -1326,7 +1326,6 @@ input {
   .c-form-input,
   .c-c-textarea {
     padding: 0.42105vw 0.42105vw 1.05263vw 0.42105vw;
-    width: 21.05263vw;
     font-size: calc(10px + 0.42vw);
   }
   .c-form-label__masz {
@@ -1539,6 +1538,9 @@ input {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .l-copyform-container {
+    margin-top: 5.26316vw;
+  }
   .l-h-slogan {
     width: 10.52632vw;
     height: 10.52632vw;
@@ -1648,7 +1650,6 @@ input {
   .l-f-form-textinputs__dsk {
     margin-top: 2.10526vw;
     width: 21.05263vw;
-    height: 10.47368vw;
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1661,9 +1662,21 @@ input {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .table-container__dsk {
+    display: table;
+  }
+  .table-item__dsk {
+    display: table-cell;
+  }
+  .l-f-form-imie {
+    padding-right: 1.05263vw;
+  }
+  .l-f-form-nazwisko {
+    padding-left: 1.05263vw;
+  }
   .l-form-input__1,
   .l-form-input {
-    margin-top: 0;
+    margin-top: 1.57895vw;
   }
   .l-f-form-checkbox-container {
     height: 4.63158vw;
