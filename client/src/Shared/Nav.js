@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useWindowWidth } from './useWindowWidth';
 
 export const Nav = () => {
-  const [navClosed, setNavClosed] = useState(true);
+  const [navClosed, setNavClosed] = useState(false);
 
   useEffect(() => {
     function handleResize() {
