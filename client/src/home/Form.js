@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 export const Form = () => {
   const [statement, setStatement] = useState(false);
-  console.log(statement);
   const [sent, setSent] = useState(false);
 
   const handleStatementSubmit = (e) => {
