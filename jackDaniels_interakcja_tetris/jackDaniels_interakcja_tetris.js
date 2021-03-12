@@ -9,17 +9,17 @@ let fontFranklin;
 let maska;
 let tlo;
 let tlo2;
-let ileW = [0, 0];
-let t = [0, -50];
-let zi = [0, 0];
+let ileW = [0, 0,0];
+let t = [0, -50,-40];
+let zi = [0, 0,0];
 
-let okres = [10, 10];
-let ruch = [true, true];
+let okres = [10, 10,10];
+let ruch = [true, true,true];
 
 let szerokoscButelki = 706; 
 let wysokoscButelki = 810;
-let startTekstX = [475, 640];
-let yy = [wysokoscButelki+10, wysokoscButelki+20];
+let startTekstX = [530, 695, 365];
+let yy = [wysokoscButelki+10, wysokoscButelki+20, wysokoscButelki+20];
 
 function preload() {
   fontJasper = loadFont("font/JasperPl-Caps.otf");  
@@ -65,7 +65,6 @@ function draw() {
   tlo.mask(maska);
   image(tlo, 0, 0);
 }
-
 
 class Zdanie {
   constructor(txt, nr, x, ik) {
@@ -214,7 +213,7 @@ class Zdanie {
 
   sprawdzGranice(txt, s, font) {
     let granice = font.textBounds(txt, startTekstX[0], 0, s);//tu jest startTekstX[0] a nie startTekstX[ik], żeby wielkości napisów były takie same we wszystkich kolumnach
-    if (granice.x + granice.w > szerokoscButelki-80) {
+    if (granice.x + granice.w > szerokoscButelki-25) {
       return false;
     } else {
       return true;
