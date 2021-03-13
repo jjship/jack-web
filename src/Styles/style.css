@@ -751,11 +751,6 @@ input {
   margin-top: 8.19444vw;
 }
 
-.l-h-animation {
-  position: absolute;
-  z-index: 0;
-}
-
 .l-h-live_icon {
   position: absolute;
   top: 9.72222vw;
@@ -765,7 +760,6 @@ input {
 }
 
 .l-h-slogan {
-  z-index: 1;
   width: 20.27778vw;
   height: 23.75vw;
   position: absolute;
@@ -1531,7 +1525,6 @@ input {
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    padding-left: 10.52632vw;
     bottom: 2.36842vw;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
