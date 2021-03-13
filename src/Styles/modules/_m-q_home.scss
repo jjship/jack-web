@@ -2,7 +2,7 @@
   .l-h-container {
     padding-top: vwm(115, dsk);
     height: vwm(960, dsk);
-    width: vwm(1240, dsk);
+    width: 90vw;
   }
 
   // .l-h-live_icon {
@@ -19,59 +19,76 @@
     justify-content: space-between;
   }
 
+  .p5canvas {
+    width: vwm(1139, dsk);
+  }
+
   .l-copyform-container {
     margin-top: vwm(100, dsk);
   }
 
   .l-h-animation {
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: vwm(1140, dsk);
+    height: vwm(1050, dsk);
   }
 
   .l-h-slogan {
-    z-index: 1;
-    width: vwm(240, dsk);
-    height: vwm(240, dsk);
     position: relative;
-    top: vwm(140, dsk);
+    bottom: vwm(100, dsk);
+    z-index: 1;
+    width: vwm(480, dsk);
+    height: vwm(480, dsk);
+    position: relative;
+    top: vwm(280, dsk);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-rendering: geometricPrecision;
+    p {
+      text-rendering: geometricPrecision;
+    }
     .l-h-slogan__today {
       .l-h-slogan__dzis {
         position: relative;
-        left: vwm(7, dsk);
-        bottom: vwm(7, dsk);
-        font-size: vwm(72, dsk);
+        left: vwm(14, dsk);
+        bottom: vwm(14, dsk);
+        font-size: vwm(144, dsk);
         margin: 0;
       }
       .l-h-slogan__zdarza {
         position: relative;
-        bottom: vwm(17, dsk);
-        font-size: vwm(25.2, dsk);
+        bottom: vwm(35, dsk);
+        font-size: vwm(50.4, dsk);
         margin: 0;
       }
       .l-h-slogan__tylko {
         position: relative;
-        top: vwm(-14.4, dsk);
-        left: vwm(23, dsk);
-        font-size: vwm(56.4, dsk);
+        top: vwm(-29, dsk);
+        left: vwm(46, dsk);
+        font-size: vwm(113, dsk);
         margin: 0;
       }
     }
     .l-h-slogan__m_i_c {
+      position: relative;
+
+      left: vwm(114, dsk);
       .l-h-slogan__logo {
         display: block;
         position: relative;
-        bottom: vwm(8.4, dsk);
-        width: vwm(48, dsk);
+        bottom: vwm(17, dsk);
+        width: vwm(100, dsk);
         left: 50%;
-        margin-left: vwm(-24, dsk);
+        margin-left: vwm(-48, dsk);
       }
       .l-h-slogan__make {
-        font-size: vwm(36, dsk);
+        font-size: vwm(72, dsk);
       }
       .l-h-slogan__count {
-        font-size: vwm(48, dsk);
+        font-size: vwm(96, dsk);
       }
     }
   }
