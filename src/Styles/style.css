@@ -1535,10 +1535,8 @@ input {
   }
   .l-h-animation {
     position: absolute;
-    z-index: 0;
   }
   .l-h-slogan {
-    z-index: 1;
     width: 12.63158vw;
     height: 12.63158vw;
     position: relative;
