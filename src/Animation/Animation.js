@@ -60,7 +60,8 @@ const Animation = () => {
       tlo2 = p.loadImage(bg);
       maska = p.loadImage(mask);
 
-      p.createCanvas(1139, 1051);
+      // ustaw wielkość w odniesieniu do 1139 na 1051
+      p.createCanvas(p.windowWidth * 0.6, p.windowWidth * 0.55);
 
       for (let i = 0; i < zi.length; i++) {
         //let noweZdania = shuffle(zdania, true); //shuffle być może do usunięcia, gdy będzie podłączona baza
@@ -97,6 +98,10 @@ const Animation = () => {
       p.image(tlo, 0, 0);
     };
 
+    // p.windowResized = () => {
+    //   p.resizeCanvas(p.windowWidth * 0.6, p.windowHeight);
+    // };
+
     class Zdanie {
       constructor(txt, nr, x, ik) {
         this.x = x;
@@ -114,7 +119,7 @@ const Animation = () => {
         }
 
         this.t = 0;
-// eslint-disable-next-line
+        // eslint-disable-next-line
         if (this.linijek == 2) {
           this.granice1 = this.font.textBounds(
             this.txt[0],
@@ -198,7 +203,7 @@ const Animation = () => {
         p.textSize(s);
         p.noStroke();
         p.fill(255);
-// eslint-disable-next-line
+        // eslint-disable-next-line
         if (linijka == 1 && this.linijek == 2) {
           let podzieloneZdanie = p.split(txt, ' ');
           let pl = podzieloneZdanie.length;
@@ -268,7 +273,7 @@ const Animation = () => {
         }
 
         let linijki = [];
-// eslint-disable-next-line
+        // eslint-disable-next-line
         if (podzieloneZdanie.length == 0) {
           linijki[0] = txt;
           linijki[1] = p.str(wielkoscOstatnia);
@@ -333,7 +338,7 @@ const Animation = () => {
   useEffect(() => {
     const newp5 = new p5(Sketch, processingRef.current);
   }, []);
-  return <div ref={processingRef}/>;
+  return <div ref={processingRef} />;
 };
 
 export default Animation;
