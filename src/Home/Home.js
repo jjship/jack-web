@@ -3,6 +3,7 @@ import { useWindowWidth } from '../Shared/useWindowWidth';
 import { Nav } from '../Shared/Nav';
 import { Footer } from '../Shared/Footer';
 import { Form } from './Form';
+import Animation from '../Animation/Animation';
 const desktopBG = '/images/BG_lights_dsk_l.jpg';
 const mobileBG = '/images/BG_lights_mob_l.jpg';
 
@@ -47,11 +48,9 @@ export const Home = () => {
               </p>
             </div>
           </div>
-          <img
-            src="/images/bottle_w_shadow.png"
-            alt="Jack Daniels bottle"
-            className="l-h-bottle_w_shadow"
-          />
+          <div className="l-h-animation">
+            <Animation />
+          </div>
           <div className="l-copyform-container">
             <div className="js-testimony">
               <div className="c-copy l-copy">
