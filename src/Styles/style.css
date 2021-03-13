@@ -751,11 +751,9 @@ input {
   margin-top: 8.19444vw;
 }
 
-.l-h-bottle_w_shadow {
-  display: block;
-  width: 75.27778vw;
-  padding-left: 7.22222vw;
-  padding-right: 3.61111vw;
+.l-h-animation {
+  position: absolute;
+  z-index: 0;
 }
 
 .l-h-live_icon {
@@ -767,6 +765,7 @@ input {
 }
 
 .l-h-slogan {
+  z-index: 1;
   width: 20.27778vw;
   height: 23.75vw;
   position: absolute;
@@ -1541,7 +1540,12 @@ input {
   .l-copyform-container {
     margin-top: 5.26316vw;
   }
+  .l-h-animation {
+    position: absolute;
+    z-index: 0;
+  }
   .l-h-slogan {
+    z-index: 1;
     width: 12.63158vw;
     height: 12.63158vw;
     position: relative;
