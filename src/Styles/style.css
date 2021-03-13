@@ -751,14 +751,6 @@ input {
   margin-top: 8.19444vw;
 }
 
-.l-h-live_icon {
-  position: absolute;
-  top: 9.72222vw;
-  right: 0;
-  width: auto;
-  max-width: 10vw;
-}
-
 .l-h-slogan {
   width: 20.27778vw;
   height: 23.75vw;
@@ -1513,12 +1505,6 @@ input {
     padding-top: 6.05263vw;
     height: 50.52632vw;
     width: 65.26316vw;
-  }
-  .l-h-live_icon {
-    left: 10.52632vw;
-    top: 6.05263vw;
-    width: auto;
-    width: 2.78947vw;
   }
   .l-h-flex_dsk {
     display: -webkit-box;

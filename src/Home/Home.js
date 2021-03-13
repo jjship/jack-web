@@ -16,11 +16,6 @@ export const Home = () => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className="l-container l-h-container u-uppercase">
-        <img
-          src="/images/live_icon.png"
-          alt="live icon"
-          className="l-h-live_icon u-absolute"
-        />
         <div className="l-h-flex_dsk">
           <div className="c-h-slogan l-h-slogan">
             <div className="c-h-slogan__today l-h-slogan__today">
