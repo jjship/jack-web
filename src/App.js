@@ -1,5 +1,5 @@
 import './Styles/style.css';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Home } from './Home/Home';
 import { About } from './About/About';
 // import { Age } from './Age/Age';
