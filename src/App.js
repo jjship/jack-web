@@ -7,7 +7,7 @@ import { Contact } from './Contact/Contact';
 import { Faq } from './Faq/Faq';
 // import { Privacy } from './Privacy/Privacy';
 import { Prizes } from './Prizes/Prizes';
-// import { Regulations } from './Regulations/Regulations';
+import { Regulations } from './Regulations/Regulations';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path="/faq" component={Faq} />
         <Route path="/privacy" component={Home} />
         <Route path="/prizes" component={Prizes} />
-        <Route path="/regulations" component={Home} />
+        <Route path="/regulations" component={Regulations} />
       </Switch>
     </main>
   );
