@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export const Item = (props) => {
-  const { text } = props;
+  const { question, answer } = props;
   const [itemClosed, setItemClosed] = useState(true);
   const handleToggle = () => {
     itemClosed ? setItemClosed(false) : setItemClosed(true);
@@ -18,18 +18,11 @@ export const Item = (props) => {
         onClick={() => handleToggle()}
         className="l-faq-btn c-faq-btn js-faq-btn -f-myriad-cond u-golden"
       >
-        {text}
+        {question}
         <img src="/images/arrow_golden.png" alt="" className={arrClasses} />
       </button>
       <div className={itemClasses}>
-        <p className="l-faq-p c-faq-p">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
-          eligendi doloremque alias, tempora exercitationem eaque illum ipsa cum
-          accusantium, aliquam temporibus modi iste fugit officiis sequi
-          similique natus minima enim a sint porro? Ad beatae eos ipsam
-          architecto vitae laudantium ut a ducimus cum itaque facilis, numquam
-          fugit at corrupti.
-        </p>
+        <p className="l-faq-p c-faq-p">{answer}</p>
       </div>
     </div>
   );
