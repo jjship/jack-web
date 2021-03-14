@@ -359,7 +359,6 @@ input {
 }
 
 .c-akcja {
-  color: #b7ac92;
   text-align: center;
   font-size: 4.02778vw;
 }
@@ -549,10 +548,6 @@ input {
   color: #fff;
   border: none;
   background-color: none;
-}
-
-.c-c-akcja {
-  text-transform: uppercase;
 }
 
 .c-age-data-container {
@@ -1294,16 +1289,8 @@ input {
     height: auto;
     font-size: calc(8px + 0.42vw);
     padding: calc(8px + 0.42vw) 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    z-index: 1;
+    position: relative;
   }
   .u-golden-bottom {
     border: none;
@@ -1509,7 +1496,7 @@ input {
 
 @media screen and (min-width: 1000px) {
   .l-h-container {
-    padding-top: 6.05263vw;
+    padding-top: 0;
     height: 50.52632vw;
     width: 90vw;
   }
@@ -1525,6 +1512,7 @@ input {
   }
   .p5canvas {
     width: 59.94737vw;
+    z-index: 0;
   }
   .l-copyform-container {
     margin-top: 5.26316vw;
