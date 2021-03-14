@@ -1,6 +1,8 @@
 import React from 'react';
 import { useWindowWidth } from '../Shared/useWindowWidth';
-import { Nav } from '../Shared/Nav';
+import { NavMob } from '../Shared/NavMob';
+import { NavDsk } from '../Shared/NavDsk';
+import { Duration } from '../Shared/Duration';
 import { Footer } from '../Shared/Footer';
 const desktopBG = '/images/BG_lights_dsk_s.jpg';
 const mobileBG = '/images/BG_lights_mob_s.jpg';
@@ -13,6 +15,7 @@ export const About = () => {
       class="main-dsk l-wrapper l-a-wrapper js-wrapper"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
+      <NavDsk />
       <div class="l-container l-a-container u-uppercase">
         <a href="/" class="c-close l-close">
           &#10005;
@@ -55,7 +58,8 @@ export const About = () => {
           zamknij
         </a>
       </div>
-      <Nav />
+      <Duration />
+      <NavMob />
       <Footer />
     </div>
   );

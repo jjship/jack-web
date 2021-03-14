@@ -1,6 +1,8 @@
 import React from 'react';
 import { useWindowWidth } from '../Shared/useWindowWidth';
-import { Nav } from '../Shared/Nav';
+import { Duration } from '../Shared/Duration';
+import { NavDsk } from '../Shared/NavDsk';
+import { NavMob } from '../Shared/NavMob';
 import { Footer } from '../Shared/Footer';
 const desktopBG = '/images/BG_lights_dsk_s.jpg';
 const mobileBG = '/images/BG_lights_mob_s.jpg';
@@ -79,7 +81,7 @@ export const Prizes = () => {
           zamknij
         </a>
       </div>
-      <Nav />
+      <NavMob />
       <Footer />
     </div>
   );

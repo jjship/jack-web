@@ -616,6 +616,10 @@ input {
   background-size: cover;
 }
 
+.l-nav__dsk {
+  display: none;
+}
+
 .l-container {
   width: 86%;
   margin: 0 auto;
@@ -1230,6 +1234,49 @@ input {
     background-attachment: scroll;
     background-size: cover;
   }
+  .l-nav__dsk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 3.68421vw;
+  }
+  .l-nav__dsk .c-nav__btn {
+    font-size: calc(8px + 0.42vw);
+    text-decoration: underline;
+    border: none;
+    width: auto;
+    padding: 0;
+  }
+  .l-nav__mob {
+    display: none;
+  }
+  .js-toggle,
+  .c-nav__arrow {
+    display: none;
+  }
+  .l-footer {
+    background: transparent;
+    height: 13.15789vw;
+    padding: 0;
+    max-width: 50rem;
+  }
+  .l-footer p {
+    padding-top: 1.25rem;
+    font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
+  }
+  .c-footer {
+    font-size: calc(8px + 0.42vw);
+  }
+  .l-footer__socials {
+    bottom: unset;
+    width: 12.5625rem;
+    padding-top: 1.25rem;
+  }
   .l-container {
     width: 65.26316vw;
   }
@@ -1338,46 +1385,6 @@ input {
     font-size: 1.26316vw;
     text-transform: uppercase;
     width: 15.36842vw;
-  }
-  .c-nav .js-toggle,
-  .c-nav .c-nav__arrow {
-    display: none;
-  }
-  .c-nav .l-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .c-nav .l-nav .c-nav__btn {
-    font-size: calc(8px + 0.42vw);
-    text-decoration: underline;
-    border: none;
-    width: auto;
-    padding: 0;
-  }
-  .l-footer {
-    background: transparent;
-    height: 13.15789vw;
-    padding: 0;
-    max-width: 50rem;
-  }
-  .l-footer p {
-    padding-top: 1.25rem;
-    font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
-  }
-  .c-footer {
-    font-size: calc(8px + 0.42vw);
-  }
-  .l-footer__socials {
-    bottom: unset;
-    width: 12.5625rem;
-    padding-top: 1.25rem;
   }
 }
 
@@ -1529,6 +1536,7 @@ input {
             transform: translateX(-50%);
     width: 60vw;
     height: 55.26316vw;
+    z-index: 0;
   }
   .l-h-slogan {
     position: relative;

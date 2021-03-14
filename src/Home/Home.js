@@ -1,6 +1,8 @@
 import React from 'react';
 import { useWindowWidth } from '../Shared/useWindowWidth';
-import { Nav } from '../Shared/Nav';
+import { NavMob } from '../Shared/NavMob';
+import { NavDsk } from '../Shared/NavDsk';
+import { Duration } from '../Shared/Duration';
 import { Footer } from '../Shared/Footer';
 import { Form } from './Form';
 import Animation from '../Animation/Animation';
@@ -16,6 +18,7 @@ export const Home = () => {
       className="main-dsk l-wrapper l-h-wrapper js-wrapper"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
+      <NavDsk />
       <div className="l-container l-h-container u-uppercase">
         <div className="l-h-flex_dsk">
           <div className="c-h-slogan l-h-slogan">
@@ -72,7 +75,8 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <Nav />
+      <Duration />
+      <NavMob />
       <Footer />
     </div>
   );

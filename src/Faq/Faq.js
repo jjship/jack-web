@@ -1,6 +1,8 @@
 import React from 'react';
 import { useWindowWidth } from '../Shared/useWindowWidth';
-import { Nav } from '../Shared/Nav';
+import { NavDsk } from '../Shared/NavDsk';
+import { NavMob } from '../Shared/NavMob';
+import { Duration } from '../Shared/Duration';
 import { Footer } from '../Shared/Footer';
 import { Item } from './Item';
 const desktopBG = '/images/BG_lights_dsk_s.jpg';
@@ -14,6 +16,7 @@ export const Faq = () => {
       className="main-dsk l-wrapper l-h-wrapper js-wrapper"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
+      <NavDsk />
       <div className="l-container l-faq-container">
         <a href="/" className="c-close l-close">
           &#10005;
@@ -41,7 +44,8 @@ export const Faq = () => {
           className="l-faq-bottle"
         />
       </div>
-      <Nav />
+      <Duration />
+      <NavMob />
       <Footer />
     </div>
   );
