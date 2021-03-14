@@ -5,9 +5,10 @@ export const Form = () => {
   const [statement, setStatement] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const handleStatementSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setStatement(true);
+    setSent(true);
   };
 
   const handlePersonalInfoSubmit = (e) => {
@@ -25,7 +26,7 @@ export const Form = () => {
   if (!statement && !sent) {
     return (
       <form
-        onSubmit={handleStatementSubmit}
+        onSubmit={handleSubmit}
         className="l-form c-h-form l-h-form__dsk -f-myriad-cond"
       >
         <label
@@ -42,9 +43,59 @@ export const Form = () => {
           required="required"
           placeholder="Opisz w maksymalnie 280 znakach&#10;to co zawsze chciałeś/aś zrobić i dlaczego?&#10;Nie czekaj, dziś zdarza się tylko raz!"
         ></textarea>
+        <div className="l-f-form-textinputs__dsk">
+          <div className="table-container__dsk">
+            <div className="table-item__dsk l-f-form-imie">
+              <input
+                type="text"
+                className="c-form-input l-form-input__1 c-form-input__dsk -f-myriad-cond u-uppercase"
+                name="name"
+                placeholder="wpisz imię"
+              />
+            </div>
+            <div className="table-item__dsk l-f-form-nazwisko">
+              <input
+                type="text"
+                className="c-form-input l-form-input c-form-input__dsk -f-myriad-cond u-uppercase"
+                name="surname"
+                placeholder="wpisz nazwisko"
+              />
+            </div>
+          </div>
+          <input
+            type="email"
+            className="c-form-input l-form-input c-form-input__dsk -f-myriad-cond u-uppercase"
+            name="email"
+            placeholder="wpisz adres e-mail"
+          />
+        </div>
         <button className="c-h-form-btn l-h-form-btn l-h-form-btn__dsk -f-myriad-cond js-h-btn">
           Wyślij i wygraj
         </button>
+        <div className="l-f-form-checkbox-container -f-myriad-light u-golden-92">
+          <label className="l-f-form-group c-f-form-group">
+            Oświadczam, że zapoznałem/am
+            <br />
+            się i akceptuję
+            <a href="/regulations" className="c-f-form-link u-golden-92">
+              Regulamin loterii.
+            </a>
+            *
+            <input type="checkbox" id="" name="rules" />
+            <span className="c-checkmark"></span>
+          </label>
+          <label className="l-f-form-group c-f-form-group">
+            Oświadczam, że zapoznałem/am
+            <br />
+            się i akceptuję
+            <a href="/privacy" className="c-f-form-link u-golden-92">
+              Politykę prywatności.
+            </a>
+            *
+            <input type="checkbox" id="" name="privacy" />
+            <span className="c-checkmark"></span>
+          </label>
+        </div>
       </form>
     );
   }
