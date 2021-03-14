@@ -34,31 +34,44 @@ let ruch = [true, true, true];
 let szerokoscButelki = 706;
 let wysokoscButelki = 810;
 let startTekstX = [530, 695, 365];
+let startTekstXwzor = [530, 695, 365];
 let yy = [wysokoscButelki + 10, wysokoscButelki + 20, wysokoscButelki + 20];
+let yyWzor = [wysokoscButelki + 10, wysokoscButelki + 20, wysokoscButelki + 20];
+
+let skala;
+
+let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić proporcję całego elementu
 
 function preload() {
-  fontJasper = p.loadFont('font/JasperPl-Caps.otf');
-  fontMotlow = p.loadFont('font/Motlow.otf');
-  fontFranklin = p.loadFont('font/Franklin.ttf');
+  fontJasper = loadFont('font/JasperPl-Caps.otf');
+  fontMotlow = loadFont('font/Motlow.otf');
+  fontFranklin = loadFont('font/Franklin.ttf');
 
-  tlo = p.loadImage('tlo.jpg');
-  tlo2 = p.loadImage('tlo.jpg');
-  maska = p.loadImage('maska.png');
+  tlo = loadImage('tlo.jpg');
+  tlo2 = loadImage('tlo.jpg');
+  maska = loadImage('maska.png');
 }
 
 function setup() {
-  p.createCanvas(1139, 1051);
-
+  //createCanvas(1139, 1051);
+  createCanvas(
+    windowWidth * (1920 / 1139),
+    (1051 * windowWidth) / (1139 * zmiennaDlaJackaSkrzypka)
+  );
+  skala = width / (1139 * zmiennaDlaJackaSkrzypka);
   for (let i = 0; i < zi.length; i++) {
     //let noweZdania = shuffle(zdania, true); //shuffle być może do usunięcia, gdy będzie podłączona baza
     zdaniaWyswietlane[i] = [];
-    zdaniaWszystkie[i] = p.shuffle(zdania, false);
+    zdaniaWszystkie[i] = shuffle(zdania, false);
+    startTekstX[i] = startTekstXwzor[i] * skala;
+    yy[i] = yyWzor[i] * skala;
   }
+  maska.resize(1139 * skala, 1051 * skala);
 }
 
 function draw() {
-  p.background(0);
-  p.image(tlo2, 0, 0);
+  background(0);
+  image(tlo2, 0, 0, 1139 * skala, 1051 * skala);
 
   for (let i = 0; i < zi.length; i++) {
     if (zi[i] < zdaniaWszystkie[i].length) {
@@ -66,21 +79,29 @@ function draw() {
         t[i]++;
       }
       if (t[i] == okres[i]) {
+        if (yy[i] < 60) {
+          yy[i] = yyWzor[i] * skala;
+        }
         zdaniaWyswietlane[i].push(
           new Zdanie(zdaniaWszystkie[i][zi[i]], zi[i], startTekstX[i], i)
         );
         zi[i]++;
         t[i] = 0;
       }
+    } else {
+      zi[i] = 0;
     }
     ileW[i] = zdaniaWyswietlane[i].length - 1;
     for (let j = ileW[i]; j >= 0; j--) {
       zdaniaWyswietlane[i][j].show();
+      if (zdaniaWyswietlane[i][j].martwy) {
+        zdaniaWyswietlane[i].splice(j, 1);
+      }
     }
   }
 
   tlo.mask(maska);
-  p.image(tlo, 0, 0);
+  image(tlo, 0, 0, 1139 * skala, 1051 * skala);
 }
 
 class Zdanie {
@@ -94,6 +115,7 @@ class Zdanie {
     okres[ik] = 60;
     this.miganie = 60;
     this.widoczne = true;
+    this.martwy = false;
 
     if (this.txt.length > 2) {
       this.linijek = 2;
@@ -106,13 +128,13 @@ class Zdanie {
         this.txt[0],
         startTekstX[ik],
         yy[ik],
-        p.int(this.txt[2])
+        int(this.txt[2])
       );
       this.granice2 = this.font.textBounds(
         this.txt[1],
         startTekstX[ik],
         yy[ik],
-        p.int(this.txt[3])
+        int(this.txt[3])
       );
       this.y2 = this.granice1.h + this.granice1.y - this.granice2.y; //tyle trzeba dodać do y pierwszej linijki, żeby znaleźć y drugiej linijki
 
@@ -136,57 +158,62 @@ class Zdanie {
         this.txt[0],
         startTekstX[ik],
         yy[ik],
-        p.int(this.txt[1])
+        int(this.txt[1])
       );
       let roznicaY = yy[ik] - this.granice1.y;
       let ogonki = this.granice1.h - roznicaY;
       this.y = yy[ik] - ogonki;
       yy[ik] -= roznicaY;
     }
-    yy[ik] -= 10;
-    this.x += 30 * p.sin(this.y / 100);
+    yy[ik] -= 10 * skala;
+    this.x += 30 * sin(this.y / 100) * skala;
   }
 
   show() {
-    if (this.linijek == 2) {
-      this.ruchLinijki(
-        this.txt[0],
-        this.x,
-        this.y,
-        this.font,
-        p.int(this.txt[2]),
-        1
-      );
-      this.ruchLinijki(
-        this.txt[1],
-        this.x,
-        this.y + this.y2,
-        this.font,
-        p.int(this.txt[3]),
-        2
-      );
+    if (this.t < 650) {
+      if (this.linijek == 2) {
+        this.ruchLinijki(
+          this.txt[0],
+          this.x,
+          this.y,
+          this.font,
+          int(this.txt[2]),
+          1
+        );
+        this.ruchLinijki(
+          this.txt[1],
+          this.x,
+          this.y + this.y2,
+          this.font,
+          int(this.txt[3]),
+          2
+        );
+      } else {
+        this.ruchLinijki(
+          this.txt[0],
+          this.x,
+          this.y,
+          this.font,
+          int(this.txt[1]),
+          1
+        );
+      }
     } else {
-      this.ruchLinijki(
-        this.txt[0],
-        this.x,
-        this.y,
-        this.font,
-        p.int(this.txt[1]),
-        1
-      );
+      this.martwy = true;
     }
+    this.t++;
   }
 
   ruchLinijki(txt, x, y, font, s, linijka) {
-    p.textFont(font);
-    p.textSize(s);
-    p.noStroke();
-    p.fill(255);
+    textFont(font);
+    textSize(s);
+    noStroke();
+    fill(255);
 
     if (linijka == 1 && this.linijek == 2) {
-      let podzieloneZdanie = p.split(txt, ' ');
+      let podzieloneZdanie = split(txt, ' ');
       let pl = podzieloneZdanie.length;
-      let tl = p.floor(this.t / 10);
+      let tl = floor(this.t / 10);
       if (tl > pl) {
         tl = pl;
         this.czyDruga = true;
@@ -195,12 +222,12 @@ class Zdanie {
         let graniceSlowa = font.textBounds(podzieloneZdanie[i], x, y, s);
         //print("slowo: " + podzieloneZdanie[i]);
         let czescLinijki = podzieloneZdanie.slice(0, i + 1);
-        let czescPolaczona = p.join(czescLinijki, ' ');
+        let czescPolaczona = join(czescLinijki, ' ');
         let graniceCzesci = font.textBounds(czescPolaczona, x, y, s);
         let slowoX = x + graniceCzesci.w - graniceSlowa.w;
 
         //print("część: " + join(czescLinijki, ' '));
-        p.text(podzieloneZdanie[i], slowoX, y);
+        text(podzieloneZdanie[i], slowoX, y);
       }
     } else {
       if (this.czyDruga || this.linijek == 1) {
@@ -210,26 +237,24 @@ class Zdanie {
           }
 
           if (this.widoczne) {
-            p.fill(255);
+            fill(255);
           } else {
-            p.fill(255, 0);
+            fill(255, 0);
           }
 
           this.miganie--;
         } else {
-          p.fill(255);
+          fill(255);
         }
-        p.text(txt, x, y);
-        ruch[this.ik] = true; //to nie działa
+        text(txt, x, y);
+        // ruch[this.ik] = true;//to nie działa
       }
     }
-
-    this.t++;
   }
 
   podzialNaLinie(txt, font) {
     let pierwszaLinijka = txt;
-    let podzieloneZdanie = p.split(txt, ' ');
+    let podzieloneZdanie = split(txt, ' ');
     let ostatnieSlowo = podzieloneZdanie.pop(); //usuwam ostatnie słowo z podzieloneZdanie
     let wielkoscOstatnia = 100;
     let wielkoscPierwsza = 100;
@@ -249,10 +274,10 @@ class Zdanie {
 
     if (podzieloneZdanie.length == 0) {
       linijki[0] = txt;
-      linijki[1] = p.str(wielkoscOstatnia);
+      linijki[1] = str(wielkoscOstatnia);
       return linijki;
     } else {
-      pierwszaLinijka = p.join(podzieloneZdanie, ' '); //cały tekst bez ostatniego słowa
+      pierwszaLinijka = join(podzieloneZdanie, ' '); //cały tekst bez ostatniego słowa
       czySieMiesci = this.sprawdzGranice(
         pierwszaLinijka,
         wielkoscPierwsza,
@@ -269,8 +294,8 @@ class Zdanie {
 
       linijki[0] = pierwszaLinijka;
       linijki[1] = ostatnieSlowo;
-      linijki[2] = p.str(wielkoscPierwsza);
-      linijki[3] = p.str(wielkoscOstatnia);
+      linijki[2] = str(wielkoscPierwsza);
+      linijki[3] = str(wielkoscOstatnia);
 
       return linijki;
     }
@@ -278,7 +303,7 @@ class Zdanie {
 
   sprawdzGranice(txt, s, font) {
     let granice = font.textBounds(txt, startTekstX[0], 0, s); //tu jest startTekstX[0] a nie startTekstX[ik], żeby wielkości napisów były takie same we wszystkich kolumnach
-    if (granice.x + granice.w > szerokoscButelki - 25) {
+    if (granice.x + granice.w > (szerokoscButelki - 25) * skala) {
       return false;
     } else {
       return true;
@@ -286,7 +311,7 @@ class Zdanie {
   }
 
   wybierzFont(txt) {
-    let litery = p.split(txt, '');
+    let litery = split(txt, '');
     let ileLiter = litery.length;
     let fonty = [];
     let ł = false;
@@ -303,6 +328,6 @@ class Zdanie {
       fonty = [fontJasper, fontFranklin, fontMotlow];
     }
 
-    return fonty[p.floor(p.random(fonty.length))];
+    return fonty[floor(random(fonty.length))];
   }
 }
