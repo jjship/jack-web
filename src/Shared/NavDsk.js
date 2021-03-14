@@ -28,13 +28,6 @@ export const NavDsk = () => {
       >
         kontakt
       </Link>
-      <Link
-        to="/privacy"
-        className="c-nav__btn c-nav__privacy -f-myriad-cond u-golden"
-        id="hide"
-      >
-        polityka prywatności i cookies
-      </Link>
     </div>
   );
 };

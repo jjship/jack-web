@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Footer = () => {
   return (
-    <footer className="l-wrapper">
+    <footer className="l-wrapper u-uppercase">
       <div className="c-footer l-footer -f-myriad-cond u-text-center">
         <img
           alt="social icons"
@@ -10,7 +10,10 @@ export const Footer = () => {
           src="/images/social_icons_SM.png"
         />
         <p>
-          Pij odpowiedzialnie. www.pijodpowiedzialnie.pl
+          Pij odpowiedzialnie.{' '}
+          <a href="http://www.pijodpowiedzialnie.pl" className="c-footer-link">
+            www.pijodpowiedzialnie.pl
+          </a>
           <br />
           <a
             className="c-footer-link"
@@ -37,7 +40,17 @@ export const Footer = () => {
           Wszystkie prawa zastrzeżone.
           <br />
           Aby dowiedzieć się więcej o odpowiedzialnym spożywaniu alkoholu,
-          odwiedź pijodpowiedzialnie.pl and OurThinkingAboutDrinking.com
+          odwiedź{' '}
+          <a href="http://www.pijodpowiedzialnie.pl" className="c-footer-link">
+            www.pijodpowiedzialnie.pl
+          </a>{' '}
+          and{' '}
+          <a
+            href="http://www.OurThinkingAboutDrinking.com"
+            className="c-footer-link"
+          >
+            OurThinkingAboutDrinking.com
+          </a>{' '}
           Wszystkie inne znaki i nazwy należą do odpowiednich podmiotów.
           Materiał przeznaczony dla osób pełnoletnich. Nie przekazuj go osobom w
           wieku poniżej 18 lat.
