@@ -38,9 +38,6 @@ export const Form = () => {
             ></textarea>
           </div>
           <div className="l-c-form-buttons-container u-uppercase">
-            <a href="/" className="c-c-form-zamknij l-c-form-zamknij">
-              zamknij
-            </a>
             <button className="c-btn__zamknij l-c-form-btn -f-myriad-cond">
               wyślij
             </button>
