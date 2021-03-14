@@ -5,7 +5,7 @@ import { NavDsk } from '../Shared/NavDsk';
 import { Duration } from '../Shared/Duration';
 import { Footer } from '../Shared/Footer';
 import { Form } from './Form';
-import Animation from '../Animation/Animation';
+import Animation from './Animation/Animation';
 const bottle = '/images/bottle_w_shadow';
 const desktopBG = '/images/BG_lights_dsk_l.jpg';
 const mobileBG = '/images/BG_lights_mob_l.jpg';
@@ -48,12 +48,12 @@ export const Home = () => {
             </div>
           </div>
           <div className="l-h-animation">
-            {/* <Animation /> */}
-            <img
+            <Animation />
+            {/* <img
               src={process.env.PUBLIC_URL + 'images/but.png'}
               alt="bottle"
               className="l-h-animation"
-            />
+            /> */}
           </div>
           <div className="l-copyform-container">
             <div className="js-testimony">

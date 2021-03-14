@@ -54,10 +54,7 @@ function preload() {
 
 function setup() {
   //createCanvas(1139, 1051);
-  createCanvas(
-    windowWidth * (1920 / 1139),
-    (1051 * windowWidth) / (1139 * zmiennaDlaJackaSkrzypka)
-  );
+  createCanvas(windowWidth * (1139 / 1920), windowWidth * (1051 / 1920));
   skala = width / (1139 * zmiennaDlaJackaSkrzypka);
   for (let i = 0; i < zi.length; i++) {
     //let noweZdania = shuffle(zdania, true); //shuffle być może do usunięcia, gdy będzie podłączona baza
@@ -103,6 +100,10 @@ function draw() {
   tlo.mask(maska);
   image(tlo, 0, 0, 1139 * skala, 1051 * skala);
 }
+
+// p.windowResized = () => {
+    //   p.resizeCanvas(p.windowWidth * 0.6, p.windowHeight);
+    // };
 
 class Zdanie {
   constructor(txt, nr, x, ik) {
