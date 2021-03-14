@@ -40,10 +40,10 @@ export const Form = () => {
           id="statement"
           rows={rows}
           required="required"
-          placeholder="Napisz co zawsze chciałeś zrobić&#10;i dlaczego właśnie to, i wygraj kasę&#10;na realizację swojego wielkiego planu!"
+          placeholder="Opisz w maksymalnie 280 znakach&#10;to co zawsze chciałeś/aś zrobić i dlaczego?&#10;Nie czekaj, dziś zdarza się tylko raz!"
         ></textarea>
         <button className="c-h-form-btn l-h-form-btn l-h-form-btn__dsk -f-myriad-cond js-h-btn">
-          zatwierdź
+          Wyślij i wygraj
         </button>
       </form>
     );
