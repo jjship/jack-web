@@ -10,21 +10,37 @@ export const Footer = () => {
           src="/images/social_icons_SM.png"
         />
         <p>
-          JACK DANIEL DISTILLERY LYNCHBURG, TENNESSEE
+          Pij odpowiedzialnie. www.pijodpowiedzialnie.pl
           <br />
-          JACK DANIEL’S, OLD NO. 7, TENNESSEE FIRE, TENNESSEE HONEY, GENTLEMAN
-          JACK, AND NO. 27 GOLD
+          <a
+            className="c-footer-link"
+            href="https://legal.brown-forman.com/terms-of-use/polish"
+          >
+            Warunki korzystania |{' '}
+          </a>
+          <a
+            className="c-footer-link"
+            href="https://legal.brown-forman.com/privacy-policy/polish"
+          >
+            Polityka prywatności |{' '}
+          </a>
+          <a
+            className="c-footer-link"
+            href="https://legal.brown-forman.com/cookie-policy/polish"
+          >
+            Polityka cookies
+          </a>
           <br />
-          ARE REGISTERED TRADEMARKS OF JACK DANIEL'S PROPERTIES, INC. © 2020.
+          Jack Daniel's i Old No.7 są zarejestrowanymi znakami towarowymi. ©2021
+          Jack Daniel's.
           <br />
-          ALL RIGHTS RESERVED. ALL OTHER TRADEMARKS AND TRADE NAMES ARE
-          PROPERTIES OF THEIR RESPECTIVE OWNERS.
+          Wszystkie prawa zastrzeżone.
           <br />
-          TO FIND OUT MORE ABOUT RESPONSIBLE CONSUMPTION, VISIT
-          RESPONSIBILITY.ORG AND OURTHINKINGABOUTDRINKING.COM
-          <br />
-          PLEASE DO NOT SHARE OR FORWARD WITH ANYONE UNDER THE LEGAL DRINKING
-          AGE.
+          Aby dowiedzieć się więcej o odpowiedzialnym spożywaniu alkoholu,
+          odwiedź pijodpowiedzialnie.pl and OurThinkingAboutDrinking.com
+          Wszystkie inne znaki i nazwy należą do odpowiednich podmiotów.
+          Materiał przeznaczony dla osób pełnoletnich. Nie przekazuj go osobom w
+          wieku poniżej 18 lat.
         </p>
       </div>
     </footer>

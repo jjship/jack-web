@@ -156,6 +156,10 @@ input {
   color: #828282;
 }
 
+.u-grey-95 {
+  color: #959595;
+}
+
 .u-white {
   color: #fff;
 }
@@ -599,6 +603,14 @@ input {
 .c-age-strona-container {
   font-size: 5.27778vw;
   text-align: center;
+}
+
+.c-footer-link {
+  color: inherit;
+}
+
+.c-footer-link:focus {
+  color: #d67c1c;
 }
 
 .l-wrapper {

@@ -319,3 +319,11 @@
   font-size: vwm(38);
   text-align: center;
 }
+
+.c-footer-link {
+  color: inherit;
+}
+
+.c-footer-link:focus {
+  color: $orange-1c;
+}
