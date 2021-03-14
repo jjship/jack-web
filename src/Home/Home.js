@@ -57,7 +57,17 @@ export const Home = () => {
           </div>
           <div className="l-copyform-container">
             <div className="js-testimony">
-              <div className="c-copy l-copy">
+              <div class="c-copy l-copy">
+                <p class="c-copy-mamy l-copy-mamy -f-motlow">Napisz</p>
+                <p class="c-copy-napelnijmy l-copy-napelnijmy -f-franklin-demi">
+                  co zawsze chciałes/aś
+                </p>
+                <p class="c-copy-mamy l-copy-zrobić -f-motlow">zrobić</p>
+                <p class="c-copy-mamy l-copy-wygraj -f-motlow">i wygraj</p>
+                <p class="c-copy-jacka l-copy-jacka -f-motlow">nagrody</p>
+                <p class="c-copy-mamy l-copy-od -f-motlow">od Jack'a</p>
+              </div>
+              {/* <div className="c-copy l-copy">
                 <p className="c-copy-mamy l-copy-mamy -f-motlow">mamy</p>
                 <p className="c-copy-wielkie l-copy-wielkie -f-motlow">
                   wielkie plany!
@@ -69,7 +79,7 @@ export const Home = () => {
                   butelkę
                 </p>
                 <p className="c-copy-jacka l-copy-jacka -f-motlow">jack'a.</p>
-              </div>
+              </div> */}
               <Form />
             </div>
           </div>
