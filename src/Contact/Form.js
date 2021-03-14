@@ -48,15 +48,22 @@ export const Form = () => {
         </form>
         <div className="c-c-disclaimer l-c-disclaimer -f-myriad-cond u-text-center">
           <p>
-            Poprzez wysłanie zapytania wyraża Pan/Pani zgodę na przetwarzanie
-            przez CEDC International Sp. z o.o. z siedzibą w Obornikach moich
-            danych osobowych w zakresie wskazanym w formularzu kontaktowym w
-            celu udzielenia odpowiedzi na przesłane zapytaniem. Przysługuje
-            Pani/Panu prawo do wycofania zgody jednakże wycofanie zgody nie ma
-            wpływu na zgodność z prawem przetwarzania, którego dokonano na jej
-            podstawie przed wycofaniem. Szczegóły wycofania zgody oraz pełna
-            treść klauzuli informacyjnej, zgodnie z Art. 13 RODO, znajdują się w
-            Regulaminie*
+            Przyjmujesz do wiadomości, że Brown-Forman Corporation
+            (BROWN-FORMAN) i inne firmy z grupy BROWN-FORMAN (których szczegóły
+            są dostępne na żądanie) lub agenci, partnerzy lub licencjobiorcy
+            BROWN-FORMAN będą przetwarzać Twoje dane osobowe zgodnie z Polityka
+            prywatności BROWN-FORMAN
+            https://legal.brown-forman.com/privacy-policy/polish, w
+            uzasadnionych celach biznesowych, takich jak dostarczanie
+            spersonalizowanych usług i treści, analizowanie i rozważanie
+            sposobów ulepszania naszych usług i produktów, i odpowiadać na Twoje
+            prośby. Twoje dane osobowe mogą być przekazywane do dowolnego kraju,
+            w którym spółki z grupy BROWN-FORMAN lub nasi usługodawcy mają
+            obiekty, a dane osobowe będą przechowywane zgodnie z obowiązującym
+            prawem. Jeśli w przyszłości nie chcesz otrzymywać dalszych
+            wiadomości od grupy BROWN-FORMAN i wolisz zostać usunięty z jej bazy
+            danych lub jeśli chcesz poprawić swoje dane lub zmienić sposób
+            otrzymywania od nas wiadomości, napisz na adres: privacy@bf.com.
           </p>
         </div>
         <img
