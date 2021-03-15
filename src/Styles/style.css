@@ -1537,13 +1537,11 @@ input {
     z-index: 0;
   }
   .l-h-slogan {
-    position: relative;
-    bottom: 5.26316vw;
     z-index: 1;
     width: 25.26316vw;
     height: 25.26316vw;
     position: relative;
-    top: 14.73684vw;
+    top: 9.47368vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1581,6 +1579,7 @@ input {
   }
   .l-h-slogan .l-h-slogan__m_i_c {
     position: relative;
+    top: 5.26316vw;
     left: 6vw;
   }
   .l-h-slogan .l-h-slogan__m_i_c .l-h-slogan__logo {
@@ -1623,7 +1622,7 @@ input {
     padding-bottom: 3.68421vw;
   }
   .c-f-form-group {
-    width: 15.78947vw;
+    width: 12.89474vw;
     padding-left: 2.10526vw;
     font-size: calc(6px + 0.42vw);
     /* Create a custom checkbox */

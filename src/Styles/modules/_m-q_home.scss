@@ -39,13 +39,11 @@
   }
 
   .l-h-slogan {
-    position: relative;
-    bottom: vwm(100, dsk);
     z-index: 1;
     width: vwm(480, dsk);
     height: vwm(480, dsk);
     position: relative;
-    top: vwm(280, dsk);
+    top: vwm(180, dsk);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,7 +75,7 @@
     }
     .l-h-slogan__m_i_c {
       position: relative;
-
+      top: vwm(100, dsk);
       left: vwm(114, dsk);
       .l-h-slogan__logo {
         display: block;
