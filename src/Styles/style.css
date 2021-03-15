@@ -1267,8 +1267,10 @@ input {
     display: none;
   }
   .l-footer {
+    z-index: 1;
+    position: relative;
     background: transparent;
-    height: 13.15789vw;
+    height: auto;
     padding: 0;
     max-width: 50rem;
   }
@@ -1506,7 +1508,7 @@ input {
 @media screen and (min-width: 1000px) {
   .l-h-container {
     padding-top: 0;
-    height: 50.52632vw;
+    height: 44.21053vw;
     width: 90vw;
   }
   .l-h-flex_dsk {

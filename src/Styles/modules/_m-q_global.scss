@@ -30,8 +30,10 @@
   }
 
   .l-footer {
+    z-index: 1;
+    position: relative;
     background: transparent;
-    height: vwm(250, dsk);
+    height: auto;
     padding: 0;
     max-width: rem(800);
     p {
