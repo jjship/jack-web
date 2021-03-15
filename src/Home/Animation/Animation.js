@@ -64,6 +64,9 @@ const Animation = () => {
 
     let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić proporcję całego elementu
 
+    let skalaMobile = 900;
+    let breakpointMobile = 720;
+
     p.setup = () => {
       fontJasper = p.loadFont(jasper);
       fontMotlow = p.loadFont(motlow);
@@ -74,10 +77,17 @@ const Animation = () => {
       maska = p.loadImage(mask);
 
       //createCanvas(1139, 1051);
-      p.createCanvas(
-        p.windowWidth * (1139 / 1920),
-        p.windowWidth * (1051 / 1920)
-      );
+      if (p.windowWidth > breakpointMobile) {
+        p.createCanvas(
+          p.windowWidth * (1139 / 1920),
+          p.windowWidth * (1051 / 1920)
+        );
+      } else {
+        p.createCanvas(
+          p.windowWidth * (1139 / skalaMobile),
+          p.windowWidth * (1051 / skalaMobile)
+        );
+      }
       skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
       for (let i = 0; i < zi.length; i++) {
         //let noweZdania = shuffle(zdania, true); //shuffle być może do usunięcia, gdy będzie podłączona baza
@@ -126,10 +136,30 @@ const Animation = () => {
     };
 
     p.windowResized = () => {
-      p.resizeCanvas(
-        p.windowWidth * (1139 / 1920),
-        p.windowWidth * (1051 / 1920)
-      );
+
+      if (p.windowWidth > breakpointMobile) {
+        p.resizeCanvas(
+          p.windowWidth * (1139 / 1920),
+          p.windowWidth * (1051 / 1920)
+        );
+        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+        maska.resize(1139 * skala, 1051 * skala);
+      } else {
+        p.resizeCanvas(
+          p.windowWidth * (1139 / skalaMobile),
+          p.windowWidth * (1051 / skalaMobile)
+        );
+        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+        maska.resize(1139 * skala, 1051 * skala);
+
+      }
+      for (let i = ileW.length; i >= 0; i--) {
+        startTekstX[i] = startTekstXwzor[i] * skala;
+        yy[i] = yyWzor[i] * skala;
+        for (let j = ileW[i]; j >= 0; j--) {
+          zdaniaWyswietlane[i].splice(j, 1);
+        }
+      }
     };
 
     class Zdanie {
