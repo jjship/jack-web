@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.543ca2a6.chunk.css",
+    "main.js": "/static/js/main.6874eecf.chunk.js",
+    "main.js.map": "/static/js/main.6874eecf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e2503b2d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e2503b2d.js.map",
+    "static/js/2.b959eaf5.chunk.js": "/static/js/2.b959eaf5.chunk.js",
+    "static/js/2.b959eaf5.chunk.js.map": "/static/js/2.b959eaf5.chunk.js.map",
+    "static/js/3.777d66c2.chunk.js": "/static/js/3.777d66c2.chunk.js",
+    "static/js/3.777d66c2.chunk.js.map": "/static/js/3.777d66c2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.543ca2a6.chunk.css.map": "/static/css/main.543ca2a6.chunk.css.map",
+    "static/js/2.b959eaf5.chunk.js.LICENSE.txt": "/static/js/2.b959eaf5.chunk.js.LICENSE.txt",
+    "static/media/Franklin.a195ed97.ttf": "/static/media/Franklin.a195ed97.ttf",
+    "static/media/style.css": "/static/media/MotlowPl.ae25b5a6.woff",
+    "static/media/JasperPl-Caps.bd8e3ad9.otf": "/static/media/JasperPl-Caps.bd8e3ad9.otf",
+    "static/media/Motlow.74bdaf14.otf": "/static/media/Motlow.74bdaf14.otf",
+    "static/media/maska.eee858f3.png": "/static/media/maska.eee858f3.png",
+    "static/media/tlo.206c4c37.jpg": "/static/media/tlo.206c4c37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2503b2d.js",
+    "static/js/2.b959eaf5.chunk.js",
+    "static/css/main.543ca2a6.chunk.css",
+    "static/js/main.6874eecf.chunk.js"
+  ]
+}
