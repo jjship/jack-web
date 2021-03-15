@@ -1284,9 +1284,6 @@ input {
     width: 12.5625rem;
     padding-top: 1.25rem;
   }
-  .l-container {
-    width: 65.26316vw;
-  }
   .l-close {
     position: absolute;
     left: 54.73684vw;
@@ -2130,10 +2127,9 @@ input {
   }
   .l-c-form-buttons-container {
     padding-top: 0;
-    width: 11.57895vw;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto;
   }
   .l-c-form-zamknij,
