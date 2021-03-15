@@ -5,7 +5,6 @@ import { Duration } from '../Shared/Duration';
 import { Footer } from '../Shared/Footer';
 import { Form } from './Form';
 import Animation from './Animation/Animation';
-const bottle = '/images/bottle_w_shadow';
 
 export const Home = () => {
   return (
@@ -41,11 +40,6 @@ export const Home = () => {
           </div>
           <div className="l-h-animation">
             <Animation />
-            {/* <img
-              src={process.env.PUBLIC_URL + 'images/but.png'}
-              alt="bottle"
-              className="l-h-animation"
-            /> */}
           </div>
           <div className="l-copyform-container">
             <div className="js-testimony">
