@@ -8,7 +8,7 @@ import Animation from './Animation/Animation';
 
 export const Home = () => {
   return (
-    <div>
+    <div className="l-h-flexcolumn__dsk">
       <NavDsk />
       <div className="l-container l-h-container u-uppercase">
         <div className="l-h-flex_dsk">
