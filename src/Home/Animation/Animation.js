@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import p5 from 'p5';
 import { useWindowWidth } from '../../Shared/useWindowWidth';
 import bg from './tlo.jpg';
@@ -9,11 +9,6 @@ import franklin from './font/Franklin.ttf';
 
 const Animation = () => {
   const processingRef = useRef();
-  const windowWidth = useWindowWidth();
-  const [stateWindowWidth, setStateWindowWidth] = useState(useWindowWidth());
-  useEffect(() => {
-    setStateWindowWidth(windowWidth);
-  }, [windowWidth]);
 
   const Sketch = (p) => {
     let zdania = [
@@ -136,7 +131,6 @@ const Animation = () => {
     };
 
     p.windowResized = () => {
-
       if (p.windowWidth > breakpointMobile) {
         p.resizeCanvas(
           p.windowWidth * (1139 / 1920),
@@ -151,7 +145,6 @@ const Animation = () => {
         );
         skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
         maska.resize(1139 * skala, 1051 * skala);
-
       }
       for (let i = ileW.length; i >= 0; i--) {
         startTekstX[i] = startTekstXwzor[i] * skala;
