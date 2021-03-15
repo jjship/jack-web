@@ -1,5 +1,4 @@
 import React from 'react';
-import { useWindowWidth } from '../Shared/useWindowWidth';
 import { NavMob } from '../Shared/NavMob';
 import { NavDsk } from '../Shared/NavDsk';
 import { Duration } from '../Shared/Duration';
@@ -7,17 +6,10 @@ import { Footer } from '../Shared/Footer';
 import { Form } from './Form';
 import Animation from './Animation/Animation';
 const bottle = '/images/bottle_w_shadow';
-const desktopBG = '/images/BG_lights_dsk_l.jpg';
-const mobileBG = '/images/BG_lights_mob_l.jpg';
 
 export const Home = () => {
-  const imageUrl = useWindowWidth() >= 1000 ? desktopBG : mobileBG;
-
   return (
-    <div
-      className="main-dsk l-wrapper l-h-wrapper js-wrapper"
-      style={{ backgroundImage: `url(${imageUrl})` }}
-    >
+    <div>
       <NavDsk />
       <div className="l-container l-h-container u-uppercase">
         <div className="l-h-flex_dsk">
@@ -57,15 +49,15 @@ export const Home = () => {
           </div>
           <div className="l-copyform-container">
             <div className="js-testimony">
-              <div class="c-copy l-copy">
-                <p class="c-copy-mamy l-copy-mamy -f-motlow">Napisz</p>
-                <p class="c-copy-napelnijmy l-copy-napelnijmy -f-franklin-demi">
+              <div className="c-copy l-copy">
+                <p className="c-copy-mamy l-copy-mamy -f-motlow">Napisz</p>
+                <p className="c-copy-napelnijmy l-copy-napelnijmy -f-franklin-demi">
                   co zawsze chciałes/aś
                 </p>
-                <p class="c-copy-mamy l-copy-zrobić -f-motlow">zrobić</p>
-                <p class="c-copy-mamy l-copy-wygraj -f-motlow">i wygraj</p>
-                <p class="c-copy-jacka l-copy-jacka -f-motlow">nagrody</p>
-                <p class="c-copy-mamy l-copy-od -f-motlow">od Jack'a</p>
+                <p className="c-copy-mamy l-copy-zrobić -f-motlow">zrobić</p>
+                <p className="c-copy-mamy l-copy-wygraj -f-motlow">i wygraj</p>
+                <p className="c-copy-jacka l-copy-jacka -f-motlow">nagrody</p>
+                <p className="c-copy-mamy l-copy-od -f-motlow">od Jack'a</p>
               </div>
               {/* <div className="c-copy l-copy">
                 <p className="c-copy-mamy l-copy-mamy -f-motlow">mamy</p>
