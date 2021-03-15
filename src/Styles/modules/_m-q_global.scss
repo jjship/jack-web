@@ -6,11 +6,13 @@
   }
 
   .l-nav__dsk {
+    position: relative;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     max-width: 50rem;
     margin: 0 auto;
-    padding: vwm(70, dsk);
+    padding-top: vwm(30, dsk);
     .c-nav__btn {
       font-size: calc(8px + 0.42vw);
       text-decoration: underline;

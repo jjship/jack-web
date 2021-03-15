@@ -1242,6 +1242,8 @@ input {
     background-size: cover;
   }
   .l-nav__dsk {
+    position: relative;
+    z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1250,7 +1252,7 @@ input {
             justify-content: space-between;
     max-width: 50rem;
     margin: 0 auto;
-    padding: 3.68421vw;
+    padding-top: 1.57895vw;
   }
   .l-nav__dsk .c-nav__btn {
     font-size: calc(8px + 0.42vw);
