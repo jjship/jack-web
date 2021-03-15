@@ -1868,7 +1868,7 @@ input {
     z-index: 1;
   }
   .l-p-btn__zamknij {
-    display: block;
+    display: none;
     margin-top: 3.15789vw;
     margin-bottom: 4.21053vw;
     width: -webkit-fit-content;
