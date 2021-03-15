@@ -65,7 +65,7 @@ const Animation = () => {
     let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić proporcję całego elementu
 
     let skalaMobile = 900;
-    let breakpointMobile = 720;
+    let breakpointMobile = 999;
 
     p.setup = () => {
       fontJasper = p.loadFont(jasper);
