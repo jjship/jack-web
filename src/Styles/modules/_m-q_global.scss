@@ -119,14 +119,13 @@
   }
 
   .l-form {
-    width: vwm(400, dsk);
+    width: vwm(485, dsk);
   }
 
   .c-form-textarea,
   .c-form-input,
   .c-c-textarea {
     padding: vwm(8, dsk) vwm(8, dsk) vwm(20, dsk) vwm(8, dsk);
-    // width: vwm(400, dsk);
     font-size: calc(10px + 0.42vw);
   }
 
@@ -136,7 +135,7 @@
 
   .l-form-label__masz {
     position: relative;
-    left: vwm(275, dsk);
+    left: vwm(390, dsk);
   }
 
   .c-form-textarea {

@@ -1348,7 +1348,7 @@ input {
     font-size: 2.63158vw;
   }
   .l-form {
-    width: 21.05263vw;
+    width: 25.52632vw;
   }
   .c-form-textarea,
   .c-form-input,
@@ -1361,7 +1361,7 @@ input {
   }
   .l-form-label__masz {
     position: relative;
-    left: 14.47368vw;
+    left: 20.52632vw;
   }
   .c-form-textarea {
     padding: 0.42105vw 0.42105vw 1.05263vw 0.42105vw;
@@ -1525,6 +1525,7 @@ input {
   }
   .l-copyform-container {
     margin-top: 5.26316vw;
+    margin-right: 5.26316vw;
   }
   .l-h-animation {
     position: absolute;
@@ -1616,12 +1617,6 @@ input {
     padding: 0.21053vw;
     font-size: 1.26316vw;
     text-transform: uppercase;
-    width: 15.36842vw;
-  }
-  .l-f-container {
-    padding-top: 0.52632vw;
-    height: 50.52632vw;
-    width: 65.26316vw;
   }
   .l-f-container {
     padding-top: 3.68421vw;
@@ -1639,9 +1634,6 @@ input {
     height: 0.52632vw;
     width: 0.52632vw;
   }
-  .l-f-copyform {
-    padding-left: 21.84211vw;
-  }
   .l-f-form__personal__dsk {
     margin-top: 2.10526vw;
   }
@@ -1650,12 +1642,10 @@ input {
     display: inline;
   }
   .l-f-form-textarea__dsk {
-    width: 21.05263vw;
     height: 10.47368vw;
   }
   .l-f-form-textinputs__dsk {
     margin-top: 2.10526vw;
-    width: 21.05263vw;
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;

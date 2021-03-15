@@ -7,13 +7,6 @@
     padding: vwm(4, dsk);
     font-size: vwm(24, dsk);
     text-transform: uppercase;
-    width: vwm(292, dsk);
-  }
-
-  .l-f-container {
-    padding-top: vwm(10, dsk);
-    height: vwm(960, dsk);
-    width: vwm(1240, dsk);
   }
 
   .l-f-container {
@@ -32,10 +25,6 @@
       height: vwm(10, dsk);
       width: vwm(10, dsk);
     }
-  }
-
-  .l-f-copyform {
-    padding-left: vwm(415, dsk);
   }
 
   .l-f-form__personal__dsk {
@@ -58,14 +47,12 @@
   .l-f-form-textarea__dsk {
     // grid-area: textarea;
     // justify-self: start;
-    width: vwm(400, dsk);
     height: vwm(199, dsk);
   }
   .l-f-form-textinputs__dsk {
     margin-top: vwm(40, dsk);
     // grid-area: textinputs;
     // justify-self: end;
-    width: vwm(400, dsk);
     // height: vwm(199, dsk);
     margin: 0;
     display: flex;
