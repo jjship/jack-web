@@ -15,6 +15,7 @@ export const Prizes = () => {
       className="main-dsk l-wrapper l-h-wrapper js-wrapper"
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
+      <NavDsk />
       <div className="l-container l-p-container u-uppercase">
         <a href="/" className="c-close l-close">
           &#10005;
@@ -81,6 +82,7 @@ export const Prizes = () => {
           zamknij
         </a>
       </div>
+      <Duration />
       <NavMob />
       <Footer />
     </div>
