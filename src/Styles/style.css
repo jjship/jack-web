@@ -136,6 +136,10 @@ input {
   text-align: center;
 }
 
+.u-bold {
+  font-weight: 900;
+}
+
 .u-align__center {
   text-align: center;
 }
@@ -1278,10 +1282,13 @@ input {
   }
   .l-footer p {
     padding-top: 1.25rem;
-    font-family: 'JasperPlCaps', 'Arial Black', Arial, sans-serif;
+    font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
   }
   .c-footer {
     font-size: calc(8px + 0.42vw);
+  }
+  .c-footer__1st {
+    font-size: calc(10px + 0.42vw);
   }
   .l-footer__socials {
     bottom: unset;
