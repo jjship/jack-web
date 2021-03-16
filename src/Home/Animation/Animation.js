@@ -3,6 +3,8 @@ import p5 from 'p5';
 import { useWindowWidth } from '../../Shared/useWindowWidth';
 import bg from './tlo.jpg';
 import mask from './maska.png';
+import bgMobile from './tlo_mobile.jpg';
+import maskMobile from './maska_mobile.png';
 import jasper from './font/JasperPl-Caps.otf';
 import motlow from './font/Motlow.otf';
 import franklin from './font/Franklin.ttf';
@@ -37,6 +39,9 @@ const Animation = () => {
     let maska;
     let tlo;
     let tlo2;
+    let maskaMobile;
+    let tloMobile;
+    let tloMobile2;
     let ileW = [0, 0, 0];
     let t = [0, -50, -40];
     let zi = [0, 0, 0];
@@ -56,14 +61,15 @@ const Animation = () => {
     ];
 
     let skala;
+    let desktop = true;
 
     let imageX = 0;
-    let imageXmobile = -100;
+    let imageXmobile = -200;
     let imageXdesktop = 0;
 
     let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić skalę całego elementu
 
-    let skalaMobile = 900;
+    let skalaMobile = 1.8;
     let breakpointMobile = 720;
 
     p.setup = () => {
@@ -75,34 +81,49 @@ const Animation = () => {
       tlo2 = p.loadImage(bg);
       maska = p.loadImage(mask);
 
+      tloMobile = p.loadImage(bgMobile);
+      tloMobile2 = p.loadImage(bgMobile);
+      maskaMobile = p.loadImage(maskMobile);
+
       //createCanvas(1139, 1051);
       if (p.windowWidth > breakpointMobile) {
         imageX = imageXdesktop;
+        desktop = true;
         p.createCanvas(
           p.windowWidth * (1139 / 1920),
           p.windowWidth * (1051 / 1920)
         );
+        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+        maska.resize(1139 * skala, 1051 * skala);
       } else {
         imageX = imageXmobile;
+        desktop = false;
         p.createCanvas(
-          p.windowWidth * (1139 / skalaMobile),
-          p.windowWidth * (1051 / skalaMobile)
+          p.windowWidth * skalaMobile,
+          p.windowWidth * 720 / 1051 * skalaMobile
         );
+        skala = p.width / (720 * zmiennaDlaJackaSkrzypka);
+        maska.resize(720 * skala, 1051 * skala);
       }
-      skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+
       for (let i = 0; i < zi.length; i++) {
         //shuffle być może do usunięcia, gdy będzie podłączona baza
         zdaniaWyswietlane[i] = [];
         zdaniaWszystkie[i] = p.shuffle(zdania, false);
-        startTekstX[i] = startTekstXwzor[i] * skala;
+        startTekstX[i] = (imageX + startTekstXwzor[i]) * skala;
         yy[i] = yyWzor[i] * skala;
       }
-      maska.resize(1139 * skala, 1051 * skala);
+
     };
 
     p.draw = () => {
       p.background(0);
-      p.image(tlo2, imageX, 0, 1139 * skala, 1051 * skala);
+      if (desktop) {
+        p.image(tlo2, imageX, 0, 1139 * skala, 1051 * skala);
+      } else {
+        p.image(tloMobile2, imageX, 0, 1139 * skala, 1051 * skala);
+
+      }
 
       for (let i = 0; i < zi.length; i++) {
         if (zi[i] < zdaniaWszystkie[i].length) {
@@ -131,27 +152,36 @@ const Animation = () => {
           }
         }
       }
-
-      tlo.mask(maska);
-      p.image(tlo, imageX, 0, 1139 * skala, 1051 * skala);
+      if (desktop) {
+        tlo.mask(maska);
+        p.image(tlo, imageX, 0, 1139 * skala, 1051 * skala);
+      } else {
+        tlo.mask(maskaMobile);
+        p.image(tloMobile, imageX, 0, 720 * skala, 1051 * skala);
+      }
     };
 
     p.windowResized = () => {
       if (p.windowWidth > breakpointMobile) {
         imageX = imageXdesktop;
-        p.resizeCanvas(
+        desktop = true;
+        p.createCanvas(
           p.windowWidth * (1139 / 1920),
           p.windowWidth * (1051 / 1920)
-        );        
+        );
+        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+        maska.resize(1139 * skala, 1051 * skala);
       } else {
         imageX = imageXmobile;
-        p.resizeCanvas(
-          p.windowWidth,
-          p.windowWidth * (1051 / skalaMobile)
-        );        
+        desktop = false;
+        p.createCanvas(
+          p.windowWidth * skalaMobile,
+          p.windowWidth * 720 / 1051 * skalaMobile
+        );
+        skala = p.width / (720 * zmiennaDlaJackaSkrzypka);
+        maska.resize(720 * skala, 1051 * skala);
       }
-      skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
-        maska.resize(1139 * skala, 1051 * skala);
+
       for (let i = ileW.length; i >= 0; i--) {
         startTekstX[i] = startTekstXwzor[i] * skala;
         yy[i] = yyWzor[i] * skala;
@@ -370,7 +400,7 @@ const Animation = () => {
 
       sprawdzGranice(txt, s, font) {
         let granice = font.textBounds(txt, startTekstX[0], 0, s); //tu jest startTekstX[0] a nie startTekstX[ik], żeby wielkości napisów były takie same we wszystkich kolumnach
-        if (granice.x + granice.w > (szerokoscButelki - 25) * skala) {
+        if (granice.x + granice.w > (imageX + szerokoscButelki - 25) * skala) {
           return false;
         } else {
           return true;
