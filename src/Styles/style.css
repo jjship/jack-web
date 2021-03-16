@@ -1330,7 +1330,7 @@ input {
     font-family: 'FranklinGothic-Demi', 'Arial', Arial, sans-serif;
   }
   .c-footer {
-    font-size: calc(8px + 0.42vw);
+    font-size: calc(4px + 0.42vw);
   }
   .c-footer__1st {
     font-size: calc(10px + 0.42vw);
