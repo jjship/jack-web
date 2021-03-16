@@ -78,7 +78,7 @@ export const Form = () => {
             <br />
             się i akceptuję
             <a href="/regulations" className="c-f-form-link u-golden-92">
-              Regulamin loterii.
+              Regulamin konkursu.
             </a>
             *
             <input type="checkbox" id="" name="rules" />
