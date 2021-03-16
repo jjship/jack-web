@@ -24,14 +24,40 @@
 .l-footer {
   width: 90%;
   margin: 0 auto;
-  height: vwm(1045);
-  padding-top: vwm(310);
+  height: vwm(600);
+  padding-top: vwm(100);
 }
 
 .l-footer__socials {
   position: relative;
   bottom: vwm(46);
   width: vwm(611);
+}
+
+.l-footer-socials {
+  display: flex;
+  width: vwm(150);
+  justify-content: space-between;
+  margin: 0 auto vwm(30) auto;
+}
+
+.l-footer-social {
+  padding: vwm(15);
+  font-size: vwm(27);
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: content-box;
+}
+
+/* Add a hover effect if you want */
+.l-footer-social:hover {
+  opacity: 0.7;
+}
+
+.l-footer-social {
+  background: $grey-27;
+  color: white;
 }
 
 .l-copy {

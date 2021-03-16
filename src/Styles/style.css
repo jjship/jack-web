@@ -638,14 +638,45 @@ input {
 .l-footer {
   width: 90%;
   margin: 0 auto;
-  height: 145.13889vw;
-  padding-top: 43.05556vw;
+  height: 83.33333vw;
+  padding-top: 13.88889vw;
 }
 
 .l-footer__socials {
   position: relative;
   bottom: 6.38889vw;
   width: 84.86111vw;
+}
+
+.l-footer-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20.83333vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto 4.16667vw auto;
+}
+
+.l-footer-social {
+  padding: 2.08333vw;
+  font-size: 3.75vw;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+/* Add a hover effect if you want */
+.l-footer-social:hover {
+  opacity: 0.7;
+}
+
+.l-footer-social {
+  background: #272727;
+  color: white;
 }
 
 .l-copy {
