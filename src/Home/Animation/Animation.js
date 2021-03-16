@@ -57,7 +57,9 @@ const Animation = () => {
 
     let skala;
 
-    let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić proporcję całego elementu
+    let imageX = 0;
+
+    let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić skalę całego elementu
 
     let skalaMobile = 900;
     let breakpointMobile = 720;
@@ -85,7 +87,7 @@ const Animation = () => {
       }
       skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
       for (let i = 0; i < zi.length; i++) {
-        //let noweZdania = shuffle(zdania, true); //shuffle być może do usunięcia, gdy będzie podłączona baza
+        //shuffle być może do usunięcia, gdy będzie podłączona baza
         zdaniaWyswietlane[i] = [];
         zdaniaWszystkie[i] = p.shuffle(zdania, false);
         startTekstX[i] = startTekstXwzor[i] * skala;
@@ -96,7 +98,7 @@ const Animation = () => {
 
     p.draw = () => {
       p.background(0);
-      p.image(tlo2, 0, 0, 1139 * skala, 1051 * skala);
+      p.image(tlo2, imageX, 0, 1139 * skala, 1051 * skala);
 
       for (let i = 0; i < zi.length; i++) {
         if (zi[i] < zdaniaWszystkie[i].length) {
@@ -127,7 +129,7 @@ const Animation = () => {
       }
 
       tlo.mask(maska);
-      p.image(tlo, 0, 0, 1139 * skala, 1051 * skala);
+      p.image(tlo, imageX, 0, 1139 * skala, 1051 * skala);
     };
 
     p.windowResized = () => {
@@ -397,7 +399,7 @@ const Animation = () => {
   useEffect(() => {
     const newp5 = new p5(Sketch, processingRef.current);
   }, []);
-  return <div ref={processingRef} />;
+  return <div className='l-h-animation' ref={processingRef} />;
 };
 
 export default Animation;
