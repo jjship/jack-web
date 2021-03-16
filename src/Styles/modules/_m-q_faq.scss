@@ -1,7 +1,7 @@
 @media screen and (min-width: 1000px) {
   .l-faq-container {
     padding-top: vwm(70, dsk);
-    // height: vwm(960, dsk);
+    min-height: vwm(840, dsk);
     width: vwm(1240, dsk);
     margin: 0 auto;
   }
@@ -55,7 +55,7 @@
 
   .l-faq-btn__zamknij {
     margin-bottom: vwm(350, dsk);
-    display: block;
+    display: none;
     margin-top: vwm(60, dsk);
     width: fit-content;
     margin-left: auto;

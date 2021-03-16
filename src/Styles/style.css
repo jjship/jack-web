@@ -1914,6 +1914,7 @@ input {
 @media screen and (min-width: 1000px) {
   .l-faq-container {
     padding-top: 3.68421vw;
+    min-height: 44.21053vw;
     width: 65.26316vw;
     margin: 0 auto;
   }
@@ -1965,7 +1966,7 @@ input {
   }
   .l-faq-btn__zamknij {
     margin-bottom: 18.42105vw;
-    display: block;
+    display: none;
     margin-top: 3.15789vw;
     width: -webkit-fit-content;
     width: -moz-fit-content;
