@@ -7,9 +7,10 @@
   }
 
   .l-a-flex {
-    margin-top: vwm(70, dsk);
+    margin-top: vwm(10, dsk);
     height: auto;
     display: grid;
+    grid-gap: vwm(50, dsk);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: vwm(253, dsk) vwm(206, dsk);
     grid-template-areas:
