@@ -39,6 +39,10 @@
     height: fit-content;
   }
 
+  .slick-slide img {
+    height: vwm(100, dsk);
+  }
+
   .l-a-zaslepka {
     width: vwm(818, dsk);
   }

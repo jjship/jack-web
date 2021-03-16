@@ -2130,6 +2130,9 @@ input {
     height: -moz-fit-content;
     height: fit-content;
   }
+  .slick-slide img {
+    height: 5.26316vw;
+  }
   .l-a-zaslepka {
     width: 43.05263vw;
   }
