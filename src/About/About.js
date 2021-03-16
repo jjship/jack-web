@@ -24,7 +24,7 @@ export const About = () => {
           &#10005;
         </a>
         <div className="l-title c-title -f-jasper-caps">
-          <p>dziś zdarza się tylko raz</p>
+          <p>od jacka</p>
         </div>
         <div className="l-a-flex">
           <div className="l-a-flex-item l-a-grid-video">
