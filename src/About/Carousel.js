@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Slider from 'react-slick';
 
-import zaslepka from './zaslepka.png';
+import zaslepka from './zaslepka_slide.png';
 
 // Import css files
 import 'slick-carousel/slick/slick.css';
@@ -48,31 +48,31 @@ export default class Carousel extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
           <div>
-            <img src={zaslepka} alt="film" class="l-a-sliderEl" />
+            <img src={zaslepka} alt="film" className="l-a-sliderEl" />
           </div>
         </Slider>
       </div>
