@@ -58,6 +58,8 @@ const Animation = () => {
     let skala;
 
     let imageX = 0;
+    let imageXmobile = -100;
+    let imageXdesktop = 0;
 
     let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić skalę całego elementu
 
@@ -75,11 +77,13 @@ const Animation = () => {
 
       //createCanvas(1139, 1051);
       if (p.windowWidth > breakpointMobile) {
+        imageX = imageXdesktop;
         p.createCanvas(
           p.windowWidth * (1139 / 1920),
           p.windowWidth * (1051 / 1920)
         );
       } else {
+        imageX = imageXmobile;
         p.createCanvas(
           p.windowWidth * (1139 / skalaMobile),
           p.windowWidth * (1051 / skalaMobile)
@@ -134,20 +138,20 @@ const Animation = () => {
 
     p.windowResized = () => {
       if (p.windowWidth > breakpointMobile) {
+        imageX = imageXdesktop;
         p.resizeCanvas(
           p.windowWidth * (1139 / 1920),
           p.windowWidth * (1051 / 1920)
-        );
-        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
-        maska.resize(1139 * skala, 1051 * skala);
+        );        
       } else {
+        imageX = imageXmobile;
         p.resizeCanvas(
           p.windowWidth * (1139 / skalaMobile),
           p.windowWidth * (1051 / skalaMobile)
-        );
-        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
-        maska.resize(1139 * skala, 1051 * skala);
+        );        
       }
+      skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+        maska.resize(1139 * skala, 1051 * skala);
       for (let i = ileW.length; i >= 0; i--) {
         startTekstX[i] = startTekstXwzor[i] * skala;
         yy[i] = yyWzor[i] * skala;
