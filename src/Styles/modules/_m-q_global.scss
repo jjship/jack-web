@@ -95,33 +95,40 @@
     width: vwm(375, dsk);
     height: vwm(104, dsk);
     margin-left: vwm(10.7, dsk);
-    .l-copy-mamy {
+    .l-copy-napisz {
       position: relative;
       left: vwm(35, dsk);
-      font-size: vwm(25, dsk);
+      font-size: vwm(34, dsk);
     }
-    .l-copy-wielkie {
+    .l-copy-co {
       position: relative;
-      bottom: vwm(3, dsk);
-      font-size: vwm(33.5, dsk);
+      bottom: vwm(28, dsk);
+      left: vwm(170, dsk);
+      font-size: vwm(26, dsk);
     }
-    .l-copy-napelnijmy {
+    .l-copy-chciales {
       position: relative;
-      left: vwm(25, dsk);
-      bottom: vwm(9, dsk);
+      left: vwm(0, dsk);
+      bottom: vwm(32, dsk);
+      font-size: vwm(34, dsk);
+    }
+    .l-copy-zrobic {
+      position: relative;
+      bottom: vwm(28, dsk);
+      left: vwm(16, dsk);
       font-size: vwm(19, dsk);
     }
-    .l-copy-butelke {
+    .l-copy-wygraj {
       position: relative;
-      bottom: vwm(5.4, dsk);
-      left: vwm(-1.8, dsk);
-      font-size: vwm(33.5, dsk);
+      bottom: vwm(27, dsk);
+      left: vwm(16, dsk);
+      font-size: vwm(23, dsk);
     }
-    .l-copy-jacka {
+    .l-copy-nagrody {
       position: relative;
-      bottom: vwm(51.5, dsk);
-      text-align: end;
-      font-size: vwm(50, dsk);
+      bottom: vwm(69, dsk);
+      left: vwm(100, dsk);
+      font-size: vwm(48, dsk);
     }
   }
 

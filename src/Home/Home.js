@@ -45,14 +45,12 @@ export const Home = () => {
             <div className="js-testimony">
               <div className="c-copy l-copy">
                 <p className="c-copy-napisz l-copy-napisz -f-motlow">Napisz</p>
-                <p className="c-copy-co l-copy-co -f-franklin-demi">
-                  co zawsze chciałes/aś
-                </p>
+                <p className="c-copy-co l-copy-co -f-jasper-caps">co zawsze</p>
                 <p className="c-copy-chciales l-copy-chciales -f-franklin-demi">
                   chciałes/aś
                 </p>
-                <p className="c-copy-zrobic l-copy-zrobić -f-motlow">zrobić</p>
-                <p className="c-copy-wygraj l-copy-wygraj -f-motlow">
+                <p className="c-copy-zrobic l-copy-zrobic -f-motlow">zrobić</p>
+                <p className="c-copy-wygraj l-copy-wygraj -f-jasper-caps">
                   i wygraj
                 </p>
                 <p className="c-copy-nagrody l-copy-nagrody -f-motlow">

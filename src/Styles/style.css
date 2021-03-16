@@ -136,10 +136,6 @@ input {
   text-align: center;
 }
 
-.u-bold {
-  font-weight: 900;
-}
-
 .u-align__center {
   text-align: center;
 }
@@ -1330,33 +1326,40 @@ input {
     height: 5.47368vw;
     margin-left: 0.56316vw;
   }
-  .l-copy .l-copy-mamy {
+  .l-copy .l-copy-napisz {
     position: relative;
     left: 1.84211vw;
-    font-size: 1.31579vw;
+    font-size: 1.78947vw;
   }
-  .l-copy .l-copy-wielkie {
+  .l-copy .l-copy-co {
     position: relative;
-    bottom: 0.15789vw;
-    font-size: 1.76316vw;
+    bottom: 1.47368vw;
+    left: 8.94737vw;
+    font-size: 1.36842vw;
   }
-  .l-copy .l-copy-napelnijmy {
+  .l-copy .l-copy-chciales {
     position: relative;
-    left: 1.31579vw;
-    bottom: 0.47368vw;
+    left: 0vw;
+    bottom: 1.68421vw;
+    font-size: 1.78947vw;
+  }
+  .l-copy .l-copy-zrobic {
+    position: relative;
+    bottom: 1.47368vw;
+    left: 0.84211vw;
     font-size: 1vw;
   }
-  .l-copy .l-copy-butelke {
+  .l-copy .l-copy-wygraj {
     position: relative;
-    bottom: 0.28421vw;
-    left: -0.09474vw;
-    font-size: 1.76316vw;
+    bottom: 1.42105vw;
+    left: 0.84211vw;
+    font-size: 1.21053vw;
   }
-  .l-copy .l-copy-jacka {
+  .l-copy .l-copy-nagrody {
     position: relative;
-    bottom: 2.71053vw;
-    text-align: end;
-    font-size: 2.63158vw;
+    bottom: 3.63158vw;
+    left: 5.26316vw;
+    font-size: 2.52632vw;
   }
   .l-form {
     width: 25.52632vw;
@@ -1991,10 +1994,11 @@ input {
     margin: 0 auto;
   }
   .l-a-flex {
-    margin-top: 3.68421vw;
+    margin-top: 0.52632vw;
     height: auto;
     display: -ms-grid;
     display: grid;
+    grid-gap: 2.63158vw;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 13.31579vw 10.84211vw;
@@ -2068,10 +2072,12 @@ input {
   .l-a-slogan-container {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3.94737vw;
   }
   .l-a-slogan-container .l-a-slogan-dzis {
     position: relative;
     left: 0.49474vw;
+    bottom: 0.31579vw;
     font-size: 3.10526vw;
     margin: 0;
   }
