@@ -47,7 +47,7 @@ export const Home = () => {
                 <p className="c-copy-napisz l-copy-napisz -f-motlow">Napisz</p>
                 <p className="c-copy-co l-copy-co -f-jasper-caps">co zawsze</p>
                 <p className="c-copy-chciales l-copy-chciales -f-franklin-demi">
-                  chciałes/aś
+                  chciałeś/aś
                 </p>
                 <p className="c-copy-zrobic l-copy-zrobic -f-motlow">zrobić</p>
                 <p className="c-copy-wygraj l-copy-wygraj -f-jasper-caps">
