@@ -140,15 +140,15 @@ input {
 }
 
 .u-golden-bottom {
-  border-bottom: 3px solid #baab8f;
+  border-bottom: 3px solid #ffffff;
 }
 
 .u-golden {
-  color: #baab8f;
+  color: #ffffff;
 }
 
 .u-golden-92 {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .u-grey-82 {
@@ -239,7 +239,7 @@ input {
 
 .c-form-label__masz {
   font-size: 2.91667vw;
-  color: #b7ac92;
+  color: #ffffff;
   text-transform: none;
 }
 
@@ -262,7 +262,7 @@ input {
 
 .c-form-input {
   padding: 2.22222vw 2.22222vw 2.22222vw 2.22222vw;
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-form-textarea:focus,
@@ -293,19 +293,19 @@ input {
 }
 
 .c-form-input::-webkit-input-placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-form-input:-ms-input-placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-form-input::-ms-input-placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-form-input::placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-f-form-zamknij,
@@ -354,7 +354,7 @@ input {
   left: 0;
   height: 2.77778vw;
   width: 2.77778vw;
-  border: 2px solid #baab8f;
+  border: 2px solid #ffffff;
 }
 
 .c-f-form-group input:checked ~ .c-checkmark {
@@ -383,7 +383,7 @@ input {
   text-decoration: none;
   font-size: 5vw;
   padding: 5vw 0 5vw 0;
-  border-bottom: 3px solid #b7ac92;
+  border-bottom: 3px solid #ffffff;
 }
 
 .c-footer {
@@ -485,7 +485,7 @@ input {
   cursor: pointer;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #b7ac92;
+  border-bottom: 1px solid #ffffff;
   text-align: left;
   outline: none;
   background: none;
@@ -524,23 +524,23 @@ input {
 }
 
 .c-c-textarea {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-c-textarea::-webkit-input-placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-c-textarea:-ms-input-placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-c-textarea::-ms-input-placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-c-textarea::placeholder {
-  color: #b7ac92;
+  color: #ffffff;
 }
 
 .c-c-form-zamknij {
@@ -1392,7 +1392,7 @@ input {
   }
   .c-form-input {
     padding: 0.42105vw;
-    color: #b7ac92;
+    color: #ffffff;
   }
   .c-h-form-btn,
   .c-f-form-btn {
@@ -1713,7 +1713,7 @@ input {
     top: 0.26316vw;
     height: 0.73684vw;
     width: 0.73684vw;
-    border: 1px solid #b7ac92;
+    border: 1px solid #ffffff;
   }
   .l-f-form-zamknij {
     font-size: 0.84211vw;
@@ -1957,7 +1957,7 @@ input {
     cursor: pointer;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #b7ac92;
+    border-bottom: 1px solid #ffffff;
     text-align: left;
     outline: none;
     background: none;
