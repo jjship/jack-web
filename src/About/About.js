@@ -38,10 +38,10 @@ export const About = () => {
               świętować. Najlepiej whiskey. Tennessee Whiskey.
             </p>
             <p className="l-a-p-moze c-a-p-moze">
-              Od zawsze chcesz zrobić coś, ale brakowało Ci czasu lub odwagi?
+              Od zawsze chcesz zrobić coś, ale brakowało Ci czasu lub odwagi?<br/>
               Chcesz nauczyć się jeździć na desce? Masz ochotę na odważny kolor
-              szminki? Prawo jazdy? Nowa fryzura? Świetnie! Teraz jest ten
-              moment. Przestań się ograniczać i działaj!
+              szminki? Prawo jazdy? Nowa fryzura?<br/>Świetnie! Teraz jest ten
+              moment.<br/>Przestań się ograniczać i działaj!
             </p>
           </div>
           <div className="c-a-slogan-today l-a-slogan-container l-a-flex__text">
