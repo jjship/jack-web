@@ -10,7 +10,7 @@ const desktopBG = '/images/BG_lights_dsk_s.jpg';
 const mobileBG = '/images/BG_lights_mob_s.jpg';
 
 export const Contact = () => {
-  const imageUrl = useWindowWidth() >= 1000 ? desktopBG : mobileBG;
+  const imageUrl = useWindowWidth() >= 720 ? desktopBG : mobileBG;
 
   return (
     <div

@@ -9,7 +9,7 @@ const desktopBG = '/images/BG_lights_dsk_s.jpg';
 const mobileBG = '/images/BG_lights_mob_s.jpg';
 
 export const Faq = () => {
-  const imageUrl = useWindowWidth() >= 1000 ? desktopBG : mobileBG;
+  const imageUrl = useWindowWidth() >= 720 ? desktopBG : mobileBG;
 
   const answer1 =
     'Nie, udział w konkursie nie wiąże się z żadną formą zapłaty lub koniecznością zakupu produktu i posiadania paragonu. Konkurs jest w pełni bezpłatny.';

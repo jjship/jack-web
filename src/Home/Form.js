@@ -21,7 +21,7 @@ export const Form = () => {
     setSent(false);
   };
 
-  const rows = useWindowWidth() >= 1000 ? 7 : 4;
+  const rows = useWindowWidth() >= 720 ? 7 : 4;
 
   if (!statement && !sent) {
     return (
