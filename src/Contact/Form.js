@@ -19,12 +19,12 @@ export const Form = () => {
         >
           <input
             type="text"
-            className="l-c-form-input__dsk c-form-input l-form-input__1 c-form-input__dsk -f-myriad-cond u-uppercase"
+            className="l-c-form-input__dsk c-form-input c-form-input__dsk -f-myriad-cond u-uppercase"
             placeholder="wpisz imię"
           />
           <input
             type="email"
-            className="l-c-form-input__dsk c-form-input l-form-input c-form-input__dsk -f-myriad-cond u-uppercase"
+            className="l-c-form-input__dsk c-form-input  c-form-input__dsk -f-myriad-cond u-uppercase"
             placeholder="wpisz adres e-mail"
           />
           <div className="l-c-form-textarea__dsk">
