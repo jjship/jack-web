@@ -636,7 +636,7 @@ input {
 }
 
 .l-footer {
-  width: 86%;
+  width: 90%;
   margin: 0 auto;
   height: 145.13889vw;
   padding-top: 43.05556vw;
@@ -651,7 +651,8 @@ input {
 .l-copy {
   position: relative;
   bottom: 1.38889vw;
-  height: 23.61111vw;
+  height: 25vw;
+  overflow-x: hidden;
 }
 
 .l-copy .l-copy-napisz {
@@ -769,6 +770,10 @@ input {
   margin-top: 8.19444vw;
 }
 
+.l-h-animation {
+  margin-left: -3.47222vw;
+}
+
 .l-h-slogan {
   width: 20.27778vw;
   height: 23.75vw;
@@ -874,6 +879,12 @@ input {
 .l-form-label__dsk {
   color: #000000;
   display: none;
+}
+
+.l-f-form-checkbox-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 58.33333vw;
 }
 
 .l-fs-container {
