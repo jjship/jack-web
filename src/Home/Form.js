@@ -88,7 +88,10 @@ export const Form = () => {
             Oświadczam, że zapoznałem/am
             <br />
             się i akceptuję{' '}
-            <a href="/privacy" className="c-f-form-link u-golden-92">
+            <a
+              href="https://legal.brown-forman.com/privacy-policy/polish"
+              className="c-f-form-link u-golden-92"
+            >
               Politykę prywatności.
             </a>
             *
