@@ -16,6 +16,7 @@ export const Prizes = () => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <NavDsk />
+      <NavMob />
       <div className="l-container l-p-container u-uppercase">
         <a href="/" className="c-close l-close">
           &#10005;
@@ -83,7 +84,6 @@ export const Prizes = () => {
         </a>
       </div>
       <Duration />
-      <NavMob />
       <Footer />
     </div>
   );

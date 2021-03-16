@@ -10,6 +10,7 @@ export const Home = () => {
   return (
     <div className="l-h-flexcolumn__dsk">
       <NavDsk />
+      <NavMob />
       <div className="l-container l-h-container u-uppercase">
         <div className="l-h-flex_dsk">
           <div className="c-h-slogan l-h-slogan">
@@ -76,7 +77,6 @@ export const Home = () => {
         </div>
       </div>
       <Duration />
-      <NavMob />
       <Footer />
     </div>
   );

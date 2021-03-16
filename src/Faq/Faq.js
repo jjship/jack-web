@@ -28,6 +28,7 @@ export const Faq = () => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <NavDsk />
+      <NavMob />
       <div className="l-container l-faq-container">
         <a href="/" className="c-close l-close">
           &#10005;
@@ -61,7 +62,6 @@ export const Faq = () => {
         />
       </div>
       <Duration />
-      <NavMob />
       <Footer />
     </div>
   );

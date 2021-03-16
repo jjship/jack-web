@@ -18,6 +18,7 @@ export const About = () => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <NavDsk />
+      <NavMob />
       <div className="l-container l-a-container u-uppercase">
         <a href="/" className="c-close l-close">
           &#10005;
@@ -61,7 +62,6 @@ export const About = () => {
         </a>
       </div>
       <Duration />
-      <NavMob />
       <Footer />
     </div>
   );

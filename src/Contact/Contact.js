@@ -18,6 +18,7 @@ export const Contact = () => {
       style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <NavDsk />
+      <NavMob />
       <div className="l-container l-c-container">
         <a href="/" className="c-close l-close">
           &#10005;
@@ -26,7 +27,6 @@ export const Contact = () => {
         <Form />
       </div>
       <Duration />
-      <NavMob />
       <Footer />
     </div>
   );
