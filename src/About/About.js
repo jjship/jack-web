@@ -23,25 +23,26 @@ export const About = () => {
           &#10005;
         </a>
         <div className="l-title c-title -f-jasper-caps">
-          <p>
-            O Jack’u Danielu
-            <br /> i Jack’u Daniel’sie
-          </p>
+          <p>dziś zdarza się tylko raz</p>
         </div>
         <div className="l-a-flex">
           <div className="l-a-flex-item l-a-grid-video">
             <img src={zaslepka} alt="film" className="l-a-zaslepka" />
           </div>
-          <div className="l-a-flex-item l-a-flex__text -f-myriad-cond u-golden u-no-text-transform">
+          <div className="l-a-flex-item l-a-flex__text -f-myriad-cond u-no-text-transform">
             <p className="l-a-p-jak c-a-p-jak">
               Z życia trzeba czerpać pełnymi szklankami. A sukcesy odpowiednio
               świętować. Najlepiej whiskey. Tennessee Whiskey.
             </p>
             <p className="l-a-p-moze c-a-p-moze">
-              Od zawsze chcesz zrobić coś, ale brakowało Ci czasu lub odwagi?<br/>
+              Od zawsze chcesz zrobić coś, ale brakowało Ci czasu lub odwagi?
+              <br />
               Chcesz nauczyć się jeździć na desce? Masz ochotę na odważny kolor
-              szminki? Prawo jazdy? Nowa fryzura?<br/>Świetnie! Teraz jest ten
-              moment.<br/>Przestań się ograniczać i działaj!
+              szminki? Prawo jazdy? Nowa fryzura?
+              <br />
+              Świetnie! Teraz jest ten moment.
+              <br />
+              Przestań się ograniczać i działaj!
             </p>
           </div>
           <div className="c-a-slogan-today l-a-slogan-container l-a-flex__text">
