@@ -670,7 +670,7 @@ input {
 .l-copy .l-copy-chciales {
   position: relative;
   left: 0vw;
-  bottom: 7.22222vw;
+  bottom: 7.55556vw;
   font-size: 8.02778vw;
 }
 
@@ -1332,6 +1332,7 @@ input {
     width: 19.73684vw;
     height: 5.47368vw;
     margin-left: 0.56316vw;
+    top: 0;
   }
   .l-copy .l-copy-napisz {
     position: relative;
@@ -1347,7 +1348,7 @@ input {
   .l-copy .l-copy-chciales {
     position: relative;
     left: 0vw;
-    bottom: 1.57895vw;
+    bottom: 1.68421vw;
     font-size: 1.78947vw;
   }
   .l-copy .l-copy-zrobic {
@@ -1949,7 +1950,7 @@ input {
     position: fixed;
     margin-top: 0;
     width: 13.26316vw;
-    top: 2.63158vw;
+    top: 5.26316vw;
   }
   .c-faq-btn {
     display: block;
