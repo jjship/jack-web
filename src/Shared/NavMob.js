@@ -52,7 +52,8 @@ export const NavMob = () => {
           faq
         </Link>
         <Link
-          to="/regulations"
+          to="/files/regulations.pdf"
+          target="_blank"
           className="c-nav__btn -f-myriad-cond u-golden navRegulations"
         >
           regulamin akcji
