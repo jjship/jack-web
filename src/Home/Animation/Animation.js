@@ -146,7 +146,7 @@ const Animation = () => {
       } else {
         imageX = imageXmobile;
         p.resizeCanvas(
-          p.windowWidth * (1139 / skalaMobile),
+          p.windowWidth,
           p.windowWidth * (1051 / skalaMobile)
         );        
       }
