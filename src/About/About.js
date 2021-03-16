@@ -34,16 +34,14 @@ export const About = () => {
           </div>
           <div className="l-a-flex-item l-a-flex__text -f-myriad-cond u-golden u-no-text-transform">
             <p className="l-a-p-jak c-a-p-jak">
-              Jak się bardzo chce, to się musi udać! Jack Daniel chciał
-              wyprodukować najlepszą whiskey na świecie. I udało się! Jak?
+              Z życia trzeba czerpać pełnymi szklankami. A sukcesy odpowiednio
+              świętować. Najlepiej whiskey. Tennessee Whiskey.
             </p>
             <p className="l-a-p-moze c-a-p-moze">
-              Może to woda, której źródło bije w jaskini, może to dębowe beczki
-              używane tylko raz, może to szczęśliwa liczba „7”, która zdobi
-              etykietę od 150 lat tak samo kwadratowej butelki. To na pewno
-              odwaga Jack’a Deniela. Odwaga do sięgania po nowe i do sięgania po
-              więcej. Dlatego to do odważnych Jack należy. Oni wiedzą to co
-              wiedział Jack Daniel:
+              Od zawsze chcesz zrobić coś, ale brakowało Ci czasu lub odwagi?
+              Chcesz nauczyć się jeździć na desce? Masz ochotę na odważny kolor
+              szminki? Prawo jazdy? Nowa fryzura? Świetnie! Teraz jest ten
+              moment. Przestań się ograniczać i działaj!
             </p>
           </div>
           <div className="c-a-slogan-today l-a-slogan-container l-a-flex__text">
