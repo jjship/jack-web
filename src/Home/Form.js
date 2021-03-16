@@ -76,7 +76,7 @@ export const Form = () => {
           <label className="l-f-form-group c-f-form-group">
             Oświadczam, że zapoznałem/am
             <br />
-            się i akceptuję
+            się i akceptuję{' '}
             <a href="/regulations" className="c-f-form-link u-golden-92">
               Regulamin konkursu.
             </a>
@@ -87,7 +87,7 @@ export const Form = () => {
           <label className="l-f-form-group c-f-form-group">
             Oświadczam, że zapoznałem/am
             <br />
-            się i akceptuję
+            się i akceptuję{' '}
             <a href="/privacy" className="c-f-form-link u-golden-92">
               Politykę prywatności.
             </a>
