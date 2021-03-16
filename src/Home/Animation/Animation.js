@@ -3,6 +3,8 @@ import p5 from 'p5';
 import { useWindowWidth } from '../../Shared/useWindowWidth';
 import bg from './tlo.jpg';
 import mask from './maska.png';
+import bgMobile from './tlo_mobile.jpg';
+import maskMobile from './maska_mobile.png';
 import jasper from './font/JasperPl-Caps.otf';
 import motlow from './font/Motlow.otf';
 import franklin from './font/Franklin.ttf';
@@ -37,6 +39,9 @@ const Animation = () => {
     let maska;
     let tlo;
     let tlo2;
+    let maskaMobile;
+    let tloMobile;
+    let tloMobile2;
     let ileW = [0, 0, 0];
     let t = [0, -50, -40];
     let zi = [0, 0, 0];
@@ -44,22 +49,20 @@ const Animation = () => {
     let okres = [10, 10, 10];
     let ruch = [true, true, true];
 
-    let szerokoscButelki = 706;
+    //let szerokoscButelki = 706;
+    let szerokoscButelki = 176;
     let wysokoscButelki = 810;
     let startTekstX = [530, 695, 365];
     let startTekstXwzor = [530, 695, 365];
     let yy = [wysokoscButelki + 10, wysokoscButelki + 20, wysokoscButelki + 20];
-    let yyWzor = [
-      wysokoscButelki + 10,
-      wysokoscButelki + 20,
-      wysokoscButelki + 20,
-    ];
+    let yyWzor = [wysokoscButelki + 10, wysokoscButelki + 20, wysokoscButelki + 20,];
 
     let skala;
+    let desktop = true;
 
-    let zmiennaDlaJackaSkrzypka = 1; //zmień tę liczbę, żeby zmienić proporcję całego elementu
+    let mobileX;
+    let mobileY;
 
-    let skalaMobile = 900;
     let breakpointMobile = 720;
 
     p.setup = () => {
@@ -71,32 +74,51 @@ const Animation = () => {
       tlo2 = p.loadImage(bg);
       maska = p.loadImage(mask);
 
+      tloMobile = p.loadImage(bgMobile);
+      tloMobile2 = p.loadImage(bgMobile);
+      maskaMobile = p.loadImage(maskMobile);
+
       //createCanvas(1139, 1051);
       if (p.windowWidth > breakpointMobile) {
+        mobileX = 0;
+        mobileY = 0;
+        desktop = true;
         p.createCanvas(
           p.windowWidth * (1139 / 1920),
           p.windowWidth * (1051 / 1920)
         );
+        skala = p.width / 1139;
+        maska.resize(1139 * skala, 1051 * skala);
       } else {
+        mobileX = -140;
+        mobileY = 110;
+        desktop = false;
         p.createCanvas(
-          p.windowWidth * (1139 / skalaMobile),
-          p.windowWidth * (1051 / skalaMobile)
+          p.windowWidth,
+          p.windowWidth * 1051 / 720
         );
+        skala = p.width / 720;
+        maska.resize(720 * skala, 1051 * skala);
       }
-      skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+
       for (let i = 0; i < zi.length; i++) {
-        //let noweZdania = shuffle(zdania, true); //shuffle być może do usunięcia, gdy będzie podłączona baza
+        //shuffle być może do usunięcia, gdy będzie podłączona baza
         zdaniaWyswietlane[i] = [];
         zdaniaWszystkie[i] = p.shuffle(zdania, false);
-        startTekstX[i] = startTekstXwzor[i] * skala;
-        yy[i] = yyWzor[i] * skala;
+        startTekstX[i] = (mobileX + startTekstXwzor[i]) * skala;
+        yy[i] = (mobileY + yyWzor[i]) * skala;
       }
-      maska.resize(1139 * skala, 1051 * skala);
+
     };
 
     p.draw = () => {
       p.background(0);
-      p.image(tlo2, 0, 0, 1139 * skala, 1051 * skala);
+      if (desktop) {
+        p.image(tlo2, 0, 0, 1139 * skala, 1051 * skala);
+      } else {
+        p.image(tloMobile2, 0, 0, 720 * skala, 1051 * skala);
+
+      }
 
       for (let i = 0; i < zi.length; i++) {
         if (zi[i] < zdaniaWszystkie[i].length) {
@@ -106,7 +128,7 @@ const Animation = () => {
           // eslint-disable-next-line
           if (t[i] == okres[i]) {
             if (yy[i] < 60) {
-              yy[i] = yyWzor[i] * skala;
+              yy[i] = (mobileY + yyWzor[i]) * skala;
             }
             zdaniaWyswietlane[i].push(
               new Zdanie(zdaniaWszystkie[i][zi[i]], zi[i], startTekstX[i], i)
@@ -125,30 +147,41 @@ const Animation = () => {
           }
         }
       }
-
-      tlo.mask(maska);
-      p.image(tlo, 0, 0, 1139 * skala, 1051 * skala);
+      if (desktop) {
+        tlo.mask(maska);
+        p.image(tlo, 0, 0, 1139 * skala, 1051 * skala);
+      } else {
+        tloMobile.mask(maskaMobile);
+        p.image(tloMobile, 0, 0, 720 * skala, 1051 * skala);
+      }
     };
 
     p.windowResized = () => {
       if (p.windowWidth > breakpointMobile) {
-        p.resizeCanvas(
+        mobileX = 0;
+        mobileY = 0;
+        desktop = true;
+        p.createCanvas(
           p.windowWidth * (1139 / 1920),
           p.windowWidth * (1051 / 1920)
         );
-        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
+        skala = p.width / 1139;
         maska.resize(1139 * skala, 1051 * skala);
       } else {
-        p.resizeCanvas(
-          p.windowWidth * (1139 / skalaMobile),
-          p.windowWidth * (1051 / skalaMobile)
+        mobileX = -140;
+        mobileY = 110;
+        desktop = false;
+        p.createCanvas(
+          p.windowWidth,
+          p.windowWidth * 1051 / 720
         );
-        skala = p.width / (1139 * zmiennaDlaJackaSkrzypka);
-        maska.resize(1139 * skala, 1051 * skala);
+        skala = p.width / 720;
+        maska.resize(720 * skala, 1051 * skala);
       }
+
       for (let i = ileW.length; i >= 0; i--) {
-        startTekstX[i] = startTekstXwzor[i] * skala;
-        yy[i] = yyWzor[i] * skala;
+        startTekstX[i] = (mobileX + startTekstXwzor[i]) * skala;
+        yy[i] = (mobileY + yyWzor[i]) * skala;
         for (let j = ileW[i]; j >= 0; j--) {
           zdaniaWyswietlane[i].splice(j, 1);
         }
@@ -363,7 +396,7 @@ const Animation = () => {
       }
 
       sprawdzGranice(txt, s, font) {
-        let granice = font.textBounds(txt, startTekstX[0], 0, s); //tu jest startTekstX[0] a nie startTekstX[ik], żeby wielkości napisów były takie same we wszystkich kolumnach
+        let granice = font.textBounds(txt, 0, 0, s); //tu jest startTekstX[0] a nie startTekstX[ik], żeby wielkości napisów były takie same we wszystkich kolumnach
         if (granice.x + granice.w > (szerokoscButelki - 25) * skala) {
           return false;
         } else {
@@ -397,7 +430,7 @@ const Animation = () => {
   useEffect(() => {
     const newp5 = new p5(Sketch, processingRef.current);
   }, []);
-  return <div className="l-h-animation" ref={processingRef} />;
+  return <div className='l-h-animation' ref={processingRef} />;
 };
 
 export default Animation;
