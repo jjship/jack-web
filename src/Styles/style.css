@@ -769,6 +769,10 @@ input {
   margin-top: 8.19444vw;
 }
 
+.l-h-animation {
+  overflow-x: hidden;
+}
+
 .l-h-slogan {
   width: 20.27778vw;
   height: 23.75vw;

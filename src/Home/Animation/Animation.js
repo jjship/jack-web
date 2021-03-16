@@ -397,7 +397,7 @@ const Animation = () => {
   useEffect(() => {
     const newp5 = new p5(Sketch, processingRef.current);
   }, []);
-  return <div ref={processingRef} />;
+  return <div className="l-h-animation" ref={processingRef} />;
 };
 
 export default Animation;
