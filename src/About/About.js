@@ -4,6 +4,8 @@ import { NavMob } from '../Shared/NavMob';
 import { NavDsk } from '../Shared/NavDsk';
 import { Duration } from '../Shared/Duration';
 import { Footer } from '../Shared/Footer';
+import Carousel from './Carousel';
+import zaslepka from './zaslepka.png';
 const desktopBG = '/images/BG_lights_dsk_s.jpg';
 const mobileBG = '/images/BG_lights_mob_s.jpg';
 
@@ -28,7 +30,7 @@ export const About = () => {
         </div>
         <div class="l-a-flex">
           <div class="l-a-flex-item l-a-grid-video">
-            <img src="/images/zaslepka.png" alt="film" class="l-a-zaslepka" />
+            <img src={zaslepka} alt="film" class="l-a-zaslepka" />
           </div>
           <div class="l-a-flex-item l-a-flex__text -f-myriad-cond u-golden u-no-text-transform">
             <p class="l-a-p-jak c-a-p-jak">
@@ -54,6 +56,7 @@ export const About = () => {
             </p>
           </div>
         </div>
+        <Carousel />
         <a href="/" class="c-btn__zamknij l-p-btn__zamknij -f-myriad-cond">
           zamknij
         </a>
