@@ -7,10 +7,10 @@ export const Footer = () => {
     <footer className="l-wrapper u-uppercase">
       <div className="c-footer l-footer -f-myriad-cond u-text-center">
         <div className="l-footer-socials">
-          <a href="">
+          <a href="https://www.facebook.com/JackDanielsPolska/">
             <FontAwesomeIcon icon={faFacebookF} className="l-footer-social" />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/jackdaniels_poland/">
             <FontAwesomeIcon icon={faInstagram} className="l-footer-social" />
           </a>
         </div>
