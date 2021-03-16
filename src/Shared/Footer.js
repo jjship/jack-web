@@ -1,20 +1,21 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
   return (
     <footer className="l-wrapper u-uppercase">
       <div className="c-footer l-footer -f-myriad-cond u-text-center">
-        <img
-          alt="social icons"
-          className="l-footer__socials c-footer__socials"
-          src="/images/social_icons_SM.png"
-        />
+        <div className="l-footer-socials">
+          <FontAwesomeIcon icon={faFacebook} className="l-footer-social" />
+          <FontAwesomeIcon icon={faInstagram} className="l-footer-social" />
+        </div>
         <p>
           Pij odpowiedzialnie.{' '}
           <a href="http://www.pijodpowiedzialnie.pl" className="c-footer-link">
             www.pijodpowiedzialnie.pl
           </a>
-          <span style={{fontWeight: "400"}}>
+          <span style={{ fontWeight: '400' }}>
             <br />
             <a
               className="c-footer-link"
