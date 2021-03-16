@@ -1621,6 +1621,7 @@ input {
     width: 60vw;
     height: 55.26316vw;
     z-index: 0;
+    margin: 0;
   }
   .l-h-slogan {
     z-index: 1;
