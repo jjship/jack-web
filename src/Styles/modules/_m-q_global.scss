@@ -121,7 +121,8 @@
     width: vwm(375, dsk);
     height: vwm(104, dsk);
     margin-left: vwm(10.7, dsk);
-    top: 0;
+    top: vwm(13, dsk);
+    z-index: 1;
     .l-copy-napisz {
       position: relative;
       left: vwm(35, dsk);

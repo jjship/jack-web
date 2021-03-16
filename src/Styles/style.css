@@ -1396,7 +1396,8 @@ input {
     width: 19.73684vw;
     height: 5.47368vw;
     margin-left: 0.56316vw;
-    top: 0;
+    top: 0.68421vw;
+    z-index: 1;
   }
   .l-copy .l-copy-napisz {
     position: relative;
@@ -1612,6 +1613,7 @@ input {
   .l-copyform-container {
     margin-top: 5.26316vw;
     margin-right: 3.68421vw;
+    z-index: 0;
   }
   .l-h-animation {
     position: absolute;
