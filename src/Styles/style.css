@@ -651,41 +651,49 @@ input {
 
 .l-copy {
   position: relative;
-  width: auto;
-  height: 24.16667vw;
+  bottom: 1.38889vw;
+  height: 23.61111vw;
 }
 
-.l-copy .l-copy-mamy {
+.l-copy .l-copy-napisz {
   position: relative;
-  left: 8.05556vw;
-  font-size: 5.83333vw;
+  left: 8.33333vw;
+  font-size: 8.02778vw;
 }
 
-.l-copy .l-copy-wielkie {
+.l-copy .l-copy-co {
   position: relative;
-  bottom: 0.69444vw;
-  font-size: 7.77778vw;
+  bottom: 6.61111vw;
+  left: 40.13889vw;
+  font-size: 6.13889vw;
 }
 
-.l-copy .l-copy-napelnijmy {
+.l-copy .l-copy-chciales {
   position: relative;
-  left: 5.83333vw;
-  bottom: 1.80556vw;
-  font-size: 4.44444vw;
+  left: 0vw;
+  bottom: 7.55556vw;
+  font-size: 8.02778vw;
 }
 
-.l-copy .l-copy-butelke {
+.l-copy .l-copy-zrobic {
   position: relative;
-  bottom: 1.25vw;
-  left: -0.41667vw;
-  font-size: 7.77778vw;
+  bottom: 6.61111vw;
+  left: 3.77778vw;
+  font-size: 4.48611vw;
 }
 
-.l-copy .l-copy-jacka {
+.l-copy .l-copy-wygraj {
   position: relative;
-  bottom: 11.94444vw;
-  text-align: end;
-  font-size: 11.66667vw;
+  bottom: 6.375vw;
+  left: 3.77778vw;
+  font-size: 5.43056vw;
+}
+
+.l-copy .l-copy-nagrody {
+  position: relative;
+  bottom: 16.29167vw;
+  left: 23.61111vw;
+  font-size: 11.33333vw;
 }
 
 .l-form {

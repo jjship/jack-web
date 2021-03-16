@@ -36,37 +36,78 @@
 
 .l-copy {
   position: relative;
-  width: auto;
-  height: vwm(174);
-  .l-copy-mamy {
+  bottom: vwm(10);
+  height: vwm(170);
+  .l-copy-napisz {
     position: relative;
-    left: vwm(58);
-    font-size: vwm(42);
+    left: vwm(60);
+    font-size: vwm(57.8);
   }
-  .l-copy-wielkie {
+  .l-copy-co {
     position: relative;
-    bottom: vwm(5);
-    font-size: vwm(56);
+    bottom: vwm(47.6);
+    left: vwm(289);
+    font-size: vwm(44.2);
   }
-  .l-copy-napelnijmy {
+  .l-copy-chciales {
     position: relative;
-    left: vwm(42);
-    bottom: vwm(13);
-    font-size: vwm(32);
+    left: vwm(0);
+    bottom: vwm(54.4);
+    font-size: vwm(57.8);
   }
-  .l-copy-butelke {
+  .l-copy-zrobic {
     position: relative;
-    bottom: vwm(9);
-    left: vwm(-3);
-    font-size: vwm(56);
+    bottom: vwm(47.6);
+    left: vwm(27.2);
+    font-size: vwm(32.3);
   }
-  .l-copy-jacka {
+  .l-copy-wygraj {
     position: relative;
-    bottom: vwm(86);
-    text-align: end;
-    font-size: vwm(84);
+    bottom: vwm(45.9);
+    left: vwm(27.2);
+    font-size: vwm(39.1);
+  }
+  .l-copy-nagrody {
+    position: relative;
+    bottom: vwm(117.3);
+    left: vwm(170);
+    font-size: vwm(81.6);
   }
 }
+
+// .l-copy {
+//   position: relative;
+//   width: auto;
+//   height: vwm(174);
+//   .l-copy-mamy {
+//     position: relative;
+//     left: vwm(58);
+//     font-size: vwm(42);
+//   }
+//   .l-copy-wielkie {
+//     position: relative;
+//     bottom: vwm(5);
+//     font-size: vwm(56);
+//   }
+//   .l-copy-napelnijmy {
+//     position: relative;
+//     left: vwm(42);
+//     bottom: vwm(13);
+//     font-size: vwm(32);
+//   }
+//   .l-copy-butelke {
+//     position: relative;
+//     bottom: vwm(9);
+//     left: vwm(-3);
+//     font-size: vwm(56);
+//   }
+//   .l-copy-jacka {
+//     position: relative;
+//     bottom: vwm(86);
+//     text-align: end;
+//     font-size: vwm(84);
+//   }
+// }
 
 .l-form {
   position: relative;
