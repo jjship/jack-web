@@ -769,10 +769,6 @@ input {
   margin-top: 8.19444vw;
 }
 
-.l-h-animation {
-  overflow-x: hidden;
-}
-
 .l-h-slogan {
   width: 20.27778vw;
   height: 23.75vw;
@@ -1297,10 +1293,32 @@ input {
   .c-footer__1st {
     font-size: calc(10px + 0.42vw);
   }
-  .l-footer__socials {
-    bottom: unset;
-    width: 12.5625rem;
-    padding-top: 1.25rem;
+  .l-footer-socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 6.31579vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+  }
+  .l-footer-social {
+    padding: 0.52632vw;
+    font-size: 0.84211vw;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  /* Add a hover effect if you want */
+  .l-footer-social:hover {
+    opacity: 0.7;
+  }
+  .l-footer-social {
+    background: #272727;
+    color: white;
   }
   .l-close {
     position: absolute;
