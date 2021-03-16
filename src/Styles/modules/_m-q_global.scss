@@ -50,10 +50,36 @@
     font-size: calc(10px + 0.42vw);
   }
 
-  .l-footer__socials {
-    bottom: unset;
-    width: rem(201);
-    padding-top: rem(20);
+  // .l-footer__socials {
+  //   bottom: unset;
+  //   width: rem(201);
+  //   padding-top: rem(20);
+  // }
+
+  .l-footer-socials {
+    display: flex;
+    width: vwm(120, dsk);
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .l-footer-social {
+    padding: vwm(10, dsk);
+    font-size: vwm(16, dsk);
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: content-box;
+  }
+
+  /* Add a hover effect if you want */
+  .l-footer-social:hover {
+    opacity: 0.7;
+  }
+
+  .l-footer-social {
+    background: $grey-27;
+    color: white;
   }
 
   .l-close {
