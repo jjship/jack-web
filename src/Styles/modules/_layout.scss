@@ -22,7 +22,7 @@
 }
 
 .l-footer {
-  width: 86%;
+  width: 90%;
   margin: 0 auto;
   height: vwm(1045);
   padding-top: vwm(310);
@@ -37,7 +37,8 @@
 .l-copy {
   position: relative;
   bottom: vwm(10);
-  height: vwm(170);
+  height: vwm(180);
+  overflow-x: hidden;
   .l-copy-napisz {
     position: relative;
     left: vwm(60);
