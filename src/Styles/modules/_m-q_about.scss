@@ -57,9 +57,11 @@
   .l-a-slogan-container {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: vwm(75, dsk);
     .l-a-slogan-dzis {
       position: relative;
       left: vwm(9.4, dsk);
+      bottom: vwm(6, dsk);
       font-size: vwm(59, dsk);
       margin: 0;
     }
